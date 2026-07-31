@@ -37,8 +37,8 @@ export default defineConfig({
         start_url: base,
         scope: base,
         display: "standalone",
-        background_color: "#241019",
-        theme_color: "#241019",
+        background_color: "#ffffff",
+        theme_color: "#ffffff",
         // TODO: no app icons yet — install-to-homescreen will use a browser
         // default. Add 192x192/512x512 PNGs under public/ and reference
         // them here before relying on the installed icon looking right.

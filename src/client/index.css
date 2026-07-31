@@ -1,18 +1,31 @@
 :root {
-  /* "En kärlekshistoria" — Medeltidsveckan 2026's own festival theme
-     ("a love story", per medeltidsveckan.se's homepage copy) — rose/
-     burgundy + gold rather than the previous plain amber-on-brown. */
-  color-scheme: dark;
-  --bg: #241019;
-  --surface: #3a1c28;
-  --surface-hi: #4a2534;
-  --text: #f7e9ee;
-  --text-dim: #cba3b1;
-  --accent: #d98fa0;
-  --gold: #d4a54a;
-  --danger: #a83b52;
-  --warn: #c9954a;
-  --border: #5a2f3f;
+  /* Light-first palette: plain white as the default surface, rose/burgundy
+     ("en kärlekshistoria" — Medeltidsveckan 2026's own festival theme) as
+     the accent, and the vibrant per-category colors from categoryStyles.ts
+     carried on small stripes/dots so the color still does the work of
+     grouping without tinting the whole page. */
+  color-scheme: light;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #fdf4f7;
+  --text: #241019;
+  --text-dim: #71575f;
+  --text-faint: #97828b;
+  --rose: #c2185b;
+  --rose-strong: #9d1049;
+  --rose-soft: #ffe7ef;
+  --rose-line: #f4cddb;
+  --gold: #9a7113;
+  --gold-soft: #fbf0d8;
+  --danger: #b02a41;
+  --danger-soft: #fdeaee;
+  --warn: #9c6410;
+  --warn-soft: #fcf0dc;
+  --border: #ece1e5;
+  --border-strong: #dcc9d1;
+  --shadow-sm: 0 1px 2px rgba(36, 16, 25, 0.05);
+  --shadow: 0 1px 2px rgba(36, 16, 25, 0.05), 0 4px 14px rgba(36, 16, 25, 0.05);
+  --radius: 0.7rem;
 }
 
 * {
@@ -27,112 +40,664 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.app {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 0.75rem 0.75rem 3rem;
+/* solid-icons renders inline <svg width="1em" height="1em">, which sits on
+   the text baseline and leaves a descender gap — the single biggest source
+   of "icons look misaligned". Nudge every icon onto the optical center and
+   stop it from being squeezed by flex layouts. */
+svg {
+  vertical-align: -0.125em;
+  flex: none;
 }
 
-.app-header {
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Every icon-bearing control centers its contents the same way, so an icon
+   next to a word lines up regardless of which control it lives in. */
+button,
+.tag,
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.app {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0 0.75rem 3rem;
+}
+
+/* ---------- header ---------- */
+
+/* The brand block scrolls away; only the toolbar (view toggle + day strip)
+   sticks, so the chrome that stays on screen is two thin rows instead of a
+   cramped everything-at-once bar. */
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 0 0.6rem;
+}
+
+.app-brand h1 {
+  font-size: 1.15rem;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.app-brand .brand-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-faint);
+  letter-spacing: 0.01em;
+}
+
+.brand-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.app-toolbar {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--bg);
-  padding: 0.5rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
-}
-
-.app-header h1 {
-  font-size: 1.1rem;
-  margin: 0;
+  margin: 0 -0.75rem;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .view-toggle {
   display: flex;
   gap: 0.25rem;
+  padding: 0.2rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
 }
 
 .view-toggle button {
-  padding: 0.4rem 0.75rem;
+  flex: 1 1 0;
+  justify-content: center;
+  padding: 0.38rem 0.75rem;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-dim);
   font-size: 0.85rem;
-}
-
-.view-toggle button.active {
-  background: var(--accent);
-  color: #221a12;
-  border-color: var(--accent);
   font-weight: 600;
 }
 
+.view-toggle button.active {
+  background: var(--rose);
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---------- day navigation ---------- */
+
+.daybar {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.day-nav {
+  flex: none;
+  width: 2rem;
+  height: 2.25rem;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--text-dim);
+}
+
+.day-nav:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.day-strip {
+  display: flex;
+  gap: 0.3rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  padding: 1px;
+}
+
+.day-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.day-chip {
+  position: relative;
+  flex: 1 0 auto;
+  flex-direction: column;
+  gap: 0;
+  min-width: 2.7rem;
+  padding: 0.2rem 0.4rem 0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--text-dim);
+  line-height: 1.1;
+}
+
+.day-chip .dow {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+}
+
+.day-chip .dom {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.day-chip.active {
+  background: var(--rose);
+  border-color: var(--rose);
+}
+
+.day-chip.active .dow,
+.day-chip.active .dom {
+  color: #fff;
+}
+
+/* A day you've already favorited something on gets a dot, so flipping
+   through days shows at a glance where your schedule is. */
+.day-chip .day-dot {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.25rem;
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 999px;
+  background: var(--rose);
+}
+
+.day-chip.active .day-dot {
+  background: #fff;
+}
+
+/* ---------- generic bits ---------- */
+
 .banner {
-  margin: 0.5rem 0;
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.5rem;
-  font-size: 0.85rem;
+  margin: 0.6rem 0;
+  padding: 0.5rem 0.7rem;
+  border-radius: var(--radius);
+  font-size: 0.83rem;
 }
 
 .banner-warn {
-  background: #3a2a1a;
-  border: 1px solid var(--warn);
+  background: var(--warn-soft);
+  border: 1px solid #eccf9d;
   color: var(--warn);
 }
 
 .banner-info {
-  background: var(--surface-hi);
-  border: 1px solid var(--border);
+  background: var(--surface-2);
+  border: 1px solid var(--rose-line);
   color: var(--text-dim);
 }
 
-.timeblocks-trigger {
+.icon-button {
+  justify-content: center;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.icon-button.active {
+  background: var(--danger-soft);
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.icon-button.heart-button.active {
+  background: var(--rose-soft);
+  border-color: var(--rose);
+  color: var(--rose);
+}
+
+.header-button {
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
   position: relative;
-  padding: 0.4rem 0.6rem;
 }
 
 .timeblocks-trigger.active {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: var(--rose);
+  border-color: var(--rose);
+  background: var(--rose-soft);
 }
 
 .timeblocks-count {
   position: absolute;
-  top: -0.3rem;
-  right: -0.3rem;
-  background: var(--accent);
-  color: #221a12;
-  font-size: 0.65rem;
+  top: -0.25rem;
+  right: -0.25rem;
+  background: var(--rose);
+  color: #fff;
+  font-size: 0.62rem;
   font-weight: 700;
   border-radius: 999px;
-  min-width: 1.1rem;
-  height: 1.1rem;
+  min-width: 1.05rem;
+  height: 1.05rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 0.2rem;
 }
 
+/* ---------- intro / explainer ---------- */
+
+.intro-card {
+  border: 1px solid var(--rose-line);
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  border-radius: var(--radius);
+  padding: 0.8rem 0.9rem 0.9rem;
+  margin: 0.75rem 0 0.25rem;
+  position: relative;
+}
+
+.intro-card h2 {
+  margin: 0 1.8rem 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.intro-card p {
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--text-dim);
+}
+
+.intro-card p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-close {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-dim);
+}
+
+.intro-hints {
+  list-style: none;
+  margin: 0 0 0.6rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.83rem;
+  color: var(--text-dim);
+}
+
+.intro-hints li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.hint-key {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 5.8rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.hint-key.hint-fav {
+  color: var(--rose);
+  border-color: var(--rose-line);
+  background: var(--rose-soft);
+}
+
+.hint-key.hint-ignore {
+  color: var(--danger);
+  border-color: #f1c3cc;
+  background: var(--danger-soft);
+}
+
+.intro-legend {
+  border-top: 1px solid var(--rose-line);
+  padding-top: 0.5rem;
+}
+
+.intro-legend summary {
+  font-size: 0.83rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text-dim);
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+  gap: 0.25rem 0.6rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.76rem;
+  color: var(--text-dim);
+}
+
+.legend-grid li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-swatch {
+  flex: none;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 0.2rem;
+}
+
+/* ---------- list ---------- */
+
+.loading,
+.empty {
+  color: var(--text-dim);
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.day-group h2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--rose);
+  margin: 1rem 0 0.5rem;
+}
+
+.day-group h2 .day-count {
+  color: var(--text-faint);
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.swipe-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  margin-bottom: 0.45rem;
+  /* Skip layout/paint for rows scrolled out of view. With a few hundred
+     rows this is the difference between a smooth swipe and a janky one. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 84px;
+}
+
+.swipe-reveal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  pointer-events: none;
+}
+
+.swipe-reveal-right {
+  left: 0;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  background: linear-gradient(90deg, var(--rose), rgba(194, 24, 91, 0));
+}
+
+.swipe-reveal-left {
+  right: 0;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  background: linear-gradient(270deg, var(--danger), rgba(176, 42, 65, 0));
+}
+
+.event-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.1rem minmax(0, 1fr) auto;
+  gap: 0 0.55rem;
+  padding: 0.55rem 0.5rem 0.6rem 0.85rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  touch-action: pan-y;
+  user-select: none;
+}
+
+/* Category color, as a stripe down the left edge — the app's primary
+   color code, explained in the intro legend. */
+.event-stripe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.event-row.favorite {
+  border-color: var(--rose-line);
+  background: var(--rose-soft);
+}
+
+.event-row.ignored {
+  opacity: 0.5;
+}
+
+.event-time {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  padding-top: 0.1rem;
+  line-height: 1.25;
+}
+
+.event-time .time-end {
+  display: block;
+  font-weight: 500;
+  color: var(--text-faint);
+}
+
+.event-body {
+  min-width: 0;
+}
+
+.event-body h3 {
+  margin: 0 0 0.25rem;
+  font-size: 0.97rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.5rem;
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+/* Venue and organizer are two different kinds of fact and used to run
+   together as one grey blur. Each now gets its own icon, and the organizer
+   is set apart in weight/color rather than sitting flush after the venue. */
+.meta-venue {
+  color: var(--text-dim);
+  font-weight: 500;
+  min-width: 0;
+}
+
+.meta-organizer {
+  color: var(--text-faint);
+  font-style: italic;
+  min-width: 0;
+}
+
+.meta-item svg {
+  color: var(--text-faint);
+  font-size: 0.85em;
+}
+
+.meta-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.event-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0.35rem 0 0;
+}
+
+.tag {
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+/* Category keeps its vibrant color, tinted down so a row full of tags
+   still reads as text rather than as confetti. */
+.tag-category {
+  border-color: color-mix(in srgb, var(--tag-color) 35%, transparent);
+  background: color-mix(in srgb, var(--tag-color) 10%, #fff);
+  color: color-mix(in srgb, var(--tag-color) 78%, #241019);
+}
+
+.tag-dot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: var(--tag-color);
+}
+
+.tag-source-official {
+  border-color: #e6d2a4;
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+
+.tag-source-imtv {
+  border-color: var(--rose-line);
+  background: var(--rose-soft);
+  color: var(--rose-strong);
+}
+
+.tag-danger {
+  border-color: #f1c3cc;
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.tag-warn {
+  border-color: #eccf9d;
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.tag-tip {
+  border-color: #e6d2a4;
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+
+.event-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-self: start;
+}
+
+.event-actions .icon-button {
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.search-more {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  padding: 0.5rem 0 0;
+}
+
+/* ---------- filters ---------- */
+
 .filter-bar {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  margin: 0.6rem 0;
+  margin: 0.7rem 0 0.2rem;
 }
 
 .search-input,
 .filter-selects select {
   background: var(--surface);
   color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 0.55rem;
   padding: 0.45rem 0.6rem;
   font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.search-input:focus-visible,
+.filter-selects select:focus-visible {
+  outline: 2px solid var(--rose);
+  outline-offset: 1px;
 }
 
 .search-row {
@@ -146,21 +711,20 @@ body {
 }
 
 .filter-toggle {
-  flex-shrink: 0;
+  flex: none;
   width: 2.4rem;
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
+  justify-content: center;
+  border: 1px solid var(--border-strong);
+  border-radius: 0.55rem;
   background: var(--surface);
   color: var(--text-dim);
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 0.95rem;
 }
 
 .filter-toggle.active {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--rose);
+  background: var(--rose-soft);
+  color: var(--rose);
 }
 
 .filter-selects {
@@ -178,199 +742,22 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   color: var(--text-dim);
-}
-
-.loading,
-.empty {
-  color: var(--text-dim);
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.day-group h2 {
-  font-size: 0.95rem;
-  color: var(--accent);
-  margin: 1.25rem 0 0.4rem;
-  text-transform: capitalize;
-}
-
-.swipe-wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: 0.6rem;
-  margin-bottom: 0.4rem;
-}
-
-.swipe-reveal {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 40%;
-  display: flex;
-  align-items: center;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text);
-  pointer-events: none;
-}
-
-.swipe-reveal-right {
-  left: 0;
-  justify-content: flex-start;
-  padding-left: 1rem;
-  background: linear-gradient(90deg, var(--accent), transparent);
-}
-
-.swipe-reveal-left {
-  right: 0;
-  justify-content: flex-end;
-  padding-right: 1rem;
-  background: linear-gradient(270deg, var(--danger), transparent);
-}
-
-.event-row {
-  position: relative;
-  display: grid;
-  grid-template-columns: 3.2rem 1fr;
-  gap: 0.5rem;
-  padding: 0.6rem 0.5rem 0.6rem 0.9rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 0.6rem;
-  touch-action: pan-y;
-  user-select: none;
-}
-
-.event-accent {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 5px;
-  border-radius: 0.6rem 0 0 0.6rem;
-}
-
-.event-row.favorite {
-  border-color: var(--accent);
-  background: var(--surface-hi);
-}
-
-.event-row.ignored {
-  opacity: 0.45;
-}
-
-.event-time {
-  font-variant-numeric: tabular-nums;
-  font-size: 0.85rem;
-  color: var(--text-dim);
-  padding-top: 0.1rem;
-}
-
-.event-body h3 {
-  margin: 0 0 0.2rem;
-  font-size: 1rem;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.source-icon {
-  display: inline-flex;
-  flex-shrink: 0;
-  color: var(--gold);
-  font-size: 0.85em;
-}
-
-.event-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0 0 0.35rem;
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  align-items: center;
-}
-
-.event-icons {
-  display: flex;
-  gap: 0.3rem;
-  margin: 0 0 0.4rem;
-}
-
-.icon-chip {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 999px;
-  background: var(--border);
-  font-size: 0.9rem;
-}
-
-.icon-chip.icon-danger {
-  background: var(--danger);
-}
-
-.icon-chip.icon-warn {
-  background: var(--warn);
-}
-
-.icon-chip.icon-tip {
-  background: var(--gold);
-}
-
-.event-actions {
-  grid-column: 1 / -1;
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-}
-
-.icon-button {
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--text-dim);
-  border-radius: 999px;
-  padding: 0.25rem 0.6rem;
-  font-size: 0.85rem;
-  line-height: 1;
-}
-
-/* Generic "active" state (currently only the ignore button uses it — the
-   heart button overrides this below) uses --danger, not the rose --accent,
-   so "ignored" reads clearly distinct from "favorited". */
-.icon-button.active {
-  background: var(--danger);
-  border-color: var(--danger);
-  color: #fdf0f2;
-}
-
-/* The heart emoji itself already conveys favorited state (🤍 vs ❤️), so
-   just highlight the border rather than also filling the background. */
-.icon-button.heart-button.active {
-  background: transparent;
-  border-color: var(--accent);
-  color: inherit;
-}
-
-.icon-button.series-button {
-  font-size: 0.72rem;
 }
 
 .app-footer {
   text-align: center;
-  color: var(--text-dim);
+  color: var(--text-faint);
   font-size: 0.75rem;
   margin-top: 2rem;
 }
 
+/* ---------- modals ---------- */
+
 .event-modal {
   border: 1px solid var(--border);
-  border-radius: 0.8rem;
+  border-radius: 0.9rem;
   background: var(--surface);
   color: var(--text);
   max-width: 560px;
@@ -378,19 +765,21 @@ body {
   max-height: calc(100vh - 4rem);
   overflow-y: auto;
   padding: 1.1rem 1.1rem 1.4rem;
+  box-shadow: var(--shadow);
 }
 
 .event-modal::backdrop {
-  background: rgba(10, 6, 4, 0.7);
+  background: rgba(36, 16, 25, 0.45);
 }
 
 .modal-close {
   position: absolute;
   top: 0.7rem;
   right: 0.7rem;
+  justify-content: center;
   border: 1px solid var(--border);
-  background: var(--surface-hi);
-  color: var(--text);
+  background: var(--surface-2);
+  color: var(--text-dim);
   border-radius: 999px;
   width: 2rem;
   height: 2rem;
@@ -398,15 +787,16 @@ body {
 }
 
 .event-modal h2 {
-  margin: 0 1.8rem 0.5rem 0;
+  margin: 0 2rem 0.5rem 0;
   font-size: 1.15rem;
+  line-height: 1.3;
 }
 
 .modal-meta {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
-  margin: 0 0 0.6rem;
+  gap: 0.2rem;
+  margin: 0 0 0.7rem;
   font-size: 0.85rem;
   color: var(--text-dim);
 }
@@ -414,26 +804,35 @@ body {
 .modal-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0 0 0.7rem;
-}
-
-.modal-badges span {
-  padding: 0.15rem 0.55rem;
-  border-radius: 999px;
-  background: var(--border);
-  font-size: 0.78rem;
+  gap: 0.35rem;
+  margin: 0 0 0.8rem;
 }
 
 .modal-description {
   font-size: 0.9rem;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--text);
   margin: 0 0 0.8rem;
 }
 
 .modal-description p {
   margin: 0 0 0.6em;
+}
+
+.modal-description a {
+  color: var(--rose);
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.9rem;
+}
+
+.modal-actions .icon-button {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.7rem;
 }
 
 .modal-links {
@@ -443,52 +842,52 @@ body {
 }
 
 .modal-links a {
-  color: var(--accent);
-  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--rose);
   font-size: 0.85rem;
 }
 
+/* ---------- theme banner + empty states ---------- */
+
 .theme-banner {
   position: relative;
-  border-radius: 0.7rem;
+  border-radius: var(--radius);
   overflow: hidden;
-  margin: 0.6rem 0;
+  margin: 0.2rem 0 0;
   border: 1px solid var(--border);
-  max-height: 12.5rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .theme-banner img {
   display: block;
   width: 100%;
-  height: 12.5rem;
+  height: 7.5rem;
   object-fit: cover;
   /* Crop to the embrace scene (lower two-thirds of the folio) rather than
-     the heraldic shield/helmet-crest at the top. Taller than before so the
-     bottom text overlay doesn't sit right over the woman's face. */
+     the heraldic shield/helmet-crest at the top. */
   object-position: 50% 58%;
 }
 
 .theme-banner-text {
   position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0.5rem 0.7rem;
-  background: linear-gradient(0deg, rgba(20, 8, 13, 0.88) 10%, rgba(20, 8, 13, 0.1) 90%);
+  inset: auto 0 0 0;
+  padding: 0.45rem 0.7rem;
+  background: linear-gradient(0deg, rgba(36, 16, 25, 0.85) 15%, rgba(36, 16, 25, 0));
 }
 
 .theme-banner-title {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  color: var(--text);
+  color: #fff;
 }
 
 .theme-banner-credit {
-  margin: 0.15rem 0 0;
-  font-size: 0.68rem;
-  color: var(--text-dim);
+  margin: 0.1rem 0 0;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .empty-schedule {
@@ -501,9 +900,11 @@ body {
 .empty-schedule img {
   width: 9rem;
   height: auto;
-  border-radius: 0.6rem;
+  border-radius: var(--radius);
   border: 1px solid var(--border);
 }
+
+/* ---------- time blocks ---------- */
 
 .timeblock-list {
   list-style: none;
@@ -520,7 +921,7 @@ body {
   justify-content: space-between;
   gap: 0.5rem;
   padding: 0.4rem 0.6rem;
-  background: var(--surface-hi);
+  background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 0.5rem;
   font-size: 0.85rem;
@@ -535,10 +936,11 @@ body {
 .timeblock-form input {
   background: var(--surface);
   color: var(--text);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: 0.5rem;
   padding: 0.45rem 0.6rem;
   font-size: 0.9rem;
+  font-family: inherit;
 }
 
 .timeblock-time-row {
@@ -554,11 +956,14 @@ body {
 
 .add-timeblock-button {
   align-self: flex-start;
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #221a12;
+  background: var(--rose);
+  border-color: var(--rose);
+  color: #fff;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+  }
 }

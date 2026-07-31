@@ -61,34 +61,67 @@ scraper design, and `docs/FUTURE.md` for deferred ideas.
   favorite, and state survives a reload. Confirmed fully functional with
   the network hard-disabled (DevTools offline emulation) after one prior
   load, including a normal (non-hard) reload.
+- **One day at a time**: the list renders a single selected day
+  (`src/client/components/DayNav.tsx` — chevrons, a chip strip, and ←/→ on
+  the keyboard), never the whole 683-row programme. This is both the
+  "jump to prev/next day" feature and the fix for the swipe jank: the DOM
+  goes from ~22 900 nodes to ~3 100, and a dragged row keeps a steady 60fps
+  under 6× CPU throttling instead of dropping ~5% of its frames. A day chip
+  carries a dot when that day has favorites. A **search is the one thing
+  that spans all days** (it would be useless otherwise), so it's capped at
+  `MAX_SEARCH_RESULTS` rows with a "+N till" hint rather than reintroducing
+  an unbounded list; the day nav is disabled while a search is active.
 - **Row interaction**: `src/client/components/SwipeableRow.tsx` implements
   swipe-right = favorite / swipe-left = ignore via Pointer Events (works for
   touch and mouse), with a background reveal and axis-locking so vertical
   page scroll isn't hijacked; a tap (movement that never crosses the lock
   threshold) opens `EventDetailsModal.tsx` (a native `<dialog>`) with the
-  full description, badges, and a generic "🔗 hostname" link list built from
-  `ticketUrl` + imtv's `links[]` combined — deliberately not labeled "Köp
-  biljett", since not every link is a ticket purchase. The compact row
-  itself only shows time/title/venue/organizer plus icon chips
-  (`src/client/categoryStyles.ts`: one icon + accent color per official
-  category, imtv falls back to a source-level color) and the
-  favorite/ignore/series buttons, which remain as an accessible,
-  discoverable alternative to swiping.
-- **Theme**: reskinned rose/burgundy + gold to match Medeltidsveckan 2026's
-  actual festival theme, "en kärlekshistoria" ("a love story") — confirmed
-  from medeltidsveckan.se's own homepage copy, not assumed. Two 700-year-old
-  public-domain Codex Manesse illuminations (`public/art/`, credited in
-  `public/art/ATTRIBUTIONS.md`) appear in a header banner
-  (`src/client/components/ThemeBanner.tsx`) and the empty "Mitt schema"
-  state — resized/re-encoded to WebP and explicitly added to the service
-  worker's precache `globPatterns` (`vite.config.ts`) so they're available
-  offline too, not just the app code and data.
-- **Icons**: all functional UI icons (source, category, booking status,
-  favorite/ignore actions, filter/calendar triggers) use `solid-icons/fa`
-  components, not emoji — see `src/client/categoryStyles.ts` for the
-  category→icon+color map. Category icons are picked dynamically per event,
-  so they're rendered via Solid's `<Dynamic>` (`solid-js/web`); statically
-  known icons (heart, ban, filter, etc.) are imported and used directly.
+  full description, badges, series actions, and a generic "🔗 hostname" link
+  list built from `ticketUrl` + imtv's `links[]` combined — deliberately not
+  labeled "Köp biljett", since not every link is a ticket purchase. Two
+  deliberate perf choices live in `SwipeableRow`: the reveal backgrounds are
+  only mounted *while* a row is being dragged (two gradient layers per row
+  is real paint cost otherwise), and the per-pixel transform is written
+  straight to the DOM in a rAF callback rather than through a signal.
+  `.swipe-wrapper` also sets `content-visibility: auto` so offscreen rows
+  skip layout/paint entirely.
+- **Row anatomy**: category color as a stripe down the left edge, then
+  time · title · venue · organizer · tags. Venue and organizer each get
+  their own icon and weight/color so they stop reading as one grey blur.
+  Tags are *text* ("Konsert", "Fullbokad", "Veckan tipsar") rather than the
+  old icon chips, which needed a legend to mean anything and cost more row
+  width than they earned. Source is tagged only for imtv ("Inofficiellt") —
+  92% of events are official, so tagging those too would be noise on every
+  row; the intro legend says as much. Series-level favorite/ignore moved
+  from the row into the details modal, where there's room to label them
+  ("Favorit: alla 4 tillfällen"); the row keeps just the two per-instance
+  buttons as the accessible alternative to swiping.
+- **Explainer**: `src/client/components/IntroCard.tsx` — what the app is,
+  the swipe/tap/day-nav gestures, and a collapsible color legend built from
+  the categories actually present in the data. Shown on first visit,
+  dismissible (localStorage `mtv:intro-dismissed`, read through a try/catch
+  since storage can throw outright in a locked-down browser), and
+  reopenable from the (i) button in the header.
+- **Theme**: white-first with rose accents (`src/client/index.css`) — the
+  vibrant per-category colors read as accents against plain white instead
+  of competing with an all-over purple. Rose/burgundy still ties to
+  Medeltidsveckan 2026's actual festival theme, "en kärlekshistoria" ("a
+  love story") — confirmed from medeltidsveckan.se's own homepage copy, not
+  assumed. Two 700-year-old public-domain Codex Manesse illuminations
+  (`public/art/`, credited in `public/art/ATTRIBUTIONS.md`) appear in a
+  header banner (`src/client/components/ThemeBanner.tsx`) and the empty
+  "Mitt schema" state — resized/re-encoded to WebP and explicitly added to
+  the service worker's precache `globPatterns` (`vite.config.ts`) so they're
+  available offline too, not just the app code and data. The brand block
+  scrolls away; only the view toggle + day strip stick to the top.
+- **Icons**: functional UI icons (booking status, favorite/ignore actions,
+  venue/organizer, filter/calendar/chevron triggers) use `solid-icons/fa`
+  components, not emoji. They render as inline `<svg width="1em">`, which
+  sits on the text baseline — `index.css` nudges every `svg` with
+  `vertical-align: -0.125em; flex: none` and centers icon-bearing controls
+  with `inline-flex`, which is what keeps them optically aligned. Categories
+  are color-only now (`src/client/categoryStyles.ts`), so nothing needs
+  Solid's `<Dynamic>` any more.
 - **Filters**: collapsed behind a filter-icon toggle next to the search box
   (`src/client/components/FilterBar.tsx`) — only search is visible by
   default; category/venue/source/"visa ignorerade" expand on click. The
@@ -144,8 +177,9 @@ interface EventInstance {
 A "series" (e.g. a show that repeats daily) is **not** a separate stored
 entity — it's just every `EventInstance` sharing the same `seriesKey`. The
 client groups by that field to show "all instances of this thing" and to
-let the user favorite/ignore the whole series at once (see
-`seriesCounts`/`isRecurring` in `src/client/App.tsx`).
+let the user favorite/ignore the whole series at once (see `seriesCounts`
+in `src/client/App.tsx`, surfaced as the "alla N tillfällen" buttons in the
+details modal).
 
 **Favorite/ignore precedence**: an instance-level decision always overrides
 the series-level default. `src/schema.ts` exports the resolver, used

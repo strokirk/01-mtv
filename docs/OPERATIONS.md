@@ -71,12 +71,19 @@ components.
 
 - **Statically known** (e.g. the heart/ban/filter icons in a specific
   button): import directly and use as a normal JSX tag — `<FaSolidHeart />`.
-- **Chosen dynamically** (e.g. one of 19 possible category icons looked up
-  by slug at render time): store the component reference itself (not a
-  string/emoji) in the lookup map, and render via
-  `<Dynamic component={categoryStyle(slug).Icon} />` from `solid-js/web`.
+- **Chosen dynamically** (a component looked up in a map at render time):
+  store the component reference itself (not a string/emoji) in the lookup
+  map, and render via `<Dynamic component={...} />` from `solid-js/web`.
   A plain `{lookupIcon(slug)}` doesn't work — Solid needs `<Dynamic>` to
-  know the component reference can change between renders.
+  know the component reference can change between renders. Nothing in the
+  client needs this today (categories became color-only), but it's the
+  pattern to reach for if a per-row icon map comes back.
+
+They render as inline `<svg width="1em" height="1em">`, which sits on the
+text baseline and leaves a descender gap — `src/client/index.css` corrects
+that globally (`svg { vertical-align: -0.125em; flex: none }` plus
+`inline-flex` on icon-bearing controls). Don't re-align icons per component;
+fix it there.
 
 ## Repo visibility
 

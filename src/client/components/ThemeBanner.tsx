@@ -13,9 +13,9 @@ export default function ThemeBanner() {
         height="1355"
       />
       <div class="theme-banner-text">
-        <p class="theme-banner-title">Medeltidsveckan 2026 — en kärlekshistoria 💗</p>
+        <p class="theme-banner-title">Årets tema: en kärlekshistoria</p>
         <p class="theme-banner-credit">
-          Konrad von Altstetten, <em>Codex Manesse</em> (ca 1305–1315) · Public domain
+          Konrad von Altstetten, <em>Codex Manesse</em> · ca 1305–1315
         </p>
       </div>
     </div>

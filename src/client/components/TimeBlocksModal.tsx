@@ -4,6 +4,7 @@ import type { TimeBlock } from "../db";
 
 interface Props {
   open: boolean;
+  defaultDate?: string;
   blocks: TimeBlock[];
   onClose: () => void;
   onAdd: (block: Omit<TimeBlock, "id">) => void;
@@ -27,7 +28,12 @@ export default function TimeBlocksModal(props: Props) {
   const [error, setError] = createSignal("");
 
   createEffect(() => {
-    if (props.open && dialogRef && !dialogRef.open) dialogRef.showModal();
+    if (props.open && dialogRef && !dialogRef.open) {
+      // Prefill with the day the user is currently looking at — that's
+      // almost always the day they want to block time on.
+      if (!date() && props.defaultDate) setDate(props.defaultDate);
+      dialogRef.showModal();
+    }
     if (!props.open && dialogRef?.open) dialogRef.close();
   });
 

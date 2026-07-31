@@ -1,66 +1,45 @@
-import type { IconTypes } from "solid-icons";
-import {
-  FaSolidDragon,
-  FaSolidScroll,
-  FaSolidFire,
-  FaSolidPeopleGroup,
-  FaSolidGraduationCap,
-  FaSolidClapperboard,
-  FaSolidCompass,
-  FaSolidHatWizard,
-  FaSolidMusic,
-  FaSolidBeerMugEmpty,
-  FaSolidAsterisk,
-  FaSolidFlag,
-  FaSolidMasksTheater,
-  FaSolidShieldHalved,
-  FaSolidTheaterMasks,
-  FaSolidCampground,
-  FaSolidScrewdriverWrench,
-  FaSolidCartShopping,
-  FaSolidLandmark,
-} from "solid-icons/fa";
-
-// Icon + accent color per official cat-* slug, used to make the list
-// visually scannable (icons instead of text tags, color as a fast visual
-// grouping cue). imtv events have no category taxonomy at all, so they fall
-// back to SOURCE_STYLES.imtv's color/icon instead.
-interface CategoryStyle {
-  Icon: IconTypes;
-  color: string;
-}
-
-const CATEGORY_STYLES: Record<string, CategoryStyle> = {
-  "cat-aventyr": { Icon: FaSolidDragon, color: "#4a9d5c" },
-  "cat-berattare": { Icon: FaSolidScroll, color: "#8a6d4a" },
-  "cat-eldshow": { Icon: FaSolidFire, color: "#e0692b" },
-  "cat-festival": { Icon: FaSolidPeopleGroup, color: "#d9a441" },
-  "cat-foredrag": { Icon: FaSolidGraduationCap, color: "#6b7a8f" },
-  "cat-forestallning": { Icon: FaSolidClapperboard, color: "#5b8fc9" },
-  "cat-guidad-visning": { Icon: FaSolidCompass, color: "#5c8a6b" },
-  "cat-gyckel": { Icon: FaSolidHatWizard, color: "#c9a13a" },
-  "cat-konsert": { Icon: FaSolidMusic, color: "#7c5cbf" },
-  "cat-krog": { Icon: FaSolidBeerMugEmpty, color: "#8a5a34" },
-  "cat-marknad": { Icon: FaSolidCartShopping, color: "#c98a2e" },
-  "cat-ovrigt": { Icon: FaSolidAsterisk, color: "#6b6459" },
-  "cat-parad": { Icon: FaSolidFlag, color: "#b5457a" },
-  "cat-performance": { Icon: FaSolidMasksTheater, color: "#7c5cbf" },
-  "cat-strid": { Icon: FaSolidShieldHalved, color: "#b33a3a" },
-  "cat-stridande": { Icon: FaSolidShieldHalved, color: "#b33a3a" },
-  "cat-teater": { Icon: FaSolidTheaterMasks, color: "#3d5a80" },
-  "cat-uppvisningslager": { Icon: FaSolidCampground, color: "#5c7a4a" },
-  "cat-workshop": { Icon: FaSolidScrewdriverWrench, color: "#4a9d8f" },
+// Accent color per official cat-* slug. The color is the app's one visual
+// grouping cue: it runs down the left edge of every row and sits as a dot
+// in the category tag, with the tag's text saying what it means (the intro
+// card's legend maps color -> category in one place).
+//
+// This used to also carry a per-category *icon*; those were dropped from
+// the list because an unexplained glyph cost a chunk of row width without
+// telling anyone what "cat-gyckel" is. Text labels do that job now.
+//
+// imtv events have no category taxonomy at all, so they fall back to
+// SOURCE_STYLES.imtv's color instead.
+const CATEGORY_COLORS: Record<string, string> = {
+  "cat-aventyr": "#4a9d5c",
+  "cat-berattare": "#8a6d4a",
+  "cat-eldshow": "#e0692b",
+  "cat-festival": "#d9a441",
+  "cat-foredrag": "#6b7a8f",
+  "cat-forestallning": "#5b8fc9",
+  "cat-guidad-visning": "#5c8a6b",
+  "cat-gyckel": "#c9a13a",
+  "cat-konsert": "#7c5cbf",
+  "cat-krog": "#8a5a34",
+  "cat-marknad": "#c98a2e",
+  "cat-ovrigt": "#6b6459",
+  "cat-parad": "#b5457a",
+  "cat-performance": "#7c5cbf",
+  "cat-strid": "#b33a3a",
+  "cat-stridande": "#b33a3a",
+  "cat-teater": "#3d5a80",
+  "cat-uppvisningslager": "#5c7a4a",
+  "cat-workshop": "#4a9d8f",
 };
 
-const FALLBACK_STYLE: CategoryStyle = { Icon: FaSolidAsterisk, color: "#6b6459" };
+const FALLBACK_COLOR = "#6b6459";
 
 export const SOURCE_STYLES = {
-  official: { Icon: FaSolidLandmark, color: "#d9a441", label: "Officiellt" },
-  imtv: { Icon: FaSolidBeerMugEmpty, color: "#c2568a", label: "Inofficiellt" },
+  official: { color: "#d9a441", label: "Officiellt" },
+  imtv: { color: "#c2568a", label: "Inofficiellt" },
 } as const;
 
-export function categoryStyle(slug: string): CategoryStyle {
-  return CATEGORY_STYLES[slug] ?? FALLBACK_STYLE;
+export function categoryStyle(slug: string): { color: string } {
+  return { color: CATEGORY_COLORS[slug] ?? FALLBACK_COLOR };
 }
 
 export function eventAccentColor(event: { source: "official" | "imtv"; category?: string }): string {
