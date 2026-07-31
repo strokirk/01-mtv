@@ -1,0 +1,1302 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "e1b8fb7a88821e7b47d2",
+    "source": "imtv",
+    "sourceId": "{D71BFE7A-8A36-400E-BD7E-54C600656BA3}",
+    "seriesKey": "imtv:forfest:admin",
+    "title": "Förfest",
+    "organizer": "Admin",
+    "description": "Allmänt galej i Nordergravar för folk som anlänt tidigt till veckan.",
+    "date": "2026-08-01",
+    "startTime": "17:00",
+    "lastModified": "2024-07-29 21:39:49",
+    "raw": {
+      "date": "2026-08-01",
+      "time": "17:00",
+      "title": "Förfest",
+      "guid": "{D71BFE7A-8A36-400E-BD7E-54C600656BA3}",
+      "creator": "Admin",
+      "lastModified": "2024-07-29 21:39:49",
+      "description": "Allmänt galej i Nordergravar för folk som anlänt tidigt till veckan.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "c9fc2b2eb9c4faa15b95",
+    "source": "imtv",
+    "sourceId": "{2191BAF5-9DF4-4DF9-80AE-0C27A1BD1292}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-02",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:49:23",
+    "raw": {
+      "date": "2026-08-02",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{2191BAF5-9DF4-4DF9-80AE-0C27A1BD1292}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:49:23",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "f0303ef12208ebfae80a",
+    "source": "imtv",
+    "sourceId": "{9F83461E-5FDE-47EC-856C-AE98F7984202}",
+    "seriesKey": "imtv:inofficiella-pinen-i-ar-igen:agnbor",
+    "title": "Inofficiella pinen i år igen",
+    "organizer": "Agnbor",
+    "description": "Jo du läste rätt! Vi är tillbaka med en ny inofficiell inofficiell pin. Om du fångat Snatten och Fubben så blir trion komplett med årets(ännu hemliga) marginalia. Om du vill stämma träff eller har frågor kan du maila da.punk@hotmail.se, alternativt går det bra att haffa mig i rosornas stad(är generellt sett gulklädd)",
+    "date": "2026-08-02",
+    "startTime": "10:00",
+    "lastModified": "2026-07-07 21:08:45",
+    "raw": {
+      "date": "2026-08-02",
+      "time": "10:00",
+      "title": "Inofficiella pinen i år igen",
+      "guid": "{9F83461E-5FDE-47EC-856C-AE98F7984202}",
+      "creator": "Agnbor",
+      "lastModified": "2026-07-07 21:08:45",
+      "description": "Jo du läste rätt! Vi är tillbaka med en ny inofficiell inofficiell pin. Om du fångat Snatten och Fubben så blir trion komplett med årets(ännu hemliga) marginalia. Om du vill stämma träff eller har frågor kan du maila da.punk@hotmail.se, alternativt går det bra att haffa mig i rosornas stad(är generellt sett gulklädd)",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "a9289a2c5278b1407a4b",
+    "source": "imtv",
+    "sourceId": "{576289A8-7F5D-4067-BBD4-2A5988E172BC}",
+    "seriesKey": "imtv:inofficiella-invigningen:gycklare",
+    "title": "Inofficiella invigningen",
+    "organizer": "Gycklare",
+    "description": "Gycklarna Putte och Kalle med vänner inviger veckan med icke programmade artister och avslutar med kast i havet. Vid kärleksporten. Vill du vara med? Hör av dig till gycklare på fb eller Patrik Elgh och Karl H Granberg. Länk",
+    "date": "2026-08-02",
+    "startTime": "16:00",
+    "links": [
+      "https://www.facebook.com/share/12MhoLYb8xC/"
+    ],
+    "lastModified": "2026-06-26 02:15:03",
+    "raw": {
+      "date": "2026-08-02",
+      "time": "16:00",
+      "title": "Inofficiella invigningen",
+      "guid": "{576289A8-7F5D-4067-BBD4-2A5988E172BC}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-26 02:15:03",
+      "description": "Gycklarna Putte och Kalle med vänner inviger veckan med icke programmade artister och avslutar med kast i havet. Vid kärleksporten. Vill du vara med? Hör av dig till gycklare på fb eller Patrik Elgh och Karl H Granberg. Länk",
+      "links": [
+        "https://www.facebook.com/share/12MhoLYb8xC/"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "fcb879c0cd357ff91c27",
+    "source": "imtv",
+    "sourceId": "{C6F9137E-B3DA-4BC6-9CE5-7D9EE03E14D8}",
+    "seriesKey": "imtv:knalleslaget:smeden",
+    "title": "Knalleslaget",
+    "organizer": "Smeden",
+    "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+    "date": "2026-08-02",
+    "startTime": "19:00",
+    "lastModified": "2026-07-30 00:07:36",
+    "raw": {
+      "date": "2026-08-02",
+      "time": "19:00",
+      "title": "Knalleslaget",
+      "guid": "{C6F9137E-B3DA-4BC6-9CE5-7D9EE03E14D8}",
+      "creator": "Smeden",
+      "lastModified": "2026-07-30 00:07:36",
+      "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "95ded742b0df0ba44e81",
+    "source": "imtv",
+    "sourceId": "{CC627137-CC07-4F00-9648-2D3CED93A6A2}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-03",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:49:52",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{CC627137-CC07-4F00-9648-2D3CED93A6A2}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:49:52",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "afcba16cbf78ef74c2d3",
+    "source": "imtv",
+    "sourceId": "{C9B87E40-0374-440F-B6C4-B13F65D57D93}",
+    "seriesKey": "imtv:sagoskoj:gycklare",
+    "title": "Sagoskoj",
+    "organizer": "Gycklare",
+    "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+    "date": "2026-08-03",
+    "startTime": "13:01",
+    "lastModified": "2026-06-26 02:20:03",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "13:01",
+      "title": "Sagoskoj",
+      "guid": "{C9B87E40-0374-440F-B6C4-B13F65D57D93}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-26 02:20:03",
+      "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "79b2371c4e8988cb4c52",
+    "source": "imtv",
+    "sourceId": "{629F70DA-1566-47D6-9AA0-2C6FA96E57BD}",
+    "seriesKey": "imtv:barbarbrottning-ii-x-ii:marco",
+    "title": "Barbarbrottning II x II",
+    "organizer": "Marco",
+    "description": "Barbarerna arrangerar Barbarbrottning för andra +II gången sedan år 642.  Brottning sker i form av Submission/\"Domination\" wrestling utan viktklasser.  Kom för att delta eller se på när årets mästare i Barbarbrottning ska utses! Alla deltagare bidrar med en öl som insats, vinnaren tar hem all öl!    Anmälan sker på plats. Plats: Nodregravar Länk",
+    "date": "2026-08-03",
+    "startTime": "14:00",
+    "venue": "Nodregravar Länk",
+    "links": [
+      "https://fb.me/e/4lYLqmEQV"
+    ],
+    "lastModified": "2026-06-08 20:02:41",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "14:00",
+      "title": "Barbarbrottning II x II",
+      "guid": "{629F70DA-1566-47D6-9AA0-2C6FA96E57BD}",
+      "creator": "Marco",
+      "lastModified": "2026-06-08 20:02:41",
+      "description": "Barbarerna arrangerar Barbarbrottning för andra +II gången sedan år 642.  Brottning sker i form av Submission/\"Domination\" wrestling utan viktklasser.  Kom för att delta eller se på när årets mästare i Barbarbrottning ska utses! Alla deltagare bidrar med en öl som insats, vinnaren tar hem all öl!    Anmälan sker på plats. Plats: Nodregravar Länk",
+      "links": [
+        "https://fb.me/e/4lYLqmEQV"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "7cae2685852c9e9c3b1b",
+    "source": "imtv",
+    "sourceId": "{A0F6D124-6D39-4388-A50B-810F7CC32B26}",
+    "seriesKey": "imtv:karrotorderns-femkamp:karrotorderns-vaktare",
+    "title": "Karrotorderns femkamp!",
+    "organizer": "Karrotorderns Väktare",
+    "description": "Det är dags igen för den årliga femkampen!  Kom med din grupp, orden, sammansvärjelse, kult eller klan och tävla om den eftertraktade vandringspokalen™! Vinnarna får även äran och privilegiet att arrangera nästa års tävling!  OBS domarna är definitivt inte mutbara och gillar inte öl 😉😉😉  Plats: \"Morotslandet\", gräset utanför kärleksporten. Leta efter våra flaggor. Länk",
+    "date": "2026-08-03",
+    "startTime": "15:30",
+    "venue": "\"Morotslandet\", gräset utanför kärleksporten",
+    "links": [
+      "https://facebook.com/events/s/karrotorderns-5-kamp-/3983690405269856/"
+    ],
+    "lastModified": "2026-07-09 20:08:12",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "15:30",
+      "title": "Karrotorderns femkamp!",
+      "guid": "{A0F6D124-6D39-4388-A50B-810F7CC32B26}",
+      "creator": "Karrotorderns Väktare",
+      "lastModified": "2026-07-09 20:08:12",
+      "description": "Det är dags igen för den årliga femkampen!  Kom med din grupp, orden, sammansvärjelse, kult eller klan och tävla om den eftertraktade vandringspokalen™! Vinnarna får även äran och privilegiet att arrangera nästa års tävling!  OBS domarna är definitivt inte mutbara och gillar inte öl 😉😉😉  Plats: \"Morotslandet\", gräset utanför kärleksporten. Leta efter våra flaggor. Länk",
+      "links": [
+        "https://facebook.com/events/s/karrotorderns-5-kamp-/3983690405269856/"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "1a58b9078dd90964a90f",
+    "source": "imtv",
+    "sourceId": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
+    "seriesKey": "imtv:arliga-konsrockspicknicken:medeltidakonsrock",
+    "title": "Årliga könsrockspicknicken",
+    "organizer": "Medeltidakönsrock",
+    "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
+    "date": "2026-08-03",
+    "startTime": "15:30",
+    "lastModified": "2026-06-18 12:46:57",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "15:30",
+      "title": "Årliga könsrockspicknicken",
+      "guid": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
+      "creator": "Medeltidakönsrock",
+      "lastModified": "2026-06-18 12:46:57",
+      "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "eccaeea06cbdeec4cf75",
+    "source": "imtv",
+    "sourceId": "{CA1A2DB6-AEBF-4CC6-B7FE-EB56A2D14FF5}",
+    "seriesKey": "imtv:mjodbryggarnas-hemliga-smaktraff:mjodfamiljen",
+    "title": "Mjödbryggarnas \"hemliga\" smakträff",
+    "organizer": "Mjödfamiljen",
+    "description": "Den galne mjödmannen bjuder upp till mjödprovning och picknick. Du tar med dej ditt av kärlek hembryggda mjöd/mölska/braggott/kryddade kornvin/älgörtskonkokt och alla provar av alla och förlorar sej i ingående diskussioner om jäststammar och stamvörtstyrkor. Mycket trevligt och gott. För detaljer och/eller frågor (så som tex plats mm.) kontakta:morn82 (a) gmail com",
+    "date": "2026-08-03",
+    "startTime": "18:03",
+    "lastModified": "2025-05-12 22:45:35",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "18:03",
+      "title": "Mjödbryggarnas \"hemliga\" smakträff",
+      "guid": "{CA1A2DB6-AEBF-4CC6-B7FE-EB56A2D14FF5}",
+      "creator": "Mjödfamiljen",
+      "lastModified": "2025-05-12 22:45:35",
+      "description": "Den galne mjödmannen bjuder upp till mjödprovning och picknick. Du tar med dej ditt av kärlek hembryggda mjöd/mölska/braggott/kryddade kornvin/älgörtskonkokt och alla provar av alla och förlorar sej i ingående diskussioner om jäststammar och stamvörtstyrkor. Mycket trevligt och gott. För detaljer och/eller frågor (så som tex plats mm.) kontakta:morn82 (a) gmail com",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "5c8ff0376e0845ff0cd5",
+    "source": "imtv",
+    "sourceId": "{7A7EDBEE-FC5F-4F8D-9E7F-9063DC6751FB}",
+    "seriesKey": "imtv:arets-fula-fullvandring:juno",
+    "title": "Årets Fula Fullvandring",
+    "organizer": "Juno",
+    "description": "En tur genom Visbys medeltida historia med guiden Juno. Den årliga Fula Fullvandringen är som en vanlig stadsvandring, men med en guide som är redigt rund om foten. Materialet - och kvaliteten - som erbjuds är mest upp till dryckernas nycker.  Tåget avgår från Almedalens scen och avslutas vid Snäckgärdsporten. +18 rekommenderas. Pris: helt totalt gratis eller ett symboliskt bidrag.",
+    "date": "2026-08-03",
+    "startTime": "20:00",
+    "lastModified": "2026-07-30 20:52:13",
+    "raw": {
+      "date": "2026-08-03",
+      "time": "20:00",
+      "title": "Årets Fula Fullvandring",
+      "guid": "{7A7EDBEE-FC5F-4F8D-9E7F-9063DC6751FB}",
+      "creator": "Juno",
+      "lastModified": "2026-07-30 20:52:13",
+      "description": "En tur genom Visbys medeltida historia med guiden Juno. Den årliga Fula Fullvandringen är som en vanlig stadsvandring, men med en guide som är redigt rund om foten. Materialet - och kvaliteten - som erbjuds är mest upp till dryckernas nycker.  Tåget avgår från Almedalens scen och avslutas vid Snäckgärdsporten. +18 rekommenderas. Pris: helt totalt gratis eller ett symboliskt bidrag.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "0d1bb2b832974338d22e",
+    "source": "imtv",
+    "sourceId": "{69859825-9D89-42A0-BA93-53B24F050BB3}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-04",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:50:09",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{69859825-9D89-42A0-BA93-53B24F050BB3}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:50:09",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "062c59f1aebc32f030e8",
+    "source": "imtv",
+    "sourceId": "{1642A09C-DBFC-46F2-A215-32A9C159D882}",
+    "seriesKey": "imtv:polypicknic:calle",
+    "title": "Polypicknic",
+    "organizer": "Calle",
+    "description": "Poly föreningen bjuder in till poly picknic under medeltidsveckan I vår underbara community har vi titt som tätt poly-fika-träffar. Nu i medeltiden bjuder vi in till picknic på rosornas ö. Vi ses på tisdagen den 4:ed:e augusti. Kl 12 00 Vi försöker hitta en plats på strandpromenaden i närheten av Kärleksporten så vi kan breda ut våra mantlar. Kärleksporten är ju den uppenbara den uppenbara platsen 😉 Vi kommer ha ett standard med poly Pride flaggan så du lätt hittar oss. Har du frågor eller vill ringa innan så du hittar rätt ”picknik hög” kan du kontakta Calle på 073-99 39 588 Vill du veta mer om polyföreningen eller bli medlem kan du besöka www.polyforeningen.org Länk",
+    "date": "2026-08-04",
+    "startTime": "12:00",
+    "links": [
+      "www.polyforeningen.org"
+    ],
+    "lastModified": "2026-04-14 10:59:38",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "12:00",
+      "title": "Polypicknic",
+      "guid": "{1642A09C-DBFC-46F2-A215-32A9C159D882}",
+      "creator": "Calle",
+      "lastModified": "2026-04-14 10:59:38",
+      "description": "Poly föreningen bjuder in till poly picknic under medeltidsveckan I vår underbara community har vi titt som tätt poly-fika-träffar. Nu i medeltiden bjuder vi in till picknic på rosornas ö. Vi ses på tisdagen den 4:ed:e augusti. Kl 12 00 Vi försöker hitta en plats på strandpromenaden i närheten av Kärleksporten så vi kan breda ut våra mantlar. Kärleksporten är ju den uppenbara den uppenbara platsen 😉 Vi kommer ha ett standard med poly Pride flaggan så du lätt hittar oss. Har du frågor eller vill ringa innan så du hittar rätt ”picknik hög” kan du kontakta Calle på 073-99 39 588 Vill du veta mer om polyföreningen eller bli medlem kan du besöka www.polyforeningen.org Länk",
+      "links": [
+        "www.polyforeningen.org"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "85982ad6cb87e28553cc",
+    "source": "imtv",
+    "sourceId": "{F4512677-67CD-4D02-97C7-99A3B8A965DF}",
+    "seriesKey": "imtv:tomtarnas-arliga-tornvandring:snusktomten",
+    "title": "Tomtarnas årliga tornvandring",
+    "organizer": "Snusktomten",
+    "description": "Följ med runt muren och sjung juliga fyllesånger och stoltsera med era improvisations nerver med torn-låtar!  Vi samlas 12.30 vid hålet i muren, se till att ha dricka som inte måste blandas på vägen då vi kör i relativt snabb takt för att hinna runt innan likörslaget🍻",
+    "date": "2026-08-04",
+    "startTime": "12:30",
+    "lastModified": "2024-07-03 23:37:44",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "12:30",
+      "title": "Tomtarnas årliga tornvandring",
+      "guid": "{F4512677-67CD-4D02-97C7-99A3B8A965DF}",
+      "creator": "Snusktomten",
+      "lastModified": "2024-07-03 23:37:44",
+      "description": "Följ med runt muren och sjung juliga fyllesånger och stoltsera med era improvisations nerver med torn-låtar!  Vi samlas 12.30 vid hålet i muren, se till att ha dricka som inte måste blandas på vägen då vi kör i relativt snabb takt för att hinna runt innan likörslaget🍻",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "ac32b1d4e6c8e660c046",
+    "source": "imtv",
+    "sourceId": "{9C44C68C-17B0-4E32-B587-5A4056583F51}",
+    "seriesKey": "imtv:tornvandringen:spazze",
+    "title": "Tornvandringen",
+    "organizer": "Spazze",
+    "description": "🍺 Var del av den uråldriga traditionen!  Vi går runt muren och tar oss en sup vid varje torn medan vi lyssnar till ”den senaste forskningen”/alternativ fakta om tornen. Improvisationer med glad och trevlig stämning utlovas! Samling: Kruttornet Kl 13.00. Klädsel: 🏴‍☠️ piratigt men inget måste. Tag med: något att dricka (bjudkopp kan vara bra) 🍺 Vi kör oavsett väder. Varken regn, rusk eller drivis kommer stoppa oss 😃",
+    "date": "2026-08-04",
+    "startTime": "13:00",
+    "lastModified": "2025-07-27 23:57:23",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "13:00",
+      "title": "Tornvandringen",
+      "guid": "{9C44C68C-17B0-4E32-B587-5A4056583F51}",
+      "creator": "Spazze",
+      "lastModified": "2025-07-27 23:57:23",
+      "description": "🍺 Var del av den uråldriga traditionen!  Vi går runt muren och tar oss en sup vid varje torn medan vi lyssnar till ”den senaste forskningen”/alternativ fakta om tornen. Improvisationer med glad och trevlig stämning utlovas! Samling: Kruttornet Kl 13.00. Klädsel: 🏴‍☠️ piratigt men inget måste. Tag med: något att dricka (bjudkopp kan vara bra) 🍺 Vi kör oavsett väder. Varken regn, rusk eller drivis kommer stoppa oss 😃",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "2befc7d23a9e17ab31a9",
+    "source": "imtv",
+    "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+    "seriesKey": "imtv:magic-commander:twinkleberry",
+    "title": "Magic Commander",
+    "organizer": "Twinkleberry",
+    "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
+    "date": "2026-08-04",
+    "startTime": "14:00",
+    "lastModified": "2026-07-08 16:09:00",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "14:00",
+      "title": "Magic Commander",
+      "guid": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+      "creator": "Twinkleberry",
+      "lastModified": "2026-07-08 16:09:00",
+      "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "d9c427926da005e6f298",
+    "source": "imtv",
+    "sourceId": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
+    "seriesKey": "imtv:vinbrannboll:domarn",
+    "title": "Vinbrännboll!",
+    "organizer": "Domarn",
+    "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
+    "date": "2026-08-04",
+    "startTime": "14:00",
+    "lastModified": "2024-07-03 22:07:48",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "14:00",
+      "title": "Vinbrännboll!",
+      "guid": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
+      "creator": "Domarn",
+      "lastModified": "2024-07-03 22:07:48",
+      "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "1c5d41498681cd39c462",
+    "source": "imtv",
+    "sourceId": "{C55F7804-8C48-401D-A9DA-D890C7D1072D}",
+    "seriesKey": "imtv:sagoskoj:gycklare",
+    "title": "Sagoskoj",
+    "organizer": "Gycklare",
+    "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+    "date": "2026-08-04",
+    "startTime": "15:02",
+    "lastModified": "2026-06-26 02:20:30",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "15:02",
+      "title": "Sagoskoj",
+      "guid": "{C55F7804-8C48-401D-A9DA-D890C7D1072D}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-26 02:20:30",
+      "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "7e7739625857e69fa3d8",
+    "source": "imtv",
+    "sourceId": "{30F9F740-D448-4C43-A0E8-A716B8F67698}",
+    "seriesKey": "imtv:krogkarusellen:gycklare",
+    "title": "Krogkarusellen",
+    "organizer": "Gycklare",
+    "description": "Vi tar oss runt Visby medeltida dryckesdepåer. Förbetalning. 5 depåstopp. Kostnad ca 450-500kr.  Mer info kommer att finnas I fbgruppen Krogkarusellen.  Anmälan görs på Messenger till Patrik Elgh eller Karl H Granberg. Länk",
+    "date": "2026-08-04",
+    "startTime": "17:00",
+    "links": [
+      "https://www.facebook.com/share/g/1LQYeZHzxd/?mibextid=wwXIfr"
+    ],
+    "lastModified": "2026-06-28 19:21:37",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "17:00",
+      "title": "Krogkarusellen",
+      "guid": "{30F9F740-D448-4C43-A0E8-A716B8F67698}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-28 19:21:37",
+      "description": "Vi tar oss runt Visby medeltida dryckesdepåer. Förbetalning. 5 depåstopp. Kostnad ca 450-500kr.  Mer info kommer att finnas I fbgruppen Krogkarusellen.  Anmälan görs på Messenger till Patrik Elgh eller Karl H Granberg. Länk",
+      "links": [
+        "https://www.facebook.com/share/g/1LQYeZHzxd/?mibextid=wwXIfr"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "1849721c8610311d06a8",
+    "source": "imtv",
+    "sourceId": "{911E72F2-C767-459E-8FB9-72DBC013FD2E}",
+    "seriesKey": "imtv:likorslaget:karrotorderns-vaktare",
+    "title": "Likörslaget",
+    "organizer": "Karrotorderns Väktare",
+    "description": "Välkommen till Likörslaget! En fest för alla garden, gäng, grupper och gardeslösa som uppskattar sång och gamman. Som vanligt hoppas vi på en fantastiskt blanding av trubadurer och musikanter!  Plats: Gycklarbron  Mer info och anmälan genom länken nedan. Länk",
+    "date": "2026-08-04",
+    "startTime": "17:00",
+    "venue": "Gycklarbron  Mer info och anmälan genom länken nedan",
+    "links": [
+      "https://facebook.com/events/s/likorslaget-v-2026/2176893026490587/"
+    ],
+    "lastModified": "2026-07-06 19:08:38",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "17:00",
+      "title": "Likörslaget",
+      "guid": "{911E72F2-C767-459E-8FB9-72DBC013FD2E}",
+      "creator": "Karrotorderns Väktare",
+      "lastModified": "2026-07-06 19:08:38",
+      "description": "Välkommen till Likörslaget! En fest för alla garden, gäng, grupper och gardeslösa som uppskattar sång och gamman. Som vanligt hoppas vi på en fantastiskt blanding av trubadurer och musikanter!  Plats: Gycklarbron  Mer info och anmälan genom länken nedan. Länk",
+      "links": [
+        "https://facebook.com/events/s/likorslaget-v-2026/2176893026490587/"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "176d50cc6fe90c2a5870",
+    "source": "imtv",
+    "sourceId": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
+    "seriesKey": "imtv:rollspel-spoken:johannes-punkt",
+    "title": "ROLLSPEL: Spöken",
+    "organizer": "Johannes Punkt",
+    "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+    "date": "2026-08-04",
+    "startTime": "17:00",
+    "lastModified": "2026-05-15 10:14:11",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "17:00",
+      "title": "ROLLSPEL: Spöken",
+      "guid": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
+      "creator": "Johannes Punkt",
+      "lastModified": "2026-05-15 10:14:11",
+      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "1c30c37590d7085a0d6e",
+    "source": "imtv",
+    "sourceId": "{FE851E0B-07A4-43AE-BF1B-52C6F35EE04F}",
+    "seriesKey": "imtv:alvpicknick:sprangbengtus",
+    "title": "Älvpicknick",
+    "organizer": "SprängBengtus",
+    "description": "Älvorna Sommarregn, Vintersaga och Månflamma bjuder in till en stämningsfull picknick i Nordegravar under träbron. Kom klädd i dina mest älvlika kläder eller det du känner dig fin i och ta med dig det du vill äta eller bjuda på. Länk",
+    "date": "2026-08-04",
+    "startTime": "18:30",
+    "links": [
+      "https://www.facebook.com/events/1474302534456107/?acontext=%7B\"event_action_hist"
+    ],
+    "lastModified": "2026-07-29 18:17:49",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "18:30",
+      "title": "Älvpicknick",
+      "guid": "{FE851E0B-07A4-43AE-BF1B-52C6F35EE04F}",
+      "creator": "SprängBengtus",
+      "lastModified": "2026-07-29 18:17:49",
+      "description": "Älvorna Sommarregn, Vintersaga och Månflamma bjuder in till en stämningsfull picknick i Nordegravar under träbron. Kom klädd i dina mest älvlika kläder eller det du känner dig fin i och ta med dig det du vill äta eller bjuda på. Länk",
+      "links": [
+        "https://www.facebook.com/events/1474302534456107/?acontext=%7B\"event_action_hist"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "b38ac4e57dceb6f45dce",
+    "source": "imtv",
+    "sourceId": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
+    "seriesKey": "imtv:knalleslaget:smeden",
+    "title": "Knalleslaget",
+    "organizer": "Smeden",
+    "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+    "date": "2026-08-04",
+    "startTime": "19:00",
+    "lastModified": "2026-07-30 00:08:00",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "19:00",
+      "title": "Knalleslaget",
+      "guid": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
+      "creator": "Smeden",
+      "lastModified": "2026-07-30 00:08:00",
+      "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "9267eaeb04f92578d391",
+    "source": "imtv",
+    "sourceId": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+    "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
+    "title": "Skrik och Skrål - Älskade Stad",
+    "organizer": "Skrik och Skrål",
+    "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+    "date": "2026-08-04",
+    "startTime": "19:30",
+    "links": [
+      "https://www.facebook.com/groups/208072148012531"
+    ],
+    "lastModified": "2026-06-02 21:36:13",
+    "raw": {
+      "date": "2026-08-04",
+      "time": "19:30",
+      "title": "Skrik och Skrål - Älskade Stad",
+      "guid": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+      "creator": "Skrik och Skrål",
+      "lastModified": "2026-06-02 21:36:13",
+      "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+      "links": [
+        "https://www.facebook.com/groups/208072148012531"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "9627bfcbc46d676ba22a",
+    "source": "imtv",
+    "sourceId": "{7DDCC9D8-EF02-4AFD-9630-F7FA50A18DE3}",
+    "seriesKey": "imtv:sudergutars-open-gutamal:gramse",
+    "title": "Sudergutars Open Gutamål",
+    "organizer": "Gramse",
+    "description": "Vör haldar en pilbågstävling för laangbågar u teidsriktuge bågar. För ti u anmäl si sa jär de bärt till u var pa plass klucku tei bei Malmgard i Stange u ha mei si 8 u 1 triddels Örtug. Mair införmation finns pa Tröinkeiken Sudergutars Bågskyttar ellar pa medelteidsviku",
+    "date": "2026-08-05",
+    "startTime": "10:00",
+    "lastModified": "2026-07-13 20:53:20",
+    "raw": {
+      "date": "2026-08-05",
+      "time": "10:00",
+      "title": "Sudergutars Open Gutamål",
+      "guid": "{7DDCC9D8-EF02-4AFD-9630-F7FA50A18DE3}",
+      "creator": "Gramse",
+      "lastModified": "2026-07-13 20:53:20",
+      "description": "Vör haldar en pilbågstävling för laangbågar u teidsriktuge bågar. För ti u anmäl si sa jär de bärt till u var pa plass klucku tei bei Malmgard i Stange u ha mei si 8 u 1 triddels Örtug. Mair införmation finns pa Tröinkeiken Sudergutars Bågskyttar ellar pa medelteidsviku",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "bc2799026acca33006ef",
+    "source": "imtv",
+    "sourceId": "{4A4CE32B-4659-499C-A1DC-776C7F20CC8E}",
+    "seriesKey": "imtv:sudergutars-open:gramse",
+    "title": "Sudergutars open",
+    "organizer": "Gramse",
+    "description": "En bågskyttetävling för Långbåge och andra tidsenliga pilbågar.  Kostnad 8 och 1/3 Örtug eller 100:- och tävlingen går på Malmgard i Stånga. Mer info finns på facebook under sudergutars egna sida eller på medeltidsveckan",
+    "date": "2026-08-05",
+    "startTime": "10:00",
+    "lastModified": "2026-07-13 20:52:33",
+    "raw": {
+      "date": "2026-08-05",
+      "time": "10:00",
+      "title": "Sudergutars open",
+      "guid": "{4A4CE32B-4659-499C-A1DC-776C7F20CC8E}",
+      "creator": "Gramse",
+      "lastModified": "2026-07-13 20:52:33",
+      "description": "En bågskyttetävling för Långbåge och andra tidsenliga pilbågar.  Kostnad 8 och 1/3 Örtug eller 100:- och tävlingen går på Malmgard i Stånga. Mer info finns på facebook under sudergutars egna sida eller på medeltidsveckan",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "592294f976c8ceafca9d",
+    "source": "imtv",
+    "sourceId": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-05",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:50:24",
+    "raw": {
+      "date": "2026-08-05",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:50:24",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "4b68ed9aa4120aec2407",
+    "source": "imtv",
+    "sourceId": "{F766ECC2-5A47-4136-B220-AC0DCE0C9AB7}",
+    "seriesKey": "imtv:faerieway-picknick:faerieway-events",
+    "title": "Faerieway picknick",
+    "organizer": "Faerieway Events",
+    "description": "Kom med på vår fantasypicknick i Nordergravar. Ta med en picknickkorg, dina nära, kära och hobbiten du mötte på vägen så njuter vi tillsammans i solen, spelar musik och inväntar TriX eldshow. Leta efter vår Faerieway-flagga i gräset så ses vi där! Länk",
+    "date": "2026-08-05",
+    "startTime": "13:00",
+    "links": [
+      "https://faeriewayevents.org"
+    ],
+    "lastModified": "2026-07-22 21:33:47",
+    "raw": {
+      "date": "2026-08-05",
+      "time": "13:00",
+      "title": "Faerieway picknick",
+      "guid": "{F766ECC2-5A47-4136-B220-AC0DCE0C9AB7}",
+      "creator": "Faerieway Events",
+      "lastModified": "2026-07-22 21:33:47",
+      "description": "Kom med på vår fantasypicknick i Nordergravar. Ta med en picknickkorg, dina nära, kära och hobbiten du mötte på vägen så njuter vi tillsammans i solen, spelar musik och inväntar TriX eldshow. Leta efter vår Faerieway-flagga i gräset så ses vi där! Länk",
+      "links": [
+        "https://faeriewayevents.org"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "9d03f289aa9243bbd1a2",
+    "source": "imtv",
+    "sourceId": "{D009DEA2-AC0E-4140-B5FF-786013D676FD}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-06",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:50:39",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{D009DEA2-AC0E-4140-B5FF-786013D676FD}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:50:39",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "9ecf326c7e9f100b1bf9",
+    "source": "imtv",
+    "sourceId": "{E7EFB5AC-4BDC-4119-B30E-E659258535CF}",
+    "seriesKey": "imtv:taga-i-taga:lina-klasson",
+    "title": "Tåga i tåga",
+    "organizer": "Lina Klasson",
+    "description": "Gå med den eminenta romerska senaten på galenskap och dryckenskap genom visbys gator! Det utlovas dumheter, yoga, Photoshoot, dans och mycket mer!  Kom i ditt finaste lakan men inget mer😜 Vi möts vid österport 13:00, vi börjar med lite fördrink!",
+    "date": "2026-08-06",
+    "startTime": "13:00",
+    "lastModified": "2024-08-06 11:29:59",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "13:00",
+      "title": "Tåga i tåga",
+      "guid": "{E7EFB5AC-4BDC-4119-B30E-E659258535CF}",
+      "creator": "Lina Klasson",
+      "lastModified": "2024-08-06 11:29:59",
+      "description": "Gå med den eminenta romerska senaten på galenskap och dryckenskap genom visbys gator! Det utlovas dumheter, yoga, Photoshoot, dans och mycket mer!  Kom i ditt finaste lakan men inget mer😜 Vi möts vid österport 13:00, vi börjar med lite fördrink!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "e187e818f8cb03b47b5e",
+    "source": "imtv",
+    "sourceId": "{3D70F0FE-7DA6-4B91-AB95-3ECD313619B8}",
+    "seriesKey": "imtv:den-arliga-lajvpicknicken:maria",
+    "title": "Den årliga lajvpicknicken",
+    "organizer": "Maria",
+    "description": "Den årliga lajvpicknicken sker traditionsenligt vid Jungfrutornet. Gå ut genom murfallet och håll till höger så hittar du snart lajviga människor. Ta med egen picknick, valfri klädsel och träffa andra som delar intresset lajv.",
+    "date": "2026-08-06",
+    "startTime": "13:00",
+    "lastModified": "2025-08-05 00:17:29",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "13:00",
+      "title": "Den årliga lajvpicknicken",
+      "guid": "{3D70F0FE-7DA6-4B91-AB95-3ECD313619B8}",
+      "creator": "Maria",
+      "lastModified": "2025-08-05 00:17:29",
+      "description": "Den årliga lajvpicknicken sker traditionsenligt vid Jungfrutornet. Gå ut genom murfallet och håll till höger så hittar du snart lajviga människor. Ta med egen picknick, valfri klädsel och träffa andra som delar intresset lajv.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "17336faf345e0e35d93a",
+    "source": "imtv",
+    "sourceId": "{E50CF772-0BA0-43DE-820E-C8B9E1CEF3D5}",
+    "seriesKey": "imtv:sagoskoj:gycklare",
+    "title": "Sagoskoj",
+    "organizer": "Gycklare",
+    "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+    "date": "2026-08-06",
+    "startTime": "13:04",
+    "lastModified": "2026-06-26 02:21:03",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "13:04",
+      "title": "Sagoskoj",
+      "guid": "{E50CF772-0BA0-43DE-820E-C8B9E1CEF3D5}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-26 02:21:03",
+      "description": "Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "b19fd95a6aca86c543ba",
+    "source": "imtv",
+    "sourceId": "{F58F468B-3A52-4569-B723-0269AC6C1B1B}",
+    "seriesKey": "imtv:catch-the-beer:domarn",
+    "title": "Catch the Beer",
+    "organizer": "Domarn",
+    "description": "Spelas av Randiga Hosmaffian i Nordergravar. Bra underhållning till din Varm & Kall! Kom som åskådare, kom som deltagare! Alla kan spela.",
+    "date": "2026-08-06",
+    "startTime": "14:00",
+    "lastModified": "2024-07-04 00:43:39",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "14:00",
+      "title": "Catch the Beer",
+      "guid": "{F58F468B-3A52-4569-B723-0269AC6C1B1B}",
+      "creator": "Domarn",
+      "lastModified": "2024-07-04 00:43:39",
+      "description": "Spelas av Randiga Hosmaffian i Nordergravar. Bra underhållning till din Varm & Kall! Kom som åskådare, kom som deltagare! Alla kan spela.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "410fb3013ea5f5bb4fe1",
+    "source": "imtv",
+    "sourceId": "{73FF47C0-CFE1-4CEA-AEF7-0380232A6BC3}",
+    "seriesKey": "imtv:varldsmasterskap-i-broll:ali-alkemi",
+    "title": "Världsmästerskap i Broll",
+    "organizer": "Ali alkemi",
+    "description": "Här är där det avgörs! Den mest tuffa och komplicerade sporten i världen. Ingen förstår sig på reglerna med vem bryr sig när den mest underhållande sporten spelas nu för 15året i rad. Kom och se blodtörstiga barbarer mötet spelskickliga araber, vem ska vinna i denna giganters kamp? Bara du som är där kommer veta... plus några som varit där förr, dom som gillar denna sida, min mamma och en kille jag stötte på vid toaletten igår... Länk",
+    "date": "2026-08-06",
+    "startTime": "16:00",
+    "links": [
+      "https://fb.me/e/1HX4E4HYX"
+    ],
+    "lastModified": "2022-07-03 10:14:41",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "16:00",
+      "title": "Världsmästerskap i Broll",
+      "guid": "{73FF47C0-CFE1-4CEA-AEF7-0380232A6BC3}",
+      "creator": "Ali alkemi",
+      "lastModified": "2022-07-03 10:14:41",
+      "description": "Här är där det avgörs! Den mest tuffa och komplicerade sporten i världen. Ingen förstår sig på reglerna med vem bryr sig när den mest underhållande sporten spelas nu för 15året i rad. Kom och se blodtörstiga barbarer mötet spelskickliga araber, vem ska vinna i denna giganters kamp? Bara du som är där kommer veta... plus några som varit där förr, dom som gillar denna sida, min mamma och en kille jag stötte på vid toaletten igår... Länk",
+      "links": [
+        "https://fb.me/e/1HX4E4HYX"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "70debc9fa8752ccbbd3c",
+    "source": "imtv",
+    "sourceId": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
+    "seriesKey": "imtv:karrotorderns-arliga-picknick:karrotorderns-vaktare",
+    "title": "Karrotorderns årliga picknick!",
+    "organizer": "Karrotorderns Väktare",
+    "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
+    "date": "2026-08-06",
+    "startTime": "16:00",
+    "lastModified": "2026-07-04 15:50:18",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "16:00",
+      "title": "Karrotorderns årliga picknick!",
+      "guid": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
+      "creator": "Karrotorderns Väktare",
+      "lastModified": "2026-07-04 15:50:18",
+      "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "5cd5f55dcebdea18f112",
+    "source": "imtv",
+    "sourceId": "{E8DEC6F0-143F-45D3-862D-E810E55C1F47}",
+    "seriesKey": "imtv:knalleslaget:smeden",
+    "title": "Knalleslaget",
+    "organizer": "Smeden",
+    "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+    "date": "2026-08-06",
+    "startTime": "19:00",
+    "lastModified": "2026-07-30 00:08:37",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "19:00",
+      "title": "Knalleslaget",
+      "guid": "{E8DEC6F0-143F-45D3-862D-E810E55C1F47}",
+      "creator": "Smeden",
+      "lastModified": "2026-07-30 00:08:37",
+      "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "d47ebc4e8855bebe7275",
+    "source": "imtv",
+    "sourceId": "{FCE4F551-0C24-405C-912D-C60908D24298}",
+    "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
+    "title": "Skrik och Skrål - Älskade Stad",
+    "organizer": "Skrik och Skrål",
+    "description": "Skrik och Skrål spelar vid Kärleksporten. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
+    "date": "2026-08-06",
+    "startTime": "19:00",
+    "links": [
+      "https://www.facebook.com/groups/208072148012531"
+    ],
+    "lastModified": "2026-06-02 21:37:31",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "19:00",
+      "title": "Skrik och Skrål - Älskade Stad",
+      "guid": "{FCE4F551-0C24-405C-912D-C60908D24298}",
+      "creator": "Skrik och Skrål",
+      "lastModified": "2026-06-02 21:37:31",
+      "description": "Skrik och Skrål spelar vid Kärleksporten. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
+      "links": [
+        "https://www.facebook.com/groups/208072148012531"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "c54d72c9666bf6444c85",
+    "source": "imtv",
+    "sourceId": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
+    "seriesKey": "imtv:scurvy-dogs-piratband:alpackan",
+    "title": "Scurvy dogs piratband",
+    "organizer": "Alpackan",
+    "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
+    "date": "2026-08-06",
+    "startTime": "20:01",
+    "lastModified": "2026-07-11 16:42:25",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "20:01",
+      "title": "Scurvy dogs piratband",
+      "guid": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
+      "creator": "Alpackan",
+      "lastModified": "2026-07-11 16:42:25",
+      "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "2ab752c9431ce3faf6bc",
+    "source": "imtv",
+    "sourceId": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
+    "seriesKey": "imtv:gravrejvet-gravskogsfest:alpackan",
+    "title": "Gravrejvet Gravskogsfest",
+    "organizer": "Alpackan",
+    "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad.",
+    "date": "2026-08-06",
+    "startTime": "22:00",
+    "venue": "Nordergravar, under träbron för femte året i rad",
+    "lastModified": "2026-05-18 10:13:22",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "22:00",
+      "title": "Gravrejvet Gravskogsfest",
+      "guid": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
+      "creator": "Alpackan",
+      "lastModified": "2026-05-18 10:13:22",
+      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "9a10c57b895a8b81ebfb",
+    "source": "imtv",
+    "sourceId": "{589489CD-184D-4002-B8E8-7BEB5EE4E7BE}",
+    "seriesKey": "imtv:arets-samsta-forestallning:admin",
+    "title": "Årets sämsta föreställning",
+    "organizer": "Admin",
+    "description": "Fiffel (med gästartister?) bjuder in till årets sämsta föreställning. Oklart innehåll men fisksåsen är given. Vid Lokebron. Länk",
+    "date": "2026-08-06",
+    "startTime": "22:00",
+    "links": [
+      "https://www.facebook.com/events/1234940876667237"
+    ],
+    "lastModified": "2023-07-08 13:23:52",
+    "raw": {
+      "date": "2026-08-06",
+      "time": "22:00",
+      "title": "Årets sämsta föreställning",
+      "guid": "{589489CD-184D-4002-B8E8-7BEB5EE4E7BE}",
+      "creator": "Admin",
+      "lastModified": "2023-07-08 13:23:52",
+      "description": "Fiffel (med gästartister?) bjuder in till årets sämsta föreställning. Oklart innehåll men fisksåsen är given. Vid Lokebron. Länk",
+      "links": [
+        "https://www.facebook.com/events/1234940876667237"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "132048e60658482850b6",
+    "source": "imtv",
+    "sourceId": "{5A8BFA37-2C81-436E-9CF7-A1F56780FCC5}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-07",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:50:57",
+    "raw": {
+      "date": "2026-08-07",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{5A8BFA37-2C81-436E-9CF7-A1F56780FCC5}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:50:57",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "6ef7ee53f6f372341650",
+    "source": "imtv",
+    "sourceId": "{6E8B06F2-6E50-4BA2-9A13-E5D15505A572}",
+    "seriesKey": "imtv:stealth-mote-for-ninjas:geten",
+    "title": "Stealth-möte för ninjas",
+    "organizer": "Geten",
+    "description": "Vi möts i smyg mitt i gravarna för att diskutera hemliga tekniker för att inte synas och avslutar med en öl. Glöm inte tids riktiga kläder.",
+    "date": "2026-08-07",
+    "startTime": "12:03",
+    "lastModified": "2026-05-03 14:16:22",
+    "raw": {
+      "date": "2026-08-07",
+      "time": "12:03",
+      "title": "Stealth-möte för ninjas",
+      "guid": "{6E8B06F2-6E50-4BA2-9A13-E5D15505A572}",
+      "creator": "Geten",
+      "lastModified": "2026-05-03 14:16:22",
+      "description": "Vi möts i smyg mitt i gravarna för att diskutera hemliga tekniker för att inte synas och avslutar med en öl. Glöm inte tids riktiga kläder.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "a121d61f234c1613907e",
+    "source": "imtv",
+    "sourceId": "{BAE02A98-B7EF-4A8F-B1BB-1961269336E2}",
+    "seriesKey": "imtv:sagoskoj:gycklare",
+    "title": "Sagoskoj",
+    "organizer": "Gycklare",
+    "description": "För sista gången på Medeltidsveckan. Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.  Detta blir den sista sagan i Visby MTV.  2027 gör vi Arboga istället.",
+    "date": "2026-08-07",
+    "startTime": "13:05",
+    "lastModified": "2026-07-30 16:28:35",
+    "raw": {
+      "date": "2026-08-07",
+      "time": "13:05",
+      "title": "Sagoskoj",
+      "guid": "{BAE02A98-B7EF-4A8F-B1BB-1961269336E2}",
+      "creator": "Gycklare",
+      "lastModified": "2026-07-30 16:28:35",
+      "description": "För sista gången på Medeltidsveckan. Gycklarna Putte och Kalle levererar plikttroget ett försök till en saga. På två. Gycklarbron i Nordergravar.  Detta blir den sista sagan i Visby MTV.  2027 gör vi Arboga istället.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "938d94d9dde0f2c9a87d",
+    "source": "imtv",
+    "sourceId": "{13075B63-CA94-446E-8918-69AAD8D7813D}",
+    "seriesKey": "imtv:rollspel-ratatouille:johannes-punkt",
+    "title": "ROLLSPEL: Ratatouille",
+    "organizer": "Johannes Punkt",
+    "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+    "date": "2026-08-07",
+    "startTime": "17:00",
+    "lastModified": "2026-05-15 10:16:00",
+    "raw": {
+      "date": "2026-08-07",
+      "time": "17:00",
+      "title": "ROLLSPEL: Ratatouille",
+      "guid": "{13075B63-CA94-446E-8918-69AAD8D7813D}",
+      "creator": "Johannes Punkt",
+      "lastModified": "2026-05-15 10:16:00",
+      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "3c0cb2039b35ea89555f",
+    "source": "imtv",
+    "sourceId": "{3E995A1E-DF09-46B2-BE2D-DAEF00ADB452}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-08",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2021-07-13 15:51:11",
+    "raw": {
+      "date": "2026-08-08",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{3E995A1E-DF09-46B2-BE2D-DAEF00ADB452}",
+      "creator": "Admin",
+      "lastModified": "2021-07-13 15:51:11",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "0942ecd1dac4b371af3e",
+    "source": "imtv",
+    "sourceId": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
+    "seriesKey": "imtv:improbataljen:gycklare",
+    "title": "Improbataljen",
+    "organizer": "Gycklare",
+    "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
+    "date": "2026-08-08",
+    "startTime": "14:00",
+    "lastModified": "2026-06-26 02:22:49",
+    "raw": {
+      "date": "2026-08-08",
+      "time": "14:00",
+      "title": "Improbataljen",
+      "guid": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
+      "creator": "Gycklare",
+      "lastModified": "2026-06-26 02:22:49",
+      "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "a2d6e50492e67b27d920",
+    "source": "imtv",
+    "sourceId": "{E28D7F6A-8368-45A4-9DA7-962C8D537AAB}",
+    "seriesKey": "imtv:de-sista-ostgotaspelen-nagonsin:admin",
+    "title": "De sista Östgötaspelen någonsin",
+    "organizer": "Admin",
+    "description": "Rävarna kör Visbys mest prestigefyllda femkamp för sista gången! Med glädje, dricka och skratt och grenar som kullerbyttsrace, kåmpiskånk och stockstötning. I Nordergravar.  Missa inte spelens farväl!",
+    "date": "2026-08-08",
+    "startTime": "14:00",
+    "lastModified": "2026-07-24 16:47:33",
+    "raw": {
+      "date": "2026-08-08",
+      "time": "14:00",
+      "title": "De sista Östgötaspelen någonsin",
+      "guid": "{E28D7F6A-8368-45A4-9DA7-962C8D537AAB}",
+      "creator": "Admin",
+      "lastModified": "2026-07-24 16:47:33",
+      "description": "Rävarna kör Visbys mest prestigefyllda femkamp för sista gången! Med glädje, dricka och skratt och grenar som kullerbyttsrace, kåmpiskånk och stockstötning. I Nordergravar.  Missa inte spelens farväl!",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "d08e93e5fd7f08c78d1d",
+    "source": "imtv",
+    "sourceId": "{2B70B38B-8719-4257-B9E5-FD86C2D15B15}",
+    "seriesKey": "imtv:knalleslaget:smeden",
+    "title": "Knalleslaget",
+    "organizer": "Smeden",
+    "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+    "date": "2026-08-08",
+    "startTime": "19:00",
+    "lastModified": "2026-07-30 00:08:59",
+    "raw": {
+      "date": "2026-08-08",
+      "time": "19:00",
+      "title": "Knalleslaget",
+      "guid": "{2B70B38B-8719-4257-B9E5-FD86C2D15B15}",
+      "creator": "Smeden",
+      "lastModified": "2026-07-30 00:08:59",
+      "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "1e1aa36fb90928c2dff3",
+    "source": "imtv",
+    "sourceId": "{BABA97C7-FB3E-4E05-9A22-FA7D7DD238AE}",
+    "seriesKey": "imtv:ringmuren-runt:admin",
+    "title": "Ringmuren runt",
+    "organizer": "Admin",
+    "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+    "date": "2026-08-09",
+    "startTime": "10:00",
+    "links": [
+      "https://www.facebook.com/groups/45607418150"
+    ],
+    "lastModified": "2024-07-03 09:44:41",
+    "raw": {
+      "date": "2026-08-09",
+      "time": "10:00",
+      "title": "Ringmuren runt",
+      "guid": "{BABA97C7-FB3E-4E05-9A22-FA7D7DD238AE}",
+      "creator": "Admin",
+      "lastModified": "2024-07-03 09:44:41",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ]
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "de18ed6df654d515e98c",
+    "source": "imtv",
+    "sourceId": "{9D6F100C-19B3-485A-9872-9810F8FDAC35}",
+    "seriesKey": "imtv:flockens-arliga-matrad-gratis-mat-till-alla:offer",
+    "title": "Flockens årliga maträd - Gratis mat till alla!",
+    "organizer": "offer",
+    "description": "När matstånden plockar ned så tar piraterna från Flocken det som blir över, och ger till alla! Kom och ät dig mätt på, ja - det vet vi aldrig i förväg. Brukar vara en salig blandning på kött, grönsaker och såser. Vi ställer upp i mitten av matstånden. Det kommer synas och höras! Dom stänger 16:00 så vi räknar med att bjuda från 16:30/17:00. Ta gärna med egna bestick och egen tallrik/matlåda! Brukar finnas gott om bröd som går utmärkt att använda som tallrik.",
+    "date": "2026-08-09",
+    "startTime": "17:00",
+    "lastModified": "2025-08-05 00:54:48",
+    "raw": {
+      "date": "2026-08-09",
+      "time": "17:00",
+      "title": "Flockens årliga maträd - Gratis mat till alla!",
+      "guid": "{9D6F100C-19B3-485A-9872-9810F8FDAC35}",
+      "creator": "offer",
+      "lastModified": "2025-08-05 00:54:48",
+      "description": "När matstånden plockar ned så tar piraterna från Flocken det som blir över, och ger till alla! Kom och ät dig mätt på, ja - det vet vi aldrig i förväg. Brukar vara en salig blandning på kött, grönsaker och såser. Vi ställer upp i mitten av matstånden. Det kommer synas och höras! Dom stänger 16:00 så vi räknar med att bjuda från 16:30/17:00. Ta gärna med egna bestick och egen tallrik/matlåda! Brukar finnas gott om bröd som går utmärkt att använda som tallrik.",
+      "links": []
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "id": "a724cdd7dfaed3774c77",
+    "source": "imtv",
+    "sourceId": "{11655AA8-ABBF-4626-AE48-72E76964C9E7}",
+    "seriesKey": "imtv:efterfest-kl-02-00:dreadful-fred",
+    "title": "Efterfest kl 02:00",
+    "organizer": "Dreadful Fred",
+    "description": "Efterfest vid Kärleksporten",
+    "date": "2026-08-09",
+    "startTime": "23:59",
+    "lastModified": "2022-07-06 10:21:24",
+    "raw": {
+      "date": "2026-08-09",
+      "time": "23:59",
+      "title": "Efterfest kl 02:00",
+      "guid": "{11655AA8-ABBF-4626-AE48-72E76964C9E7}",
+      "creator": "Dreadful Fred",
+      "lastModified": "2022-07-06 10:21:24",
+      "description": "Efterfest vid Kärleksporten",
+      "links": []
+    }
+  }
+]

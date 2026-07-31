@@ -1,0 +1,59 @@
+name: Scrape programme data
+
+on:
+  schedule:
+    # Every 3 hours. During the festival week this is frequent enough to
+    # catch booking-status/description changes; the rest of the year it's
+    # nearly a no-op since both sources barely change, but keeps the
+    # scrapers exercised year-round so a site redesign is caught quickly
+    # rather than discovered right before the festival.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-programme-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Scrape official programme (full)
+        run: npm run scrape:official
+        env:
+          SAMPLE_PER_CATEGORY: "0"
+          SCRAPE_OUT_DIR: "raw" # gitignored scratch dir — never overwrites fixtures/
+
+      - name: Scrape imtv.se programme
+        run: npm run scrape:imtv
+        env:
+          FESTIVAL_YEAR: "2026" # update this every year — imtv.se's day headers never include a year
+          SCRAPE_OUT_DIR: "raw"
+
+      - name: Merge and validate
+        run: npm run merge
+        env:
+          SCRAPE_OUT_DIR: "raw"
+
+      - name: Commit updated data if changed
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Update scraped programme data"
+          git push
