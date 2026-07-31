@@ -18,7 +18,10 @@ offline-first use, deployed to GitHub Pages on every push
 **Start here: [ARCHITECTURE.md](./ARCHITECTURE.md)** — schema reference,
 favorite/ignore precedence rule, and known data gaps.
 **[docs/FINDINGS.md](./docs/FINDINGS.md)** has the raw research behind the
-scraper design; **[docs/FUTURE.md](./docs/FUTURE.md)** has deferred ideas.
+scraper design; **[docs/FUTURE.md](./docs/FUTURE.md)** has deferred ideas;
+**[docs/OPERATIONS.md](./docs/OPERATIONS.md)** has practical gotchas
+(CI quirks, PWA update behavior, Dexie versioning, etc.) worth reading
+before touching CI or the data pipeline.
 
 ```sh
 npm install
