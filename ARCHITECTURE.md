@@ -58,7 +58,22 @@ scraper design, and `docs/FUTURE.md` for deferred ideas.
   at both the instance and series level with `resolveDecision()`'s
   precedence rule (below) — tested live: series-favoriting propagates to
   all instances, an instance-level ignore correctly overrides its series
-  favorite, and state survives a reload.
+  favorite, and state survives a reload. Confirmed fully functional with
+  the network hard-disabled (DevTools offline emulation) after one prior
+  load, including a normal (non-hard) reload.
+- **Row interaction**: `src/client/components/SwipeableRow.tsx` implements
+  swipe-right = favorite / swipe-left = ignore via Pointer Events (works for
+  touch and mouse), with a background reveal and axis-locking so vertical
+  page scroll isn't hijacked; a tap (movement that never crosses the lock
+  threshold) opens `EventDetailsModal.tsx` (a native `<dialog>`) with the
+  full description, badges, and a generic "🔗 hostname" link list built from
+  `ticketUrl` + imtv's `links[]` combined — deliberately not labeled "Köp
+  biljett", since not every link is a ticket purchase. The compact row
+  itself only shows time/title/venue/organizer plus icon chips
+  (`src/client/categoryStyles.ts`: one icon + accent color per official
+  category, imtv falls back to a source-level color) and the
+  favorite/ignore/series buttons, which remain as an accessible,
+  discoverable alternative to swiping.
 
 Run `npm run typecheck` any time to confirm everything still compiles.
 `npm run dev` for a local dev server; `GITHUB_PAGES=true npx vite build`

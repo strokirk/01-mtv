@@ -4,6 +4,7 @@ import { resolveDecision } from "../schema";
 import { getCachedEvents, syncEvents, loadUserState, toggleDecision, type Decision, type DecisionLevel } from "./db";
 import EventRow from "./components/EventRow";
 import FilterBar from "./components/FilterBar";
+import EventDetailsModal from "./components/EventDetailsModal";
 
 const EMPTY_STATE: UserState = {
   favoriteSeries: [],
@@ -27,6 +28,7 @@ export default function App() {
   const [source, setSource] = createSignal("");
   const [search, setSearch] = createSignal("");
   const [showIgnored, setShowIgnored] = createSignal(false);
+  const [detailsEvent, setDetailsEvent] = createSignal<EventInstance | null>(null);
 
   onMount(async () => {
     const [cached, state] = await Promise.all([getCachedEvents(), loadUserState()]);
@@ -149,6 +151,7 @@ export default function App() {
                       decision={resolveDecision(event, userState())}
                       isRecurring={(seriesCounts().get(event.seriesKey) ?? 0) > 1}
                       onToggle={handleToggle}
+                      onOpenDetails={setDetailsEvent}
                     />
                   )}
                 </For>
@@ -161,6 +164,8 @@ export default function App() {
       <Show when={generatedAt()}>
         {(g) => <footer class="app-footer">Senast uppdaterat: {formatTimestamp(g())}</footer>}
       </Show>
+
+      <EventDetailsModal event={detailsEvent()} onClose={() => setDetailsEvent(null)} />
     </div>
   );
 }

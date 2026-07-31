@@ -1,21 +1,28 @@
 import { Show } from "solid-js";
-import DOMPurify from "dompurify";
 import type { EventInstance, InstanceDecision } from "../../schema";
-import { categoryLabel } from "../categoryLabels";
+import { categoryStyle, eventAccentColor, SOURCE_STYLES } from "../categoryStyles";
+import SwipeableRow from "./SwipeableRow";
 
 interface Props {
   event: EventInstance;
   decision: InstanceDecision;
   isRecurring: boolean;
   onToggle: (level: "instance" | "series", key: string, decision: "favorite" | "ignore") => void;
+  onOpenDetails: (event: EventInstance) => void;
 }
 
 export default function EventRow(props: Props) {
+  const sourceStyle = () => SOURCE_STYLES[props.event.source];
+
   return (
-    <article
+    <SwipeableRow
       class="event-row"
       classList={{ favorite: props.decision === "favorite", ignored: props.decision === "ignore" }}
+      onSwipeRight={() => props.onToggle("instance", props.event.id, "favorite")}
+      onSwipeLeft={() => props.onToggle("instance", props.event.id, "ignore")}
+      onTap={() => props.onOpenDetails(props.event)}
     >
+      <div class="event-accent" style={{ background: eventAccentColor(props.event) }} />
       <div class="event-time">
         {props.event.startTime}
         {props.event.endTime ? `–${props.event.endTime}` : ""}
@@ -25,44 +32,43 @@ export default function EventRow(props: Props) {
         <p class="event-meta">
           <Show when={props.event.venue}>{(v) => <span class="venue">{v()}</span>}</Show>
           <Show when={props.event.organizer}>{(o) => <span class="organizer">{o()}</span>}</Show>
-          <span class="badge source-badge" data-source={props.event.source}>
-            {props.event.source === "official" ? "Officiellt" : "Inofficiellt"}
+        </p>
+        <p class="event-icons" aria-label="Kategori och status">
+          <span class="icon-chip" title={sourceStyle().label}>
+            {sourceStyle().icon}
           </span>
-          <Show when={props.event.category}>{(c) => <span class="badge category-badge">{categoryLabel(c())}</span>}</Show>
+          <Show when={props.event.category}>
+            {(c) => (
+              <span class="icon-chip" title={c()}>
+                {categoryStyle(c()).icon}
+              </span>
+            )}
+          </Show>
           <Show when={props.event.bookingStatus === "soldout"}>
-            <span class="badge badge-danger">Fullbokad</span>
+            <span class="icon-chip icon-danger" title="Fullbokad">
+              🚫
+            </span>
           </Show>
           <Show when={props.event.bookingStatus === "few-left"}>
-            <span class="badge badge-warn">Få biljetter kvar</span>
+            <span class="icon-chip icon-warn" title="Få biljetter kvar">
+              ⏳
+            </span>
           </Show>
           <Show when={props.event.editorTip}>
-            <span class="badge badge-tip">Veckan tipsar!</span>
+            <span class="icon-chip icon-tip" title="Veckan tipsar!">
+              ⭐
+            </span>
           </Show>
         </p>
-        <Show when={props.event.description}>
-          {(desc) => (
-            <Show when={props.event.source === "official"} fallback={<p class="event-description">{desc()}</p>}>
-              {/* Official descriptions are WP-authored HTML; sanitize before injecting. */}
-              <div class="event-description" innerHTML={DOMPurify.sanitize(desc())} />
-            </Show>
-          )}
-        </Show>
-        <Show when={props.event.ticketUrl}>
-          {(url) => (
-            <a class="ticket-link" href={url()} target="_blank" rel="noreferrer">
-              Köp biljett
-            </a>
-          )}
-        </Show>
       </div>
       <div class="event-actions">
         <button
-          class="icon-button"
+          class="icon-button heart-button"
           classList={{ active: props.decision === "favorite" }}
           title="Favoritmarkera detta tillfälle"
           onClick={() => props.onToggle("instance", props.event.id, "favorite")}
         >
-          ★
+          {props.decision === "favorite" ? "❤️" : "🤍"}
         </button>
         <button
           class="icon-button"
@@ -70,7 +76,7 @@ export default function EventRow(props: Props) {
           title="Ignorera detta tillfälle"
           onClick={() => props.onToggle("instance", props.event.id, "ignore")}
         >
-          ✕
+          🚫
         </button>
         <Show when={props.isRecurring}>
           <button
@@ -78,17 +84,17 @@ export default function EventRow(props: Props) {
             title="Favoritmarkera hela serien"
             onClick={() => props.onToggle("series", props.event.seriesKey, "favorite")}
           >
-            ★ serie
+            ❤️ serie
           </button>
           <button
             class="icon-button series-button"
             title="Ignorera hela serien"
             onClick={() => props.onToggle("series", props.event.seriesKey, "ignore")}
           >
-            ✕ serie
+            🚫 serie
           </button>
         </Show>
       </div>
-    </article>
+    </SwipeableRow>
   );
 }
