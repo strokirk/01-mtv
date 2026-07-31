@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "description": "Combined personal programme viewer for Medeltidsveckan (official + imtv.se)",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "scrape:official": "tsx scripts/scrape-official.ts",
     "scrape:imtv": "tsx scripts/scrape-imtv.ts",
     "merge": "tsx scripts/merge.ts",
