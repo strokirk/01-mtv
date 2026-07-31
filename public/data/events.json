@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T19:35:07.599Z",
+  "generatedAt": "2026-07-31T22:14:34.647Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -17326,8 +17326,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QaVZRFzqes_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Porta Temporum",
             "title": "Medieval Calligraphy – Learn to Write in Gothic Script"
           },
