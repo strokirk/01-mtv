@@ -74,6 +74,15 @@ scraper design, and `docs/FUTURE.md` for deferred ideas.
   category, imtv falls back to a source-level color) and the
   favorite/ignore/series buttons, which remain as an accessible,
   discoverable alternative to swiping.
+- **Theme**: reskinned rose/burgundy + gold to match Medeltidsveckan 2026's
+  actual festival theme, "en kärlekshistoria" ("a love story") — confirmed
+  from medeltidsveckan.se's own homepage copy, not assumed. Two 700-year-old
+  public-domain Codex Manesse illuminations (`public/art/`, credited in
+  `public/art/ATTRIBUTIONS.md`) appear in a header banner
+  (`src/client/components/ThemeBanner.tsx`) and the empty "Mitt schema"
+  state — resized/re-encoded to WebP and explicitly added to the service
+  worker's precache `globPatterns` (`vite.config.ts`) so they're available
+  offline too, not just the app code and data.
 
 Run `npm run typecheck` any time to confirm everything still compiles.
 `npm run dev` for a local dev server; `GITHUB_PAGES=true npx vite build`

@@ -1,14 +1,18 @@
 :root {
+  /* "En kärlekshistoria" — Medeltidsveckan 2026's own festival theme
+     ("a love story", per medeltidsveckan.se's homepage copy) — rose/
+     burgundy + gold rather than the previous plain amber-on-brown. */
   color-scheme: dark;
-  --bg: #1b1410;
-  --surface: #2a2019;
-  --surface-hi: #372a20;
-  --text: #f2e9df;
-  --text-dim: #b8a999;
-  --accent: #d9a441;
-  --danger: #c1543c;
-  --warn: #c99a2e;
-  --border: #4a392b;
+  --bg: #241019;
+  --surface: #3a1c28;
+  --surface-hi: #4a2534;
+  --text: #f7e9ee;
+  --text-dim: #cba3b1;
+  --accent: #d98fa0;
+  --gold: #d4a54a;
+  --danger: #a83b52;
+  --warn: #c9954a;
+  --border: #5a2f3f;
 }
 
 * {
@@ -249,7 +253,7 @@ body {
 }
 
 .icon-chip.icon-tip {
-  background: var(--accent);
+  background: var(--gold);
 }
 
 .event-actions {
@@ -269,10 +273,13 @@ body {
   line-height: 1;
 }
 
+/* Generic "active" state (currently only the ignore button uses it — the
+   heart button overrides this below) uses --danger, not the rose --accent,
+   so "ignored" reads clearly distinct from "favorited". */
 .icon-button.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #221a12;
+  background: var(--danger);
+  border-color: var(--danger);
+  color: #fdf0f2;
 }
 
 /* The heart emoji itself already conveys favorited state (🤍 vs ❤️), so
@@ -372,4 +379,60 @@ body {
   color: var(--accent);
   text-decoration: underline;
   font-size: 0.85rem;
+}
+
+.theme-banner {
+  position: relative;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  margin: 0.6rem 0;
+  border: 1px solid var(--border);
+  max-height: 9rem;
+}
+
+.theme-banner img {
+  display: block;
+  width: 100%;
+  height: 9rem;
+  object-fit: cover;
+  /* Crop to the embrace scene (lower two-thirds of the folio) rather than
+     the heraldic shield/helmet-crest at the top. */
+  object-position: 50% 66%;
+}
+
+.theme-banner-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.5rem 0.7rem;
+  background: linear-gradient(0deg, rgba(20, 8, 13, 0.88) 10%, rgba(20, 8, 13, 0.1) 90%);
+}
+
+.theme-banner-title {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.theme-banner-credit {
+  margin: 0.15rem 0 0;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+.empty-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.empty-schedule img {
+  width: 9rem;
+  height: auto;
+  border-radius: 0.6rem;
+  border: 1px solid var(--border);
 }

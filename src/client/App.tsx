@@ -5,6 +5,7 @@ import { getCachedEvents, syncEvents, loadUserState, toggleDecision, type Decisi
 import EventRow from "./components/EventRow";
 import FilterBar from "./components/FilterBar";
 import EventDetailsModal from "./components/EventDetailsModal";
+import ThemeBanner from "./components/ThemeBanner";
 
 const EMPTY_STATE: UserState = {
   favoriteSeries: [],
@@ -111,6 +112,8 @@ export default function App() {
         </nav>
       </header>
 
+      <ThemeBanner />
+
       <Show when={syncError()}>
         <p class="banner banner-warn">{syncError()}</p>
       </Show>
@@ -135,9 +138,20 @@ export default function App() {
         <Show
           when={grouped().length > 0}
           fallback={
-            <p class="empty">
-              {view() === "schedule" ? "Du har inte favoritmarkerat något än." : "Inga event matchar filtren."}
-            </p>
+            <Show
+              when={view() === "schedule"}
+              fallback={<p class="empty">Inga event matchar filtren.</p>}
+            >
+              <div class="empty empty-schedule">
+                <img
+                  src={`${import.meta.env.BASE_URL}art/codex-manesse-otto-brandenburg-chess.webp`}
+                  alt="Otto IV av Brandenburg spelar schack med en dam. Miniatyr ur Codex Manesse, ca 1305–1340."
+                  width="700"
+                  height="1362"
+                />
+                <p>Du har inte favoritmarkerat något än — dags att hitta din egen kärlekshistoria på veckan.</p>
+              </div>
+            </Show>
           }
         >
           <For each={grouped()}>
