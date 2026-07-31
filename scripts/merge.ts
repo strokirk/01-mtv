@@ -1,6 +1,9 @@
 // Combines the per-source scraped events (scripts/scrape-official.ts and
 // scripts/scrape-imtv.ts, which write fixtures/<source>/events.json) into
-// the single file the client app actually fetches: data/events.json.
+// the single file the client app actually fetches: public/data/events.json.
+// It lives under public/ specifically so Vite serves it as a static asset
+// at /data/events.json both in dev and in the built dist/ output — same
+// origin as the app once deployed, no CORS involved.
 //
 // Validates the merged result against EventsFileSchema before writing, so a
 // broken scrape (or a schema drift after a site redesign) fails the CI run
@@ -68,12 +71,12 @@ function main() {
     process.exit(1);
   }
 
-  mkdirSync(new URL("../data", import.meta.url), { recursive: true });
-  const outPath = new URL("../data/events.json", import.meta.url);
+  mkdirSync(new URL("../public/data", import.meta.url), { recursive: true });
+  const outPath = new URL("../public/data/events.json", import.meta.url);
   writeFileSync(outPath, JSON.stringify(validation.data, null, 2) + "\n");
 
   console.log(
-    `Wrote data/events.json: ${deduped.length} events (${deduped.filter((e) => e.source === "official").length} official, ${deduped.filter((e) => e.source === "imtv").length} imtv).`
+    `Wrote public/data/events.json: ${deduped.length} events (${deduped.filter((e) => e.source === "official").length} official, ${deduped.filter((e) => e.source === "imtv").length} imtv).`
   );
 }
 

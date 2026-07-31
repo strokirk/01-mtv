@@ -34,13 +34,14 @@ should never need to touch the network to finish this.
   scraped data, not synthetic — good enough to build and visually check the
   whole UI against.
 - **Merged output**: `scripts/merge.ts` combines both sources into
-  `data/events.json` (schema: `{ schemaVersion, generatedAt, events: [...] }`,
-  validated against `EventsFileSchema`). This is the exact file your client
-  app will fetch. Regenerate it any time with `npm run merge` (reads from
-  `fixtures/` by default — no network needed).
+  `public/data/events.json` (schema: `{ schemaVersion, generatedAt, events: [...] }`,
+  validated against `EventsFileSchema`). It lives under `public/` so Vite
+  serves it as-is at `/data/events.json` in both dev and the built site —
+  same origin as the app, no CORS involved. Regenerate it any time with
+  `npm run merge` (reads from `fixtures/` by default — no network needed).
 - **CI**: `.github/workflows/scrape.yml` runs both scrapers for real every 3
   hours (`SAMPLE_PER_CATEGORY=0` for a full scrape) plus on manual dispatch,
-  merges, and commits `data/events.json` if it changed. This is the *only*
+  merges, and commits `public/data/events.json` if it changed. This is the *only*
   place live scraping happens — both sources are confirmed to send no CORS
   headers, so a client-side fetch of medeltidsveckan.se or imtv.se from a
   different origin will always be blocked by the browser. Don't try it.
@@ -140,15 +141,15 @@ cache + `UserState`), **`vite-plugin-pwa`** for the service worker
 
 Core behavior to build:
 
-1. **Data loading**: fetch `data/events.json` same-origin (this repo will be
-   served via GitHub Pages, so `/data/events.json` is same-origin — no CORS
-   concern once deployed). Stale-while-revalidate: render instantly from
-   whatever's cached in IndexedDB, refetch in the background when online,
-   and diff the incoming events against what's cached **by `id`** so
-   `UserState` entries survive a re-import even when unrelated fields
-   (description, booking status) change underneath.
+1. **Data loading**: fetch `/data/events.json` same-origin (served straight
+   out of `public/data/events.json`; this repo is deployed to GitHub Pages,
+   so it's same-origin — no CORS concern once deployed). Stale-while-
+   revalidate: render instantly from whatever's cached in IndexedDB, refetch
+   in the background when online, and diff the incoming events against
+   what's cached **by `id`** so `UserState` entries survive a re-import even
+   when unrelated fields (description, booking status) change underneath.
 2. **List/day view**: group by `date`, then time — the merged
-   `data/events.json` is already sorted this way. Both sources interleaved
+   `public/data/events.json` is already sorted this way. Both sources interleaved
    is fine; a small source badge/icon per event is probably enough
    distinction.
 3. **Filters**: category (official only — 19 possible `cat-*` values, see
@@ -163,10 +164,10 @@ Core behavior to build:
    instances is the main point of the whole app.
 5. **Offline resilience**: this is explicitly for unreliable festival-week
    network — the app should be fully usable (browse, favorite, ignore) with
-   zero network after the first successful load. Precache `data/events.json`
+   zero network after the first successful load. Precache `/data/events.json`
    and the app shell via the service worker.
 
 To develop and test without any network access: use the committed
 `fixtures/*/events.json` (via `npm run merge`, which needs no network) or
-just point your dev server at the already-generated `data/events.json`
+just point your dev server at the already-generated `public/data/events.json`
 directly. Both are real scraped data, not placeholders.
