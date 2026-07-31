@@ -85,6 +85,39 @@ body {
   color: var(--warn);
 }
 
+.banner-info {
+  background: var(--surface-hi);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+}
+
+.timeblocks-trigger {
+  position: relative;
+  padding: 0.4rem 0.6rem;
+}
+
+.timeblocks-trigger.active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.timeblocks-count {
+  position: absolute;
+  top: -0.3rem;
+  right: -0.3rem;
+  background: var(--accent);
+  color: #221a12;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: 999px;
+  min-width: 1.1rem;
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.2rem;
+}
+
 .filter-bar {
   display: flex;
   flex-direction: column;
@@ -102,8 +135,32 @@ body {
   font-size: 0.9rem;
 }
 
+.search-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
 .search-input {
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.filter-toggle {
+  flex-shrink: 0;
+  width: 2.4rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  color: var(--text-dim);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-toggle.active {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .filter-selects {
@@ -215,6 +272,16 @@ body {
   margin: 0 0 0.2rem;
   font-size: 1rem;
   line-height: 1.25;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.source-icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  color: var(--gold);
+  font-size: 0.85em;
 }
 
 .event-meta {
@@ -387,17 +454,18 @@ body {
   overflow: hidden;
   margin: 0.6rem 0;
   border: 1px solid var(--border);
-  max-height: 9rem;
+  max-height: 12.5rem;
 }
 
 .theme-banner img {
   display: block;
   width: 100%;
-  height: 9rem;
+  height: 12.5rem;
   object-fit: cover;
   /* Crop to the embrace scene (lower two-thirds of the folio) rather than
-     the heraldic shield/helmet-crest at the top. */
-  object-position: 50% 66%;
+     the heraldic shield/helmet-crest at the top. Taller than before so the
+     bottom text overlay doesn't sit right over the woman's face. */
+  object-position: 50% 58%;
 }
 
 .theme-banner-text {
@@ -435,4 +503,62 @@ body {
   height: auto;
   border-radius: 0.6rem;
   border: 1px solid var(--border);
+}
+
+.timeblock-list {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.timeblock-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--surface-hi);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.timeblock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.timeblock-form input {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.timeblock-time-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.timeblock-time-row input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.add-timeblock-button {
+  align-self: flex-start;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #221a12;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
 }

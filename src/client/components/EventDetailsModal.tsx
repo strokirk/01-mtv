@@ -1,5 +1,7 @@
 import { Show, For, createEffect, createMemo } from "solid-js";
+import { Dynamic } from "solid-js/web";
 import DOMPurify from "dompurify";
+import { FaSolidXmark, FaSolidBan, FaSolidHourglassHalf, FaSolidStar, FaSolidLink } from "solid-icons/fa";
 import type { EventInstance } from "../../schema";
 import { categoryLabel } from "../categoryLabels";
 import { categoryStyle, SOURCE_STYLES } from "../categoryStyles";
@@ -44,7 +46,7 @@ export default function EventDetailsModal(props: Props) {
         {(event) => (
           <>
             <button class="modal-close" onClick={() => props.onClose()} aria-label="Stäng">
-              ✕
+              <FaSolidXmark />
             </button>
             <h2>{event().title}</h2>
             <p class="modal-meta">
@@ -57,23 +59,29 @@ export default function EventDetailsModal(props: Props) {
             </p>
             <p class="modal-badges">
               <span>
-                {SOURCE_STYLES[event().source].icon} {SOURCE_STYLES[event().source].label}
+                <Dynamic component={SOURCE_STYLES[event().source].Icon} /> {SOURCE_STYLES[event().source].label}
               </span>
               <Show when={event().category}>
                 {(c) => (
                   <span>
-                    {categoryStyle(c()).icon} {categoryLabel(c())}
+                    <Dynamic component={categoryStyle(c()).Icon} /> {categoryLabel(c())}
                   </span>
                 )}
               </Show>
               <Show when={event().bookingStatus === "soldout"}>
-                <span>🚫 Fullbokad</span>
+                <span>
+                  <FaSolidBan /> Fullbokad
+                </span>
               </Show>
               <Show when={event().bookingStatus === "few-left"}>
-                <span>⏳ Få biljetter kvar</span>
+                <span>
+                  <FaSolidHourglassHalf /> Få biljetter kvar
+                </span>
               </Show>
               <Show when={event().editorTip}>
-                <span>⭐ Veckan tipsar!</span>
+                <span>
+                  <FaSolidStar /> Veckan tipsar!
+                </span>
               </Show>
             </p>
             <Show when={event().description}>
@@ -86,7 +94,13 @@ export default function EventDetailsModal(props: Props) {
             </Show>
             <Show when={links().length > 0}>
               <div class="modal-links">
-                <For each={links()}>{(url) => <a href={url} target="_blank" rel="noreferrer">🔗 {linkLabel(url)}</a>}</For>
+                <For each={links()}>
+                  {(url) => (
+                    <a href={url} target="_blank" rel="noreferrer">
+                      <FaSolidLink /> {linkLabel(url)}
+                    </a>
+                  )}
+                </For>
               </div>
             </Show>
           </>

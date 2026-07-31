@@ -1,4 +1,5 @@
 import { createSignal, type JSX } from "solid-js";
+import { FaSolidHeart, FaSolidBan } from "solid-icons/fa";
 
 interface Props {
   onSwipeLeft: () => void;
@@ -81,13 +82,13 @@ export default function SwipeableRow(props: Props) {
   return (
     <div class="swipe-wrapper">
       <div class="swipe-reveal swipe-reveal-right" style={{ opacity: Math.min(1, Math.max(0, dragX()) / THRESHOLD) }}>
-        ❤️ Favorit
+        <FaSolidHeart /> Favorit
       </div>
       <div
         class="swipe-reveal swipe-reveal-left"
         style={{ opacity: Math.min(1, Math.max(0, -dragX()) / THRESHOLD) }}
       >
-        Ignorera 🚫
+        Ignorera <FaSolidBan />
       </div>
       <div
         class={props.class}

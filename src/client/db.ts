@@ -12,10 +12,22 @@ interface MetaRecord {
 type UserStateRecord = UserState & { id: string };
 const USER_STATE_ID = "singleton";
 
+// A user-defined "I'm unavailable" window (e.g. 10:30-16:00 on a specific
+// day). Purely a client-local scheduling concept — has nothing to do with
+// the scraped event schema, so it lives here rather than in ../schema.ts.
+export interface TimeBlock {
+  id: string;
+  date: string; // YYYY-MM-DD
+  startTime: string; // HH:MM
+  endTime: string; // HH:MM
+  label?: string;
+}
+
 class ProgrammeDB extends Dexie {
   events!: Table<EventInstance, string>;
   meta!: Table<MetaRecord, string>;
   userState!: Table<UserStateRecord, string>;
+  timeBlocks!: Table<TimeBlock, string>;
 
   constructor() {
     super("mtv-programme");
@@ -23,6 +35,12 @@ class ProgrammeDB extends Dexie {
       events: "id, date, source, seriesKey, category",
       meta: "key",
       userState: "id",
+    });
+    this.version(2).stores({
+      events: "id, date, source, seriesKey, category",
+      meta: "key",
+      userState: "id",
+      timeBlocks: "id, date",
     });
   }
 }
@@ -106,4 +124,38 @@ export async function syncEvents(): Promise<{ events: EventInstance[]; generated
   });
 
   return { events: [...parsed.events].sort(byDateTime), generatedAt: parsed.generatedAt };
+}
+
+export async function listTimeBlocks(): Promise<TimeBlock[]> {
+  const blocks = await db.timeBlocks.toArray();
+  return blocks.sort((a, b) => `${a.date}T${a.startTime}`.localeCompare(`${b.date}T${b.startTime}`));
+}
+
+export async function addTimeBlock(block: Omit<TimeBlock, "id">): Promise<TimeBlock> {
+  const withId: TimeBlock = { ...block, id: crypto.randomUUID() };
+  await db.timeBlocks.put(withId);
+  return withId;
+}
+
+export async function removeTimeBlock(id: string): Promise<void> {
+  await db.timeBlocks.delete(id);
+}
+
+// Whether an event falls inside any user-defined "unavailable" window.
+// Events with a real endTime are checked as a proper interval overlap;
+// events with only a startTime (common for imtv) are treated as a single
+// point in time and are "blocked" if that point falls within the window
+// (inclusive of the start, exclusive of the end — same half-open
+// convention as the interval case).
+export function isBlockedByTimeSlot(
+  event: Pick<EventInstance, "date" | "startTime" | "endTime">,
+  blocks: TimeBlock[]
+): boolean {
+  return blocks.some((block) => {
+    if (block.date !== event.date) return false;
+    if (event.endTime) {
+      return event.startTime < block.endTime && block.startTime < event.endTime;
+    }
+    return event.startTime >= block.startTime && event.startTime < block.endTime;
+  });
 }

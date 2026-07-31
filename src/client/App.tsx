@@ -1,10 +1,24 @@
 import { createSignal, createMemo, onMount, For, Show } from "solid-js";
+import { FaSolidCalendarXmark } from "solid-icons/fa";
 import type { EventInstance, UserState } from "../schema";
 import { resolveDecision } from "../schema";
-import { getCachedEvents, syncEvents, loadUserState, toggleDecision, type Decision, type DecisionLevel } from "./db";
+import {
+  getCachedEvents,
+  syncEvents,
+  loadUserState,
+  toggleDecision,
+  listTimeBlocks,
+  addTimeBlock,
+  removeTimeBlock,
+  isBlockedByTimeSlot,
+  type Decision,
+  type DecisionLevel,
+  type TimeBlock,
+} from "./db";
 import EventRow from "./components/EventRow";
 import FilterBar from "./components/FilterBar";
 import EventDetailsModal from "./components/EventDetailsModal";
+import TimeBlocksModal from "./components/TimeBlocksModal";
 import ThemeBanner from "./components/ThemeBanner";
 
 const EMPTY_STATE: UserState = {
@@ -30,12 +44,15 @@ export default function App() {
   const [search, setSearch] = createSignal("");
   const [showIgnored, setShowIgnored] = createSignal(false);
   const [detailsEvent, setDetailsEvent] = createSignal<EventInstance | null>(null);
+  const [timeBlocks, setTimeBlocks] = createSignal<TimeBlock[]>([]);
+  const [timeBlocksOpen, setTimeBlocksOpen] = createSignal(false);
 
   onMount(async () => {
-    const [cached, state] = await Promise.all([getCachedEvents(), loadUserState()]);
+    const [cached, state, blocks] = await Promise.all([getCachedEvents(), loadUserState(), listTimeBlocks()]);
     setEvents(cached.events);
     setGeneratedAt(cached.generatedAt);
     setUserState(state);
+    setTimeBlocks(blocks);
     setLoading(cached.events.length === 0);
 
     try {
@@ -66,12 +83,21 @@ export default function App() {
     Array.from(new Set(events().map((e) => e.venue).filter((v): v is string => Boolean(v)))).sort()
   );
 
+  const blockedCount = createMemo(
+    () => events().filter((e) => isBlockedByTimeSlot(e, timeBlocks())).length
+  );
+
   const filtered = createMemo(() => {
     const state = userState();
+    const blocks = timeBlocks();
     const q = search().trim().toLowerCase();
     const inSchedule = view() === "schedule";
 
     return events().filter((e) => {
+      // A scheduling constraint the user set explicitly — hidden in every
+      // view, even "Mitt schema", since being unavailable overrides any
+      // favorite.
+      if (isBlockedByTimeSlot(e, blocks)) return false;
       const decision = resolveDecision(e, state);
       if (inSchedule) return decision === "favorite";
       if (decision === "ignore" && !showIgnored()) return false;
@@ -98,6 +124,16 @@ export default function App() {
     setUserState(next);
   }
 
+  async function handleAddTimeBlock(block: Omit<TimeBlock, "id">) {
+    await addTimeBlock(block);
+    setTimeBlocks(await listTimeBlocks());
+  }
+
+  async function handleRemoveTimeBlock(id: string) {
+    await removeTimeBlock(id);
+    setTimeBlocks(await listTimeBlocks());
+  }
+
   return (
     <div class="app">
       <header class="app-header">
@@ -109,6 +145,18 @@ export default function App() {
           <button classList={{ active: view() === "schedule" }} onClick={() => setView("schedule")}>
             Mitt schema
           </button>
+          <button
+            class="icon-button timeblocks-trigger"
+            classList={{ active: timeBlocks().length > 0 }}
+            title="Otillgänglig tid"
+            aria-label="Otillgänglig tid"
+            onClick={() => setTimeBlocksOpen(true)}
+          >
+            <FaSolidCalendarXmark />
+            <Show when={timeBlocks().length > 0}>
+              <span class="timeblocks-count">{timeBlocks().length}</span>
+            </Show>
+          </button>
         </nav>
       </header>
 
@@ -116,6 +164,12 @@ export default function App() {
 
       <Show when={syncError()}>
         <p class="banner banner-warn">{syncError()}</p>
+      </Show>
+
+      <Show when={blockedCount() > 0}>
+        <p class="banner banner-info">
+          {blockedCount()} event {blockedCount() === 1 ? "är dolt" : "är dolda"} pga otillgänglig tid.
+        </p>
       </Show>
 
       <FilterBar
@@ -180,6 +234,13 @@ export default function App() {
       </Show>
 
       <EventDetailsModal event={detailsEvent()} onClose={() => setDetailsEvent(null)} />
+      <TimeBlocksModal
+        open={timeBlocksOpen()}
+        blocks={timeBlocks()}
+        onClose={() => setTimeBlocksOpen(false)}
+        onAdd={handleAddTimeBlock}
+        onRemove={handleRemoveTimeBlock}
+      />
     </div>
   );
 }

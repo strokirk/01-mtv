@@ -83,6 +83,29 @@ scraper design, and `docs/FUTURE.md` for deferred ideas.
   state — resized/re-encoded to WebP and explicitly added to the service
   worker's precache `globPatterns` (`vite.config.ts`) so they're available
   offline too, not just the app code and data.
+- **Icons**: all functional UI icons (source, category, booking status,
+  favorite/ignore actions, filter/calendar triggers) use `solid-icons/fa`
+  components, not emoji — see `src/client/categoryStyles.ts` for the
+  category→icon+color map. Category icons are picked dynamically per event,
+  so they're rendered via Solid's `<Dynamic>` (`solid-js/web`); statically
+  known icons (heart, ban, filter, etc.) are imported and used directly.
+- **Filters**: collapsed behind a filter-icon toggle next to the search box
+  (`src/client/components/FilterBar.tsx`) — only search is visible by
+  default; category/venue/source/"visa ignorerade" expand on click. The
+  toggle button gets an `.active` style when any of those filters are set,
+  so it stays discoverable even while collapsed.
+- **Time blocks**: users can mark themselves "unavailable" for one or more
+  date+time ranges (e.g. Wednesday 10:30–16:00) via a calendar-icon button
+  in the header → `TimeBlocksModal.tsx`. Stored in a dedicated Dexie table
+  (`db.timeBlocks`, `src/client/db.ts`) — a `TimeBlock` is
+  `{ id, date, startTime, endTime, label? }`, purely client-local, unrelated
+  to the scraped-event schema. `isBlockedByTimeSlot()` (also in `db.ts`)
+  hides any overlapping event in **every** view, including "Mitt schema" —
+  a hard scheduling constraint overrides even a favorite. Events with a real
+  `endTime` get a proper interval-overlap check; point-in-time events
+  (common for imtv, no `endTime`) are blocked if their start falls inside
+  the window. A banner shows how many events are currently hidden this way,
+  so the effect isn't invisible.
 
 Run `npm run typecheck` any time to confirm everything still compiles.
 `npm run dev` for a local dev server; `GITHUB_PAGES=true npx vite build`

@@ -28,6 +28,7 @@
     "dexie": "^4.4.4",
     "dompurify": "^3.4.12",
     "entities": "^8.0.0",
+    "solid-icons": "^1.2.0",
     "solid-js": "^1.9.14",
     "zod": "^3.24.0",
     "zod-to-json-schema": "^3.25.2"
