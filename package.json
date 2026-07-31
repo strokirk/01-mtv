@@ -1,0 +1,23 @@
+{
+  "name": "01-mtv",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Combined personal programme viewer for Medeltidsveckan (official + imtv.se)",
+  "scripts": {
+    "scrape:official": "tsx scripts/scrape-official.ts",
+    "scrape:imtv": "tsx scripts/scrape-imtv.ts",
+    "merge": "tsx scripts/merge.ts",
+    "scrape": "npm run scrape:official && npm run scrape:imtv && npm run merge",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "zod": "^3.24.0"
+  }
+}
