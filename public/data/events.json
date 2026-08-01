@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T02:54:04.900Z",
+  "generatedAt": "2026-08-01T06:03:23.023Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -19866,29 +19866,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2befc7d23a9e17ab31a9",
-      "source": "imtv",
-      "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
-      "seriesKey": "imtv:magic-commander:twinkleberry",
-      "title": "Magic Commander",
-      "organizer": "Twinkleberry",
-      "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
-      "date": "2026-08-04",
-      "startTime": "14:00",
-      "lastModified": "2026-07-08 16:09:00",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "14:00",
-        "title": "Magic Commander",
-        "guid": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
-        "creator": "Twinkleberry",
-        "lastModified": "2026-07-08 16:09:00",
-        "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "d9c427926da005e6f298",
       "source": "imtv",
       "sourceId": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
@@ -19907,6 +19884,29 @@
         "creator": "Domarn",
         "lastModified": "2024-07-03 22:07:48",
         "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2befc7d23a9e17ab31a9",
+      "source": "imtv",
+      "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+      "seriesKey": "imtv:magic-commander:twinkleberry",
+      "title": "Magic Commander",
+      "organizer": "Twinkleberry",
+      "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
+      "date": "2026-08-04",
+      "startTime": "14:00",
+      "lastModified": "2026-07-08 16:09:00",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "14:00",
+        "title": "Magic Commander",
+        "guid": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+        "creator": "Twinkleberry",
+        "lastModified": "2026-07-08 16:09:00",
+        "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
         "links": []
       }
     },
@@ -40175,6 +40175,34 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "31c793521226bdc923ff",
+      "source": "imtv",
+      "sourceId": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
+      "seriesKey": "imtv:helgon-picnic:mynta",
+      "title": "Helgon-picnic",
+      "organizer": "Mynta",
+      "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
+      "date": "2026-08-06",
+      "startTime": "20:00",
+      "links": [
+        "Helgon.se"
+      ],
+      "lastModified": "2026-08-01 07:20:39",
+      "raw": {
+        "date": "2026-08-06",
+        "time": "20:00",
+        "title": "Helgon-picnic",
+        "guid": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
+        "creator": "Mynta",
+        "lastModified": "2026-08-01 07:20:39",
+        "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
+        "links": [
+          "Helgon.se"
+        ]
       }
     },
     {
