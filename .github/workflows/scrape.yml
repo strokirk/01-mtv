@@ -2,11 +2,12 @@ name: Scrape programme data
 
 on:
   schedule:
-    # Every 3 hours. During the festival week this is frequent enough to
-    # catch booking-status/description changes; the rest of the year it's
-    # nearly a no-op since both sources barely change, but keeps the
-    # scrapers exercised year-round so a site redesign is caught quickly
-    # rather than discovered right before the festival.
+    # Every 3 hours, but only actually does anything up through the Sunday
+    # of festival week — see the "Check if still within the active
+    # scraping window" step below, which is where that cutoff is enforced
+    # and where it needs updating each year. Before the cutoff, running
+    # year-round keeps the scrapers exercised so a site redesign is caught
+    # quickly rather than discovered right before the next festival.
     - cron: "0 */3 * * *"
   workflow_dispatch: {}
 
@@ -21,32 +22,59 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
+      # cron has no "stop after this date" of its own, so the every-3-hours
+      # schedule above runs year-round — this step is what actually turns it
+      # off once the festival week has passed. Only gates the `schedule`
+      # trigger; workflow_dispatch (manual runs, e.g. while testing) always
+      # goes through regardless of the date.
+      #
+      # CUTOFF is the Monday after the festival's last day — update both it
+      # and FESTIVAL_YEAR below every year.
+      - name: Check if still within the active scraping window
+        id: window
+        run: |
+          cutoff="2026-08-10"
+          today=$(date -u +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$today" \> "$cutoff" ]; then
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "Past $cutoff — skipping scheduled scrape. Update CUTOFF in scrape.yml for next year's festival."
+          else
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.window.outputs.active == 'true'
 
       - uses: actions/setup-node@v4
+        if: steps.window.outputs.active == 'true'
         with:
           node-version: 22
 
       - run: npm ci
+        if: steps.window.outputs.active == 'true'
 
       - name: Scrape official programme (full)
+        if: steps.window.outputs.active == 'true'
         run: npm run scrape:official
         env:
           SAMPLE_PER_CATEGORY: "0"
           SCRAPE_OUT_DIR: "raw" # gitignored scratch dir — never overwrites fixtures/
 
       - name: Scrape imtv.se programme
+        if: steps.window.outputs.active == 'true'
         run: npm run scrape:imtv
         env:
           FESTIVAL_YEAR: "2026" # update this every year — imtv.se's day headers never include a year
           SCRAPE_OUT_DIR: "raw"
 
       - name: Merge and validate
+        if: steps.window.outputs.active == 'true'
         run: npm run merge
         env:
           SCRAPE_OUT_DIR: "raw"
 
       - name: Commit updated data if changed
+        if: steps.window.outputs.active == 'true'
         run: |
           if git diff --quiet -- public/data/; then
             echo "No changes to commit."

@@ -74,6 +74,7 @@ export default function App() {
   const [source, setSource] = createSignal("");
   const [search, setSearch] = createSignal("");
   const [showIgnored, setShowIgnored] = createSignal(false);
+  const [hideSoldOut, setHideSoldOut] = createSignal(false);
   const [detailsEvent, setDetailsEvent] = createSignal<EventInstance | null>(null);
   const [timeBlocks, setTimeBlocks] = createSignal<TimeBlock[]>([]);
   const [timeBlocksOpen, setTimeBlocksOpen] = createSignal(false);
@@ -182,11 +183,19 @@ export default function App() {
       // favorite.
       if (isBlockedByTimeSlot(e, blocks)) return false;
       const decision = resolveDecision(e, state);
-      if (inSchedule) return decision === "favorite";
-      if (decision === "ignore" && !showIgnored()) return false;
+      // The decision check branches by view, but every filter below it
+      // applies in both views — category/venue/source/search/sold-out used
+      // to be skipped entirely in "Mitt schema" because this was an early
+      // `return`, not a `continue`.
+      if (inSchedule) {
+        if (decision !== "favorite") return false;
+      } else if (decision === "ignore" && !showIgnored()) {
+        return false;
+      }
       if (category() && e.category !== category()) return false;
       if (venue() && e.venue !== venue()) return false;
       if (source() && e.source !== source()) return false;
+      if (hideSoldOut() && e.bookingStatus === "soldout") return false;
       if (q && !e.title.toLowerCase().includes(q) && !(e.organizer ?? "").toLowerCase().includes(q)) return false;
       return true;
     });
@@ -329,6 +338,8 @@ export default function App() {
         onSearch={setSearch}
         showIgnored={showIgnored()}
         onShowIgnored={setShowIgnored}
+        hideSoldOut={hideSoldOut()}
+        onHideSoldOut={setHideSoldOut}
         viewIsSchedule={view() === "schedule"}
       />
 

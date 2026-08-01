@@ -15,12 +15,15 @@ interface Props {
   onSearch: (v: string) => void;
   showIgnored: boolean;
   onShowIgnored: (v: boolean) => void;
+  hideSoldOut: boolean;
+  onHideSoldOut: (v: boolean) => void;
   viewIsSchedule: boolean;
 }
 
 export default function FilterBar(props: Props) {
   const [filtersOpen, setFiltersOpen] = createSignal(false);
-  const hasActiveFilters = () => Boolean(props.category || props.venue || props.source || props.showIgnored);
+  const hasActiveFilters = () =>
+    Boolean(props.category || props.venue || props.source || props.showIgnored || props.hideSoldOut);
 
   return (
     <div class="filter-bar">
@@ -62,17 +65,28 @@ export default function FilterBar(props: Props) {
             <option value="imtv">Inofficiellt</option>
           </select>
         </div>
-        <Show when={!props.viewIsSchedule}>
+        <div class="filter-checkboxes">
+          <Show when={!props.viewIsSchedule}>
+            <label class="show-ignored">
+              <input
+                type="checkbox"
+                name="showIgnored"
+                checked={props.showIgnored}
+                onChange={(e) => props.onShowIgnored(e.currentTarget.checked)}
+              />
+              Visa ignorerade
+            </label>
+          </Show>
           <label class="show-ignored">
             <input
               type="checkbox"
-              name="showIgnored"
-              checked={props.showIgnored}
-              onChange={(e) => props.onShowIgnored(e.currentTarget.checked)}
+              name="hideSoldOut"
+              checked={props.hideSoldOut}
+              onChange={(e) => props.onHideSoldOut(e.currentTarget.checked)}
             />
-            Visa ignorerade
+            Dölj fullbokade
           </label>
-        </Show>
+        </div>
       </Show>
     </div>
   );

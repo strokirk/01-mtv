@@ -738,6 +738,12 @@ button,
   min-width: 0;
 }
 
+.filter-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+}
+
 .show-ignored {
   display: flex;
   align-items: center;
