@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T10:48:50.432Z",
+  "generatedAt": "2026-08-01T13:27:55.310Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -808,7 +808,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_MqyfSMiSkf_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343760",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64956",
@@ -818,13 +818,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343760",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_MqyfSMiSkf_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Hörsägen",
             "title": "Kurs i stavfäktning"
           },
@@ -6179,20 +6179,7 @@
           },
           "content": {
             "description": "<p>Följ med på en tidig pilgrimsvandring. Vi startar i Visby domkyrka för att vandra bland i det medeltids Visby. En promenad på 3-5 km som tar cirka två timmar. Du får gärna låna en vandringsstav.</p>\n",
-            "siblings": {
-              "1785835800": {
-                "day": "Tisdag",
-                "time": "09:30",
-                "timestamp": 1785835800,
-                "title": "Pilgrimsvandring i Visby"
-              },
-              "1785922200": {
-                "day": "Onsdag",
-                "time": "09:30",
-                "timestamp": 1785922200,
-                "title": "Pilgrimsvandring i Visby"
-              }
-            }
+            "siblings": null
           },
           "sidebar": {
             "dayName": "Måndag",
@@ -14884,67 +14871,6 @@
             "time": "09:30 - 10:30",
             "venue": "S:t Clemens",
             "ticket_link": "https://www.nortic.se/ticket/show/346068",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "1866ef2aa9c9e5ce37ab",
-      "source": "official",
-      "sourceId": "64613",
-      "seriesKey": "official:pilgrimsvandring-i-visby:visby-domkyrka-sankta-maria",
-      "title": "Pilgrimsvandring i Visby",
-      "organizer": "Visby domkyrka Sankta Maria",
-      "description": "<p>Följ med på en tidig pilgrimsvandring. Vi startar i Visby domkyrka för att vandra bland i det medeltids Visby. En promenad på 3-5 km som tar cirka två timmar. Du får gärna låna en vandringsstav.</p>\n",
-      "date": "2026-08-04",
-      "startTime": "09:30",
-      "endTime": "11:30",
-      "venue": "Visby domkyrka Sankta Maria",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_kGDsyHYjWe_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64613",
-          "date": "2026-08-04",
-          "time": "09:30",
-          "titleText": "Pilgrimsvandring i Visby",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_kGDsyHYjWe_background.jpg",
-          "header": {
-            "item_owner": "Visby domkyrka Sankta Maria",
-            "title": "Pilgrimsvandring i Visby"
-          },
-          "content": {
-            "description": "<p>Följ med på en tidig pilgrimsvandring. Vi startar i Visby domkyrka för att vandra bland i det medeltids Visby. En promenad på 3-5 km som tar cirka två timmar. Du får gärna låna en vandringsstav.</p>\n",
-            "siblings": {
-              "1785749400": {
-                "day": "Måndag",
-                "time": "09:30",
-                "timestamp": 1785749400,
-                "title": "Pilgrimsvandring i Visby"
-              },
-              "1785922200": {
-                "day": "Onsdag",
-                "time": "09:30",
-                "timestamp": 1785922200,
-                "title": "Pilgrimsvandring i Visby"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Tisdag",
-            "date": "2026-08-04",
-            "time": "09:30 - 11:30",
-            "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -24004,67 +23930,6 @@
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
             "ticket_link": "https://www.nortic.se/ticket/show/343623",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "83359cc348531e1fcbb0",
-      "source": "official",
-      "sourceId": "64614",
-      "seriesKey": "official:pilgrimsvandring-i-visby:visby-domkyrka-sankta-maria",
-      "title": "Pilgrimsvandring i Visby",
-      "organizer": "Visby domkyrka Sankta Maria",
-      "description": "<p>Följ med på en tidig pilgrimsvandring. Vi startar i Visby domkyrka för att vandra bland i det medeltids Visby. En promenad på 3-5 km som tar cirka två timmar. Du får gärna låna en vandringsstav.</p>\n",
-      "date": "2026-08-05",
-      "startTime": "09:30",
-      "endTime": "11:30",
-      "venue": "Visby domkyrka Sankta Maria",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_kGDsyHYjWe_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64614",
-          "date": "2026-08-05",
-          "time": "09:30",
-          "titleText": "Pilgrimsvandring i Visby",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_kGDsyHYjWe_background.jpg",
-          "header": {
-            "item_owner": "Visby domkyrka Sankta Maria",
-            "title": "Pilgrimsvandring i Visby"
-          },
-          "content": {
-            "description": "<p>Följ med på en tidig pilgrimsvandring. Vi startar i Visby domkyrka för att vandra bland i det medeltids Visby. En promenad på 3-5 km som tar cirka två timmar. Du får gärna låna en vandringsstav.</p>\n",
-            "siblings": {
-              "1785749400": {
-                "day": "Måndag",
-                "time": "09:30",
-                "timestamp": 1785749400,
-                "title": "Pilgrimsvandring i Visby"
-              },
-              "1785835800": {
-                "day": "Tisdag",
-                "time": "09:30",
-                "timestamp": 1785835800,
-                "title": "Pilgrimsvandring i Visby"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Onsdag",
-            "date": "2026-08-05",
-            "time": "09:30 - 11:30",
-            "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -37621,11 +37486,14 @@
       "sourceId": "65104",
       "seriesKey": "official:songs-of-love-and-heartbreak-from-slavic-traditions-workshop-with-anna-sitko-daj-ognia-band:s-t-clemens",
       "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band).",
-      "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as &ldquo;open voice&rdquo; or &ldquo;natural singing&rdquo;). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.cfp_2026_ygpyrlzTuh</p>\n",
+      "organizer": "Daj Ognia ",
+      "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
       "date": "2026-08-06",
       "startTime": "14:00",
       "endTime": "15:15",
       "venue": "S:t Clemens",
+      "category": "cat-workshop",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/346088",
       "raw": {
         "card": {
@@ -37633,16 +37501,18 @@
           "date": "2026-08-06",
           "time": "14:00",
           "titleText": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band).",
+          "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/346088",
           "editorTip": false
         },
         "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
           "header": {
-            "item_owner": null,
+            "item_owner": "Daj Ognia ",
             "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band)."
           },
           "content": {
-            "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as &ldquo;open voice&rdquo; or &ldquo;natural singing&rdquo;). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.cfp_2026_ygpyrlzTuh</p>\n",
+            "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
             "siblings": null
           },
           "sidebar": {
