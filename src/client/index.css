@@ -858,7 +858,6 @@ button,
 /* ---------- theme banner + empty states ---------- */
 
 .theme-banner {
-  position: relative;
   border-radius: var(--radius);
   overflow: hidden;
   margin: 0.2rem 0 0;
@@ -869,31 +868,36 @@ button,
 .theme-banner img {
   display: block;
   width: 100%;
-  height: 7.5rem;
+  height: 9rem;
   object-fit: cover;
-  /* Crop to the embrace scene (lower two-thirds of the folio) rather than
-     the heraldic shield/helmet-crest at the top. */
-  object-position: 50% 58%;
+  /* Crop to the embracing couple's faces — the actual subject of the
+     illustration — rather than the heraldic shield/helmet-crest at the
+     top of the folio. Picked by cropping the source image at this ratio
+     and eyeballing the result; re-check this if the banner height above
+     changes, since a different height samples a different vertical slice. */
+  object-position: 50% 63%;
 }
 
+/* A plain caption strip below the image now, not a gradient overlaid on
+   top of it — the previous overlay sat right over the couple's faces,
+   which is the one part of the illustration the crop exists to show. */
 .theme-banner-text {
-  position: absolute;
-  inset: auto 0 0 0;
-  padding: 0.45rem 0.7rem;
-  background: linear-gradient(0deg, rgba(36, 16, 25, 0.85) 15%, rgba(36, 16, 25, 0));
+  padding: 0.4rem 0.7rem 0.5rem;
+  background: var(--surface-2);
+  border-top: 1px solid var(--rose-line);
 }
 
 .theme-banner-title {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text);
 }
 
 .theme-banner-credit {
   margin: 0.1rem 0 0;
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.68rem;
+  color: var(--text-faint);
 }
 
 .empty-schedule {

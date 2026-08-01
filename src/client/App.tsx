@@ -365,7 +365,7 @@ export default function App() {
                     src={`${import.meta.env.BASE_URL}art/codex-manesse-otto-brandenburg-chess.webp`}
                     alt="Otto IV av Brandenburg spelar schack med en dam. Miniatyr ur Codex Manesse, ca 1305–1340."
                     width="700"
-                    height="1362"
+                    height="1059"
                   />
                   <p>Du har inte favoritmarkerat något än — dags att hitta din egen kärlekshistoria på veckan.</p>
                 </div>
