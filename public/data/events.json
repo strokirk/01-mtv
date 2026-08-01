@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T22:14:34.647Z",
+  "generatedAt": "2026-08-01T02:54:04.900Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -3585,7 +3585,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_I8U1cRxfrg_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345989",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65080",
@@ -3595,13 +3595,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/345989",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_I8U1cRxfrg_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Hella Nathorst-Böös",
             "title": "Kurs om historiska häxbrygder"
           },
@@ -17311,7 +17311,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_QaVZRFzqes_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343686",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64888",
@@ -17321,7 +17321,7 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343686",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QaVZRFzqes_background.jpg",
@@ -19094,6 +19094,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2d42aa0fbfcdd898bc40",
+      "source": "imtv",
+      "sourceId": "{C9497271-BF4F-43BF-B7BF-27C874FE6FD1}",
+      "seriesKey": "imtv:klippas-krog:klippa",
+      "title": "Klippas Krog!",
+      "organizer": "Klippa",
+      "description": "Klippas krog återuppstår!! Återigen så har jag lyckats med en hostile takeover av en existerande krog i Visby. Under 3-4 timmar tar vi över en trivsam lokal med uteservering, jag håller låda och vi har najs prajs på öl (45kr) och toasties a.k.a lavamackor.  Pråjsarbussen avgår vid 13:30 från gycklarbron. Party party!",
+      "date": "2026-08-04",
+      "startTime": "13:30",
+      "lastModified": "2026-08-01 03:47:04",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "13:30",
+        "title": "Klippas Krog!",
+        "guid": "{C9497271-BF4F-43BF-B7BF-27C874FE6FD1}",
+        "creator": "Klippa",
+        "lastModified": "2026-08-01 03:47:04",
+        "description": "Klippas krog återuppstår!! Återigen så har jag lyckats med en hostile takeover av en existerande krog i Visby. Under 3-4 timmar tar vi över en trivsam lokal med uteservering, jag håller låda och vi har najs prajs på öl (45kr) och toasties a.k.a lavamackor.  Pråjsarbussen avgår vid 13:30 från gycklarbron. Party party!",
+        "links": []
       }
     },
     {
@@ -21853,6 +21876,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "176d50cc6fe90c2a5870",
+      "source": "imtv",
+      "sourceId": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
+      "seriesKey": "imtv:rollspel-spoken:johannes-punkt",
+      "title": "ROLLSPEL: Spöken",
+      "organizer": "Johannes Punkt",
+      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+      "date": "2026-08-04",
+      "startTime": "17:00",
+      "lastModified": "2026-05-15 10:14:11",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "17:00",
+        "title": "ROLLSPEL: Spöken",
+        "guid": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
+        "creator": "Johannes Punkt",
+        "lastModified": "2026-05-15 10:14:11",
+        "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "1849721c8610311d06a8",
       "source": "imtv",
       "sourceId": "{911E72F2-C767-459E-8FB9-72DBC013FD2E}",
@@ -21878,29 +21924,6 @@
         "links": [
           "https://facebook.com/events/s/likorslaget-v-2026/2176893026490587/"
         ]
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "176d50cc6fe90c2a5870",
-      "source": "imtv",
-      "sourceId": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
-      "seriesKey": "imtv:rollspel-spoken:johannes-punkt",
-      "title": "ROLLSPEL: Spöken",
-      "organizer": "Johannes Punkt",
-      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
-      "date": "2026-08-04",
-      "startTime": "17:00",
-      "lastModified": "2026-05-15 10:14:11",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "17:00",
-        "title": "ROLLSPEL: Spöken",
-        "guid": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
-        "creator": "Johannes Punkt",
-        "lastModified": "2026-05-15 10:14:11",
-        "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
-        "links": []
       }
     },
     {
@@ -52914,29 +52937,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "0942ecd1dac4b371af3e",
-      "source": "imtv",
-      "sourceId": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
-      "seriesKey": "imtv:improbataljen:gycklare",
-      "title": "Improbataljen",
-      "organizer": "Gycklare",
-      "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
-      "date": "2026-08-08",
-      "startTime": "14:00",
-      "lastModified": "2026-06-26 02:22:49",
-      "raw": {
-        "date": "2026-08-08",
-        "time": "14:00",
-        "title": "Improbataljen",
-        "guid": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
-        "creator": "Gycklare",
-        "lastModified": "2026-06-26 02:22:49",
-        "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "a2d6e50492e67b27d920",
       "source": "imtv",
       "sourceId": "{E28D7F6A-8368-45A4-9DA7-962C8D537AAB}",
@@ -52955,6 +52955,29 @@
         "creator": "Admin",
         "lastModified": "2026-07-24 16:47:33",
         "description": "Rävarna kör Visbys mest prestigefyllda femkamp för sista gången! Med glädje, dricka och skratt och grenar som kullerbyttsrace, kåmpiskånk och stockstötning. I Nordergravar.  Missa inte spelens farväl!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "0942ecd1dac4b371af3e",
+      "source": "imtv",
+      "sourceId": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
+      "seriesKey": "imtv:improbataljen:gycklare",
+      "title": "Improbataljen",
+      "organizer": "Gycklare",
+      "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
+      "date": "2026-08-08",
+      "startTime": "14:00",
+      "lastModified": "2026-06-26 02:22:49",
+      "raw": {
+        "date": "2026-08-08",
+        "time": "14:00",
+        "title": "Improbataljen",
+        "guid": "{59CD6195-7895-4DB6-90EC-0FDB5EE3A9EA}",
+        "creator": "Gycklare",
+        "lastModified": "2026-06-26 02:22:49",
+        "description": "Improviserad humor så som det alltid varit. Sedan 1998 har improbataljen kört på olika platser i visby och nu är vi tillbaka. Anmäl ditt deltagarintresse till Putte eller Kalle i Gycklare. Fb gycklare",
         "links": []
       }
     },
