@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T08:31:11.548Z",
+  "generatedAt": "2026-08-01T10:48:50.432Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -808,6 +808,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_MqyfSMiSkf_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343760",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64956",
@@ -816,11 +817,14 @@
           "titleText": "Kurs i stavfäktning",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343760",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_MqyfSMiSkf_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Hörsägen",
             "title": "Kurs i stavfäktning"
           },
