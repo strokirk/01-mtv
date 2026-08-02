@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T06:06:16.779Z",
+  "generatedAt": "2026-08-02T08:41:13.318Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -217,61 +217,6 @@
             "time": "21:00 - 22:00",
             "venue": "S:ta Karin",
             "ticket_link": "https://www.nortic.se/ticket/show/344925",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "30d84e44526b0a58d900",
-      "source": "official",
-      "sourceId": "65534",
-      "seriesKey": "official:bygg-din-egen-trabage:paviljongsplan",
-      "title": "Bygg din egen träbåge",
-      "organizer": "Hans Alvenkrona",
-      "description": "<p>Under kursen får du lära dig hur man täljer ut en träbåge från ett ämne som är kilad ur en trästock.</p>\n<p>Vilken typ av båge som du vill bygga är valfritt, som typ Engelsk långbåge, flatbåge eller en Holmgardbåge beror dock på vilka ämnen som finns vid kursstart (Kursen behandlar inte laminerade/basade bågar). </p>\n<p>Min. ålder 16 år, </p>\n<p>Du kan ta med eget bågämne eller köpa på plats, priset 1000-1500:- beror på vilka ämnen som finns. </p>\n<p>Medtag personlig täljkniv, (och en personlig täljyxa om du har) specialverktyg finns att låna som täljhästar, yxor, rasp, sickel mm. </p>\n<p>Det är 2 st, tredagarskurser med en dag i reserv om du inte hinner klart. </p>\n<p>Kursstart Söndag ( mån &#038; tis &#8211; reserv onsdag) </p>\n<p>Kursstart Torsdag (fre &#038; lör &#8211; reserv söndag)</p>\n<p>Kursen är hela dagar  9-17</p>\n<p>Kursen hålls på Festivalområde Paviljongsplan i närheten av GycklarÄnget. </p>\n<p>During the course you will learn how to carve a wooden bow from a blank that is wedged from a wooden log. The type of bow you want to build is optional, such as an English longbow, flatbow or a Holmgard bow, however, depends on which blanks are available at the start of the course (the course does not cover laminated/based bows). </p>\n<p>Minimum age 16 years.</p>\n<p>You can bring your own bow blank or buy on site, the price 1000-1500:- depends on which blanks are available. </p>\n<p>Bring your own carving knife, (and a personal carving axe if you have one) special tools are available to borrow such as carving horses, axes, rasps, sickles etc.  </p>\n<p>There are two three-day courses, with a reserve day included in case you do not finish in time.</p>\n<p>Course starts Sunday (Mon &#038; Tue – reserve day: Wednesday)</p>\n<p>Course starts Thursday (Fri &#038; Sat – reserve day: Sunday)</p>\n<p>The course runs for full days, 9:00 AM – 5:00 PM.</p>\n<p>The course takes place at the Paviljongsplan festival area, near GycklarÄnget.</p>\n",
-      "date": "2026-08-02",
-      "startTime": "09:00",
-      "endTime": "17:00",
-      "venue": "Paviljongsplan",
-      "category": "cat-ovrigt",
-      "ticketUrl": "https://www.nortic.se/ticket/show/354808",
-      "raw": {
-        "card": {
-          "pid": "65534",
-          "date": "2026-08-02",
-          "time": "09:00",
-          "titleText": "Bygg din egen träbåge",
-          "categoryLabel": "Övrigt",
-          "ticketUrl": "https://www.nortic.se/ticket/show/354808",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "Hans Alvenkrona",
-            "title": "Bygg din egen träbåge"
-          },
-          "content": {
-            "description": "<p>Under kursen får du lära dig hur man täljer ut en träbåge från ett ämne som är kilad ur en trästock.</p>\n<p>Vilken typ av båge som du vill bygga är valfritt, som typ Engelsk långbåge, flatbåge eller en Holmgardbåge beror dock på vilka ämnen som finns vid kursstart (Kursen behandlar inte laminerade/basade bågar). </p>\n<p>Min. ålder 16 år, </p>\n<p>Du kan ta med eget bågämne eller köpa på plats, priset 1000-1500:- beror på vilka ämnen som finns. </p>\n<p>Medtag personlig täljkniv, (och en personlig täljyxa om du har) specialverktyg finns att låna som täljhästar, yxor, rasp, sickel mm. </p>\n<p>Det är 2 st, tredagarskurser med en dag i reserv om du inte hinner klart. </p>\n<p>Kursstart Söndag ( mån &#038; tis &#8211; reserv onsdag) </p>\n<p>Kursstart Torsdag (fre &#038; lör &#8211; reserv söndag)</p>\n<p>Kursen är hela dagar  9-17</p>\n<p>Kursen hålls på Festivalområde Paviljongsplan i närheten av GycklarÄnget. </p>\n<p>During the course you will learn how to carve a wooden bow from a blank that is wedged from a wooden log. The type of bow you want to build is optional, such as an English longbow, flatbow or a Holmgard bow, however, depends on which blanks are available at the start of the course (the course does not cover laminated/based bows). </p>\n<p>Minimum age 16 years.</p>\n<p>You can bring your own bow blank or buy on site, the price 1000-1500:- depends on which blanks are available. </p>\n<p>Bring your own carving knife, (and a personal carving axe if you have one) special tools are available to borrow such as carving horses, axes, rasps, sickles etc.  </p>\n<p>There are two three-day courses, with a reserve day included in case you do not finish in time.</p>\n<p>Course starts Sunday (Mon &#038; Tue – reserve day: Wednesday)</p>\n<p>Course starts Thursday (Fri &#038; Sat – reserve day: Sunday)</p>\n<p>The course runs for full days, 9:00 AM – 5:00 PM.</p>\n<p>The course takes place at the Paviljongsplan festival area, near GycklarÄnget.</p>\n",
-            "siblings": {
-              "1786006800": {
-                "day": "Torsdag",
-                "time": "09:00",
-                "timestamp": 1786006800,
-                "title": "Bygg din egen träbåge"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-02",
-            "time": "09:00 - 17:00",
-            "venue": "Paviljongsplan",
-            "ticket_link": "https://www.nortic.se/ticket/show/354808",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2630,7 +2575,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_I8U1cRxfrg_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345988",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65079",
@@ -2640,13 +2585,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/345988",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_I8U1cRxfrg_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Hella Nathorst-Böös",
             "title": "Kurs om historiska häxbrygder"
           },
@@ -10695,11 +10640,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "e991306dc889387fdb72",
+      "id": "08ea739830d61bec4b48",
       "source": "official",
       "sourceId": "65236",
-      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning",
+      "seriesKey": "official:forelasning-harnat-och-broderi:festivalomrade-paviljongsplan",
+      "title": "Föreläsning – Hårnät och broderi",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-03",
@@ -10714,7 +10659,7 @@
           "pid": "65236",
           "date": "2026-08-03",
           "time": "14:00",
-          "titleText": "Föreläsning",
+          "titleText": "Föreläsning – Hårnät och broderi",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -10724,7 +10669,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning"
+            "title": "Föreläsning &#8211; Hårnät och broderi"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -10733,25 +10678,25 @@
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
               }
             }
           },
@@ -10760,7 +10705,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -19395,11 +19340,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "73b6608f7c0fdfdf63ba",
+      "id": "c81a40b080d96925b739",
       "source": "official",
       "sourceId": "65237",
-      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning",
+      "seriesKey": "official:forelasning-drapera-en-kjortel-demonstration-och-diskussion:festivalomrade-paviljongsplan",
+      "title": "Föreläsning – Drapera en kjortel. Demonstration och diskussion",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-04",
@@ -19414,7 +19359,7 @@
           "pid": "65237",
           "date": "2026-08-04",
           "time": "14:00",
-          "titleText": "Föreläsning",
+          "titleText": "Föreläsning – Drapera en kjortel. Demonstration och diskussion",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -19424,7 +19369,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning"
+            "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -19433,25 +19378,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Hårnät och broderi"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
               }
             }
           },
@@ -19460,7 +19405,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29492,11 +29437,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "847876bfd9165ea79d67",
+      "id": "dc6bf0b7334090e822ae",
       "source": "official",
       "sourceId": "65238",
-      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning",
+      "seriesKey": "official:forelasning-forelasningoch-demonstration-av-medeltida-tenngjutning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning – Föreläsningoch demonstration av medeltida tenngjutning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-05",
@@ -29511,7 +29456,7 @@
           "pid": "65238",
           "date": "2026-08-05",
           "time": "14:00",
-          "titleText": "Föreläsning",
+          "titleText": "Föreläsning – Föreläsningoch demonstration av medeltida tenngjutning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -29521,7 +29466,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning"
+            "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -29530,25 +29475,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Hårnät och broderi"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
               }
             }
           },
@@ -29557,7 +29502,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32171,61 +32116,6 @@
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
             "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "d5439b367e15789755f3",
-      "source": "official",
-      "sourceId": "65535",
-      "seriesKey": "official:bygg-din-egen-trabage:paviljongsplan",
-      "title": "Bygg din egen träbåge",
-      "organizer": "Hans Alvenkrona",
-      "description": "<p>Under kursen får du lära dig hur man täljer ut en träbåge från ett ämne som är kilad ur en trästock.</p>\n<p>Vilken typ av båge som du vill bygga är valfritt, som typ Engelsk långbåge, flatbåge eller en Holmgardbåge beror dock på vilka ämnen som finns vid kursstart (Kursen behandlar inte laminerade/basade bågar). </p>\n<p>Min. ålder 16 år, </p>\n<p>Du kan ta med eget bågämne eller köpa på plats, priset 1000-1500:- beror på vilka ämnen som finns. </p>\n<p>Medtag personlig täljkniv, (och en personlig täljyxa om du har) specialverktyg finns att låna som täljhästar, yxor, rasp, sickel mm. </p>\n<p>Det är 2 st, tredagarskurser med en dag i reserv om du inte hinner klart. </p>\n<p>Kursstart Söndag ( mån &#038; tis &#8211; reserv onsdag) </p>\n<p>Kursstart Torsdag (fre &#038; lör &#8211; reserv söndag)</p>\n<p>Kursen är hela dagar  9-17</p>\n<p>Kursen hålls på Festivalområde Paviljongsplan i närheten av GycklarÄnget. </p>\n<p>During the course you will learn how to carve a wooden bow from a blank that is wedged from a wooden log. The type of bow you want to build is optional, such as an English longbow, flatbow or a Holmgard bow, however, depends on which blanks are available at the start of the course (the course does not cover laminated/based bows). </p>\n<p>Minimum age 16 years.</p>\n<p>You can bring your own bow blank or buy on site, the price 1000-1500:- depends on which blanks are available. </p>\n<p>Bring your own carving knife, (and a personal carving axe if you have one) special tools are available to borrow such as carving horses, axes, rasps, sickles etc.  </p>\n<p>There are two three-day courses, with a reserve day included in case you do not finish in time.</p>\n<p>Course starts Sunday (Mon &#038; Tue – reserve day: Wednesday)</p>\n<p>Course starts Thursday (Fri &#038; Sat – reserve day: Sunday)</p>\n<p>The course runs for full days, 9:00 AM – 5:00 PM.</p>\n<p>The course takes place at the Paviljongsplan festival area, near GycklarÄnget.</p>\n",
-      "date": "2026-08-06",
-      "startTime": "09:00",
-      "endTime": "17:00",
-      "venue": "Paviljongsplan",
-      "category": "cat-ovrigt",
-      "ticketUrl": "https://www.nortic.se/ticket/show/354807",
-      "raw": {
-        "card": {
-          "pid": "65535",
-          "date": "2026-08-06",
-          "time": "09:00",
-          "titleText": "Bygg din egen träbåge",
-          "categoryLabel": "Övrigt",
-          "ticketUrl": "https://www.nortic.se/ticket/show/354807",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "Hans Alvenkrona",
-            "title": "Bygg din egen träbåge"
-          },
-          "content": {
-            "description": "<p>Under kursen får du lära dig hur man täljer ut en träbåge från ett ämne som är kilad ur en trästock.</p>\n<p>Vilken typ av båge som du vill bygga är valfritt, som typ Engelsk långbåge, flatbåge eller en Holmgardbåge beror dock på vilka ämnen som finns vid kursstart (Kursen behandlar inte laminerade/basade bågar). </p>\n<p>Min. ålder 16 år, </p>\n<p>Du kan ta med eget bågämne eller köpa på plats, priset 1000-1500:- beror på vilka ämnen som finns. </p>\n<p>Medtag personlig täljkniv, (och en personlig täljyxa om du har) specialverktyg finns att låna som täljhästar, yxor, rasp, sickel mm. </p>\n<p>Det är 2 st, tredagarskurser med en dag i reserv om du inte hinner klart. </p>\n<p>Kursstart Söndag ( mån &#038; tis &#8211; reserv onsdag) </p>\n<p>Kursstart Torsdag (fre &#038; lör &#8211; reserv söndag)</p>\n<p>Kursen är hela dagar  9-17</p>\n<p>Kursen hålls på Festivalområde Paviljongsplan i närheten av GycklarÄnget. </p>\n<p>During the course you will learn how to carve a wooden bow from a blank that is wedged from a wooden log. The type of bow you want to build is optional, such as an English longbow, flatbow or a Holmgard bow, however, depends on which blanks are available at the start of the course (the course does not cover laminated/based bows). </p>\n<p>Minimum age 16 years.</p>\n<p>You can bring your own bow blank or buy on site, the price 1000-1500:- depends on which blanks are available. </p>\n<p>Bring your own carving knife, (and a personal carving axe if you have one) special tools are available to borrow such as carving horses, axes, rasps, sickles etc.  </p>\n<p>There are two three-day courses, with a reserve day included in case you do not finish in time.</p>\n<p>Course starts Sunday (Mon &#038; Tue – reserve day: Wednesday)</p>\n<p>Course starts Thursday (Fri &#038; Sat – reserve day: Sunday)</p>\n<p>The course runs for full days, 9:00 AM – 5:00 PM.</p>\n<p>The course takes place at the Paviljongsplan festival area, near GycklarÄnget.</p>\n",
-            "siblings": {
-              "1785661200": {
-                "day": "Söndag",
-                "time": "09:00",
-                "timestamp": 1785661200,
-                "title": "Bygg din egen träbåge"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "09:00 - 17:00",
-            "venue": "Paviljongsplan",
-            "ticket_link": "https://www.nortic.se/ticket/show/354807",
             "bookmark_button_html": null
           },
           "meta": {
@@ -37440,11 +37330,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "e304af0e74d7c195ce43",
+      "id": "73e0093b9e23d829056d",
       "source": "official",
       "sourceId": "65239",
-      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning",
+      "seriesKey": "official:forelasning-medeltidens-tennmarken-tro-lust-och-lite-skvaller:festivalomrade-paviljongsplan",
+      "title": "Föreläsning – Medeltidens tennmärken – Tro, lust, och lite skvaller",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-06",
@@ -37459,7 +37349,7 @@
           "pid": "65239",
           "date": "2026-08-06",
           "time": "14:00",
-          "titleText": "Föreläsning",
+          "titleText": "Föreläsning – Medeltidens tennmärken – Tro, lust, och lite skvaller",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -37469,7 +37359,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning"
+            "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -37478,25 +37368,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Hårnät och broderi"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
               }
             }
           },
@@ -37505,7 +37395,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45937,11 +45827,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "feaeb54090b526829e38",
+      "id": "64fd24eff4a515760bad",
       "source": "official",
       "sourceId": "65240",
-      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning",
+      "seriesKey": "official:forelasning-huvudbonader-och-accessoarer-for-dam-under-sent-1400-tal:festivalomrade-paviljongsplan",
+      "title": "Föreläsning – Huvudbonader och accessoarer för dam under sent 1400-tal",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-07",
@@ -45956,7 +45846,7 @@
           "pid": "65240",
           "date": "2026-08-07",
           "time": "14:00",
-          "titleText": "Föreläsning",
+          "titleText": "Föreläsning – Huvudbonader och accessoarer för dam under sent 1400-tal",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -45966,7 +45856,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning"
+            "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -45975,25 +45865,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Hårnät och broderi"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning"
+                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
               }
             }
           },
@@ -46002,7 +45892,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
