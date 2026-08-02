@@ -1,4 +1,4 @@
-import { Show, For, createEffect, createMemo } from "solid-js";
+import { Show, For, createEffect, onCleanup, createMemo } from "solid-js";
 import DOMPurify from "dompurify";
 import {
   FaSolidXmark,
@@ -10,6 +10,7 @@ import {
   FaSolidUsers,
   FaSolidClock,
   FaSolidCalendarPlus,
+  FaSolidChevronRight,
 } from "solid-icons/fa";
 import type { EventInstance, InstanceDecision } from "../../schema";
 import { categoryLabel } from "../categoryLabels";
@@ -18,8 +19,12 @@ import { categoryStyle, SOURCE_STYLES } from "../categoryStyles";
 interface Props {
   event: EventInstance | null;
   decision: InstanceDecision;
-  seriesCount: number;
+  // All instances of the event's series, including the current one — used
+  // both for the "alla N tillfällen" series actions and to list sibling
+  // occasions the user can jump to.
+  seriesEvents: EventInstance[];
   onToggle: (level: "instance" | "series", key: string, decision: "favorite" | "ignore") => void;
+  onSelect: (event: EventInstance) => void;
   onClose: () => void;
 }
 
@@ -40,16 +45,22 @@ function formatDate(date: string): string {
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
 
+function formatShortDate(date: string): string {
+  const label = new Date(`${date}T00:00:00`).toLocaleDateString("sv-SE", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+  });
+  return label.charAt(0).toUpperCase() + label.slice(1);
+}
+
 // No endTime for many imtv events (point-in-time listings) — give the
 // calendar entry a plausible default length rather than a zero-duration event.
 const DEFAULT_DURATION_MINUTES = 120;
+const EVENT_TIME_ZONE = "Europe/Stockholm";
 
 function pad2(n: number): string {
   return String(n).padStart(2, "0");
-}
-
-function icsDateTime(date: string, time: string): string {
-  return `${date.replace(/-/g, "")}T${time.replace(":", "")}00`;
 }
 
 function addMinutes(date: string, time: string, minutes: number): { date: string; time: string } {
@@ -61,6 +72,41 @@ function addMinutes(date: string, time: string, minutes: number): { date: string
   };
 }
 
+// Every event date/time in this app is Europe/Stockholm wall-clock time with
+// no explicit offset stored (see schema.ts). To produce a calendar entry
+// that lands at the correct moment regardless of the viewer's own device
+// timezone, resolve that wall-clock time to a real UTC instant — using only
+// the native Intl API, no timezone data library. Standard trick: format a
+// guess through the target zone, then correct by the difference.
+function zonedTimeToUtc(date: string, time: string, timeZone: string): Date {
+  const guess = new Date(`${date}T${time}:00Z`);
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  })
+    .formatToParts(guess)
+    .reduce<Record<string, string>>((acc, p) => ({ ...acc, [p.type]: p.value }), {});
+  const asIfUtc = Date.UTC(
+    Number(parts.year),
+    Number(parts.month) - 1,
+    Number(parts.day),
+    Number(parts.hour),
+    Number(parts.minute),
+    Number(parts.second)
+  );
+  return new Date(guess.getTime() - (asIfUtc - guess.getTime()));
+}
+
+function icsUtc(date: Date): string {
+  return `${date.toISOString().replace(/[-:]/g, "").split(".")[0]}Z`;
+}
+
 function icsEscape(text: string): string {
   return text.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
 }
@@ -69,10 +115,10 @@ function stripHtml(html: string): string {
   return new DOMParser().parseFromString(html, "text/html").body.textContent?.trim() ?? "";
 }
 
-// Plain .ics data URI rather than a provider-specific "add to calendar" link
+// Plain .ics content rather than a provider-specific "add to calendar" link
 // (e.g. Google Calendar's render endpoint) — opens in whatever calendar app
 // the user actually has, with no external dependency.
-function calendarUrl(event: EventInstance): string {
+function buildIcs(event: EventInstance): string {
   const end = event.endTime
     ? { date: event.date, time: event.endTime }
     : addMinutes(event.date, event.startTime, DEFAULT_DURATION_MINUTES);
@@ -87,9 +133,9 @@ function calendarUrl(event: EventInstance): string {
     "PRODID:-//Medeltidsveckan//Programme//SV",
     "BEGIN:VEVENT",
     `UID:${event.id}@medeltidsveckan-programme`,
-    `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
-    `DTSTART:${icsDateTime(event.date, event.startTime)}`,
-    `DTEND:${icsDateTime(end.date, end.time)}`,
+    `DTSTAMP:${icsUtc(new Date())}`,
+    `DTSTART:${icsUtc(zonedTimeToUtc(event.date, event.startTime, EVENT_TIME_ZONE))}`,
+    `DTEND:${icsUtc(zonedTimeToUtc(end.date, end.time, EVENT_TIME_ZONE))}`,
     `SUMMARY:${icsEscape(event.title)}`,
     event.venue ? `LOCATION:${icsEscape(event.venue)}` : "",
     description ? `DESCRIPTION:${icsEscape(description)}` : "",
@@ -97,7 +143,7 @@ function calendarUrl(event: EventInstance): string {
     "END:VEVENT",
     "END:VCALENDAR",
   ].filter(Boolean);
-  return `data:text/calendar;charset=utf-8,${encodeURIComponent(lines.join("\r\n"))}`;
+  return lines.join("\r\n");
 }
 
 export default function EventDetailsModal(props: Props) {
@@ -108,10 +154,35 @@ export default function EventDetailsModal(props: Props) {
     if (!props.event && dialogRef?.open) dialogRef.close();
   });
 
+  // Jumping to a sibling instance swaps content in the already-open dialog
+  // rather than closing/reopening it — reset scroll so the new instance
+  // starts at the top instead of wherever the previous one left off.
+  createEffect(() => {
+    if (props.event?.id && dialogRef) dialogRef.scrollTop = 0;
+  });
+
   const links = createMemo(() => {
     const event = props.event;
     if (!event) return [];
     return Array.from(new Set([...(event.ticketUrl ? [event.ticketUrl] : []), ...(event.links ?? [])]));
+  });
+
+  const otherInstances = createMemo(() => {
+    const event = props.event;
+    if (!event) return [];
+    return props.seriesEvents.filter((e) => e.id !== event.id);
+  });
+
+  // Regenerated as a Blob URL rather than a data: URI — data: URIs on a
+  // download-attribute link are unreliable in standalone/PWA display mode
+  // (silently do nothing on some browsers). onCleanup revokes the previous
+  // URL whenever the event changes or the modal unmounts.
+  const icsUrl = createMemo(() => {
+    const event = props.event;
+    if (!event) return "";
+    const url = URL.createObjectURL(new Blob([buildIcs(event)], { type: "text/calendar;charset=utf-8" }));
+    onCleanup(() => URL.revokeObjectURL(url));
+    return url;
   });
 
   return (
@@ -194,15 +265,35 @@ export default function EventDetailsModal(props: Props) {
               >
                 <FaSolidBan /> Ignorera
               </button>
-              <Show when={props.seriesCount > 1}>
+              <Show when={props.seriesEvents.length > 1}>
                 <button class="icon-button" onClick={() => props.onToggle("series", event().seriesKey, "favorite")}>
-                  <FaSolidHeart /> Favorit: alla {props.seriesCount} tillfällen
+                  <FaSolidHeart /> Favorit: alla {props.seriesEvents.length} tillfällen
                 </button>
                 <button class="icon-button" onClick={() => props.onToggle("series", event().seriesKey, "ignore")}>
-                  <FaSolidBan /> Ignorera: alla {props.seriesCount} tillfällen
+                  <FaSolidBan /> Ignorera: alla {props.seriesEvents.length} tillfällen
                 </button>
               </Show>
             </div>
+
+            <Show when={otherInstances().length > 0}>
+              <p class="modal-section-label">Andra tillfällen</p>
+              <ul class="series-list">
+                <For each={otherInstances()}>
+                  {(instance) => (
+                    <li>
+                      <button type="button" onClick={() => props.onSelect(instance)}>
+                        <span>
+                          {formatShortDate(instance.date)} · {instance.startTime}
+                          {instance.endTime ? `–${instance.endTime}` : ""}
+                          {instance.venue && instance.venue !== event().venue ? ` · ${instance.venue}` : ""}
+                        </span>
+                        <FaSolidChevronRight />
+                      </button>
+                    </li>
+                  )}
+                </For>
+              </ul>
+            </Show>
 
             <Show when={event().description}>
               {(desc) => (
@@ -213,7 +304,7 @@ export default function EventDetailsModal(props: Props) {
               )}
             </Show>
             <div class="modal-links">
-              <a href={calendarUrl(event())} download={`${event().id}.ics`}>
+              <a href={icsUrl()} download={`${event().id}.ics`}>
                 <FaSolidCalendarPlus /> Lägg till i kalender
               </a>
               <For each={links()}>

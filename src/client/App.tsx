@@ -129,10 +129,15 @@ export default function App() {
     }
   }
 
-  const seriesCounts = createMemo(() => {
-    const counts = new Map<string, number>();
-    for (const e of events()) counts.set(e.seriesKey, (counts.get(e.seriesKey) ?? 0) + 1);
-    return counts;
+  // All instances of the series the details modal is currently showing
+  // (including the current one), so the modal can list sibling occasions
+  // and jump straight to any of them.
+  const detailsSeriesInstances = createMemo(() => {
+    const key = detailsEvent()?.seriesKey;
+    if (!key) return [];
+    return events()
+      .filter((e) => e.seriesKey === key)
+      .sort((a, b) => (a.date + a.startTime).localeCompare(b.date + b.startTime));
   });
 
   const categories = createMemo(() =>
@@ -405,8 +410,9 @@ export default function App() {
       <EventDetailsModal
         event={detailsEvent()}
         decision={detailsEvent() ? resolveDecision(detailsEvent()!, userState()) : "neutral"}
-        seriesCount={seriesCounts().get(detailsEvent()?.seriesKey ?? "") ?? 0}
+        seriesEvents={detailsSeriesInstances()}
         onToggle={handleToggle}
+        onSelect={setDetailsEvent}
         onClose={() => setDetailsEvent(null)}
       />
       <TimeBlocksModal

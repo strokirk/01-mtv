@@ -825,7 +825,14 @@ button,
      it — the html/body overflow:hidden lock above doesn't stop that on
      its own, only this does. */
   overscroll-behavior: contain;
-  padding: 1.1rem 1.1rem 1.4rem;
+  /* No top padding: .modal-header supplies its own, so it can bleed flush
+     to this top edge. A sticky element's offset is computed from its
+     static position, and a negative top margin used to pull it up into
+     padding this box reserved throws that computation off — position ends
+     up *below* the intended 0 line instead of flush with it, leaving too
+     little room for the content underneath and letting it peek out from
+     behind the header. Horizontal/bottom padding stay here as normal. */
+  padding: 0 1.1rem 1.4rem;
   box-shadow: var(--shadow);
 }
 
@@ -833,9 +840,12 @@ button,
   background: rgba(36, 16, 25, 0.45);
 }
 
-/* Bleeds to the dialog's edges and sticks to the top of its scrollport, so
-   the title and close button stay reachable while long descriptions scroll
-   underneath — same full-bleed-sticky-bar trick as .app-toolbar. */
+/* Sticks to the top of the dialog's scrollport so the title and close
+   button stay reachable while long descriptions scroll underneath — same
+   sticky-bar trick as .app-toolbar. Only bleeds horizontally (matching
+   .app-toolbar's negative margin, which is also purely horizontal) —
+   see the note on .event-modal's padding for why a negative top margin
+   doesn't work here. */
 .modal-header {
   position: sticky;
   top: 0;
@@ -844,7 +854,7 @@ button,
   align-items: flex-start;
   justify-content: space-between;
   gap: 0.75rem;
-  margin: -1.1rem -1.1rem 0.7rem;
+  margin: 0 -1.1rem 0.7rem;
   padding: 1.1rem 1.1rem 0.6rem;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -909,6 +919,46 @@ button,
 .modal-actions .icon-button {
   font-size: 0.8rem;
   padding: 0.35rem 0.7rem;
+}
+
+.modal-section-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--rose);
+  margin: 0 0 0.5rem;
+}
+
+.series-list {
+  list-style: none;
+  margin: 0 0 0.9rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.series-list button {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem 0.7rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  text-align: left;
+}
+
+.series-list button:hover {
+  border-color: var(--rose-line);
+  background: var(--rose-soft);
+}
+
+.series-list button svg {
+  color: var(--text-faint);
+  flex: none;
 }
 
 .modal-links {
