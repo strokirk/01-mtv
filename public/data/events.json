@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:41:13.318Z",
+  "generatedAt": "2026-08-02T13:28:12.843Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -1996,94 +1996,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "04ed98c996d65919c5c1",
-      "source": "official",
-      "sourceId": "65469",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-02",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65469",
-          "date": "2026-08-02",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-02",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "02888ae213fcf0d97ece",
       "source": "official",
       "sourceId": "64587",
@@ -2489,6 +2401,95 @@
             "date": "2026-08-02",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "8a5fa1b9ae8b769c15e4",
+      "source": "official",
+      "sourceId": "65469",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-02",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65469",
+          "date": "2026-08-02",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-02",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -8043,6 +8044,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343681",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64883",
@@ -8051,11 +8053,14 @@
           "titleText": "Prova på långsvärd (HEMA)",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343681",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Wisby Historiska Fäktskola",
             "title": "Prova på långsvärd (HEMA)"
           },
@@ -8357,94 +8362,6 @@
             "dayName": "Måndag",
             "date": "2026-08-03",
             "time": "11:00 - 15:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "fbb48542fd6ef1c3d28e",
-      "source": "official",
-      "sourceId": "65470",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-03",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65470",
-          "date": "2026-08-03",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Måndag",
-            "date": "2026-08-03",
-            "time": "11:00 - 19:00",
             "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
@@ -8928,6 +8845,95 @@
             "date": "2026-08-03",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "6e1d6a0cf0b9b027d6fa",
+      "source": "official",
+      "sourceId": "65470",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-03",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65470",
+          "date": "2026-08-03",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Måndag",
+            "date": "2026-08-03",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -10640,11 +10646,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "08ea739830d61bec4b48",
+      "id": "e991306dc889387fdb72",
       "source": "official",
       "sourceId": "65236",
-      "seriesKey": "official:forelasning-harnat-och-broderi:festivalomrade-paviljongsplan",
-      "title": "Föreläsning – Hårnät och broderi",
+      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-03",
@@ -10659,7 +10665,7 @@
           "pid": "65236",
           "date": "2026-08-03",
           "time": "14:00",
-          "titleText": "Föreläsning – Hårnät och broderi",
+          "titleText": "Föreläsning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -10669,7 +10675,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning &#8211; Hårnät och broderi"
+            "title": "Föreläsning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -10678,25 +10684,25 @@
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
+                "title": "Föreläsning"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
+                "title": "Föreläsning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
+                "title": "Föreläsning"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
+                "title": "Föreläsning"
               }
             }
           },
@@ -10705,7 +10711,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -13656,6 +13662,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343749",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64946",
@@ -13664,11 +13671,14 @@
           "titleText": "TRiX ger – Eldiaden",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343749",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gycklargruppen TRiX",
             "title": "TRiX ger &#8211; Eldiaden"
           },
@@ -17060,94 +17070,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "50cb009fdcaea8cfc874",
-      "source": "official",
-      "sourceId": "65471",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-04",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65471",
-          "date": "2026-08-04",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Tisdag",
-            "date": "2026-08-04",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "bac8362cc24c03f97286",
       "source": "official",
       "sourceId": "64512",
@@ -17635,6 +17557,95 @@
             "date": "2026-08-04",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "bc04eb87d3855170aea0",
+      "source": "official",
+      "sourceId": "65471",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-04",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65471",
+          "date": "2026-08-04",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Tisdag",
+            "date": "2026-08-04",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -19340,11 +19351,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "c81a40b080d96925b739",
+      "id": "73b6608f7c0fdfdf63ba",
       "source": "official",
       "sourceId": "65237",
-      "seriesKey": "official:forelasning-drapera-en-kjortel-demonstration-och-diskussion:festivalomrade-paviljongsplan",
-      "title": "Föreläsning – Drapera en kjortel. Demonstration och diskussion",
+      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-04",
@@ -19359,7 +19370,7 @@
           "pid": "65237",
           "date": "2026-08-04",
           "time": "14:00",
-          "titleText": "Föreläsning – Drapera en kjortel. Demonstration och diskussion",
+          "titleText": "Föreläsning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -19369,7 +19380,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
+            "title": "Föreläsning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -19378,25 +19389,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning &#8211; Hårnät och broderi"
+                "title": "Föreläsning"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
+                "title": "Föreläsning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
+                "title": "Föreläsning"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
+                "title": "Föreläsning"
               }
             }
           },
@@ -19405,7 +19416,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -26322,94 +26333,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "9022c6ac7903562c7d32",
-      "source": "official",
-      "sourceId": "65472",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-05",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65472",
-          "date": "2026-08-05",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Onsdag",
-            "date": "2026-08-05",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "30cd3d4694ad3ee8a17c",
       "source": "official",
       "sourceId": "65021",
@@ -27018,6 +26941,95 @@
     },
     {
       "schemaVersion": 1,
+      "id": "40ce3d94e44bbc5b2de8",
+      "source": "official",
+      "sourceId": "65472",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-05",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65472",
+          "date": "2026-08-05",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Onsdag",
+            "date": "2026-08-05",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "ec0d0c6fbe21edf9bad2",
       "source": "official",
       "sourceId": "65368",
@@ -27087,7 +27099,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_Ql6b6IqSLe_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/349817",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65338",
@@ -27097,13 +27109,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/349817",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_Ql6b6IqSLe_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Jolanda Snellenberg från Den Gröna Fenixen ",
             "title": "Kurs i historisk användning av brännässlor"
           },
@@ -29437,11 +29449,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "dc6bf0b7334090e822ae",
+      "id": "847876bfd9165ea79d67",
       "source": "official",
       "sourceId": "65238",
-      "seriesKey": "official:forelasning-forelasningoch-demonstration-av-medeltida-tenngjutning:festivalomrade-paviljongsplan",
-      "title": "Föreläsning – Föreläsningoch demonstration av medeltida tenngjutning",
+      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-05",
@@ -29456,7 +29468,7 @@
           "pid": "65238",
           "date": "2026-08-05",
           "time": "14:00",
-          "titleText": "Föreläsning – Föreläsningoch demonstration av medeltida tenngjutning",
+          "titleText": "Föreläsning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -29466,7 +29478,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
+            "title": "Föreläsning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -29475,25 +29487,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning &#8211; Hårnät och broderi"
+                "title": "Föreläsning"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
+                "title": "Föreläsning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
+                "title": "Föreläsning"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
+                "title": "Föreläsning"
               }
             }
           },
@@ -29502,7 +29514,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -31094,6 +31106,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343813",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65008",
@@ -31102,11 +31115,14 @@
           "titleText": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/343813",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk"
           },
@@ -34942,94 +34958,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "417638f1cbad2921c4c7",
-      "source": "official",
-      "sourceId": "65473",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-06",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65473",
-          "date": "2026-08-06",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "bf65980a0da1d7625c77",
       "source": "official",
       "sourceId": "64889",
@@ -35615,6 +35543,95 @@
             "date": "2026-08-06",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "74357686296eef2b6d94",
+      "source": "official",
+      "sourceId": "65473",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-06",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65473",
+          "date": "2026-08-06",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Torsdag",
+            "date": "2026-08-06",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -37330,11 +37347,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "73e0093b9e23d829056d",
+      "id": "e304af0e74d7c195ce43",
       "source": "official",
       "sourceId": "65239",
-      "seriesKey": "official:forelasning-medeltidens-tennmarken-tro-lust-och-lite-skvaller:festivalomrade-paviljongsplan",
-      "title": "Föreläsning – Medeltidens tennmärken – Tro, lust, och lite skvaller",
+      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-06",
@@ -37349,7 +37366,7 @@
           "pid": "65239",
           "date": "2026-08-06",
           "time": "14:00",
-          "titleText": "Föreläsning – Medeltidens tennmärken – Tro, lust, och lite skvaller",
+          "titleText": "Föreläsning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -37359,7 +37376,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
+            "title": "Föreläsning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -37368,25 +37385,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning &#8211; Hårnät och broderi"
+                "title": "Föreläsning"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
+                "title": "Föreläsning"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
+                "title": "Föreläsning"
               },
               "1786111200": {
                 "day": "Fredag",
                 "time": "14:00",
                 "timestamp": 1786111200,
-                "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
+                "title": "Föreläsning"
               }
             }
           },
@@ -37395,7 +37412,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -42433,94 +42450,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "9143b6e518a326417e36",
-      "source": "official",
-      "sourceId": "65474",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-07",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65474",
-          "date": "2026-08-07",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Fredag",
-            "date": "2026-08-07",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "9e91bb8eb7f7313383df",
       "source": "official",
       "sourceId": "65453",
@@ -44015,6 +43944,95 @@
             "date": "2026-08-07",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "77a137a03163d01882bf",
+      "source": "official",
+      "sourceId": "65474",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-07",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65474",
+          "date": "2026-08-07",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Fredag",
+            "date": "2026-08-07",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -45827,11 +45845,11 @@
     },
     {
       "schemaVersion": 1,
-      "id": "64fd24eff4a515760bad",
+      "id": "feaeb54090b526829e38",
       "source": "official",
       "sourceId": "65240",
-      "seriesKey": "official:forelasning-huvudbonader-och-accessoarer-for-dam-under-sent-1400-tal:festivalomrade-paviljongsplan",
-      "title": "Föreläsning – Huvudbonader och accessoarer för dam under sent 1400-tal",
+      "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
+      "title": "Föreläsning",
       "organizer": "Historiska Rum",
       "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-07",
@@ -45846,7 +45864,7 @@
           "pid": "65240",
           "date": "2026-08-07",
           "time": "14:00",
-          "titleText": "Föreläsning – Huvudbonader och accessoarer för dam under sent 1400-tal",
+          "titleText": "Föreläsning",
           "categoryLabel": "Föredrag",
           "editorTip": true
         },
@@ -45856,7 +45874,7 @@
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
             "item_owner": "Historiska Rum",
-            "title": "Föreläsning &#8211; Huvudbonader och accessoarer för dam under sent 1400-tal"
+            "title": "Föreläsning"
           },
           "content": {
             "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
@@ -45865,25 +45883,25 @@
                 "day": "Måndag",
                 "time": "14:00",
                 "timestamp": 1785765600,
-                "title": "Föreläsning &#8211; Hårnät och broderi"
+                "title": "Föreläsning"
               },
               "1785852000": {
                 "day": "Tisdag",
                 "time": "14:00",
                 "timestamp": 1785852000,
-                "title": "Föreläsning &#8211; Drapera en kjortel. Demonstration och diskussion"
+                "title": "Föreläsning"
               },
               "1785938400": {
                 "day": "Onsdag",
                 "time": "14:00",
                 "timestamp": 1785938400,
-                "title": "Föreläsning &#8211; Föreläsningoch demonstration av medeltida tenngjutning"
+                "title": "Föreläsning"
               },
               "1786024800": {
                 "day": "Torsdag",
                 "time": "14:00",
                 "timestamp": 1786024800,
-                "title": "Föreläsning &#8211; Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller"
+                "title": "Föreläsning"
               }
             }
           },
@@ -45892,7 +45910,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -51010,94 +51028,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "d6ad9511fed2848988b5",
-      "source": "official",
-      "sourceId": "65475",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-08",
-      "startTime": "11:00",
-      "endTime": "19:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65475",
-          "date": "2026-08-08",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786273200": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1786273200,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Lördag",
-            "date": "2026-08-08",
-            "time": "11:00 - 19:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "135a1068072590d9423c",
       "source": "official",
       "sourceId": "64557",
@@ -51449,6 +51379,95 @@
             "date": "2026-08-08",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d1944426bafe1db3af1d",
+      "source": "official",
+      "sourceId": "65475",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-08",
+      "startTime": "12:00",
+      "endTime": "18:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65475",
+          "date": "2026-08-08",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786276800": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1786276800,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Lördag",
+            "date": "2026-08-08",
+            "time": "12:00 - 18:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
@@ -55145,382 +55164,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "1dcb7d4e4ce03c562052",
-      "source": "official",
-      "sourceId": "65476",
-      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
-      "title": "Prova på att smida!",
-      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-      "date": "2026-08-09",
-      "startTime": "11:00",
-      "endTime": "16:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65476",
-          "date": "2026-08-09",
-          "time": "11:00",
-          "titleText": "Prova på att smida!",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "",
-            "title": "Prova på att smida!"
-          },
-          "content": {
-            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Prova på att smida!"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Prova på att smida!"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Prova på att smida!"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Prova på att smida!"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Prova på att smida!"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Prova på att smida!"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Prova på att smida!"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-09",
-            "time": "11:00 - 16:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "2e50e61c40cd92e4edce",
-      "source": "official",
-      "sourceId": "65074",
-      "seriesKey": "official:fran-tjara-till-karlek-vandring-med-gautmund-kremer:skolporten",
-      "title": "Från tjära till kärlek – vandring med Gautmund Kremer",
-      "organizer": "Gautmund Kremer",
-      "description": "<p>Här möter ni Calle Brobäcks karaktär: pälshandlaren Gautmund Kremer. Följ med på en vandring utöver det vanliga med en guide vars kunskap om Visby är bottenlös!</p>\n<p>Start vid Skolporten (första porten söder om Österport) avslutas vis Kärleksporten. </p>\n",
-      "date": "2026-08-09",
-      "startTime": "11:00",
-      "endTime": "12:50",
-      "venue": "Skolporten",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_ijIaDoHA6g_background.jpg",
-      "ticketUrl": "https://www.nortic.se/ticket/show/345983",
-      "editorTip": true,
-      "raw": {
-        "card": {
-          "pid": "65074",
-          "date": "2026-08-09",
-          "time": "11:00",
-          "titleText": "Från tjära till kärlek – vandring med Gautmund Kremer",
-          "categoryLabel": "Övrigt",
-          "ticketUrl": "https://www.nortic.se/ticket/show/345983",
-          "editorTip": true
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_ijIaDoHA6g_background.jpg",
-          "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
-            "item_owner": "Gautmund Kremer",
-            "title": "Från tjära till kärlek &#8211; vandring med Gautmund Kremer"
-          },
-          "content": {
-            "description": "<p>Här möter ni Calle Brobäcks karaktär: pälshandlaren Gautmund Kremer. Följ med på en vandring utöver det vanliga med en guide vars kunskap om Visby är bottenlös!</p>\n<p>Start vid Skolporten (första porten söder om Österport) avslutas vis Kärleksporten. </p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-09",
-            "time": "11:00 - 12:50",
-            "venue": "Skolporten",
-            "ticket_link": "https://www.nortic.se/ticket/show/345983",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "f6f8450afc316e6a4338",
-      "source": "official",
-      "sourceId": "64630",
-      "seriesKey": "official:m-p-bagpipes-sackpipor-fran-medeltid-till-nutid:festivalomrade-paviljongsplan",
-      "title": "M.P. Bagpipes, säckpipor från medeltid till nutid",
-      "organizer": "Max Persson ",
-      "description": "<p>Visning av medeltida instrument .</p>\n<p>Max Persson tillverkar säckpipor i olika modeller, som vi visar, berättar om, och spelar på.<br />\nProvspelning för besökare, stora som små, vi har till och med en säckpipa som passar barnen!</p>\n<p>Max Persson tillverkar instrumenten, och är du sugen , så går det bra att beställa ett på plats!</p>\n<p>Welcome to try a set of Swedish bagpipes or medieval bagpipes!<br />\nOr just enjoy the sound!<br />\nwww.maxbagpipes.com</p>\n",
-      "date": "2026-08-09",
-      "startTime": "11:00",
-      "endTime": "16:00",
-      "venue": "Festivalområde Paviljongsplan",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "64630",
-          "date": "2026-08-09",
-          "time": "11:00",
-          "titleText": "M.P. Bagpipes, säckpipor från medeltid till nutid",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "Max Persson ",
-            "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-          },
-          "content": {
-            "description": "<p>Visning av medeltida instrument .</p>\n<p>Max Persson tillverkar säckpipor i olika modeller, som vi visar, berättar om, och spelar på.<br />\nProvspelning för besökare, stora som små, vi har till och med en säckpipa som passar barnen!</p>\n<p>Max Persson tillverkar instrumenten, och är du sugen , så går det bra att beställa ett på plats!</p>\n<p>Welcome to try a set of Swedish bagpipes or medieval bagpipes!<br />\nOr just enjoy the sound!<br />\nwww.maxbagpipes.com</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-09",
-            "time": "11:00 - 16:00",
-            "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "1be013c11b36ebb5b2a1",
-      "source": "official",
-      "sourceId": "64588",
-      "seriesKey": "official:hogmassa-i-medeltida-ton:visby-domkyrka-sankta-maria",
-      "title": "Högmässa i medeltida ton",
-      "organizer": "Visby domkyrka Sankta Maria",
-      "description": "<p>Högmässa i medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd. </p>\n",
-      "date": "2026-08-09",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "venue": "Visby domkyrka Sankta Maria",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_tDkTfTx2aT_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64588",
-          "date": "2026-08-09",
-          "time": "11:00",
-          "titleText": "Högmässa i medeltida ton",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_tDkTfTx2aT_background.jpg",
-          "header": {
-            "item_owner": "Visby domkyrka Sankta Maria",
-            "title": "Högmässa i medeltida ton"
-          },
-          "content": {
-            "description": "<p>Högmässa i medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd. </p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Högmässa i medeltida ton"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-09",
-            "time": "11:00 - 12:00",
-            "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "2504b4f368186e3cb0a8",
-      "source": "official",
-      "sourceId": "64494",
-      "seriesKey": "official:drakens-naste:festivalomrade-strandgardet",
-      "title": "Drakens Näste",
-      "organizer": "Nåni - Kultur och Historia",
-      "description": "<p>En drake har hittat sig in i drottningens tält på marknaden och gjort det till sitt näste! Ve och fasa!</p>\n<p>Ni måste hitta de 3 magiska kristallerna som försvunnit i tumultet i tältet och öppna den magiska kistan så att drottningen får tillbaka sin krona! För de modiga som lyckas väntar en belöning!</p>\n<p>Pris: 50:- per barn (vuxna i sällskap med barn går gratis) swishas på plats<br />\nPlats: Nåni-området vid Russtibus scen. </p>\n",
-      "date": "2026-08-09",
-      "startTime": "11:00",
-      "endTime": "13:00",
-      "venue": "Festivalområde Strandgärdet",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_RPs5VFp9Fg_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64494",
-          "date": "2026-08-09",
-          "time": "11:00",
-          "titleText": "Drakens Näste",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_RPs5VFp9Fg_background.jpg",
-          "header": {
-            "item_owner": "Nåni - Kultur och Historia",
-            "title": "Drakens Näste"
-          },
-          "content": {
-            "description": "<p>En drake har hittat sig in i drottningens tält på marknaden och gjort det till sitt näste! Ve och fasa!</p>\n<p>Ni måste hitta de 3 magiska kristallerna som försvunnit i tumultet i tältet och öppna den magiska kistan så att drottningen får tillbaka sin krona! För de modiga som lyckas väntar en belöning!</p>\n<p>Pris: 50:- per barn (vuxna i sällskap med barn går gratis) swishas på plats<br />\nPlats: Nåni-området vid Russtibus scen. </p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Drakens Näste"
-              },
-              "1785754800": {
-                "day": "Måndag",
-                "time": "11:00",
-                "timestamp": 1785754800,
-                "title": "Drakens Näste"
-              },
-              "1785841200": {
-                "day": "Tisdag",
-                "time": "11:00",
-                "timestamp": 1785841200,
-                "title": "Drakens Näste"
-              },
-              "1785927600": {
-                "day": "Onsdag",
-                "time": "11:00",
-                "timestamp": 1785927600,
-                "title": "Drakens Näste"
-              },
-              "1786014000": {
-                "day": "Torsdag",
-                "time": "11:00",
-                "timestamp": 1786014000,
-                "title": "Drakens Näste"
-              },
-              "1786100400": {
-                "day": "Fredag",
-                "time": "11:00",
-                "timestamp": 1786100400,
-                "title": "Drakens Näste"
-              },
-              "1786186800": {
-                "day": "Lördag",
-                "time": "11:00",
-                "timestamp": 1786186800,
-                "title": "Drakens Näste"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-09",
-            "time": "11:00 - 13:00",
-            "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "4fb6580d66d145d154cc",
       "source": "official",
       "sourceId": "65459",
@@ -55834,6 +55477,294 @@
     },
     {
       "schemaVersion": 1,
+      "id": "2e50e61c40cd92e4edce",
+      "source": "official",
+      "sourceId": "65074",
+      "seriesKey": "official:fran-tjara-till-karlek-vandring-med-gautmund-kremer:skolporten",
+      "title": "Från tjära till kärlek – vandring med Gautmund Kremer",
+      "organizer": "Gautmund Kremer",
+      "description": "<p>Här möter ni Calle Brobäcks karaktär: pälshandlaren Gautmund Kremer. Följ med på en vandring utöver det vanliga med en guide vars kunskap om Visby är bottenlös!</p>\n<p>Start vid Skolporten (första porten söder om Österport) avslutas vis Kärleksporten. </p>\n",
+      "date": "2026-08-09",
+      "startTime": "11:00",
+      "endTime": "12:50",
+      "venue": "Skolporten",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_ijIaDoHA6g_background.jpg",
+      "ticketUrl": "https://www.nortic.se/ticket/show/345983",
+      "editorTip": true,
+      "raw": {
+        "card": {
+          "pid": "65074",
+          "date": "2026-08-09",
+          "time": "11:00",
+          "titleText": "Från tjära till kärlek – vandring med Gautmund Kremer",
+          "categoryLabel": "Övrigt",
+          "ticketUrl": "https://www.nortic.se/ticket/show/345983",
+          "editorTip": true
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_ijIaDoHA6g_background.jpg",
+          "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
+            "border_color": "border-warning",
+            "item_owner": "Gautmund Kremer",
+            "title": "Från tjära till kärlek &#8211; vandring med Gautmund Kremer"
+          },
+          "content": {
+            "description": "<p>Här möter ni Calle Brobäcks karaktär: pälshandlaren Gautmund Kremer. Följ med på en vandring utöver det vanliga med en guide vars kunskap om Visby är bottenlös!</p>\n<p>Start vid Skolporten (första porten söder om Österport) avslutas vis Kärleksporten. </p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-09",
+            "time": "11:00 - 12:50",
+            "venue": "Skolporten",
+            "ticket_link": "https://www.nortic.se/ticket/show/345983",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "f6f8450afc316e6a4338",
+      "source": "official",
+      "sourceId": "64630",
+      "seriesKey": "official:m-p-bagpipes-sackpipor-fran-medeltid-till-nutid:festivalomrade-paviljongsplan",
+      "title": "M.P. Bagpipes, säckpipor från medeltid till nutid",
+      "organizer": "Max Persson ",
+      "description": "<p>Visning av medeltida instrument .</p>\n<p>Max Persson tillverkar säckpipor i olika modeller, som vi visar, berättar om, och spelar på.<br />\nProvspelning för besökare, stora som små, vi har till och med en säckpipa som passar barnen!</p>\n<p>Max Persson tillverkar instrumenten, och är du sugen , så går det bra att beställa ett på plats!</p>\n<p>Welcome to try a set of Swedish bagpipes or medieval bagpipes!<br />\nOr just enjoy the sound!<br />\nwww.maxbagpipes.com</p>\n",
+      "date": "2026-08-09",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "venue": "Festivalområde Paviljongsplan",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "64630",
+          "date": "2026-08-09",
+          "time": "11:00",
+          "titleText": "M.P. Bagpipes, säckpipor från medeltid till nutid",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Max Persson ",
+            "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+          },
+          "content": {
+            "description": "<p>Visning av medeltida instrument .</p>\n<p>Max Persson tillverkar säckpipor i olika modeller, som vi visar, berättar om, och spelar på.<br />\nProvspelning för besökare, stora som små, vi har till och med en säckpipa som passar barnen!</p>\n<p>Max Persson tillverkar instrumenten, och är du sugen , så går det bra att beställa ett på plats!</p>\n<p>Welcome to try a set of Swedish bagpipes or medieval bagpipes!<br />\nOr just enjoy the sound!<br />\nwww.maxbagpipes.com</p>\n",
+            "siblings": {
+              "1785668400": {
+                "day": "Söndag",
+                "time": "11:00",
+                "timestamp": 1785668400,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1785754800": {
+                "day": "Måndag",
+                "time": "11:00",
+                "timestamp": 1785754800,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1785841200": {
+                "day": "Tisdag",
+                "time": "11:00",
+                "timestamp": 1785841200,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1785927600": {
+                "day": "Onsdag",
+                "time": "11:00",
+                "timestamp": 1785927600,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1786014000": {
+                "day": "Torsdag",
+                "time": "11:00",
+                "timestamp": 1786014000,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1786100400": {
+                "day": "Fredag",
+                "time": "11:00",
+                "timestamp": 1786100400,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              },
+              "1786186800": {
+                "day": "Lördag",
+                "time": "11:00",
+                "timestamp": 1786186800,
+                "title": "M.P. Bagpipes, säckpipor från medeltid till nutid"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-09",
+            "time": "11:00 - 16:00",
+            "venue": "Festivalområde Paviljongsplan",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "1be013c11b36ebb5b2a1",
+      "source": "official",
+      "sourceId": "64588",
+      "seriesKey": "official:hogmassa-i-medeltida-ton:visby-domkyrka-sankta-maria",
+      "title": "Högmässa i medeltida ton",
+      "organizer": "Visby domkyrka Sankta Maria",
+      "description": "<p>Högmässa i medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd. </p>\n",
+      "date": "2026-08-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "venue": "Visby domkyrka Sankta Maria",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_tDkTfTx2aT_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "64588",
+          "date": "2026-08-09",
+          "time": "11:00",
+          "titleText": "Högmässa i medeltida ton",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_tDkTfTx2aT_background.jpg",
+          "header": {
+            "item_owner": "Visby domkyrka Sankta Maria",
+            "title": "Högmässa i medeltida ton"
+          },
+          "content": {
+            "description": "<p>Högmässa i medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd. </p>\n",
+            "siblings": {
+              "1785668400": {
+                "day": "Söndag",
+                "time": "11:00",
+                "timestamp": 1785668400,
+                "title": "Högmässa i medeltida ton"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-09",
+            "time": "11:00 - 12:00",
+            "venue": "Visby domkyrka Sankta Maria",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2504b4f368186e3cb0a8",
+      "source": "official",
+      "sourceId": "64494",
+      "seriesKey": "official:drakens-naste:festivalomrade-strandgardet",
+      "title": "Drakens Näste",
+      "organizer": "Nåni - Kultur och Historia",
+      "description": "<p>En drake har hittat sig in i drottningens tält på marknaden och gjort det till sitt näste! Ve och fasa!</p>\n<p>Ni måste hitta de 3 magiska kristallerna som försvunnit i tumultet i tältet och öppna den magiska kistan så att drottningen får tillbaka sin krona! För de modiga som lyckas väntar en belöning!</p>\n<p>Pris: 50:- per barn (vuxna i sällskap med barn går gratis) swishas på plats<br />\nPlats: Nåni-området vid Russtibus scen. </p>\n",
+      "date": "2026-08-09",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_RPs5VFp9Fg_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "64494",
+          "date": "2026-08-09",
+          "time": "11:00",
+          "titleText": "Drakens Näste",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_RPs5VFp9Fg_background.jpg",
+          "header": {
+            "item_owner": "Nåni - Kultur och Historia",
+            "title": "Drakens Näste"
+          },
+          "content": {
+            "description": "<p>En drake har hittat sig in i drottningens tält på marknaden och gjort det till sitt näste! Ve och fasa!</p>\n<p>Ni måste hitta de 3 magiska kristallerna som försvunnit i tumultet i tältet och öppna den magiska kistan så att drottningen får tillbaka sin krona! För de modiga som lyckas väntar en belöning!</p>\n<p>Pris: 50:- per barn (vuxna i sällskap med barn går gratis) swishas på plats<br />\nPlats: Nåni-området vid Russtibus scen. </p>\n",
+            "siblings": {
+              "1785668400": {
+                "day": "Söndag",
+                "time": "11:00",
+                "timestamp": 1785668400,
+                "title": "Drakens Näste"
+              },
+              "1785754800": {
+                "day": "Måndag",
+                "time": "11:00",
+                "timestamp": 1785754800,
+                "title": "Drakens Näste"
+              },
+              "1785841200": {
+                "day": "Tisdag",
+                "time": "11:00",
+                "timestamp": 1785841200,
+                "title": "Drakens Näste"
+              },
+              "1785927600": {
+                "day": "Onsdag",
+                "time": "11:00",
+                "timestamp": 1785927600,
+                "title": "Drakens Näste"
+              },
+              "1786014000": {
+                "day": "Torsdag",
+                "time": "11:00",
+                "timestamp": 1786014000,
+                "title": "Drakens Näste"
+              },
+              "1786100400": {
+                "day": "Fredag",
+                "time": "11:00",
+                "timestamp": 1786100400,
+                "title": "Drakens Näste"
+              },
+              "1786186800": {
+                "day": "Lördag",
+                "time": "11:00",
+                "timestamp": 1786186800,
+                "title": "Drakens Näste"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-09",
+            "time": "11:00 - 13:00",
+            "venue": "Festivalområde Strandgärdet",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "2d1cfb89d0d1e3e0421a",
       "source": "official",
       "sourceId": "65701",
@@ -56136,6 +56067,95 @@
             "date": "2026-08-09",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "210093255e07b283c992",
+      "source": "official",
+      "sourceId": "65476",
+      "seriesKey": "official:prova-pa-att-smida:festivalomrade-strandgardet",
+      "title": "Prova på att smida!",
+      "organizer": "Smedja Qiron",
+      "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+      "date": "2026-08-09",
+      "startTime": "12:00",
+      "endTime": "16:00",
+      "venue": "Festivalområde Strandgärdet",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65476",
+          "date": "2026-08-09",
+          "time": "12:00",
+          "titleText": "Prova på att smida!",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Smedja Qiron",
+            "title": "Prova på att smida!"
+          },
+          "content": {
+            "description": "<p>PROVA PÅ ATT SMIDA</p>\n<p>TID: Under marknadens öppettider.<br />\nPLATS: Vid tornerspelen<br />\nPRIS: 150-300 kr</p>\n<p>Hos smedja Qiron kan du prova på att smida en krok eller en kapsylöppnare. Att smida en krok tar ca. 30 min och att smida en kapsylöppnare tar ca 60-90 min. Handskar och skyddsglasögon finns att låna.<br />\nSMIDET SKER PÅ EGEN RISK! </p>\n<p>TRY FORGING</p>\n<p>TIME: During the market&#8217;s opening hours.<br />\nPLACE: At the jousting games<br />\nPRICE: 150-300 SEK</p>\n<p>At the Qiron forge you can try forging a hook or a bottle opener. Forging a hook takes approx. 30 min and forging a bottle opener takes approx. 60-90 min. Gloves and safety glasses are available for loan.<br />\nFORGING IS AT YOUR OWN RISK!</p>\n",
+            "siblings": {
+              "1785672000": {
+                "day": "Söndag",
+                "time": "12:00",
+                "timestamp": 1785672000,
+                "title": "Prova på att smida!"
+              },
+              "1785758400": {
+                "day": "Måndag",
+                "time": "12:00",
+                "timestamp": 1785758400,
+                "title": "Prova på att smida!"
+              },
+              "1785844800": {
+                "day": "Tisdag",
+                "time": "12:00",
+                "timestamp": 1785844800,
+                "title": "Prova på att smida!"
+              },
+              "1785931200": {
+                "day": "Onsdag",
+                "time": "12:00",
+                "timestamp": 1785931200,
+                "title": "Prova på att smida!"
+              },
+              "1786017600": {
+                "day": "Torsdag",
+                "time": "12:00",
+                "timestamp": 1786017600,
+                "title": "Prova på att smida!"
+              },
+              "1786104000": {
+                "day": "Fredag",
+                "time": "12:00",
+                "timestamp": 1786104000,
+                "title": "Prova på att smida!"
+              },
+              "1786190400": {
+                "day": "Lördag",
+                "time": "12:00",
+                "timestamp": 1786190400,
+                "title": "Prova på att smida!"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-09",
+            "time": "12:00 - 16:00",
+            "venue": "Festivalområde Strandgärdet",
             "ticket_link": null,
             "bookmark_button_html": null
           },
