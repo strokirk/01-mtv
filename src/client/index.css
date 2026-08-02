@@ -40,6 +40,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* showModal() traps focus/pointer interaction on the page behind it but
+   does not stop it from scrolling — this is the fix, keyed off the native
+   [open] attribute so it applies to any <dialog>, no JS scroll-lock needed.
+   Both html and body need it: browsers propagate viewport scroll from
+   whichever of the two has an explicit overflow value, and which one that
+   is varies enough that setting only one leaves scroll unlocked. */
+html:has(dialog[open]),
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
 /* solid-icons renders inline <svg width="1em" height="1em">, which sits on
    the text baseline and leaves a descender gap — the single biggest source
    of "icons look misaligned". Nudge every icon onto the optical center and
@@ -809,6 +820,11 @@ button,
   width: calc(100vw - 2rem);
   max-height: calc(100vh - 4rem);
   overflow-y: auto;
+  /* Without this, once a wheel/touch scroll exhausts the dialog's own
+     scroll room the leftover momentum chains through to the page behind
+     it — the html/body overflow:hidden lock above doesn't stop that on
+     its own, only this does. */
+  overscroll-behavior: contain;
   padding: 1.1rem 1.1rem 1.4rem;
   box-shadow: var(--shadow);
 }
