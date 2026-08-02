@@ -1,5 +1,15 @@
 # Agent instructions for this repo
 
+## Push straight to main
+
+This repo has no PR-branch workflow — the user works directly off `main` and
+can't pick up anything sitting on a branch. Do not create feature branches
+or hold changes for review. As soon as a change is in a good state
+(typecheck passes, build succeeds), commit it and push straight to `main`,
+quickly and without asking for confirmation first. If a session happens to
+be started on some other branch, merge/rebase it onto `main` and push there
+instead of leaving work stranded off of it.
+
 ## Commit and push eagerly
 
 Commit and push working increments as soon as they're in a good state —
