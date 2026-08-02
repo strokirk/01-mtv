@@ -705,9 +705,48 @@ button,
   gap: 0.4rem;
 }
 
+.search-input-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+}
+
 .search-input {
   flex: 1 1 auto;
   min-width: 0;
+  width: 100%;
+  /* Room for the floating clear button so typed text never runs under it. */
+  padding-right: 2rem;
+}
+
+/* Chrome/Edge already render a built-in clear affordance for type="search",
+   but it's invisible in Firefox/Safari and unstyled everywhere — this one
+   is consistent across browsers and matches the rest of the icon buttons. */
+.search-clear {
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  transform: translateY(-50%);
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text-faint);
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.search-clear:hover {
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+/* Our own .search-clear replaces this so the two don't overlap. */
+.search-input::-webkit-search-cancel-button {
+  display: none;
 }
 
 .filter-toggle {
@@ -778,10 +817,25 @@ button,
   background: rgba(36, 16, 25, 0.45);
 }
 
+/* Bleeds to the dialog's edges and sticks to the top of its scrollport, so
+   the title and close button stay reachable while long descriptions scroll
+   underneath — same full-bleed-sticky-bar trick as .app-toolbar. */
+.modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: -1.1rem -1.1rem 0.7rem;
+  padding: 1.1rem 1.1rem 0.6rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
 .modal-close {
-  position: absolute;
-  top: 0.7rem;
-  right: 0.7rem;
+  flex: none;
   justify-content: center;
   border: 1px solid var(--border);
   background: var(--surface-2);
@@ -792,8 +846,8 @@ button,
   font-size: 0.9rem;
 }
 
-.event-modal h2 {
-  margin: 0 2rem 0.5rem 0;
+.modal-header h2 {
+  margin: 0;
   font-size: 1.15rem;
   line-height: 1.3;
 }

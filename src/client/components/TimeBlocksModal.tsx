@@ -64,10 +64,12 @@ export default function TimeBlocksModal(props: Props) {
         if (e.target === dialogRef) props.onClose();
       }}
     >
-      <button class="modal-close" onClick={() => props.onClose()} aria-label="Stäng">
-        <FaSolidXmark />
-      </button>
-      <h2>Otillgänglig tid</h2>
+      <div class="modal-header">
+        <h2>Otillgänglig tid</h2>
+        <button class="modal-close" onClick={() => props.onClose()} aria-label="Stäng">
+          <FaSolidXmark />
+        </button>
+      </div>
       <p class="modal-meta">Event som krockar med dessa tider döljs automatiskt, i alla vyer.</p>
 
       <Show when={props.blocks.length > 0}>

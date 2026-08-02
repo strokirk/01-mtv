@@ -1,5 +1,5 @@
 import { createSignal, For, Show } from "solid-js";
-import { FaSolidFilter } from "solid-icons/fa";
+import { FaSolidFilter, FaSolidXmark } from "solid-icons/fa";
 import { categoryLabel } from "../categoryLabels";
 
 interface Props {
@@ -28,14 +28,21 @@ export default function FilterBar(props: Props) {
   return (
     <div class="filter-bar">
       <div class="search-row">
-        <input
-          type="search"
-          name="search"
-          class="search-input"
-          placeholder="Sök titel eller arrangör…"
-          value={props.search}
-          onInput={(e) => props.onSearch(e.currentTarget.value)}
-        />
+        <div class="search-input-wrap">
+          <input
+            type="search"
+            name="search"
+            class="search-input"
+            placeholder="Sök titel eller arrangör…"
+            value={props.search}
+            onInput={(e) => props.onSearch(e.currentTarget.value)}
+          />
+          <Show when={props.search}>
+            <button type="button" class="search-clear" aria-label="Rensa sökning" onClick={() => props.onSearch("")}>
+              <FaSolidXmark />
+            </button>
+          </Show>
+        </div>
         <button
           type="button"
           class="filter-toggle"

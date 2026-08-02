@@ -9,6 +9,7 @@ import {
   FaSolidLocationDot,
   FaSolidUsers,
   FaSolidClock,
+  FaSolidCalendarPlus,
 } from "solid-icons/fa";
 import type { EventInstance, InstanceDecision } from "../../schema";
 import { categoryLabel } from "../categoryLabels";
@@ -39,6 +40,66 @@ function formatDate(date: string): string {
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
 
+// No endTime for many imtv events (point-in-time listings) — give the
+// calendar entry a plausible default length rather than a zero-duration event.
+const DEFAULT_DURATION_MINUTES = 120;
+
+function pad2(n: number): string {
+  return String(n).padStart(2, "0");
+}
+
+function icsDateTime(date: string, time: string): string {
+  return `${date.replace(/-/g, "")}T${time.replace(":", "")}00`;
+}
+
+function addMinutes(date: string, time: string, minutes: number): { date: string; time: string } {
+  const start = new Date(`${date}T${time}:00`);
+  start.setMinutes(start.getMinutes() + minutes);
+  return {
+    date: `${start.getFullYear()}-${pad2(start.getMonth() + 1)}-${pad2(start.getDate())}`,
+    time: `${pad2(start.getHours())}:${pad2(start.getMinutes())}`,
+  };
+}
+
+function icsEscape(text: string): string {
+  return text.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+}
+
+function stripHtml(html: string): string {
+  return new DOMParser().parseFromString(html, "text/html").body.textContent?.trim() ?? "";
+}
+
+// Plain .ics data URI rather than a provider-specific "add to calendar" link
+// (e.g. Google Calendar's render endpoint) — opens in whatever calendar app
+// the user actually has, with no external dependency.
+function calendarUrl(event: EventInstance): string {
+  const end = event.endTime
+    ? { date: event.date, time: event.endTime }
+    : addMinutes(event.date, event.startTime, DEFAULT_DURATION_MINUTES);
+  const description = event.description
+    ? event.source === "official"
+      ? stripHtml(event.description)
+      : event.description
+    : "";
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Medeltidsveckan//Programme//SV",
+    "BEGIN:VEVENT",
+    `UID:${event.id}@medeltidsveckan-programme`,
+    `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
+    `DTSTART:${icsDateTime(event.date, event.startTime)}`,
+    `DTEND:${icsDateTime(end.date, end.time)}`,
+    `SUMMARY:${icsEscape(event.title)}`,
+    event.venue ? `LOCATION:${icsEscape(event.venue)}` : "",
+    description ? `DESCRIPTION:${icsEscape(description)}` : "",
+    event.ticketUrl ? `URL:${event.ticketUrl}` : "",
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].filter(Boolean);
+  return `data:text/calendar;charset=utf-8,${encodeURIComponent(lines.join("\r\n"))}`;
+}
+
 export default function EventDetailsModal(props: Props) {
   let dialogRef: HTMLDialogElement | undefined;
 
@@ -65,10 +126,12 @@ export default function EventDetailsModal(props: Props) {
       <Show when={props.event}>
         {(event) => (
           <>
-            <button class="modal-close" onClick={() => props.onClose()} aria-label="Stäng">
-              <FaSolidXmark />
-            </button>
-            <h2>{event().title}</h2>
+            <div class="modal-header">
+              <h2>{event().title}</h2>
+              <button class="modal-close" onClick={() => props.onClose()} aria-label="Stäng">
+                <FaSolidXmark />
+              </button>
+            </div>
             <p class="modal-meta">
               <span class="meta-item">
                 <FaSolidClock />
@@ -149,17 +212,18 @@ export default function EventDetailsModal(props: Props) {
                 </Show>
               )}
             </Show>
-            <Show when={links().length > 0}>
-              <div class="modal-links">
-                <For each={links()}>
-                  {(url) => (
-                    <a href={url} target="_blank" rel="noreferrer">
-                      <FaSolidLink /> {linkLabel(url)}
-                    </a>
-                  )}
-                </For>
-              </div>
-            </Show>
+            <div class="modal-links">
+              <a href={calendarUrl(event())} download={`${event().id}.ics`}>
+                <FaSolidCalendarPlus /> Lägg till i kalender
+              </a>
+              <For each={links()}>
+                {(url) => (
+                  <a href={url} target="_blank" rel="noreferrer">
+                    <FaSolidLink /> {linkLabel(url)}
+                  </a>
+                )}
+              </For>
+            </div>
           </>
         )}
       </Show>
