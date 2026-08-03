@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T12:31:21.584Z",
+  "generatedAt": "2026-08-03T17:19:53.805Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -10652,7 +10652,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<blockquote>\n<div dir=\"ltr\">\n<div>\n<div>\n<div>Måndag: Föreläsning och demonstration av medeltida tenngjutning</div>\n<div>Tisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund</div>\n<div>Onsdag: Hårnät och broderi</div>\n<div>Torsdag: Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller</div>\n<div>Fredag: Huvudbonader och accessoarer för dam under sent 1400-tal</div>\n</div>\n</div>\n</div>\n</blockquote>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
       "date": "2026-08-03",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -10678,7 +10678,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<blockquote>\n<div dir=\"ltr\">\n<div>\n<div>\n<div>Måndag: Föreläsning och demonstration av medeltida tenngjutning</div>\n<div>Tisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund</div>\n<div>Onsdag: Hårnät och broderi</div>\n<div>Torsdag: Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller</div>\n<div>Fredag: Huvudbonader och accessoarer för dam under sent 1400-tal</div>\n</div>\n</div>\n</div>\n</blockquote>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
             "siblings": {
               "1785852000": {
                 "day": "Tisdag",
@@ -10711,7 +10711,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": "",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -11709,6 +11709,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "df4200de236fd7b43d8d",
+      "source": "imtv",
+      "sourceId": "{4AA66D3D-A824-4779-8BF5-547F6B9C852C}",
+      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
+      "title": "Dead Mans Draw",
+      "organizer": "Fladdermusen",
+      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)    Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+      "date": "2026-08-03",
+      "startTime": "15:00",
+      "lastModified": "2026-08-03 15:03:04",
+      "raw": {
+        "date": "2026-08-03",
+        "time": "15:00",
+        "title": "Dead Mans Draw",
+        "guid": "{4AA66D3D-A824-4779-8BF5-547F6B9C852C}",
+        "creator": "Fladdermusen",
+        "lastModified": "2026-08-03 15:03:04",
+        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)    Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+        "links": []
       }
     },
     {
@@ -12892,6 +12915,7 @@
       "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_ulwqKfYw2h_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343661",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64867",
@@ -12900,11 +12924,14 @@
           "titleText": "Tjaut i S:ta Karins Ruin",
           "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/343661",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_ulwqKfYw2h_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Tjaut",
             "title": "Tjaut i S:ta Karins Ruin"
           },
@@ -13085,6 +13112,7 @@
       "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_Ky6HwpeJeJ_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343689",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64891",
@@ -13093,11 +13121,14 @@
           "titleText": "Ful- och snuskvisor med Våtmark",
           "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/343689",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_Ky6HwpeJeJ_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Våtmark",
             "title": "Ful- och snuskvisor med Våtmark"
           },
@@ -17857,6 +17888,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "01003be1fd33381a9834",
+      "source": "imtv",
+      "sourceId": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
+      "title": "Dead Mans Draw",
+      "organizer": "Fladdermusen",
+      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+      "date": "2026-08-04",
+      "startTime": "12:00",
+      "lastModified": "2026-08-03 15:09:37",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "12:00",
+        "title": "Dead Mans Draw",
+        "guid": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+        "creator": "Fladdermusen",
+        "lastModified": "2026-08-03 15:09:37",
+        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "062c59f1aebc32f030e8",
       "source": "imtv",
       "sourceId": "{1642A09C-DBFC-46F2-A215-32A9C159D882}",
@@ -19787,29 +19841,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "d9c427926da005e6f298",
-      "source": "imtv",
-      "sourceId": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
-      "seriesKey": "imtv:vinbrannboll:domarn",
-      "title": "Vinbrännboll!",
-      "organizer": "Domarn",
-      "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
-      "date": "2026-08-04",
-      "startTime": "14:00",
-      "lastModified": "2024-07-03 22:07:48",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "14:00",
-        "title": "Vinbrännboll!",
-        "guid": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
-        "creator": "Domarn",
-        "lastModified": "2024-07-03 22:07:48",
-        "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "2befc7d23a9e17ab31a9",
       "source": "imtv",
       "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
@@ -19828,6 +19859,29 @@
         "creator": "Twinkleberry",
         "lastModified": "2026-07-08 16:09:00",
         "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d9c427926da005e6f298",
+      "source": "imtv",
+      "sourceId": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
+      "seriesKey": "imtv:vinbrannboll:domarn",
+      "title": "Vinbrännboll!",
+      "organizer": "Domarn",
+      "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
+      "date": "2026-08-04",
+      "startTime": "14:00",
+      "lastModified": "2024-07-03 22:07:48",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "14:00",
+        "title": "Vinbrännboll!",
+        "guid": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
+        "creator": "Domarn",
+        "lastModified": "2024-07-03 22:07:48",
+        "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
         "links": []
       }
     },
@@ -27431,6 +27485,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "74fab0a7f41235be54bd",
+      "source": "imtv",
+      "sourceId": "{1DBCC171-2B09-4300-B59E-65D5D8B4DB80}",
+      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
+      "title": "Dead Mans Draw",
+      "organizer": "Fladdermusen",
+      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+      "date": "2026-08-05",
+      "startTime": "12:00",
+      "lastModified": "2026-08-03 15:11:07",
+      "raw": {
+        "date": "2026-08-05",
+        "time": "12:00",
+        "title": "Dead Mans Draw",
+        "guid": "{1DBCC171-2B09-4300-B59E-65D5D8B4DB80}",
+        "creator": "Fladdermusen",
+        "lastModified": "2026-08-03 15:11:07",
+        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "2d2d614e0c375c2226d2",
       "source": "official",
       "sourceId": "64687",
@@ -30803,6 +30880,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "d99defadedc06ef92714",
+      "source": "imtv",
+      "sourceId": "{FCAADD86-325C-4B98-942F-DA7F6E82ED96}",
+      "seriesKey": "imtv:rollspel-punkt-nu-forumtraff:den-sensuella-lyrikern",
+      "title": "Rollspel punkt nu - Forumträff",
+      "organizer": "Den sensuella lyrikern",
+      "description": "Meetup för Sveriges äldsta och bästa rollspelsforum. På Kapitelhusgården.",
+      "date": "2026-08-05",
+      "startTime": "16:00",
+      "lastModified": "2026-08-03 17:57:32",
+      "raw": {
+        "date": "2026-08-05",
+        "time": "16:00",
+        "title": "Rollspel punkt nu - Forumträff",
+        "guid": "{FCAADD86-325C-4B98-942F-DA7F6E82ED96}",
+        "creator": "Den sensuella lyrikern",
+        "lastModified": "2026-08-03 17:57:32",
+        "description": "Meetup för Sveriges äldsta och bästa rollspelsforum. På Kapitelhusgården.",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "5e6bdbbd9ab14e94999a",
       "source": "official",
       "sourceId": "64916",
@@ -31123,6 +31223,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "ec4f6ccb2b5c15c588e2",
+      "source": "imtv",
+      "sourceId": "{07452ADF-5B91-499D-8215-D193367B752D}",
+      "seriesKey": "imtv:hamnraden-pirater-som-plundrar:offer",
+      "title": "Hamnräden - Pirater som plundrar",
+      "organizer": "offer",
+      "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. (VÄDRET VERKAR VARA PÅ VÅR SIDA MEN KAN ÄNDRAS.)",
+      "date": "2026-08-05",
+      "startTime": "18:00",
+      "lastModified": "2026-08-03 14:37:26",
+      "raw": {
+        "date": "2026-08-05",
+        "time": "18:00",
+        "title": "Hamnräden - Pirater som plundrar",
+        "guid": "{07452ADF-5B91-499D-8215-D193367B752D}",
+        "creator": "offer",
+        "lastModified": "2026-08-03 14:37:26",
+        "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. (VÄDRET VERKAR VARA PÅ VÅR SIDA MEN KAN ÄNDRAS.)",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "b61a5543c3daa4675be0",
       "source": "official",
       "sourceId": "65008",
@@ -31137,7 +31260,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343813",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65008",
@@ -31147,13 +31270,13 @@
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/343813",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk"
           },
@@ -34663,6 +34786,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343684",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64886",
@@ -34671,11 +34795,14 @@
           "titleText": "Prova på långsvärd (HEMA)",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343684",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Wisby Historiska Fäktskola",
             "title": "Prova på långsvärd (HEMA)"
           },
@@ -35003,7 +35130,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_QaVZRFzqes_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343687",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64889",
@@ -35013,13 +35140,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343687",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QaVZRFzqes_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Porta Temporum",
             "title": "Medieval Calligraphy – Learn to Write in Gothic Script"
           },
@@ -37343,7 +37470,7 @@
       "startTime": "14:00",
       "endTime": "15:00",
       "venue": "S:t Nicolai",
-      "category": "cat-ovrigt",
+      "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_bbeAI7qaPV_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/354337",
       "raw": {
@@ -37352,7 +37479,7 @@
           "date": "2026-08-06",
           "time": "14:00",
           "titleText": "Oljaud u älvstrik",
-          "categoryLabel": "Övrigt",
+          "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/354337",
           "editorTip": false
         },
@@ -47792,6 +47919,52 @@
     },
     {
       "schemaVersion": 1,
+      "id": "1985d4c9ed5df7279c51",
+      "source": "official",
+      "sourceId": "65721",
+      "seriesKey": "official:stormfruns-officiella-for-och-efterfest-pa-bistra-haren:bistra-haren",
+      "title": "Stormfruns officiella för- och efterfest på Bistra haren",
+      "organizer": "Stormfrun ",
+      "description": "<p>Fredagen under medeltidsveckan intar pirater bistra haren 🏴‍☠️</p>\n<p>Den självklara platsen att värma upp inför Stormfruns största show någonsin är såklart Bistra Haren! Njut av något gott att dricka och äta innan du ställer dig i VIP kön till spelningen.</p>\n<p>Efter showen fortsätter festen natten lång tillsammans med Stormfruare som kanske spelar just den där låten du saknade i ruinen eller kanske favoriten du vill höra igen. Piratklädda har en guldpeng rabatt på fatöl. </p>\n<p>Vi ses på Bistra haren 🏴‍☠️ </p>\n",
+      "date": "2026-08-07",
+      "startTime": "17:00",
+      "endTime": "01:00",
+      "venue": "Bistra Haren",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65721",
+          "date": "2026-08-07",
+          "time": "17:00",
+          "titleText": "Stormfruns officiella för- och efterfest på Bistra haren",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Stormfrun ",
+            "title": "Stormfruns officiella för- och efterfest på Bistra haren"
+          },
+          "content": {
+            "description": "<p>Fredagen under medeltidsveckan intar pirater bistra haren 🏴‍☠️</p>\n<p>Den självklara platsen att värma upp inför Stormfruns största show någonsin är såklart Bistra Haren! Njut av något gott att dricka och äta innan du ställer dig i VIP kön till spelningen.</p>\n<p>Efter showen fortsätter festen natten lång tillsammans med Stormfruare som kanske spelar just den där låten du saknade i ruinen eller kanske favoriten du vill höra igen. Piratklädda har en guldpeng rabatt på fatöl. </p>\n<p>Vi ses på Bistra haren 🏴‍☠️ </p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Fredag",
+            "date": "2026-08-07",
+            "time": "17:00 - 01:00",
+            "venue": "Bistra Haren",
+            "ticket_link": null,
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "ec46b8dee5d20f1ec81e",
       "source": "official",
       "sourceId": "64599",
@@ -50605,6 +50778,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_7O6HuTGPVr_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343811",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65006",
@@ -50613,11 +50787,14 @@
           "titleText": "Medeltida broderi",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343811",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_7O6HuTGPVr_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Medeltida broderi"
           },
