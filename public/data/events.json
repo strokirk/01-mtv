@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T06:31:32.129Z",
+  "generatedAt": "2026-08-03T12:31:21.584Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -10652,7 +10652,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<blockquote>\n<div dir=\"ltr\">\n<div>\n<div>\n<div>Måndag: Föreläsning och demonstration av medeltida tenngjutning</div>\n<div>Tisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund</div>\n<div>Onsdag: Hårnät och broderi</div>\n<div>Torsdag: Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller</div>\n<div>Fredag: Huvudbonader och accessoarer för dam under sent 1400-tal</div>\n</div>\n</div>\n</div>\n</blockquote>\n",
       "date": "2026-08-03",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -10678,7 +10678,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<blockquote>\n<div dir=\"ltr\">\n<div>\n<div>\n<div>Måndag: Föreläsning och demonstration av medeltida tenngjutning</div>\n<div>Tisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund</div>\n<div>Onsdag: Hårnät och broderi</div>\n<div>Torsdag: Medeltidens tennmärken &#8211; Tro, lust, och lite skvaller</div>\n<div>Fredag: Huvudbonader och accessoarer för dam under sent 1400-tal</div>\n</div>\n</div>\n</div>\n</blockquote>\n",
             "siblings": {
               "1785852000": {
                 "day": "Tisdag",
@@ -10711,7 +10711,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11372,7 +11372,7 @@
       "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_gVu5xg2yS8_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343635",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64845",
@@ -11382,13 +11382,13 @@
           "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/343635",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_gVu5xg2yS8_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Canardus Horribilis, Fornfela, Vevgöran och Starur",
             "title": "Konserten Du Inte Vill Missa"
           },
@@ -13666,7 +13666,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343749",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64946",
@@ -13676,13 +13676,13 @@
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343749",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Gycklargruppen TRiX",
             "title": "TRiX ger &#8211; Eldiaden"
           },
@@ -48360,6 +48360,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_jTCRDEULfh_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345923",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65018",
@@ -48368,11 +48369,14 @@
           "titleText": "Stormfrun – den största piratshowen vi gjort",
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/345923",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_jTCRDEULfh_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Stormfrun",
             "title": "Stormfrun &#8211; den största piratshowen vi gjort"
           },
