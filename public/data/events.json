@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T17:19:53.805Z",
+  "generatedAt": "2026-08-03T19:47:02.139Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -13525,6 +13525,7 @@
       "category": "cat-performance",
       "image": "https://join.medeltidsveckan.se/uploads/2026_ZX8y3FAfWI_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343759",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64955",
@@ -13533,11 +13534,14 @@
           "titleText": "Historiska spöken – Vikingatida vålnader",
           "categoryLabel": "Performance",
           "ticketUrl": "https://www.nortic.se/ticket/show/343759",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_ZX8y3FAfWI_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Hörsägen",
             "title": "Historiska spöken &#8211; Vikingatida vålnader"
           },
@@ -13809,6 +13813,61 @@
             "time": "21:15 - 22:05",
             "venue": "S:t Lars",
             "ticket_link": "https://www.nortic.se/ticket/show/343703",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "53632ce9f1fcc694c9b4",
+      "source": "official",
+      "sourceId": "65722",
+      "seriesKey": "official:ge-fyr-en-gratis-pirateldshow-med-vilda-flammor:piratlagret",
+      "title": "Ge fyr! – En gratis pirateldshow med Vilda Flammor",
+      "organizer": "Vilda Flammor",
+      "description": "<p>Välkommen till en sprakande eldföreställning med Lukas och Elin från eldgruppen Vilda Flammor!</p>\n<p>Under cirka 15 minuter bjuds publiken på pirater, eld, glöd och fartfylld stämning. Föreställningen passar hela familjen och är helt gratis.</p>\n<p>Ge fyr!</p>\n<p>Plats: Piratlägret Tundlaheim vid Nordergravar, intill Strandgärdet<br />\nLängd: Cirka 15 minuter<br />\nPris: Gratis</p>\n",
+      "date": "2026-08-03",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "venue": "Piratlägret",
+      "category": "cat-eldshow",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_kCNDMl3p9g_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65722",
+          "date": "2026-08-03",
+          "time": "22:00",
+          "titleText": "Ge fyr! – En gratis pirateldshow med Vilda Flammor",
+          "categoryLabel": "Eldshow",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_kCNDMl3p9g_background.jpg",
+          "header": {
+            "item_owner": "Vilda Flammor",
+            "title": "Ge fyr! &#8211; En gratis pirateldshow med Vilda Flammor"
+          },
+          "content": {
+            "description": "<p>Välkommen till en sprakande eldföreställning med Lukas och Elin från eldgruppen Vilda Flammor!</p>\n<p>Under cirka 15 minuter bjuds publiken på pirater, eld, glöd och fartfylld stämning. Föreställningen passar hela familjen och är helt gratis.</p>\n<p>Ge fyr!</p>\n<p>Plats: Piratlägret Tundlaheim vid Nordergravar, intill Strandgärdet<br />\nLängd: Cirka 15 minuter<br />\nPris: Gratis</p>\n",
+            "siblings": {
+              "1785880800": {
+                "day": "Tisdag",
+                "time": "22:00",
+                "timestamp": 1785880800,
+                "title": "Ge fyr! &#8211; En gratis pirateldshow med Vilda Flammor"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Måndag",
+            "date": "2026-08-03",
+            "time": "22:00 - 22:15",
+            "venue": "Piratlägret",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -20065,6 +20124,7 @@
       "category": "cat-foredrag",
       "image": "https://join.medeltidsveckan.se/uploads/2026_FI8tuGmIOS_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/349810",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65334",
@@ -20073,11 +20133,14 @@
           "titleText": "Medeltida textilier – nya upptäckter bland gamla fynd",
           "categoryLabel": "Föredrag",
           "ticketUrl": "https://www.nortic.se/ticket/show/349810",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_FI8tuGmIOS_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Maria Neijman",
             "title": "Medeltida textilier – nya upptäckter bland gamla fynd"
           },
@@ -22274,7 +22337,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345948",
-      "editorTip": true,
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65043",
@@ -22283,13 +22346,14 @@
           "titleText": "Vasadottern / Daughter of Sweden",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/345948",
-          "editorTip": true
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Teater Kaleido",
             "title": "Vasadottern / Daughter of Sweden"
           },
@@ -23033,6 +23097,61 @@
             "time": "21:15 - 22:05",
             "venue": "S:t Lars",
             "ticket_link": "https://www.nortic.se/ticket/show/343704",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "24b92429ea6ce82a6a33",
+      "source": "official",
+      "sourceId": "65723",
+      "seriesKey": "official:ge-fyr-en-gratis-pirateldshow-med-vilda-flammor:piratlagret",
+      "title": "Ge fyr! – En gratis pirateldshow med Vilda Flammor",
+      "organizer": "Vilda Flammor",
+      "description": "<p>Välkommen till en sprakande eldföreställning med Lukas och Elin från eldgruppen Vilda Flammor!</p>\n<p>Under cirka 15 minuter bjuds publiken på pirater, eld, glöd och fartfylld stämning. Föreställningen passar hela familjen och är helt gratis.</p>\n<p>Ge fyr!</p>\n<p>Plats: Piratlägret Tundlaheim vid Nordergravar, intill Strandgärdet<br />\nLängd: Cirka 15 minuter<br />\nPris: Gratis</p>\n",
+      "date": "2026-08-04",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "venue": "Piratlägret",
+      "category": "cat-eldshow",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_kCNDMl3p9g_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65723",
+          "date": "2026-08-04",
+          "time": "22:00",
+          "titleText": "Ge fyr! – En gratis pirateldshow med Vilda Flammor",
+          "categoryLabel": "Eldshow",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_kCNDMl3p9g_background.jpg",
+          "header": {
+            "item_owner": "Vilda Flammor",
+            "title": "Ge fyr! &#8211; En gratis pirateldshow med Vilda Flammor"
+          },
+          "content": {
+            "description": "<p>Välkommen till en sprakande eldföreställning med Lukas och Elin från eldgruppen Vilda Flammor!</p>\n<p>Under cirka 15 minuter bjuds publiken på pirater, eld, glöd och fartfylld stämning. Föreställningen passar hela familjen och är helt gratis.</p>\n<p>Ge fyr!</p>\n<p>Plats: Piratlägret Tundlaheim vid Nordergravar, intill Strandgärdet<br />\nLängd: Cirka 15 minuter<br />\nPris: Gratis</p>\n",
+            "siblings": {
+              "1785794400": {
+                "day": "Måndag",
+                "time": "22:00",
+                "timestamp": 1785794400,
+                "title": "Ge fyr! &#8211; En gratis pirateldshow med Vilda Flammor"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Tisdag",
+            "date": "2026-08-04",
+            "time": "22:00 - 22:15",
+            "venue": "Piratlägret",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
