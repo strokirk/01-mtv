@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T05:57:27.186Z",
+  "generatedAt": "2026-08-04T08:47:03.504Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -94,7 +94,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Tornerspel (Visby)"
           },
           "content": {
@@ -370,7 +370,7 @@
             "date": "2026-08-02",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -461,7 +461,7 @@
             "date": "2026-08-02",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -508,7 +508,7 @@
             "date": "2026-08-02",
             "time": "09:30 - 10:30",
             "venue": "S:t Clemens",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -641,7 +641,7 @@
             "date": "2026-08-02",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -732,7 +732,7 @@
             "date": "2026-08-02",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -947,7 +947,7 @@
             "date": "2026-08-02",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1106,7 +1106,7 @@
             "date": "2026-08-02",
             "time": "10:30 - 10:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1239,7 +1239,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 11:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1324,7 +1324,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1637,7 +1637,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1720,7 +1720,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1809,7 +1809,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1894,7 +1894,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -1985,7 +1985,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2040,7 +2040,7 @@
             "date": "2026-08-02",
             "time": "11:00 - 12:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2076,7 +2076,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_YcKNdbh8Km_background.jpg",
           "header": {
-            "item_owner": "Medeltidsveckan & Nåni Kultur & Historia",
+            "item_owner": "Medeltidsveckan &amp; Nåni Kultur &amp; Historia",
             "title": "Barnens invigning"
           },
           "content": {
@@ -2088,7 +2088,7 @@
             "date": "2026-08-02",
             "time": "11:15 - 12:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2401,7 +2401,7 @@
             "date": "2026-08-02",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2490,7 +2490,7 @@
             "date": "2026-08-02",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2674,7 +2674,7 @@
             "date": "2026-08-02",
             "time": "12:00 - 13:00",
             "venue": "Södertorg",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2789,7 +2789,7 @@
             "date": "2026-08-02",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2844,7 +2844,7 @@
             "date": "2026-08-02",
             "time": "13:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -2892,7 +2892,7 @@
             "date": "2026-08-02",
             "time": "13:00 - 14:30",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -3205,7 +3205,7 @@
             "date": "2026-08-02",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -3518,7 +3518,7 @@
             "date": "2026-08-02",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -3879,7 +3879,7 @@
             "date": "2026-08-02",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4050,7 +4050,7 @@
             "date": "2026-08-02",
             "time": "15:00 - 17:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4114,7 +4114,7 @@
             "date": "2026-08-02",
             "time": "15:15 - 16:15",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4427,7 +4427,7 @@
             "date": "2026-08-02",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4575,7 +4575,7 @@
             "date": "2026-08-02",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4718,7 +4718,7 @@
             "date": "2026-08-02",
             "time": "16:30 - 17:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4816,7 +4816,7 @@
             "date": "2026-08-02",
             "time": "18:00 - 19:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -4953,7 +4953,7 @@
             "date": "2026-08-02",
             "time": "20:00 - 22:00",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5125,7 +5125,7 @@
             "date": "2026-08-02",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5303,7 +5303,7 @@
             "date": "2026-08-02",
             "time": "22:15 - 23:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5351,7 +5351,7 @@
             "date": "2026-08-02",
             "time": "22:30 - 23:59",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5484,7 +5484,7 @@
             "date": "2026-08-03",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5562,7 +5562,7 @@
             "date": "2026-08-03",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -5746,7 +5746,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
             "border_color": "border-danger",
-            "item_owner": "Kicki & Anne",
+            "item_owner": "Kicki &amp; Anne",
             "title": "Skokurs Sy medeltida skor"
           },
           "content": {
@@ -5937,7 +5937,7 @@
             "date": "2026-08-03",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -6028,7 +6028,7 @@
             "date": "2026-08-03",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -6061,7 +6061,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell: Ceòl math, àm mìorbhaileach. Bra musik, goda stunder. Good music, marvellous times."
           },
           "content": {
@@ -6140,7 +6140,7 @@
             "date": "2026-08-03",
             "time": "09:30 - 11:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -6453,7 +6453,7 @@
             "date": "2026-08-03",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -6649,7 +6649,7 @@
             "date": "2026-08-03",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -6740,7 +6740,7 @@
             "date": "2026-08-03",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -7021,7 +7021,7 @@
             "date": "2026-08-03",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -7373,7 +7373,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -7686,7 +7686,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -7744,7 +7744,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -7877,7 +7877,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -8187,7 +8187,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -8272,7 +8272,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -8363,7 +8363,7 @@
             "date": "2026-08-03",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -8453,7 +8453,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell ger: Den historiska historien om historien om Tristan och Isolde / The historical history of the tale of Tristan and Isolde"
           },
           "content": {
@@ -8845,7 +8845,7 @@
             "date": "2026-08-03",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -8934,7 +8934,7 @@
             "date": "2026-08-03",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9269,7 +9269,7 @@
             "date": "2026-08-03",
             "time": "12:00 - 12:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9318,7 +9318,7 @@
             "date": "2026-08-03",
             "time": "12:00 - 14:00",
             "venue": "S:t Nicolai",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9433,7 +9433,7 @@
             "date": "2026-08-03",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9491,7 +9491,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 16:00",
             "venue": "Medeltida läger Östergravar",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9599,7 +9599,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 14:30",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9638,7 +9638,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -9681,7 +9681,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9754,7 +9754,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9815,7 +9815,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -9873,7 +9873,7 @@
             "date": "2026-08-03",
             "time": "13:00 - 15:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -10209,7 +10209,7 @@
             "date": "2026-08-03",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -10635,7 +10635,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -10711,7 +10711,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -10984,7 +10984,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 16:00",
             "venue": "Snäckgärdsporten",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11030,7 +11030,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 15:30",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11085,7 +11085,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11227,7 +11227,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 16:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11318,7 +11318,7 @@
             "date": "2026-08-03",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11502,7 +11502,7 @@
             "date": "2026-08-03",
             "time": "14:45 - 16:15",
             "venue": "S:t Clemens",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11690,7 +11690,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_1lOlvlNDua_background.jpg",
           "header": {
-            "item_owner": "Anna Risberg & David Wahlén",
+            "item_owner": "Anna Risberg &amp; David Wahlén",
             "title": "Vila i musik &#8211; Hildegard av Bingen"
           },
           "content": {
@@ -11702,7 +11702,7 @@
             "date": "2026-08-03",
             "time": "15:00 - 16:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -11994,7 +11994,7 @@
             "date": "2026-08-03",
             "time": "15:45 - 16:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12307,7 +12307,7 @@
             "date": "2026-08-03",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12355,7 +12355,7 @@
             "date": "2026-08-03",
             "time": "16:00 - 17:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12393,7 +12393,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_P0a5EX4PkU_background.jpg",
           "header": {
-            "item_owner": "Poeta Magica & Starur",
+            "item_owner": "Poeta Magica &amp; Starur",
             "title": "Love is the key &#8211; POETA MAGICA &#038; STARUR"
           },
           "content": {
@@ -12469,7 +12469,7 @@
             "date": "2026-08-03",
             "time": "16:00 - 16:30",
             "venue": "S:ta Karin",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12554,7 +12554,7 @@
             "date": "2026-08-03",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12782,7 +12782,7 @@
             "date": "2026-08-03",
             "time": "16:30 - 17:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -12815,7 +12815,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "En musikalisk kärleksresa genom keltiska träskmarker med Low Hanging Fruit"
           },
           "content": {
@@ -13282,7 +13282,7 @@
             "date": "2026-08-03",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -13437,7 +13437,7 @@
             "date": "2026-08-03",
             "time": "21:00 - 23:00",
             "venue": "Bistra Haren",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -13676,7 +13676,7 @@
             "date": "2026-08-03",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -13867,7 +13867,7 @@
             "date": "2026-08-03",
             "time": "22:00 - 22:15",
             "venue": "Piratlägret",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -13922,7 +13922,7 @@
             "date": "2026-08-03",
             "time": "22:00 - 01:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14031,7 +14031,7 @@
             "date": "2026-08-03",
             "time": "22:15 - 23:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14079,7 +14079,7 @@
             "date": "2026-08-03",
             "time": "23:55 - 00:59",
             "venue": "S:t Göran under Kastanjen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14212,7 +14212,7 @@
             "date": "2026-08-04",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14363,7 +14363,7 @@
             "date": "2026-08-04",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14543,7 +14543,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_rYeBuXpHfn_background.jpg",
           "header": {
-            "item_owner": "Kicki & Anne",
+            "item_owner": "Kicki &amp; Anne",
             "title": "Skokurs Sy medeltida skor"
           },
           "content": {
@@ -14795,7 +14795,7 @@
             "date": "2026-08-04",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14886,7 +14886,7 @@
             "date": "2026-08-04",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -14919,7 +14919,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell: Ceòl math, àm mìorbhaileach. Bra musik, goda stunder. Good music, marvellous times."
           },
           "content": {
@@ -15263,7 +15263,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -15310,7 +15310,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 14:00",
             "venue": "Vike Minnesgård",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -15443,7 +15443,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -15534,7 +15534,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -15978,7 +15978,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 12:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16069,7 +16069,7 @@
             "date": "2026-08-04",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16182,7 +16182,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16495,7 +16495,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16628,7 +16628,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16931,7 +16931,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -16977,7 +16977,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 13:00",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17062,7 +17062,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17153,7 +17153,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17208,7 +17208,7 @@
             "date": "2026-08-04",
             "time": "11:00 - 13:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17651,7 +17651,7 @@
             "date": "2026-08-04",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17740,7 +17740,7 @@
             "date": "2026-08-04",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17863,7 +17863,7 @@
             "date": "2026-08-04",
             "time": "12:00 - 13:00",
             "venue": "Teatern, Strand Hotel",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -17936,7 +17936,7 @@
             "date": "2026-08-04",
             "time": "12:00 - 12:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18102,7 +18102,7 @@
             "date": "2026-08-04",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18180,7 +18180,7 @@
             "date": "2026-08-04",
             "time": "13:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18355,7 +18355,7 @@
             "date": "2026-08-04",
             "time": "13:00 - 15:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18403,7 +18403,7 @@
             "date": "2026-08-04",
             "time": "13:00 - 14:30",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18442,7 +18442,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -18485,7 +18485,7 @@
             "date": "2026-08-04",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18558,7 +18558,7 @@
             "date": "2026-08-04",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -18957,7 +18957,7 @@
             "date": "2026-08-04",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -19457,7 +19457,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -19533,7 +19533,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -19798,7 +19798,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 16:00",
             "venue": "Snäckgärdsporten",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -19889,7 +19889,7 @@
             "date": "2026-08-04",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20045,7 +20045,7 @@
             "date": "2026-08-04",
             "time": "14:30 - 16:30",
             "venue": "Församlingshuset Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20199,7 +20199,7 @@
             "date": "2026-08-04",
             "time": "15:00 - 16:30",
             "venue": "Köksscenen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20614,7 +20614,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_P0a5EX4PkU_background.jpg",
           "header": {
-            "item_owner": "Poeta Magica & Starur",
+            "item_owner": "Poeta Magica &amp; Starur",
             "title": "Love is the key &#8211; POETA MAGICA &#038; STARUR"
           },
           "content": {
@@ -20687,7 +20687,7 @@
             "date": "2026-08-04",
             "time": "15:00 - 16:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20735,7 +20735,7 @@
             "date": "2026-08-04",
             "time": "15:00 - 17:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20790,7 +20790,7 @@
             "date": "2026-08-04",
             "time": "15:00 - 19:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20838,7 +20838,7 @@
             "date": "2026-08-04",
             "time": "15:00 - 16:15",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20912,7 +20912,7 @@
             "date": "2026-08-04",
             "time": "15:15 - 16:00",
             "venue": "Gamla Apoteket",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -20960,7 +20960,7 @@
             "date": "2026-08-04",
             "time": "15:30 - 16:30",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21011,7 +21011,7 @@
             "date": "2026-08-04",
             "time": "15:30 - 17:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21324,7 +21324,7 @@
             "date": "2026-08-04",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21363,7 +21363,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Sorkar & Strängar",
+            "item_owner": "Sorkar &amp; Strängar",
             "title": "Picknick med Sorkarna"
           },
           "content": {
@@ -21375,7 +21375,7 @@
             "date": "2026-08-04",
             "time": "16:00 - 17:30",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21431,7 +21431,7 @@
             "date": "2026-08-04",
             "time": "16:00 - 18:00",
             "venue": "Gutars Bågskyttars läger",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21516,7 +21516,7 @@
             "date": "2026-08-04",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21751,7 +21751,7 @@
             "date": "2026-08-04",
             "time": "16:30 - 17:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -21918,24 +21918,24 @@
     },
     {
       "schemaVersion": 1,
-      "id": "176d50cc6fe90c2a5870",
+      "id": "a722b1245f578742cf26",
       "source": "imtv",
       "sourceId": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
-      "seriesKey": "imtv:rollspel-spoken:johannes-punkt",
-      "title": "ROLLSPEL: Spöken",
+      "seriesKey": "imtv:rollspel-spoken-fullbokat:johannes-punkt",
+      "title": "ROLLSPEL: Spöken FULLBOKAT!",
       "organizer": "Johannes Punkt",
-      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+      "description": "Fullbokat! Svarar inte på mejl längre :) Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
       "date": "2026-08-04",
       "startTime": "17:00",
-      "lastModified": "2026-05-15 10:14:11",
+      "lastModified": "2026-08-04 10:09:52",
       "raw": {
         "date": "2026-08-04",
         "time": "17:00",
-        "title": "ROLLSPEL: Spöken",
+        "title": "ROLLSPEL: Spöken FULLBOKAT!",
         "guid": "{D142247E-9951-4FFC-B7DA-457298725CB4}",
         "creator": "Johannes Punkt",
-        "lastModified": "2026-05-15 10:14:11",
-        "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+        "lastModified": "2026-08-04 10:09:52",
+        "description": "Fullbokat! Svarar inte på mejl längre :) Gillar du tärningsrollspel? Vill du spela i ett oneshot som utspelar sig i ett hemsökt hus? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
         "links": []
       }
     },
@@ -22541,7 +22541,7 @@
             "date": "2026-08-04",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -22905,7 +22905,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_AlaVLsJL4A_background.jpg",
           "header": {
-            "item_owner": "Falsobordone, Fornfela & Johan",
+            "item_owner": "Falsobordone, Fornfela &amp; Johan",
             "title": "Game of Drones"
           },
           "content": {
@@ -23033,7 +23033,7 @@
             "date": "2026-08-04",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23151,7 +23151,7 @@
             "date": "2026-08-04",
             "time": "22:00 - 22:15",
             "venue": "Piratlägret",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23340,7 +23340,7 @@
             "date": "2026-08-04",
             "time": "22:15 - 23:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23388,7 +23388,7 @@
             "date": "2026-08-04",
             "time": "22:30 - 23:59",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23449,7 +23449,7 @@
             "date": "2026-08-04",
             "time": "23:55 - 23:59",
             "venue": "S:t Göran under Kastanjen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23582,7 +23582,7 @@
             "date": "2026-08-05",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23660,7 +23660,7 @@
             "date": "2026-08-05",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -23968,7 +23968,7 @@
             "date": "2026-08-05",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -24059,7 +24059,7 @@
             "date": "2026-08-05",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -24433,7 +24433,7 @@
             "date": "2026-08-05",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -24629,7 +24629,7 @@
             "date": "2026-08-05",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -24674,7 +24674,7 @@
             "date": "2026-08-05",
             "time": "10:00 - 16:00",
             "venue": "Gammelgarn, Gotlands Östkust",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -24765,7 +24765,7 @@
             "date": "2026-08-05",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -25270,7 +25270,7 @@
             "date": "2026-08-05",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -25539,7 +25539,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -25852,7 +25852,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -25910,7 +25910,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -25993,7 +25993,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -26350,7 +26350,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -26435,7 +26435,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -26526,7 +26526,7 @@
             "date": "2026-08-05",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -26688,7 +26688,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell ger: Den historiska historien om historien om Tristan och Isolde / The historical history of the tale of Tristan and Isolde"
           },
           "content": {
@@ -27134,7 +27134,7 @@
             "date": "2026-08-05",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -27223,7 +27223,7 @@
             "date": "2026-08-05",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -27278,7 +27278,7 @@
             "date": "2026-08-05",
             "time": "12:00 - 17:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -27593,7 +27593,7 @@
             "date": "2026-08-05",
             "time": "12:00 - 12:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -27784,7 +27784,7 @@
             "date": "2026-08-05",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -27842,7 +27842,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 16:00",
             "venue": "Medeltida läger Östergravar",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28054,7 +28054,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 14:00",
             "venue": "Forum Vulgaris",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28117,7 +28117,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 15:00",
             "venue": "Köksscenen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28156,7 +28156,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -28199,7 +28199,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28272,7 +28272,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28333,7 +28333,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28391,7 +28391,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 15:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28440,7 +28440,7 @@
             "date": "2026-08-05",
             "time": "13:00 - 16:00",
             "venue": "Gutars Bågskyttars läger",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -28781,7 +28781,7 @@
             "date": "2026-08-05",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29144,7 +29144,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29468,7 +29468,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 16:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29519,7 +29519,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 17:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29610,7 +29610,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29665,7 +29665,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29741,7 +29741,7 @@
             "date": "2026-08-05",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29777,7 +29777,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": "Gycklarna Putte & Kalle",
+            "item_owner": "Gycklarna Putte &amp; Kalle",
             "title": "Sagoskoj (kärleksversionen) med Putte och Kalle"
           },
           "content": {
@@ -29835,7 +29835,7 @@
             "date": "2026-08-05",
             "time": "15:00 - 17:00",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -30214,7 +30214,7 @@
             "date": "2026-08-05",
             "time": "15:00 - 16:30",
             "venue": "Södertorg",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -30432,7 +30432,7 @@
             "date": "2026-08-05",
             "time": "15:30 - 17:30",
             "venue": "Köksscenen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -30537,7 +30537,7 @@
             "date": "2026-08-05",
             "time": "16:00 - 17:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -30850,7 +30850,7 @@
             "date": "2026-08-05",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -30988,7 +30988,7 @@
             "date": "2026-08-05",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31109,7 +31109,7 @@
             "date": "2026-08-05",
             "time": "17:00 - 20:00",
             "venue": "Nordergravar",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31262,7 +31262,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Isabel &#8211; En livsresa beskriven genom spanska renässanssånger, engelsk lutmusik och italiensk tidig barock"
           },
           "content": {
@@ -31456,7 +31456,7 @@
             "date": "2026-08-05",
             "time": "19:00 - 20:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31492,7 +31492,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_L8xn2peIEc_background.jpg",
           "header": {
-            "item_owner": "Sorkar & Strängar",
+            "item_owner": "Sorkar &amp; Strängar",
             "title": "Sorkar &#038; Strängar på Kapitelhusgården"
           },
           "content": {
@@ -31504,7 +31504,7 @@
             "date": "2026-08-05",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31552,7 +31552,7 @@
             "date": "2026-08-05",
             "time": "20:00 - 22:06",
             "venue": "Folkets bio Betty",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31655,7 +31655,7 @@
             "date": "2026-08-05",
             "time": "20:00 - 20:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31710,7 +31710,7 @@
             "date": "2026-08-05",
             "time": "21:00 - 22:00",
             "venue": "S:t Nicolai",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -31832,7 +31832,7 @@
             "date": "2026-08-05",
             "time": "21:00 - 23:00",
             "venue": "Bistra Haren",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32061,7 +32061,7 @@
             "date": "2026-08-05",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32112,7 +32112,7 @@
             "date": "2026-08-05",
             "time": "21:00 - 22:15",
             "venue": "Nordergravar",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32221,7 +32221,7 @@
             "date": "2026-08-05",
             "time": "22:15 - 23:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32404,7 +32404,7 @@
             "date": "2026-08-06",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32482,7 +32482,7 @@
             "date": "2026-08-06",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -32735,7 +32735,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_rYeBuXpHfn_background.jpg",
           "header": {
-            "item_owner": "Kicki & Anne",
+            "item_owner": "Kicki &amp; Anne",
             "title": "Skokurs Sy medeltida skor"
           },
           "content": {
@@ -32926,7 +32926,7 @@
             "date": "2026-08-06",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -33017,7 +33017,7 @@
             "date": "2026-08-06",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -33387,7 +33387,7 @@
             "date": "2026-08-06",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -33583,7 +33583,7 @@
             "date": "2026-08-06",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -33674,7 +33674,7 @@
             "date": "2026-08-06",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -33980,7 +33980,7 @@
             "date": "2026-08-06",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -34242,7 +34242,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -34555,7 +34555,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -34695,7 +34695,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35048,7 +35048,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35133,7 +35133,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35224,7 +35224,7 @@
             "date": "2026-08-06",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35824,7 +35824,7 @@
             "date": "2026-08-06",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35913,7 +35913,7 @@
             "date": "2026-08-06",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -35968,7 +35968,7 @@
             "date": "2026-08-06",
             "time": "12:00 - 17:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36108,7 +36108,7 @@
             "date": "2026-08-06",
             "time": "12:00 - 12:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36223,7 +36223,7 @@
             "date": "2026-08-06",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36269,7 +36269,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 16:30",
             "venue": "Gutars Bågskyttars läger",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36383,7 +36383,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 15:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36433,7 +36433,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 14:30",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36472,7 +36472,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -36515,7 +36515,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36588,7 +36588,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -36649,7 +36649,7 @@
             "date": "2026-08-06",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -37094,7 +37094,7 @@
             "date": "2026-08-06",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -37567,7 +37567,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -37693,7 +37693,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -37861,7 +37861,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 16:00",
             "venue": "Snäckgärdsporten",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38007,7 +38007,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38062,7 +38062,7 @@
             "date": "2026-08-06",
             "time": "14:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38266,7 +38266,7 @@
             "date": "2026-08-06",
             "time": "14:30 - 16:30",
             "venue": "Församlingshuset Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38639,7 +38639,7 @@
             "date": "2026-08-06",
             "time": "15:00 - 15:30",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38690,7 +38690,7 @@
             "date": "2026-08-06",
             "time": "15:00 - 17:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -38901,7 +38901,7 @@
             "date": "2026-08-06",
             "time": "15:45 - 16:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39214,7 +39214,7 @@
             "date": "2026-08-06",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39252,7 +39252,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_P0a5EX4PkU_background.jpg",
           "header": {
-            "item_owner": "Poeta Magica & Starur",
+            "item_owner": "Poeta Magica &amp; Starur",
             "title": "Love is the key &#8211; POETA MAGICA &#038; STARUR"
           },
           "content": {
@@ -39412,7 +39412,7 @@
             "date": "2026-08-06",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39632,7 +39632,7 @@
             "date": "2026-08-06",
             "time": "17:00 - 19:00",
             "venue": "Gutars Bågskyttars läger",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39683,7 +39683,7 @@
             "date": "2026-08-06",
             "time": "17:00 - 17:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39731,7 +39731,7 @@
             "date": "2026-08-06",
             "time": "17:45 - 18:45",
             "venue": "S:t Clemens",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -39769,7 +39769,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_AlaVLsJL4A_background.jpg",
           "header": {
-            "item_owner": "Falsobordone, Fornfela & Johan",
+            "item_owner": "Falsobordone, Fornfela &amp; Johan",
             "title": "Game of Drones"
           },
           "content": {
@@ -40018,7 +40018,7 @@
             "date": "2026-08-06",
             "time": "18:30 - 19:15",
             "venue": "S:t Lars",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40167,7 +40167,7 @@
             "date": "2026-08-06",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40215,7 +40215,7 @@
             "date": "2026-08-06",
             "time": "19:30 - 19:40",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40263,7 +40263,7 @@
             "date": "2026-08-06",
             "time": "20:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40438,7 +40438,7 @@
             "date": "2026-08-06",
             "time": "20:30 - 22:00",
             "venue": "Nordergravar",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40493,7 +40493,7 @@
             "date": "2026-08-06",
             "time": "21:00 - 22:00",
             "venue": "S:t Nicolai",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40531,7 +40531,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_zet9w658SM_background.jpg",
           "header": {
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Troll&#038;Älva i Helge And &#8211; Nu med kärlek!"
           },
           "content": {
@@ -40702,7 +40702,7 @@
             "date": "2026-08-06",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -40820,7 +40820,7 @@
             "date": "2026-08-06",
             "time": "22:00 - 01:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41004,7 +41004,7 @@
             "date": "2026-08-06",
             "time": "22:15 - 23:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41065,7 +41065,7 @@
             "date": "2026-08-06",
             "time": "23:55 - 23:59",
             "venue": "S:t Göran under Kastanjen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41198,7 +41198,7 @@
             "date": "2026-08-07",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41276,7 +41276,7 @@
             "date": "2026-08-07",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41594,7 +41594,7 @@
             "date": "2026-08-07",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41685,7 +41685,7 @@
             "date": "2026-08-07",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -41718,7 +41718,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell: Ceòl math, àm mìorbhaileach. Bra musik, goda stunder. Good music, marvellous times."
           },
           "content": {
@@ -42062,7 +42062,7 @@
             "date": "2026-08-07",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -42095,7 +42095,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Wisby Vaganter &#8211; Medeltidsveckans husband"
           },
           "content": {
@@ -42240,7 +42240,7 @@
             "date": "2026-08-07",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -42381,7 +42381,7 @@
             "date": "2026-08-07",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -42602,7 +42602,7 @@
             "date": "2026-08-07",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43054,7 +43054,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43187,7 +43187,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43497,7 +43497,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43582,7 +43582,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43673,7 +43673,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -43758,7 +43758,7 @@
             "date": "2026-08-07",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -44250,7 +44250,7 @@
             "date": "2026-08-07",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -44339,7 +44339,7 @@
             "date": "2026-08-07",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -44604,7 +44604,7 @@
             "date": "2026-08-07",
             "time": "12:00 - 12:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -44802,7 +44802,7 @@
             "date": "2026-08-07",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -44913,7 +44913,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 17:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45077,7 +45077,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 16:00",
             "venue": "Köksscenen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45125,7 +45125,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 14:15",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45198,7 +45198,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45249,7 +45249,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 16:00",
             "venue": "S:t Hansskolans aula",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45288,7 +45288,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -45331,7 +45331,7 @@
             "date": "2026-08-07",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45457,7 +45457,7 @@
             "date": "2026-08-07",
             "time": "13:15 - 16:45",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -45770,7 +45770,7 @@
             "date": "2026-08-07",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46140,7 +46140,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46216,7 +46216,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 15:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46489,7 +46489,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 16:00",
             "venue": "Snäckgärdsporten",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46633,7 +46633,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46763,7 +46763,7 @@
             "date": "2026-08-07",
             "time": "14:00 - 16:00",
             "venue": "Fightingarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -47285,7 +47285,7 @@
             "date": "2026-08-07",
             "time": "15:00 - 15:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -47340,7 +47340,7 @@
             "date": "2026-08-07",
             "time": "15:00 - 19:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -47556,7 +47556,7 @@
             "date": "2026-08-07",
             "time": "15:30 - 16:15",
             "venue": "S:t Lars",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -47869,7 +47869,7 @@
             "date": "2026-08-07",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48004,7 +48004,7 @@
             "date": "2026-08-07",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48037,7 +48037,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Isabel &#8211; En livsresa beskriven genom spanska renässanssånger, engelsk lutmusik och italiensk tidig barock"
           },
           "content": {
@@ -48102,7 +48102,7 @@
             "date": "2026-08-07",
             "time": "17:00 - 01:00",
             "venue": "Bistra Haren",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48217,7 +48217,7 @@
             "date": "2026-08-07",
             "time": "17:00 - 18:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48228,24 +48228,24 @@
     },
     {
       "schemaVersion": 1,
-      "id": "938d94d9dde0f2c9a87d",
+      "id": "6c5617277c20dfc2c2ce",
       "source": "imtv",
       "sourceId": "{13075B63-CA94-446E-8918-69AAD8D7813D}",
-      "seriesKey": "imtv:rollspel-ratatouille:johannes-punkt",
-      "title": "ROLLSPEL: Ratatouille",
+      "seriesKey": "imtv:rollspel-ratatouille-fullbokat:johannes-punkt",
+      "title": "ROLLSPEL: Ratatouille FULLBOKAT!",
       "organizer": "Johannes Punkt",
-      "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+      "description": "Uppdatering: Det här är fullbokat. Om du mejlar sätts du på väntelista, men troligen kommer du inte med. Ha en fin vecka <3. Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
       "date": "2026-08-07",
       "startTime": "17:00",
-      "lastModified": "2026-05-15 10:16:00",
+      "lastModified": "2026-08-04 10:11:08",
       "raw": {
         "date": "2026-08-07",
         "time": "17:00",
-        "title": "ROLLSPEL: Ratatouille",
+        "title": "ROLLSPEL: Ratatouille FULLBOKAT!",
         "guid": "{13075B63-CA94-446E-8918-69AAD8D7813D}",
         "creator": "Johannes Punkt",
-        "lastModified": "2026-05-15 10:16:00",
-        "description": "Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
+        "lastModified": "2026-08-04 10:11:08",
+        "description": "Uppdatering: Det här är fullbokat. Om du mejlar sätts du på väntelista, men troligen kommer du inte med. Ha en fin vecka <3. Gillar du tärningsrollspel? Vill du spela i ett oneshot där ni är smådjur som gömmer sig i hattar och styr människor? Mejla johannespunkt (snabel-a) gmail.com och hör om plats. I skrivande stund finns platser öppna. (Detta är alltså gratis och enbart för skojs skull.)",
         "links": []
       }
     },
@@ -48534,7 +48534,7 @@
             "date": "2026-08-07",
             "time": "19:00 - 20:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48593,7 +48593,7 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_UlCHVyMpVU_background.jpg",
           "header": {
-            "item_owner": "Magne & Magnus",
+            "item_owner": "Magne &amp; Magnus",
             "title": "Magne &#038; Magnus på Kapitelhusgården"
           },
           "content": {
@@ -48605,7 +48605,7 @@
             "date": "2026-08-07",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -48656,7 +48656,7 @@
             "date": "2026-08-07",
             "time": "19:30 - 20:15",
             "venue": "Gamla Apoteket",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49114,7 +49114,7 @@
             "date": "2026-08-07",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49162,7 +49162,7 @@
             "date": "2026-08-07",
             "time": "22:30 - 00:30",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49295,7 +49295,7 @@
             "date": "2026-08-08",
             "time": "09:00 - 09:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49459,7 +49459,7 @@
             "date": "2026-08-08",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49550,7 +49550,7 @@
             "date": "2026-08-08",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -49920,7 +49920,7 @@
             "date": "2026-08-08",
             "time": "10:00 - 11:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50053,7 +50053,7 @@
             "date": "2026-08-08",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50144,7 +50144,7 @@
             "date": "2026-08-08",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50392,7 +50392,7 @@
             "date": "2026-08-08",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50505,7 +50505,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50818,7 +50818,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -50901,7 +50901,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 17:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51228,7 +51228,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 19:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51313,7 +51313,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51404,7 +51404,7 @@
             "date": "2026-08-08",
             "time": "11:00 - 15:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51453,7 +51453,7 @@
             "date": "2026-08-08",
             "time": "11:30 - 12:00",
             "venue": "Visitor Center",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51766,7 +51766,7 @@
             "date": "2026-08-08",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -51855,7 +51855,7 @@
             "date": "2026-08-08",
             "time": "12:00 - 18:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -52037,7 +52037,7 @@
             "date": "2026-08-08",
             "time": "12:00 - 13:30",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -52101,7 +52101,7 @@
             "date": "2026-08-08",
             "time": "13:00 - 15:00",
             "venue": "Almedalen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -52140,7 +52140,7 @@
           "header": {
             "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
             "border_color": "border-warning",
-            "item_owner": "Troll&Älva",
+            "item_owner": "Troll&amp;Älva",
             "title": "Bu eller Bröd på Frimis"
           },
           "content": {
@@ -52183,7 +52183,7 @@
             "date": "2026-08-08",
             "time": "13:00 - 15:00",
             "venue": "Frimis krog",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -52496,7 +52496,7 @@
             "date": "2026-08-08",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -52872,7 +52872,7 @@
             "date": "2026-08-08",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53091,7 +53091,7 @@
             "date": "2026-08-08",
             "time": "14:00 - 15:15",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53182,7 +53182,7 @@
             "date": "2026-08-08",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53329,7 +53329,7 @@
             "date": "2026-08-08",
             "time": "14:45 - 15:45",
             "venue": "Medeltidsarenan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53492,7 +53492,7 @@
             "date": "2026-08-08",
             "time": "15:15 - 16:15",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53805,7 +53805,7 @@
             "date": "2026-08-08",
             "time": "16:00 - 17:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -53866,7 +53866,7 @@
             "date": "2026-08-08",
             "time": "16:00 - 16:45",
             "venue": "S:t Lars",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54008,7 +54008,7 @@
             "date": "2026-08-08",
             "time": "16:00 - 21:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54113,7 +54113,7 @@
             "date": "2026-08-08",
             "time": "18:00 - 18:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54291,7 +54291,7 @@
             "date": "2026-08-08",
             "time": "19:30 - 21:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54392,7 +54392,7 @@
             "date": "2026-08-08",
             "time": "20:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54581,7 +54581,7 @@
             "date": "2026-08-08",
             "time": "21:00 - 23:00",
             "venue": "Bistra Haren",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54818,7 +54818,7 @@
             "date": "2026-08-08",
             "time": "22:30 - 23:59",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54879,7 +54879,7 @@
             "date": "2026-08-08",
             "time": "23:55 - 23:55",
             "venue": "S:t Göran under Kastanjen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -54957,7 +54957,7 @@
             "date": "2026-08-09",
             "time": "09:00 - 09:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55048,7 +55048,7 @@
             "date": "2026-08-09",
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55139,7 +55139,7 @@
             "date": "2026-08-09",
             "time": "09:00 - 21:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55272,7 +55272,7 @@
             "date": "2026-08-09",
             "time": "10:00 - 10:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55363,7 +55363,7 @@
             "date": "2026-08-09",
             "time": "10:00 - 14:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55454,7 +55454,7 @@
             "date": "2026-08-09",
             "time": "10:00 - 10:45",
             "venue": "Russtibus Scen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55540,7 +55540,7 @@
             "date": "2026-08-09",
             "time": "10:30 - 10:45",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55853,7 +55853,7 @@
             "date": "2026-08-09",
             "time": "11:00 - 12:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -55995,7 +55995,7 @@
             "date": "2026-08-09",
             "time": "11:00 - 16:00",
             "venue": "Festivalområde Paviljongsplan",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56050,7 +56050,7 @@
             "date": "2026-08-09",
             "time": "11:00 - 12:00",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56141,7 +56141,7 @@
             "date": "2026-08-09",
             "time": "11:00 - 13:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56454,7 +56454,7 @@
             "date": "2026-08-09",
             "time": "12:00 - 13:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56543,7 +56543,7 @@
             "date": "2026-08-09",
             "time": "12:00 - 16:00",
             "venue": "Festivalområde Strandgärdet",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56658,7 +56658,7 @@
             "date": "2026-08-09",
             "time": "12:30 - 13:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -56691,7 +56691,7 @@
         },
         "detail": {
           "header": {
-            "item_owner": null,
+            "item_owner": "",
             "title": "Harp-Ell: Ceòl math, àm mìorbhaileach. Bra musik, goda stunder. Good music, marvellous times."
           },
           "content": {
@@ -57035,7 +57035,7 @@
             "date": "2026-08-09",
             "time": "13:30 - 14:30",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57348,7 +57348,7 @@
             "date": "2026-08-09",
             "time": "14:00 - 15:00",
             "venue": "Hästarnas Dal",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57439,7 +57439,7 @@
             "date": "2026-08-09",
             "time": "14:00 - 14:45",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57487,7 +57487,7 @@
             "date": "2026-08-09",
             "time": "14:30 - 16:00",
             "venue": "Forum Vulgaris",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57551,7 +57551,7 @@
             "date": "2026-08-09",
             "time": "15:15 - 16:15",
             "venue": "Sagoängen",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57666,7 +57666,7 @@
             "date": "2026-08-09",
             "time": "16:30 - 17:30",
             "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -57714,7 +57714,7 @@
             "date": "2026-08-09",
             "time": "22:30 - 23:59",
             "venue": "Kapitelhusgården",
-            "ticket_link": null,
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
