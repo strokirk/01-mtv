@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T22:18:21.924Z",
+  "generatedAt": "2026-08-04T02:37:36.017Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -20070,7 +20070,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_enVnYvRLZ9_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/354334",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65490",
@@ -20080,13 +20080,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/354334",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_enVnYvRLZ9_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Fornfela",
             "title": "Dryckesvisor &#8211; en viskurs och middag med Fornfela"
           },
@@ -39696,7 +39696,7 @@
       "schemaVersion": 1,
       "id": "cfade64f7a7cc76de5f7",
       "source": "official",
-      "sourceId": "65333",
+      "sourceId": "65724",
       "seriesKey": "official:hjartats-tanke:s-t-clemens",
       "title": "Hjärtats tanke",
       "organizer": "Ruben Rask",
@@ -39707,15 +39707,13 @@
       "venue": "S:t Clemens",
       "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_Kqh69WfEVs_background.jpg",
-      "ticketUrl": "https://www.nortic.se/ticket/show/349809",
       "raw": {
         "card": {
-          "pid": "65333",
+          "pid": "65724",
           "date": "2026-08-06",
           "time": "17:45",
           "titleText": "Hjärtats tanke",
           "categoryLabel": "Konsert",
-          "ticketUrl": "https://www.nortic.se/ticket/show/349809",
           "editorTip": false
         },
         "detail": {
@@ -39733,7 +39731,7 @@
             "date": "2026-08-06",
             "time": "17:45 - 18:45",
             "venue": "S:t Clemens",
-            "ticket_link": "https://www.nortic.se/ticket/show/349809",
+            "ticket_link": null,
             "bookmark_button_html": null
           },
           "meta": {
@@ -43356,6 +43354,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343685",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64887",
@@ -43364,7 +43363,8 @@
           "titleText": "Prova på långsvärd (HEMA)",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343685",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
@@ -46385,6 +46385,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_IFXdLvYIRr_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343806",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65001",
@@ -46393,7 +46394,8 @@
           "titleText": "Silversmide för nybörjare",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343806",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_IFXdLvYIRr_background.jpg",
@@ -50901,7 +50903,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_7O6HuTGPVr_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343811",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65006",
@@ -50911,13 +50913,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343811",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_7O6HuTGPVr_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Medeltida broderi"
           },
