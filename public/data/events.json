@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T02:37:36.017Z",
+  "generatedAt": "2026-08-04T05:57:27.186Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -47416,6 +47416,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ea1b4f2d59ba929ead11",
+      "source": "imtv",
+      "sourceId": "{27382408-7F82-413F-B770-3AC76B9EFDAF}",
+      "seriesKey": "imtv:flockens-vanners-dvs-allas-tacos:offer",
+      "title": "Flockens vänners - dvs allas - tacos",
+      "organizer": "offer",
+      "description": "Känner ni Flocken? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget). Vi kör så länge det finns vegfärs & tortillas kvar!",
+      "date": "2026-08-07",
+      "startTime": "15:00",
+      "lastModified": "2026-08-04 06:54:32",
+      "raw": {
+        "date": "2026-08-07",
+        "time": "15:00",
+        "title": "Flockens vänners - dvs allas - tacos",
+        "guid": "{27382408-7F82-413F-B770-3AC76B9EFDAF}",
+        "creator": "offer",
+        "lastModified": "2026-08-04 06:54:32",
+        "description": "Känner ni Flocken? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget). Vi kör så länge det finns vegfärs & tortillas kvar!",
+        "links": []
       }
     },
     {
