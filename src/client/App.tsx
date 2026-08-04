@@ -301,8 +301,12 @@ export default function App() {
   }
 
   function jumpToNow() {
+    // Unlike the day nav, this stays live during a search — "get me back to
+    // now" is exactly what you want from inside a search, and making the
+    // user clear the box first would be a pointless extra tap.
+    setSearch("");
     goToDay(todayKey());
-    // Let the new day's rows render before measuring anything.
+    // Let the day's rows render before measuring anything.
     requestAnimationFrame(() => scrollToNow());
   }
 
@@ -408,7 +412,6 @@ export default function App() {
               class="now-jump"
               title="Hoppa till nu"
               aria-label="Hoppa till nu"
-              disabled={isSearching()}
               onClick={jumpToNow}
             >
               <FaSolidClock /> Nu

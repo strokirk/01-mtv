@@ -127,6 +127,34 @@ scraper design, and `docs/FUTURE.md` for deferred ideas.
   default; category/venue/source/"visa ignorerade" expand on click. The
   toggle button gets an `.active` style when any of those filters are set,
   so it stays discoverable even while collapsed.
+- **"Nu"-awareness**: the app knows what time it is, in three connected
+  places. `src/client/now.ts` holds the only clock — it formats `new Date()`
+  as the same Europe/Stockholm `YYYY-MM-DD` / `HH:MM` wall-clock strings the
+  schema stores (via `sv-SE` + an explicit `timeZone`), so "now" drops
+  straight into the existing string comparisons instead of needing `Date`
+  math. It re-syncs on `focus`/`visibilitychange`, because a backgrounded PWA
+  has its interval throttled to minutes or suspended outright, and it *holds*
+  a tick while a pointer is down so a row can't be filtered out from under a
+  finger mid-swipe (verified: the list is frozen during the drag and the
+  deferred tick applies exactly once on release). On top of that:
+  `NowMarker.tsx` draws a rose line between the last started event and the
+  first upcoming one — only in today's group, never during a search, and
+  after the last row once the whole day is over; the app **auto-scrolls to it
+  once on open** (only from an untouched scroll position, with a `Nu` button
+  in the sticky toolbar as the way back afterwards, which also clears an
+  active search); and **"Dölj påbörjade"** in the filter panel hides
+  everything before now across all days. Two things are load-bearing here.
+  The marker is a `<Show>` *inside* the row loop rather than an entry in
+  `grouped()`, so a tick re-evaluates one cheap condition per row instead of
+  rebuilding every `EventRow`; and `filtered()` is split from `filteredBase()`
+  so the clock is only read when the toggle is on — with it off, nothing
+  downstream depends on the clock and a tick costs nothing. `scrollToNow()`
+  re-measures in a short rAF loop because `content-visibility: auto` leaves
+  never-seen rows at their 84px `contain-intrinsic-size` guess, so the first
+  measurement of a 127-row day is badly wrong. Since the hide spans all days,
+  browsing back to a finished day would otherwise show an unexplained empty
+  list with the responsible checkbox collapsed out of sight — hence a banner
+  with an inline "Visa" that clears the toggle.
 - **Time blocks**: users can mark themselves "unavailable" for one or more
   date+time ranges (e.g. Wednesday 10:30–16:00) via a calendar-icon button
   in the header → `TimeBlocksModal.tsx`. Stored in a dedicated Dexie table
