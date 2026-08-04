@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T17:00:01.393Z",
+  "generatedAt": "2026-08-04T19:46:24.186Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -22508,34 +22508,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "56ea618626934ddcb947",
-      "source": "imtv",
-      "sourceId": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
-      "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
-      "title": "Skrik och Skrål - Älskade Stad",
-      "organizer": "Skrik och Skrål",
-      "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
-      "date": "2026-08-04",
-      "startTime": "19:00",
-      "links": [
-        "https://www.facebook.com/groups/208072148012531"
-      ],
-      "lastModified": "2026-08-04 14:20:39",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "19:00",
-        "title": "Skrik och Skrål - Älskade Stad",
-        "guid": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
-        "creator": "Skrik och Skrål",
-        "lastModified": "2026-08-04 14:20:39",
-        "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
-        "links": [
-          "https://www.facebook.com/groups/208072148012531"
-        ]
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "3e5b6a437075760697d8",
       "source": "official",
       "sourceId": "65142",
@@ -22580,6 +22552,34 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "9267eaeb04f92578d391",
+      "source": "imtv",
+      "sourceId": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+      "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
+      "title": "Skrik och Skrål - Älskade Stad",
+      "organizer": "Skrik och Skrål",
+      "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+      "date": "2026-08-04",
+      "startTime": "19:30",
+      "links": [
+        "https://www.facebook.com/groups/208072148012531"
+      ],
+      "lastModified": "2026-08-04 19:14:12",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "19:30",
+        "title": "Skrik och Skrål - Älskade Stad",
+        "guid": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+        "creator": "Skrik och Skrål",
+        "lastModified": "2026-08-04 19:14:12",
+        "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+        "links": [
+          "https://www.facebook.com/groups/208072148012531"
+        ]
       }
     },
     {
@@ -23062,6 +23062,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343704",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64906",
@@ -23070,11 +23071,14 @@
           "titleText": "Primus – Eldsagor med FAE",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343704",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Fae",
             "title": "Primus &#8211; Eldsagor med FAE"
           },
@@ -29217,7 +29221,7 @@
       "seriesKey": "official:tva-forelasningar-fralsets-lomskhet-och-lurendrejeri-frid-och-vald-i-hemmet:savesalen-gotlands-museum",
       "title": "Två föreläsningar: Frälsets lömskhet och lurendrejeri – Frid och våld i hemmet",
       "organizer": "Centrum för Medeltidsstudier",
-      "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om.</p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?</p>\n<p>• Frid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
+      "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om. </p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?”</p>\n<p>•\tFrid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
       "date": "2026-08-05",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -29242,7 +29246,7 @@
             "title": "Två föreläsningar: Frälsets lömskhet och lurendrejeri &#8211; Frid och våld i hemmet"
           },
           "content": {
-            "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om.</p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?</p>\n<p>• Frid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
+            "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om. </p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?”</p>\n<p>•\tFrid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
             "siblings": null
           },
           "sidebar": {
@@ -48152,6 +48156,7 @@
       "category": "cat-foredrag",
       "image": "https://join.medeltidsveckan.se/uploads/2026_wogzZNUCZ2_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/349811",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65335",
@@ -48160,11 +48165,14 @@
           "titleText": "Medeltidens sexliv – en vuxen föreläsning",
           "categoryLabel": "Föredrag",
           "ticketUrl": "https://www.nortic.se/ticket/show/349811",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_wogzZNUCZ2_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Linda Öhman Handcrafted History",
             "title": "Medeltidens sexliv &#8211; en vuxen föreläsning"
           },
@@ -48509,6 +48517,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "e6425232a0c105463b97",
+      "source": "imtv",
+      "sourceId": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
+      "seriesKey": "imtv:boffer-af-wisby:smeden",
+      "title": "Boffer af Wisby",
+      "organizer": "Smeden",
+      "description": "I ny regi återskapar vi gamla regin av Boffer af wisby. Slaget är att vuxna och barn ska leka ”capture the flag”.  Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen. Samling Dalmansporten (om inte vi hittar en bättre plats) Arrangörer: Hammarklanen",
+      "date": "2026-08-07",
+      "startTime": "17:00",
+      "lastModified": "2026-08-04 19:22:45",
+      "raw": {
+        "date": "2026-08-07",
+        "time": "17:00",
+        "title": "Boffer af Wisby",
+        "guid": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
+        "creator": "Smeden",
+        "lastModified": "2026-08-04 19:22:45",
+        "description": "I ny regi återskapar vi gamla regin av Boffer af wisby. Slaget är att vuxna och barn ska leka ”capture the flag”.  Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen. Samling Dalmansporten (om inte vi hittar en bättre plats) Arrangörer: Hammarklanen",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "d2a4769f9ec82e2193a6",
       "source": "official",
       "sourceId": "64854",
@@ -48800,29 +48831,6 @@
             "logged_ind": false
           }
         }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "ca96dde704ea295c3947",
-      "source": "imtv",
-      "sourceId": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
-      "seriesKey": "imtv:knalleslaget:smeden",
-      "title": "Knalleslaget",
-      "organizer": "Smeden",
-      "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
-      "date": "2026-08-07",
-      "startTime": "19:00",
-      "lastModified": "2026-08-01 21:17:09",
-      "raw": {
-        "date": "2026-08-07",
-        "time": "19:00",
-        "title": "Knalleslaget",
-        "guid": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
-        "creator": "Smeden",
-        "lastModified": "2026-08-01 21:17:09",
-        "description": "Har du blivit kränkt av en knalle? Eller blivit nekad reklamation av en sak du köpt för 9år sedan. Nu har du chansen att hämnas på hantverkare och dess barn i ett svettigt ”capture the flag” efter att marknaden är stängd. Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen Samling vid sagoängen, nära smederna. Arrangörer: Hammarklanen",
-        "links": []
       }
     },
     {
