@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T11:34:09.077Z",
+  "generatedAt": "2026-08-04T14:19:05.616Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -10652,7 +10652,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
       "date": "2026-08-03",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -10678,7 +10678,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
             "siblings": {
               "1785852000": {
                 "day": "Tisdag",
@@ -19478,7 +19478,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
       "date": "2026-08-04",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -19504,7 +19504,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
             "siblings": {
               "1785765600": {
                 "day": "Måndag",
@@ -22508,6 +22508,34 @@
     },
     {
       "schemaVersion": 1,
+      "id": "56ea618626934ddcb947",
+      "source": "imtv",
+      "sourceId": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+      "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
+      "title": "Skrik och Skrål - Älskade Stad",
+      "organizer": "Skrik och Skrål",
+      "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+      "date": "2026-08-04",
+      "startTime": "19:00",
+      "links": [
+        "https://www.facebook.com/groups/208072148012531"
+      ],
+      "lastModified": "2026-08-04 14:20:39",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "19:00",
+        "title": "Skrik och Skrål - Älskade Stad",
+        "guid": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
+        "creator": "Skrik och Skrål",
+        "lastModified": "2026-08-04 14:20:39",
+        "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
+        "links": [
+          "https://www.facebook.com/groups/208072148012531"
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "3e5b6a437075760697d8",
       "source": "official",
       "sourceId": "65142",
@@ -22552,34 +22580,6 @@
             "logged_ind": false
           }
         }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "9267eaeb04f92578d391",
-      "source": "imtv",
-      "sourceId": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
-      "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
-      "title": "Skrik och Skrål - Älskade Stad",
-      "organizer": "Skrik och Skrål",
-      "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
-      "date": "2026-08-04",
-      "startTime": "19:30",
-      "links": [
-        "https://www.facebook.com/groups/208072148012531"
-      ],
-      "lastModified": "2026-06-02 21:36:13",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "19:30",
-        "title": "Skrik och Skrål - Älskade Stad",
-        "guid": "{C20D39D4-62AE-4B66-AC4A-39880217DDD9}",
-        "creator": "Skrik och Skrål",
-        "lastModified": "2026-06-02 21:36:13",
-        "description": "Skrik och Skrål spelar i Nordergravar. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original.  Påbörjas efter Likörslaget. Vid regn flyttas det till onsdag 19.00. Länk",
-        "links": [
-          "https://www.facebook.com/groups/208072148012531"
-        ]
       }
     },
     {
@@ -26788,12 +26788,14 @@
       "sourceId": "65102",
       "seriesKey": "official:medeltida-dockteater-sankt-goran-och-draken:russtibus-scen",
       "title": "Medeltida Dockteater -Sankt Göran och Draken",
-      "description": "",
+      "organizer": "Dansande Enhörningens Ensemble",
+      "description": "<p>Prinsessor, drakar och riddare! Dansande Enhörningens Ensemble ger föreställningen Sankt Göran och Draken. En fartfylld familjeföreställning om hjältemod, svåra val, romantik och lite historisk prutt-humor. Både teaterscenen, dockorna och manuset är baserat på medeltida avbildningar och texter. Kom och upplev dockteater, lika tramsigt och spännande som på 1200-talet!</p>\n<p>The theater is in Swedish, but enjoyable also for non-swedish audience.</p>\n",
       "date": "2026-08-05",
       "startTime": "11:45",
       "endTime": "12:15",
       "venue": "Russtibus Scen",
       "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_rZUxQ68PBJ_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/346081",
       "raw": {
         "card": {
@@ -26806,12 +26808,13 @@
           "editorTip": false
         },
         "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_rZUxQ68PBJ_background.jpg",
           "header": {
-            "item_owner": "",
+            "item_owner": "Dansande Enhörningens Ensemble",
             "title": "Medeltida Dockteater -Sankt Göran och Draken"
           },
           "content": {
-            "description": "",
+            "description": "<p>Prinsessor, drakar och riddare! Dansande Enhörningens Ensemble ger föreställningen Sankt Göran och Draken. En fartfylld familjeföreställning om hjältemod, svåra val, romantik och lite historisk prutt-humor. Både teaterscenen, dockorna och manuset är baserat på medeltida avbildningar och texter. Kom och upplev dockteater, lika tramsigt och spännande som på 1200-talet!</p>\n<p>The theater is in Swedish, but enjoyable also for non-swedish audience.</p>\n",
             "siblings": {
               "1785850200": {
                 "day": "Tisdag",
@@ -26827,6 +26830,54 @@
             "time": "11:45 - 12:15",
             "venue": "Russtibus Scen",
             "ticket_link": "https://www.nortic.se/ticket/show/346081",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2e8dfc05b9bb911cbfb1",
+      "source": "official",
+      "sourceId": "65732",
+      "seriesKey": "official:pdx-community-mixer-at-frimis-resturant-courtyard:frimis-krog",
+      "title": "PDX Community Mixer at Frimis Resturant Courtyard",
+      "organizer": "Paradox Interactive",
+      "description": "<p>Join us in the courtyard of Frimis Visby for an afternoon filled with games, music, quests, and great company. Whether you&#8217;re a longtime Paradox veteran or simply curious to meet fellow players and developers, there&#8217;s something waiting for you inside the court.</p>\n<p>Ever wondered why a certain game mechanic works the way it does? Curious about the historical inspiration behind your favorite nation or dynasty? Or perhaps you simply want to debate whether your latest strategy is brilliant, or an exploit.</p>\n<p>Our developers will be on site throughout the day, ready to chat about games, history, design, and the occasional rabbit hole that somehow became a feature.</p>\n<p>Meet fellow players, swap stories of glorious victories and spectacular campaign disasters that started with &#8220;Everything was going well until&#8230;&#8221; </p>\n<p>&#8211; The Midday Quest. Find the Paradox charachter, solve the riddle and earn your Paradox token!</p>\n<p>&#8211; Chance to win two tickets to Paradox in Concert on September 26th!</p>\n",
+      "date": "2026-08-05",
+      "startTime": "12:00",
+      "endTime": "19:00",
+      "venue": "Frimis krog",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_WkqhOAurce_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65732",
+          "date": "2026-08-05",
+          "time": "12:00",
+          "titleText": "PDX Community Mixer at Frimis Resturant Courtyard",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_WkqhOAurce_background.jpg",
+          "header": {
+            "item_owner": "Paradox Interactive",
+            "title": "PDX Community Mixer at Frimis Resturant Courtyard"
+          },
+          "content": {
+            "description": "<p>Join us in the courtyard of Frimis Visby for an afternoon filled with games, music, quests, and great company. Whether you&#8217;re a longtime Paradox veteran or simply curious to meet fellow players and developers, there&#8217;s something waiting for you inside the court.</p>\n<p>Ever wondered why a certain game mechanic works the way it does? Curious about the historical inspiration behind your favorite nation or dynasty? Or perhaps you simply want to debate whether your latest strategy is brilliant, or an exploit.</p>\n<p>Our developers will be on site throughout the day, ready to chat about games, history, design, and the occasional rabbit hole that somehow became a feature.</p>\n<p>Meet fellow players, swap stories of glorious victories and spectacular campaign disasters that started with &#8220;Everything was going well until&#8230;&#8221; </p>\n<p>&#8211; The Midday Quest. Find the Paradox charachter, solve the riddle and earn your Paradox token!</p>\n<p>&#8211; Chance to win two tickets to Paradox in Concert on September 26th!</p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Onsdag",
+            "date": "2026-08-05",
+            "time": "12:00 - 19:00",
+            "venue": "Frimis krog",
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -29687,7 +29738,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
       "date": "2026-08-05",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -29713,7 +29764,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
             "siblings": {
               "1785765600": {
                 "day": "Måndag",
@@ -31366,6 +31417,54 @@
         "lastModified": "2026-08-03 14:37:26",
         "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. (VÄDRET VERKAR VARA PÅ VÅR SIDA MEN KAN ÄNDRAS.)",
         "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c2fee90ab6f5e3f0dfd2",
+      "source": "official",
+      "sourceId": "65733",
+      "seriesKey": "official:kalabalik-pa-kapitelhusgarden:kapitelhusgarden",
+      "title": "Kalabalik på Kapitelhusgården",
+      "organizer": "Kalabalik",
+      "description": "<p>Kalabalik rusar igenom Kapitelhusgården för en halvtimmes ös framför scenen innan de virvlar vidare bort i natten. Fånga dem om ni kan!</p>\n",
+      "date": "2026-08-05",
+      "startTime": "18:30",
+      "endTime": "19:00",
+      "venue": "Kapitelhusgården",
+      "category": "cat-konsert",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_5dqAFx7hFT_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65733",
+          "date": "2026-08-05",
+          "time": "18:30",
+          "titleText": "Kalabalik på Kapitelhusgården",
+          "categoryLabel": "Konsert",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_5dqAFx7hFT_background.jpg",
+          "header": {
+            "item_owner": "Kalabalik",
+            "title": "Kalabalik på Kapitelhusgården"
+          },
+          "content": {
+            "description": "<p>Kalabalik rusar igenom Kapitelhusgården för en halvtimmes ös framför scenen innan de virvlar vidare bort i natten. Fånga dem om ni kan!</p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Onsdag",
+            "date": "2026-08-05",
+            "time": "18:30 - 19:00",
+            "venue": "Kapitelhusgården",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
       }
     },
     {
@@ -36235,6 +36334,54 @@
     },
     {
       "schemaVersion": 1,
+      "id": "025aaeca7f04a633cb0c",
+      "source": "official",
+      "sourceId": "65731",
+      "seriesKey": "official:crusader-kings-board-game-at-pdx-community-mixer-by-paradox-interactive:frimis-krog",
+      "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
+      "organizer": "Paradox Interactive",
+      "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
+      "date": "2026-08-06",
+      "startTime": "13:00",
+      "endTime": "18:00",
+      "venue": "Frimis krog",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65731",
+          "date": "2026-08-06",
+          "time": "13:00",
+          "titleText": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
+          "header": {
+            "item_owner": "Paradox Interactive",
+            "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive"
+          },
+          "content": {
+            "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Torsdag",
+            "date": "2026-08-06",
+            "time": "13:00 - 18:00",
+            "venue": "Frimis krog",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "bd8884dc5e92f8fba551",
       "source": "official",
       "sourceId": "65111",
@@ -37635,7 +37782,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
       "date": "2026-08-06",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -37661,7 +37808,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
             "siblings": {
               "1785765600": {
                 "day": "Måndag",
@@ -37710,12 +37857,14 @@
       "sourceId": "65104",
       "seriesKey": "official:songs-of-love-and-heartbreak-from-slavic-traditions-workshop-with-anna-sitko-daj-ognia-band:s-t-clemens",
       "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band).",
-      "description": "",
+      "organizer": "Daj Ognia ",
+      "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
       "date": "2026-08-06",
       "startTime": "14:00",
       "endTime": "15:15",
       "venue": "S:t Clemens",
       "category": "cat-workshop",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/346088",
       "raw": {
         "card": {
@@ -37728,12 +37877,13 @@
           "editorTip": false
         },
         "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
           "header": {
-            "item_owner": "",
+            "item_owner": "Daj Ognia ",
             "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band)."
           },
           "content": {
-            "description": "",
+            "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
             "siblings": null
           },
           "sidebar": {
@@ -39628,6 +39778,62 @@
             "time": "17:00 - 18:30",
             "venue": "Strandgärdet",
             "ticket_link": "https://www.nortic.se/ticket/show/343652",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "3d3722f61b2b97b25fc6",
+      "source": "official",
+      "sourceId": "64546",
+      "seriesKey": "official:oppet-lager-hos-gutars-bagskyttar:gutars-bagskyttars-lager",
+      "title": "Öppet läger hos Gutars Bågskyttar",
+      "organizer": "Gutars Bågskyttar",
+      "description": "<p>Välkomna till vårt läger. Här kommer du att få träffa medlemmar från Gutars Bågskyttar som kan mycket om långbågar och armborst. Ni kommer att få se material och prata skytte.</p>\n",
+      "date": "2026-08-06",
+      "startTime": "17:00",
+      "endTime": "19:00",
+      "venue": "Gutars Bågskyttars läger",
+      "category": "cat-uppvisningslager",
+      "editorTip": true,
+      "raw": {
+        "card": {
+          "pid": "64546",
+          "date": "2026-08-06",
+          "time": "17:00",
+          "titleText": "Öppet läger hos Gutars Bågskyttar",
+          "categoryLabel": "Uppvisningsläger",
+          "editorTip": true
+        },
+        "detail": {
+          "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
+            "border_color": "border-warning",
+            "item_owner": "Gutars Bågskyttar",
+            "title": "Öppet läger hos Gutars Bågskyttar"
+          },
+          "content": {
+            "description": "<p>Välkomna till vårt läger. Här kommer du att få träffa medlemmar från Gutars Bågskyttar som kan mycket om långbågar och armborst. Ni kommer att få se material och prata skytte.</p>\n",
+            "siblings": {
+              "1785859200": {
+                "day": "Tisdag",
+                "time": "16:00",
+                "timestamp": 1785859200,
+                "title": "Öppet läger hos Gutars Bågskyttar"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Torsdag",
+            "date": "2026-08-06",
+            "time": "17:00 - 19:00",
+            "venue": "Gutars Bågskyttars läger",
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -46152,7 +46358,7 @@
       "seriesKey": "official:forelasning:festivalomrade-paviljongsplan",
       "title": "Föreläsning",
       "organizer": "Historiska Rum",
-      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+      "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
       "date": "2026-08-07",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -46178,7 +46384,7 @@
             "title": "Föreläsning"
           },
           "content": {
-            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n",
+            "description": "<p>Historiska Rums populära och lärorika föreläsningar och hantverksförevisningar. Måndag-fredag kl 14, på marknaden vid Historiska Rums paviljong, visar erkänt duktiga hantverkare/föreläsare sitt gebit och delar generöst med sig av sina kunskaper och erfarenheter. Varje dag bjuder på ett nytt tema. Välkommen!</p>\n<p>Måndag: Föreläsning och demonstration av medeltida tennarbeten.<br />\nTisdag: Från raka stycken till formsytt. Lär dig mönsterkonstruktionens grund.<br />\nOnsdag: Hårnät och broderi.<br />\nTorsdag: Medeltidens tennmärken &#8211; Tro, lust och lite skvaller.<br />\nFredag: Huvudbonader och accessoarer för dam under sent 1400-tal.</p>\n",
             "siblings": {
               "1785765600": {
                 "day": "Måndag",
