@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T14:19:05.616Z",
+  "generatedAt": "2026-08-04T17:00:01.393Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -29217,7 +29217,7 @@
       "seriesKey": "official:tva-forelasningar-fralsets-lomskhet-och-lurendrejeri-frid-och-vald-i-hemmet:savesalen-gotlands-museum",
       "title": "Två föreläsningar: Frälsets lömskhet och lurendrejeri – Frid och våld i hemmet",
       "organizer": "Centrum för Medeltidsstudier",
-      "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om. </p>\n<p>•\tFrälsets lömskhet och lurendrejeri<br />\nLömskhet och lurendrejeri – Osed som dygd för det medeltida frälset<br />\nVincent Olsgren (student, fil. kand.), Historiska institutionen, Stockholms universitet</p>\n<p>•\tFrid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
+      "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om.</p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?</p>\n<p>• Frid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
       "date": "2026-08-05",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -29242,7 +29242,7 @@
             "title": "Två föreläsningar: Frälsets lömskhet och lurendrejeri &#8211; Frid och våld i hemmet"
           },
           "content": {
-            "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om. </p>\n<p>•\tFrälsets lömskhet och lurendrejeri<br />\nLömskhet och lurendrejeri – Osed som dygd för det medeltida frälset<br />\nVincent Olsgren (student, fil. kand.), Historiska institutionen, Stockholms universitet</p>\n<p>•\tFrid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
+            "description": "<p>Lömskhet, lurendrejeri, frid och våld. Kan det vara något för dig?<br />\nVi säger JA! Det här vill du veta mer om.</p>\n<p>• Korståg i Östersjön: mentala regimer. &#8211; Varför är militärhistoria och korstågshistoria så tråkigt, och kan de göras mer intressanta?</p>\n<p>• Frid och våld i hemmet<br />\nÆn skil manzs hion inbyrthes – Frid och våld i hemmet i medeltida nordisk lag<br />\nFraser Miller (fil. dr), Historiska institutionen, Stockholms universitet</p>\n<p>CMS medverkan på Medeltidsveckan 2026 möjliggörs genom ett bidrag från Kungl. Patriotiska Sällskapet</p>\n",
             "siblings": null
           },
           "sidebar": {
@@ -31483,6 +31483,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343813",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65008",
@@ -31491,11 +31492,14 @@
           "titleText": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/343813",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk"
           },
@@ -38305,7 +38309,7 @@
       "description": "<p>Här möter ni Calle Brobäcks karaktär: pälshandlaren Gautmund Kremer. Följ med på en vandring utöver det vanliga med en guide vars kunskap om Visby är bottenlös!</p>\n<p>Start utanför Österport, vandringen går söderut längs muren.</p>\n",
       "date": "2026-08-06",
       "startTime": "14:00",
-      "endTime": "15:00",
+      "endTime": "15:30",
       "venue": "Österport",
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_ltN2vDp6KX_background.jpg",
@@ -38336,7 +38340,7 @@
           "sidebar": {
             "dayName": "Torsdag",
             "date": "2026-08-06",
-            "time": "14:00 - 15:00",
+            "time": "14:00 - 15:30",
             "venue": "Österport",
             "ticket_link": "https://www.nortic.se/ticket/show/343608",
             "bookmark_button_html": null
@@ -43555,7 +43559,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343685",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64887",
@@ -43565,13 +43569,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343685",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Wisby Historiska Fäktskola",
             "title": "Prova på långsvärd (HEMA)"
           },
