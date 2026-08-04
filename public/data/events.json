@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T08:47:03.504Z",
+  "generatedAt": "2026-08-04T11:34:09.077Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -217,6 +217,139 @@
             "time": "21:00 - 22:00",
             "venue": "S:ta Karin",
             "ticket_link": "https://www.nortic.se/ticket/show/344925",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "600a835c712c436989ff",
+      "source": "official",
+      "sourceId": "65430",
+      "seriesKey": "official:heroes-hjalteskola-4-6-ar:hastarnas-dal",
+      "title": "Heroes – Hjälteskola (4-6 år)",
+      "organizer": "Tall Tales",
+      "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
+      "date": "2026-08-02",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "venue": "Hästarnas Dal",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_Dzxgjd5BEL_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65430",
+          "date": "2026-08-02",
+          "time": "09:00",
+          "titleText": "Heroes – Hjälteskola (4-6 år)",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_Dzxgjd5BEL_background.jpg",
+          "header": {
+            "item_owner": "Tall Tales",
+            "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+          },
+          "content": {
+            "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
+            "siblings": {
+              "1785668400": {
+                "day": "Söndag",
+                "time": "11:00",
+                "timestamp": 1785668400,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785747600": {
+                "day": "Måndag",
+                "time": "09:00",
+                "timestamp": 1785747600,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785751200": {
+                "day": "Måndag",
+                "time": "10:00",
+                "timestamp": 1785751200,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785834000": {
+                "day": "Tisdag",
+                "time": "09:00",
+                "timestamp": 1785834000,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785837600": {
+                "day": "Tisdag",
+                "time": "10:00",
+                "timestamp": 1785837600,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785920400": {
+                "day": "Onsdag",
+                "time": "09:00",
+                "timestamp": 1785920400,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1785924000": {
+                "day": "Onsdag",
+                "time": "10:00",
+                "timestamp": 1785924000,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786006800": {
+                "day": "Torsdag",
+                "time": "09:00",
+                "timestamp": 1786006800,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786010400": {
+                "day": "Torsdag",
+                "time": "10:00",
+                "timestamp": 1786010400,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786093200": {
+                "day": "Fredag",
+                "time": "09:00",
+                "timestamp": 1786093200,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786096800": {
+                "day": "Fredag",
+                "time": "10:00",
+                "timestamp": 1786096800,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786179600": {
+                "day": "Lördag",
+                "time": "09:00",
+                "timestamp": 1786179600,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786183200": {
+                "day": "Lördag",
+                "time": "10:00",
+                "timestamp": 1786183200,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786269600": {
+                "day": "Söndag",
+                "time": "10:00",
+                "timestamp": 1786269600,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Söndag",
+            "date": "2026-08-02",
+            "time": "09:00 - 09:30",
+            "venue": "Hästarnas Dal",
+            "ticket_link": "",
             "bookmark_button_html": null
           },
           "meta": {
@@ -508,139 +641,6 @@
             "date": "2026-08-02",
             "time": "09:30 - 10:30",
             "venue": "S:t Clemens",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "d7f9c9f731da1c2761c2",
-      "source": "official",
-      "sourceId": "65430",
-      "seriesKey": "official:heroes-hjalteskola-4-6-ar:hastarnas-dal",
-      "title": "Heroes – Hjälteskola (4-6 år)",
-      "organizer": "Tall Tales",
-      "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
-      "date": "2026-08-02",
-      "startTime": "10:00",
-      "endTime": "10:30",
-      "venue": "Hästarnas Dal",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_Dzxgjd5BEL_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "65430",
-          "date": "2026-08-02",
-          "time": "10:00",
-          "titleText": "Heroes – Hjälteskola (4-6 år)",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_Dzxgjd5BEL_background.jpg",
-          "header": {
-            "item_owner": "Tall Tales",
-            "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-          },
-          "content": {
-            "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
-            "siblings": {
-              "1785668400": {
-                "day": "Söndag",
-                "time": "11:00",
-                "timestamp": 1785668400,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785747600": {
-                "day": "Måndag",
-                "time": "09:00",
-                "timestamp": 1785747600,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785751200": {
-                "day": "Måndag",
-                "time": "10:00",
-                "timestamp": 1785751200,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785834000": {
-                "day": "Tisdag",
-                "time": "09:00",
-                "timestamp": 1785834000,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785837600": {
-                "day": "Tisdag",
-                "time": "10:00",
-                "timestamp": 1785837600,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785920400": {
-                "day": "Onsdag",
-                "time": "09:00",
-                "timestamp": 1785920400,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1785924000": {
-                "day": "Onsdag",
-                "time": "10:00",
-                "timestamp": 1785924000,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786006800": {
-                "day": "Torsdag",
-                "time": "09:00",
-                "timestamp": 1786006800,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786010400": {
-                "day": "Torsdag",
-                "time": "10:00",
-                "timestamp": 1786010400,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786093200": {
-                "day": "Fredag",
-                "time": "09:00",
-                "timestamp": 1786093200,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786096800": {
-                "day": "Fredag",
-                "time": "10:00",
-                "timestamp": 1786096800,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786179600": {
-                "day": "Lördag",
-                "time": "09:00",
-                "timestamp": 1786179600,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786183200": {
-                "day": "Lördag",
-                "time": "10:00",
-                "timestamp": 1786183200,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              },
-              "1786269600": {
-                "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1786269600,
-                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Söndag",
-            "date": "2026-08-02",
-            "time": "10:00 - 10:30",
-            "venue": "Hästarnas Dal",
             "ticket_link": "",
             "bookmark_button_html": null
           },
@@ -1148,10 +1148,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785747600": {
@@ -5393,10 +5393,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -6558,10 +6558,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -14121,10 +14121,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -15352,10 +15352,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -19039,6 +19039,7 @@
       "category": "cat-foredrag",
       "image": "https://join.medeltidsveckan.se/uploads/2026_U3M7awxl7T_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345992",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65083",
@@ -19047,11 +19048,14 @@
           "titleText": "Mjödbryggning för nybörjare",
           "categoryLabel": "Föredrag",
           "ticketUrl": "https://www.nortic.se/ticket/show/345992",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_U3M7awxl7T_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Den Galne Mjödmannen",
             "title": "Mjödbryggning för nybörjare"
           },
@@ -20124,7 +20128,7 @@
       "category": "cat-foredrag",
       "image": "https://join.medeltidsveckan.se/uploads/2026_FI8tuGmIOS_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/349810",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65334",
@@ -20134,13 +20138,13 @@
           "categoryLabel": "Föredrag",
           "ticketUrl": "https://www.nortic.se/ticket/show/349810",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_FI8tuGmIOS_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Maria Neijman",
             "title": "Medeltida textilier – nya upptäckter bland gamla fynd"
           },
@@ -22337,7 +22341,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345948",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65043",
@@ -22347,13 +22351,13 @@
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/345948",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Teater Kaleido",
             "title": "Vasadottern / Daughter of Sweden"
           },
@@ -23491,10 +23495,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -23827,6 +23831,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_zNpDJM1cCC_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343618",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64830",
@@ -23835,11 +23840,14 @@
           "titleText": "Kurs i Rotslöjd",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343618",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_zNpDJM1cCC_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gunilla Axelsson, Sunnansjö Tenn",
             "title": "Kurs i Rotslöjd"
           },
@@ -24538,10 +24546,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -26780,14 +26788,12 @@
       "sourceId": "65102",
       "seriesKey": "official:medeltida-dockteater-sankt-goran-och-draken:russtibus-scen",
       "title": "Medeltida Dockteater -Sankt Göran och Draken",
-      "organizer": "Dansande Enhörningens Ensemble",
-      "description": "<p>Prinsessor, drakar och riddare! Dansande Enhörningens Ensemble ger föreställningen Sankt Göran och Draken. En fartfylld familjeföreställning om hjältemod, svåra val, romantik och lite historisk prutt-humor. Både teaterscenen, dockorna och manuset är baserat på medeltida avbildningar och texter. Kom och upplev dockteater, lika tramsigt och spännande som på 1200-talet!</p>\n<p>The theater is in Swedish, but enjoyable also for non-swedish audience.</p>\n",
+      "description": "",
       "date": "2026-08-05",
       "startTime": "11:45",
       "endTime": "12:15",
       "venue": "Russtibus Scen",
       "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_rZUxQ68PBJ_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/346081",
       "raw": {
         "card": {
@@ -26800,13 +26806,12 @@
           "editorTip": false
         },
         "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_rZUxQ68PBJ_background.jpg",
           "header": {
-            "item_owner": "Dansande Enhörningens Ensemble",
+            "item_owner": "",
             "title": "Medeltida Dockteater -Sankt Göran och Draken"
           },
           "content": {
-            "description": "<p>Prinsessor, drakar och riddare! Dansande Enhörningens Ensemble ger föreställningen Sankt Göran och Draken. En fartfylld familjeföreställning om hjältemod, svåra val, romantik och lite historisk prutt-humor. Både teaterscenen, dockorna och manuset är baserat på medeltida avbildningar och texter. Kom och upplev dockteater, lika tramsigt och spännande som på 1200-talet!</p>\n<p>The theater is in Swedish, but enjoyable also for non-swedish audience.</p>\n",
+            "description": "",
             "siblings": {
               "1785850200": {
                 "day": "Tisdag",
@@ -31379,7 +31384,6 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343813",
-      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65008",
@@ -31388,14 +31392,11 @@
           "titleText": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/343813",
-          "editorTip": false,
-          "bookingStatus": "soldout"
+          "editorTip": false
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_yH9A03txKq_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
-            "border_color": "border-danger",
             "item_owner": "Nåni - Kultur och Historia",
             "title": "Pang på Rödbetan: Nattvard och naket, medeltida burlesk"
           },
@@ -32313,10 +32314,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -33492,10 +33493,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -34905,7 +34906,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343684",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64886",
@@ -34915,13 +34916,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343684",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_RdagNLZX0o_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Wisby Historiska Fäktskola",
             "title": "Prova på långsvärd (HEMA)"
           },
@@ -37709,14 +37710,12 @@
       "sourceId": "65104",
       "seriesKey": "official:songs-of-love-and-heartbreak-from-slavic-traditions-workshop-with-anna-sitko-daj-ognia-band:s-t-clemens",
       "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band).",
-      "organizer": "Daj Ognia ",
-      "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
+      "description": "",
       "date": "2026-08-06",
       "startTime": "14:00",
       "endTime": "15:15",
       "venue": "S:t Clemens",
       "category": "cat-workshop",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/346088",
       "raw": {
         "card": {
@@ -37729,13 +37728,12 @@
           "editorTip": false
         },
         "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_ygpyrlzTuh_background.jpg",
           "header": {
-            "item_owner": "Daj Ognia ",
+            "item_owner": "",
             "title": "Songs of Love and Heartbreak from Slavic Traditions. Workshop with Anna Sitko (Daj Ognia band)."
           },
           "content": {
-            "description": "<p>In this workshop, we will explore traditional Slavic love and heartbreak songs through the melodies of longing, separation, desire, betrayal, devotion, and the emotional entanglements shaped by centuries-old social norms.</p>\n<p>Beyond learning the repertoire, participants will receive practical tools to develop their vocal technique (often referred to as “open voice” or “natural singing”). Through voice training exercises and full-body movement practices, we will work on breath support, projection, resonance, and blending in harmony.</p>\n<p>The workshop is open to participants of all vocal levels. Minors are welcome to attend under the supervision of a parent or guardian.</p>\n",
+            "description": "",
             "siblings": null
           },
           "sidebar": {
@@ -38266,6 +38264,59 @@
             "date": "2026-08-06",
             "time": "14:30 - 16:30",
             "venue": "Församlingshuset Visby domkyrka Sankta Maria",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d0a1aeec950b540b64e6",
+      "source": "official",
+      "sourceId": "65729",
+      "seriesKey": "official:mot-battle-of-wisby:festivalomrade-paviljongsplan",
+      "title": "Möt Battle of Wisby",
+      "organizer": "Battle of Wisby",
+      "description": "<p>Nyfiken på Battle of Wisby? Kom och träffa arrangörerna och hör dem berätta om vad för sorts utrustning och kläder du behöver ha för att kunna delta. </p>\n<p>Ni hittar oss bredvid Besökscentret utanför entrén till Festivalområde Paviljongsplan. </p>\n",
+      "date": "2026-08-06",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "venue": "Festivalområde Paviljongsplan",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65729",
+          "date": "2026-08-06",
+          "time": "15:00",
+          "titleText": "Möt Battle of Wisby",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Battle of Wisby",
+            "title": "Möt Battle of Wisby"
+          },
+          "content": {
+            "description": "<p>Nyfiken på Battle of Wisby? Kom och träffa arrangörerna och hör dem berätta om vad för sorts utrustning och kläder du behöver ha för att kunna delta. </p>\n<p>Ni hittar oss bredvid Besökscentret utanför entrén till Festivalområde Paviljongsplan. </p>\n",
+            "siblings": {
+              "1786114800": {
+                "day": "Fredag",
+                "time": "15:00",
+                "timestamp": 1786114800,
+                "title": "Möt Battle of Wisby"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Torsdag",
+            "date": "2026-08-06",
+            "time": "15:00 - 17:00",
+            "venue": "Festivalområde Paviljongsplan",
             "ticket_link": "",
             "bookmark_button_html": null
           },
@@ -39587,62 +39638,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "3d3722f61b2b97b25fc6",
-      "source": "official",
-      "sourceId": "64546",
-      "seriesKey": "official:oppet-lager-hos-gutars-bagskyttar:gutars-bagskyttars-lager",
-      "title": "Öppet läger hos Gutars Bågskyttar",
-      "organizer": "Gutars Bågskyttar",
-      "description": "<p>Välkomna till vårt läger. Här kommer du att få träffa medlemmar från Gutars Bågskyttar som kan mycket om långbågar och armborst. Ni kommer att få se material och prata skytte.</p>\n",
-      "date": "2026-08-06",
-      "startTime": "17:00",
-      "endTime": "19:00",
-      "venue": "Gutars Bågskyttars läger",
-      "category": "cat-uppvisningslager",
-      "editorTip": true,
-      "raw": {
-        "card": {
-          "pid": "64546",
-          "date": "2026-08-06",
-          "time": "17:00",
-          "titleText": "Öppet läger hos Gutars Bågskyttar",
-          "categoryLabel": "Uppvisningsläger",
-          "editorTip": true
-        },
-        "detail": {
-          "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
-            "item_owner": "Gutars Bågskyttar",
-            "title": "Öppet läger hos Gutars Bågskyttar"
-          },
-          "content": {
-            "description": "<p>Välkomna till vårt läger. Här kommer du att få träffa medlemmar från Gutars Bågskyttar som kan mycket om långbågar och armborst. Ni kommer att få se material och prata skytte.</p>\n",
-            "siblings": {
-              "1785859200": {
-                "day": "Tisdag",
-                "time": "16:00",
-                "timestamp": 1785859200,
-                "title": "Öppet läger hos Gutars Bågskyttar"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "17:00 - 19:00",
-            "venue": "Gutars Bågskyttars läger",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "dc5fd52f8a9f21791514",
       "source": "official",
       "sourceId": "64484",
@@ -40398,57 +40393,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "3d33e07590f4c4f0c5df",
-      "source": "official",
-      "sourceId": "64559",
-      "seriesKey": "official:bjaller-clash:nordergravar",
-      "title": "Bjäller-clash",
-      "organizer": "Circus Ignis",
-      "description": "<p>Circus Ignis arrangerar Bjäller-Clash i år igen för att kora årets hetaste boll av energi! En överdrivet vänskaplig tävling mellan eldartister. Tillsammans med publiken kommer vi välja eld-battlets vinnare! Välkomna ner i gravarna för att se detta magiska event!</p>\n<p>Råttan och Räven är, för gott och ont, tillbaka i mikrofonen!</p>\n<p>Om du läser detta och känner att du vill ta del som artist finns det plats för er hetlevrade artister att medverka.<br />\nFör att delta kan ni kontakta Johan &#8220;Hellas&#8221; Hellstrand via PM på facebook messenger SENAST 23:59 3/8.</p>\n<p>Det må vara tävling, men huvudsaken med detta event är att ha roligt, ge en bra och säker show för våran underbara publik. </p>\n<p>Hoppas vi ses där! Det kommer bli episkt varmt och otroligt mysigt!</p>\n",
-      "date": "2026-08-06",
-      "startTime": "20:30",
-      "endTime": "22:00",
-      "venue": "Nordergravar",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_fRdc0rdCtj_background.jpg",
-      "editorTip": true,
-      "raw": {
-        "card": {
-          "pid": "64559",
-          "date": "2026-08-06",
-          "time": "20:30",
-          "titleText": "Bjäller-clash",
-          "categoryLabel": "Övrigt",
-          "editorTip": true
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_fRdc0rdCtj_background.jpg",
-          "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
-            "item_owner": "Circus Ignis",
-            "title": "Bjäller-clash"
-          },
-          "content": {
-            "description": "<p>Circus Ignis arrangerar Bjäller-Clash i år igen för att kora årets hetaste boll av energi! En överdrivet vänskaplig tävling mellan eldartister. Tillsammans med publiken kommer vi välja eld-battlets vinnare! Välkomna ner i gravarna för att se detta magiska event!</p>\n<p>Råttan och Räven är, för gott och ont, tillbaka i mikrofonen!</p>\n<p>Om du läser detta och känner att du vill ta del som artist finns det plats för er hetlevrade artister att medverka.<br />\nFör att delta kan ni kontakta Johan &#8220;Hellas&#8221; Hellstrand via PM på facebook messenger SENAST 23:59 3/8.</p>\n<p>Det må vara tävling, men huvudsaken med detta event är att ha roligt, ge en bra och säker show för våran underbara publik. </p>\n<p>Hoppas vi ses där! Det kommer bli episkt varmt och otroligt mysigt!</p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "20:30 - 22:00",
-            "venue": "Nordergravar",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "49ea6aa44fc38fa48749",
       "source": "official",
       "sourceId": "65544",
@@ -40702,6 +40646,57 @@
             "date": "2026-08-06",
             "time": "21:00 - 21:45",
             "venue": "Visby domkyrka Sankta Maria",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "620a622edf1b87292d0a",
+      "source": "official",
+      "sourceId": "64559",
+      "seriesKey": "official:bjaller-clash:nordergravar",
+      "title": "Bjäller-clash",
+      "organizer": "Circus Ignis",
+      "description": "<p>Circus Ignis arrangerar Bjäller-Clash i år igen för att kora årets hetaste boll av energi! En överdrivet vänskaplig tävling mellan eldartister. Tillsammans med publiken kommer vi välja eld-battlets vinnare! Välkomna ner i gravarna för att se detta magiska event!</p>\n<p>Råttan och Räven är, för gott och ont, tillbaka i mikrofonen!</p>\n<p>Om du läser detta och känner att du vill ta del som artist finns det plats för er hetlevrade artister att medverka.<br />\nFör att delta kan ni kontakta Johan &#8220;Hellas&#8221; Hellstrand via PM på facebook messenger SENAST 23:59 3/8.</p>\n<p>Det må vara tävling, men huvudsaken med detta event är att ha roligt, ge en bra och säker show för våran underbara publik. </p>\n<p>Hoppas vi ses där! Det kommer bli episkt varmt och otroligt mysigt!</p>\n",
+      "date": "2026-08-06",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "venue": "Nordergravar",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_fRdc0rdCtj_background.jpg",
+      "editorTip": true,
+      "raw": {
+        "card": {
+          "pid": "64559",
+          "date": "2026-08-06",
+          "time": "21:00",
+          "titleText": "Bjäller-clash",
+          "categoryLabel": "Övrigt",
+          "editorTip": true
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_fRdc0rdCtj_background.jpg",
+          "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
+            "border_color": "border-warning",
+            "item_owner": "Circus Ignis",
+            "title": "Bjäller-clash"
+          },
+          "content": {
+            "description": "<p>Circus Ignis arrangerar Bjäller-Clash i år igen för att kora årets hetaste boll av energi! En överdrivet vänskaplig tävling mellan eldartister. Tillsammans med publiken kommer vi välja eld-battlets vinnare! Välkomna ner i gravarna för att se detta magiska event!</p>\n<p>Råttan och Räven är, för gott och ont, tillbaka i mikrofonen!</p>\n<p>Om du läser detta och känner att du vill ta del som artist finns det plats för er hetlevrade artister att medverka.<br />\nFör att delta kan ni kontakta Johan &#8220;Hellas&#8221; Hellstrand via PM på facebook messenger SENAST 23:59 3/8.</p>\n<p>Det må vara tävling, men huvudsaken med detta event är att ha roligt, ge en bra och säker show för våran underbara publik. </p>\n<p>Hoppas vi ses där! Det kommer bli episkt varmt och otroligt mysigt!</p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Torsdag",
+            "date": "2026-08-06",
+            "time": "21:00 - 22:00",
+            "venue": "Nordergravar",
             "ticket_link": "",
             "bookmark_button_html": null
           },
@@ -41107,10 +41102,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -42149,10 +42144,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -46831,6 +46826,59 @@
     },
     {
       "schemaVersion": 1,
+      "id": "4bfaa09714fd5b9da1f7",
+      "source": "official",
+      "sourceId": "65730",
+      "seriesKey": "official:mot-battle-of-wisby:festivalomrade-paviljongsplan",
+      "title": "Möt Battle of Wisby",
+      "organizer": "Battle of Wisby",
+      "description": "<p>Nyfiken på Battle of Wisby? Kom och träffa arrangörerna och hör dem berätta om vad för sorts utrustning och kläder du behöver ha för att kunna delta. </p>\n<p>Ni hittar oss bredvid Besökscentret utanför entrén till Festivalområde Paviljongsplan. </p>\n",
+      "date": "2026-08-07",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "venue": "Festivalområde Paviljongsplan",
+      "category": "cat-ovrigt",
+      "raw": {
+        "card": {
+          "pid": "65730",
+          "date": "2026-08-07",
+          "time": "15:00",
+          "titleText": "Möt Battle of Wisby",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "header": {
+            "item_owner": "Battle of Wisby",
+            "title": "Möt Battle of Wisby"
+          },
+          "content": {
+            "description": "<p>Nyfiken på Battle of Wisby? Kom och träffa arrangörerna och hör dem berätta om vad för sorts utrustning och kläder du behöver ha för att kunna delta. </p>\n<p>Ni hittar oss bredvid Besökscentret utanför entrén till Festivalområde Paviljongsplan. </p>\n",
+            "siblings": {
+              "1786028400": {
+                "day": "Torsdag",
+                "time": "15:00",
+                "timestamp": 1786028400,
+                "title": "Möt Battle of Wisby"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Fredag",
+            "date": "2026-08-07",
+            "time": "15:00 - 17:00",
+            "venue": "Festivalområde Paviljongsplan",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "705685827444cbba83fb",
       "source": "official",
       "sourceId": "65075",
@@ -48328,7 +48376,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345949",
-      "editorTip": true,
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65044",
@@ -48337,13 +48385,14 @@
           "titleText": "Vasadottern / Daughter of Sweden",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/345949",
-          "editorTip": true
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Teater Kaleido",
             "title": "Vasadottern / Daughter of Sweden"
           },
@@ -49204,10 +49253,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -49962,10 +50011,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -55152,7 +55201,7 @@
       "schemaVersion": 1,
       "id": "dc810338ae0796f09cb5",
       "source": "official",
-      "sourceId": "65437",
+      "sourceId": "65728",
       "seriesKey": "official:heroes-hjalteskola-4-6-ar:hastarnas-dal",
       "title": "Heroes – Hjälteskola (4-6 år)",
       "organizer": "Tall Tales",
@@ -55165,7 +55214,7 @@
       "image": "https://join.medeltidsveckan.se/uploads/2026_Dzxgjd5BEL_background.jpg",
       "raw": {
         "card": {
-          "pid": "65437",
+          "pid": "65728",
           "date": "2026-08-09",
           "time": "10:00",
           "titleText": "Heroes – Hjälteskola (4-6 år)",
@@ -55181,10 +55230,10 @@
           "content": {
             "description": "<p>30 minuter · för barn 4–6 år tillsammans med en vuxen.</p>\n<p>Här får yngre hjältar tillsammans med sin vuxna väpnare lära sig äventyrets grunder: svinga svärd, hantera sköld, kasta eldboll och lösa sitt första uppdrag.<br />\nEn spelledare leder passet och all utrustning finns på plats.<br />\nInga förkunskaper behövs.</p>\n<p>Boka nu &#8211; www.talltales.nu/visby</p>\n<p>Ett Hjälte-diplom utfärdas till varje Hjälte, fyll i hela och ni är redo att ta er an våra andra Äventyrsspel!</p>\n<p>Vädersäkrat &#8211; Utomhus vid sol &#8211; inomhus vid regn</p>\n",
             "siblings": {
-              "1785664800": {
+              "1785661200": {
                 "day": "Söndag",
-                "time": "10:00",
-                "timestamp": 1785664800,
+                "time": "09:00",
+                "timestamp": 1785661200,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               },
               "1785668400": {
@@ -55263,6 +55312,12 @@
                 "day": "Lördag",
                 "time": "10:00",
                 "timestamp": 1786183200,
+                "title": "Heroes &#8211; Hjälteskola (4-6 år)"
+              },
+              "1786269600": {
+                "day": "Söndag",
+                "time": "10:00",
+                "timestamp": 1786269600,
                 "title": "Heroes &#8211; Hjälteskola (4-6 år)"
               }
             }
