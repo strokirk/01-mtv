@@ -15,6 +15,7 @@ import {
 import type { EventInstance, InstanceDecision } from "../../schema";
 import { categoryLabel } from "../categoryLabels";
 import { categoryStyle, SOURCE_STYLES } from "../categoryStyles";
+import { EVENT_TIME_ZONE } from "../now";
 
 interface Props {
   event: EventInstance | null;
@@ -57,7 +58,6 @@ function formatShortDate(date: string): string {
 // No endTime for many imtv events (point-in-time listings) — give the
 // calendar entry a plausible default length rather than a zero-duration event.
 const DEFAULT_DURATION_MINUTES = 120;
-const EVENT_TIME_ZONE = "Europe/Stockholm";
 
 function pad2(n: number): string {
   return String(n).padStart(2, "0");

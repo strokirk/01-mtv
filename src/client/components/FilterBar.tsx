@@ -17,13 +17,17 @@ interface Props {
   onShowIgnored: (v: boolean) => void;
   hideSoldOut: boolean;
   onHideSoldOut: (v: boolean) => void;
+  hideStarted: boolean;
+  onHideStarted: (v: boolean) => void;
   viewIsSchedule: boolean;
 }
 
 export default function FilterBar(props: Props) {
   const [filtersOpen, setFiltersOpen] = createSignal(false);
   const hasActiveFilters = () =>
-    Boolean(props.category || props.venue || props.source || props.showIgnored || props.hideSoldOut);
+    Boolean(
+      props.category || props.venue || props.source || props.showIgnored || props.hideSoldOut || props.hideStarted
+    );
 
   return (
     <div class="filter-bar">
@@ -92,6 +96,18 @@ export default function FilterBar(props: Props) {
               onChange={(e) => props.onHideSoldOut(e.currentTarget.checked)}
             />
             Dölj fullbokade
+          </label>
+          {/* Deliberately not hidden in "Mitt schema" (unlike "Visa
+              ignorerade"): a favorite you already missed is exactly as
+              useless as any other event that's been and gone. */}
+          <label class="show-ignored">
+            <input
+              type="checkbox"
+              name="hideStarted"
+              checked={props.hideStarted}
+              onChange={(e) => props.onHideStarted(e.currentTarget.checked)}
+            />
+            Dölj påbörjade
           </label>
         </div>
       </Show>

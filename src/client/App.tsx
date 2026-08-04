@@ -1,5 +1,5 @@
 import { createSignal, createMemo, createEffect, onMount, onCleanup, For, Show } from "solid-js";
-import { FaSolidCalendarXmark, FaSolidCircleInfo } from "solid-icons/fa";
+import { FaSolidCalendarXmark, FaSolidCircleInfo, FaSolidClock } from "solid-icons/fa";
 import type { EventInstance, UserState } from "../schema";
 import { resolveDecision } from "../schema";
 import {
@@ -15,6 +15,7 @@ import {
   type DecisionLevel,
   type TimeBlock,
 } from "./db";
+import { createFestivalClock, EVENT_TIME_ZONE } from "./now";
 import EventRow from "./components/EventRow";
 import FilterBar from "./components/FilterBar";
 import DayNav from "./components/DayNav";
@@ -22,6 +23,7 @@ import IntroCard from "./components/IntroCard";
 import EventDetailsModal from "./components/EventDetailsModal";
 import TimeBlocksModal from "./components/TimeBlocksModal";
 import ThemeBanner from "./components/ThemeBanner";
+import NowMarker from "./components/NowMarker";
 
 const EMPTY_STATE: UserState = {
   favoriteSeries: [],
@@ -75,10 +77,15 @@ export default function App() {
   const [search, setSearch] = createSignal("");
   const [showIgnored, setShowIgnored] = createSignal(false);
   const [hideSoldOut, setHideSoldOut] = createSignal(false);
+  const [hideStarted, setHideStarted] = createSignal(false);
   const [detailsEvent, setDetailsEvent] = createSignal<EventInstance | null>(null);
   const [timeBlocks, setTimeBlocks] = createSignal<TimeBlock[]>([]);
   const [timeBlocksOpen, setTimeBlocksOpen] = createSignal(false);
   const [introOpen, setIntroOpen] = createSignal(!introDismissed());
+
+  // The app's only clock. Read it sparingly — see the note on filtered().
+  const now = createFestivalClock();
+  const todayKey = () => now().date;
 
   let toolbarRef: HTMLDivElement | undefined;
   let listRef: HTMLDivElement | undefined;
@@ -150,14 +157,18 @@ export default function App() {
   const days = createMemo(() => Array.from(new Set(events().map((e) => e.date))).sort());
 
   // Land on today when the app is opened during the festival week, and on
-  // the first day of the programme otherwise.
+  // the first day of the programme otherwise. "Today" is the festival's own
+  // day, not the device's — a phone on another timezone would otherwise
+  // roll over to the next day's programme hours early or late.
   createEffect(() => {
     const all = days();
     const first = all[0];
     if (!first || all.includes(selectedDay())) return;
-    const today = new Date().toLocaleDateString("sv-SE");
+    const today = new Date().toLocaleDateString("sv-SE", { timeZone: EVENT_TIME_ZONE });
     setSelectedDay(all.includes(today) ? today : first);
   });
+
+  const todayInProgramme = createMemo(() => days().includes(todayKey()));
 
   const isSearching = () => search().trim().length > 0;
 
@@ -174,9 +185,9 @@ export default function App() {
     return dates;
   });
 
-  // Everything except the day restriction — the day (or a search across all
-  // days) is applied on top in `visible()`.
-  const filtered = createMemo(() => {
+  // Everything except the day restriction and the hide-started cut — the
+  // day (or a search across all days) is applied on top in `visible()`.
+  const filteredBase = createMemo(() => {
     const state = userState();
     const blocks = timeBlocks();
     const q = search().trim().toLowerCase();
@@ -206,9 +217,44 @@ export default function App() {
     });
   });
 
+  // The clock is read *only* inside this branch, and Solid re-tracks memo
+  // dependencies on every run — so with the toggle off, nothing downstream
+  // of here depends on the clock and a tick costs literally nothing. Read
+  // now() unconditionally and every minute would instead rebuild `grouped()`
+  // (new tuples => the outer <For> tears down the whole day section), which
+  // is exactly the per-minute list churn the one-day-at-a-time design exists
+  // to avoid.
+  const filtered = createMemo(() => {
+    if (!hideStarted()) return filteredBase();
+    const cutoff = now().stamp;
+    return filteredBase().filter((e) => `${e.date}T${e.startTime}` >= cutoff);
+  });
+
+  // How many events the hide-started cut is currently removing from what the
+  // user is actually looking at — so the number in the banner matches the
+  // list in front of them rather than counting the whole week.
+  const startedHiddenCount = createMemo(() => {
+    if (!hideStarted()) return 0;
+    const cutoff = now().stamp;
+    const scope = isSearching() ? filteredBase() : filteredBase().filter((e) => e.date === selectedDay());
+    return scope.filter((e) => `${e.date}T${e.startTime}` < cutoff).length;
+  });
+
   const visible = createMemo(() =>
     isSearching() ? filtered() : filtered().filter((e) => e.date === selectedDay())
   );
+
+  // Where the "nu" line goes in today's list: the id of the first event that
+  // hasn't started yet, or null when the whole day is behind us (the line
+  // then goes after the last row). `undefined` means don't draw it at all —
+  // a different day is selected, or a search is spanning every day at once,
+  // where a single line through the results would mean nothing.
+  const nowMarkerId = createMemo<string | null | undefined>(() => {
+    if (isSearching() || selectedDay() !== todayKey()) return undefined;
+    const cutoff = now().stamp;
+    const next = visible().find((e) => `${e.date}T${e.startTime}` >= cutoff);
+    return next ? next.id : null;
+  });
 
   // Only a search can produce an unbounded result set; a single day is
   // always ~120 rows at most, so day browsing is never truncated.
@@ -233,6 +279,48 @@ export default function App() {
     const top = (listRef?.offsetTop ?? 0) - (toolbarRef?.offsetHeight ?? 0);
     if (window.scrollY > top) window.scrollTo({ top: Math.max(0, top) });
   }
+
+  // Park the "nu" line just below the sticky toolbar.
+  //
+  // The retry loop is not paranoia: `.swipe-wrapper` sets
+  // `content-visibility: auto`, so rows that have never been on screen are
+  // never laid out and stand in at their `contain-intrinsic-size` guess of
+  // 84px. On a 120-row day the marker's first measured offset can therefore
+  // be hundreds of pixels wrong. Each scroll materializes the rows it lands
+  // among, which sharpens the next measurement — so re-measure until the
+  // target stops moving. Instant rather than smooth: a smooth scroll through
+  // a long list on open reads as a glitch, and goToDay() jumps instantly too.
+  function scrollToNow(attempt = 0) {
+    const marker = listRef?.querySelector<HTMLElement>(".now-marker");
+    if (!marker) return;
+    const offset = toolbarRef?.offsetHeight ?? 0;
+    const target = Math.max(0, window.scrollY + marker.getBoundingClientRect().top - offset - 8);
+    if (Math.abs(target - window.scrollY) <= 4) return;
+    window.scrollTo({ top: target });
+    if (attempt < 5) requestAnimationFrame(() => scrollToNow(attempt + 1));
+  }
+
+  function jumpToNow() {
+    goToDay(todayKey());
+    // Let the new day's rows render before measuring anything.
+    requestAnimationFrame(() => scrollToNow());
+  }
+
+  // Open the app already parked at the current time — but only once, and
+  // only on a genuinely untouched scroll position. The list renders twice
+  // (Dexie cache first, then syncEvents() replaces `events`), so without the
+  // latch the second render would yank the page a second time, and without
+  // the scrollY check it could yank someone who started scrolling during the
+  // load. Every later trip back to now is the explicit "Nu" button.
+  let didAutoScroll = false;
+  createEffect(() => {
+    if (didAutoScroll || loading()) return;
+    if (isSearching() || selectedDay() !== todayKey()) return;
+    if (visible().length === 0) return;
+    didAutoScroll = true;
+    if (window.scrollY > 4) return;
+    requestAnimationFrame(() => scrollToNow());
+  });
 
   async function handleToggle(level: DecisionLevel, key: string, decision: Decision) {
     const next = await toggleDecision(level, key, decision);
@@ -303,14 +391,30 @@ export default function App() {
       </Show>
 
       <div class="app-toolbar" ref={toolbarRef}>
-        <nav class="view-toggle">
-          <button classList={{ active: view() === "all" }} onClick={() => setView("all")}>
-            Program
-          </button>
-          <button classList={{ active: view() === "schedule" }} onClick={() => setView("schedule")}>
-            Mitt schema
-          </button>
-        </nav>
+        <div class="toolbar-row">
+          <nav class="view-toggle">
+            <button classList={{ active: view() === "all" }} onClick={() => setView("all")}>
+              Program
+            </button>
+            <button classList={{ active: view() === "schedule" }} onClick={() => setView("schedule")}>
+              Mitt schema
+            </button>
+          </nav>
+          {/* Autoscroll only happens on open, so this is the way back to the
+              current time afterwards. Pointless outside the festival week. */}
+          <Show when={todayInProgramme()}>
+            <button
+              type="button"
+              class="now-jump"
+              title="Hoppa till nu"
+              aria-label="Hoppa till nu"
+              disabled={isSearching()}
+              onClick={jumpToNow}
+            >
+              <FaSolidClock /> Nu
+            </button>
+          </Show>
+        </div>
         <DayNav
           days={days()}
           selected={selectedDay()}
@@ -330,6 +434,19 @@ export default function App() {
         </p>
       </Show>
 
+      {/* "Dölj påbörjade" hides everything before now across all days, so
+          browsing back to a day that's already been would otherwise show an
+          unexplained empty list — with the culprit checkbox collapsed out of
+          sight inside the filter panel. Hence the inline way out. */}
+      <Show when={startedHiddenCount() > 0}>
+        <p class="banner banner-info">
+          {startedHiddenCount()} event har redan börjat och {startedHiddenCount() === 1 ? "är dolt" : "är dolda"}.{" "}
+          <button type="button" class="banner-action" onClick={() => setHideStarted(false)}>
+            Visa
+          </button>
+        </p>
+      </Show>
+
       <FilterBar
         categories={categories()}
         venues={venues()}
@@ -345,6 +462,8 @@ export default function App() {
         onShowIgnored={setShowIgnored}
         hideSoldOut={hideSoldOut()}
         onHideSoldOut={setHideSoldOut}
+        hideStarted={hideStarted()}
+        onHideStarted={setHideStarted}
         viewIsSchedule={view() === "schedule"}
       />
 
@@ -383,16 +502,31 @@ export default function App() {
                   <h2>
                     {formatDateHeading(date)} <span class="day-count">· {dayEvents.length} event</span>
                   </h2>
+                  {/* The marker is a <Show> inside the loop rather than an
+                      extra entry in `grouped()` on purpose: a clock tick then
+                      re-evaluates one cheap condition per row instead of
+                      invalidating the row list and rebuilding every
+                      EventRow. */}
                   <For each={dayEvents}>
                     {(event) => (
-                      <EventRow
-                        event={event}
-                        decision={resolveDecision(event, userState())}
-                        onToggle={handleToggle}
-                        onOpenDetails={setDetailsEvent}
-                      />
+                      <>
+                        <Show when={nowMarkerId() === event.id}>
+                          <NowMarker time={now().time} />
+                        </Show>
+                        <EventRow
+                          event={event}
+                          decision={resolveDecision(event, userState())}
+                          onToggle={handleToggle}
+                          onOpenDetails={setDetailsEvent}
+                        />
+                      </>
                     )}
                   </For>
+                  {/* Everything today has already started — the line belongs
+                      at the bottom, which is what you see late in the evening. */}
+                  <Show when={nowMarkerId() === null && date === todayKey()}>
+                    <NowMarker time={now().time} />
+                  </Show>
                 </section>
               )}
             </For>

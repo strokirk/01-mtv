@@ -128,13 +128,42 @@ button,
   gap: 0.5rem;
 }
 
+.toolbar-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
 .view-toggle {
+  flex: 1;
+  min-width: 0;
   display: flex;
   gap: 0.25rem;
   padding: 0.2rem;
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 999px;
+}
+
+/* Autoscroll to the current time only happens on open; this is the way back
+   to it. Shaped like the view toggle it sits next to, but rose-tinted so it
+   doesn't read as a third view. */
+.now-jump {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0 0.75rem;
+  border: 1px solid var(--rose-line);
+  background: var(--rose-soft);
+  color: var(--rose-strong);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.now-jump:disabled {
+  opacity: 0.4;
 }
 
 .view-toggle button {
@@ -264,6 +293,18 @@ button,
   background: var(--surface-2);
   border: 1px solid var(--rose-line);
   color: var(--text-dim);
+}
+
+/* An inline "undo this" for a banner that explains why rows are missing —
+   the filter that caused it lives behind the collapsed filter panel. */
+.banner-action {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--rose);
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .icon-button {
@@ -464,6 +505,39 @@ button,
   font-weight: 500;
   text-transform: none;
   letter-spacing: 0;
+}
+
+/* "You are here" in today's list. scroll-margin-top keeps it clear of the
+   sticky toolbar when scrollToNow() parks the page on it. */
+.now-marker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.6rem 0 0.75rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.now-marker::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, var(--rose), rgba(194, 24, 91, 0.15));
+}
+
+.now-marker-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex: none;
+  padding: 0.12rem 0.5rem;
+  border: 1px solid var(--rose);
+  border-radius: 999px;
+  background: var(--rose-soft);
+  color: var(--rose-strong);
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
 }
 
 .swipe-wrapper {
