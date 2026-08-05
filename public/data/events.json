@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T16:53:08.892Z",
+  "generatedAt": "2026-08-05T19:39:32.406Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -17947,29 +17947,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "01003be1fd33381a9834",
-      "source": "imtv",
-      "sourceId": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
-      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
-      "title": "Dead Mans Draw",
-      "organizer": "Fladdermusen",
-      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
-      "date": "2026-08-04",
-      "startTime": "12:00",
-      "lastModified": "2026-08-03 15:09:37",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "12:00",
-        "title": "Dead Mans Draw",
-        "guid": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
-        "creator": "Fladdermusen",
-        "lastModified": "2026-08-03 15:09:37",
-        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "062c59f1aebc32f030e8",
       "source": "imtv",
       "sourceId": "{1642A09C-DBFC-46F2-A215-32A9C159D882}",
@@ -17994,6 +17971,29 @@
         "links": [
           "www.polyforeningen.org"
         ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "01003be1fd33381a9834",
+      "source": "imtv",
+      "sourceId": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
+      "title": "Dead Mans Draw",
+      "organizer": "Fladdermusen",
+      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+      "date": "2026-08-04",
+      "startTime": "12:00",
+      "lastModified": "2026-08-03 15:09:37",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "12:00",
+        "title": "Dead Mans Draw",
+        "guid": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+        "creator": "Fladdermusen",
+        "lastModified": "2026-08-03 15:09:37",
+        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+        "links": []
       }
     },
     {
@@ -31856,6 +31856,7 @@
       "category": "cat-performance",
       "image": "https://join.medeltidsveckan.se/uploads/2026_ZX8y3FAfWI_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/350209",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65342",
@@ -31864,11 +31865,14 @@
           "titleText": "Historiska spöken – Vikingatida vålnader",
           "categoryLabel": "Performance",
           "ticketUrl": "https://www.nortic.se/ticket/show/350209",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_ZX8y3FAfWI_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Hörsägen",
             "title": "Historiska spöken &#8211; Vikingatida vålnader"
           },
@@ -32399,6 +32403,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "a4a82bb5dc6cfab7162a",
+      "source": "imtv",
+      "sourceId": "{85D9E14A-CB8F-4D60-A73A-BF34F72B3A7B}",
+      "seriesKey": "imtv:piratyoga-med-myran:alpackan",
+      "title": "Piratyoga med myran",
+      "organizer": "Alpackan",
+      "description": "Går det att kombinera gravöl och yoga? Ja absolut! Myran bryr sig inte om att hålla sig till normer.  Vi möts i gryningens första ljus kl 04:44, på stranden nedanför nordegravar. Medtag alkoholhaltig dryck (för att bjuda till Myran), glatt humör, din ömma kropp, en vän eller ditt senaste ragg. Jag utlovar skratt, gemenskap och oväntade kroppspositioner. Varmt välkomna!",
+      "date": "2026-08-06",
+      "startTime": "04:44",
+      "lastModified": "2026-08-05 20:14:30",
+      "raw": {
+        "date": "2026-08-06",
+        "time": "04:44",
+        "title": "Piratyoga med myran",
+        "guid": "{85D9E14A-CB8F-4D60-A73A-BF34F72B3A7B}",
+        "creator": "Alpackan",
+        "lastModified": "2026-08-05 20:14:30",
+        "description": "Går det att kombinera gravöl och yoga? Ja absolut! Myran bryr sig inte om att hålla sig till normer.  Vi möts i gryningens första ljus kl 04:44, på stranden nedanför nordegravar. Medtag alkoholhaltig dryck (för att bjuda till Myran), glatt humör, din ömma kropp, en vän eller ditt senaste ragg. Jag utlovar skratt, gemenskap och oväntade kroppspositioner. Varmt välkomna!",
+        "links": []
       }
     },
     {
@@ -33163,6 +33190,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_sPi2DeTlub_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345998",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65089",
@@ -33171,11 +33199,14 @@
           "titleText": "Nybörjarkurs i nålbindning",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/345998",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_sPi2DeTlub_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Maria M. Broman",
             "title": "Nybörjarkurs i nålbindning"
           },
@@ -39649,6 +39680,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "70debc9fa8752ccbbd3c",
+      "source": "imtv",
+      "sourceId": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
+      "seriesKey": "imtv:karrotorderns-arliga-picknick:karrotorderns-vaktare",
+      "title": "Karrotorderns årliga picknick!",
+      "organizer": "Karrotorderns Väktare",
+      "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
+      "date": "2026-08-06",
+      "startTime": "16:00",
+      "lastModified": "2026-07-04 15:50:18",
+      "raw": {
+        "date": "2026-08-06",
+        "time": "16:00",
+        "title": "Karrotorderns årliga picknick!",
+        "guid": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
+        "creator": "Karrotorderns Väktare",
+        "lastModified": "2026-07-04 15:50:18",
+        "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "410fb3013ea5f5bb4fe1",
       "source": "imtv",
       "sourceId": "{73FF47C0-CFE1-4CEA-AEF7-0380232A6BC3}",
@@ -39673,29 +39727,6 @@
         "links": [
           "https://fb.me/e/1HX4E4HYX"
         ]
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "70debc9fa8752ccbbd3c",
-      "source": "imtv",
-      "sourceId": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
-      "seriesKey": "imtv:karrotorderns-arliga-picknick:karrotorderns-vaktare",
-      "title": "Karrotorderns årliga picknick!",
-      "organizer": "Karrotorderns Väktare",
-      "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
-      "date": "2026-08-06",
-      "startTime": "16:00",
-      "lastModified": "2026-07-04 15:50:18",
-      "raw": {
-        "date": "2026-08-06",
-        "time": "16:00",
-        "title": "Karrotorderns årliga picknick!",
-        "guid": "{65DC1C23-79C2-4E6B-8C6E-89239C7EC7F6}",
-        "creator": "Karrotorderns Väktare",
-        "lastModified": "2026-07-04 15:50:18",
-        "description": "Välkommen på picknick i Morotslandet (utanför Kärleksporten). Ta med dig något gott att dela med dig av, och hugg in på det som bjuds på gemensamma knytkalaset. Allehanda sång kommer naturligtvis att sjungas i tid och otid!",
-        "links": []
       }
     },
     {
@@ -40500,34 +40531,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "31c793521226bdc923ff",
-      "source": "imtv",
-      "sourceId": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
-      "seriesKey": "imtv:helgon-picnic:mynta",
-      "title": "Helgon-picnic",
-      "organizer": "Mynta",
-      "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
-      "date": "2026-08-06",
-      "startTime": "20:00",
-      "links": [
-        "Helgon.se"
-      ],
-      "lastModified": "2026-08-01 07:20:39",
-      "raw": {
-        "date": "2026-08-06",
-        "time": "20:00",
-        "title": "Helgon-picnic",
-        "guid": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
-        "creator": "Mynta",
-        "lastModified": "2026-08-01 07:20:39",
-        "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
-        "links": [
-          "Helgon.se"
-        ]
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "2034b04431b324aa954e",
       "source": "imtv",
       "sourceId": "{154634E9-8283-4B23-8B45-05E946C8F29B}",
@@ -40962,6 +40965,34 @@
     },
     {
       "schemaVersion": 1,
+      "id": "221b9a86d01513deb183",
+      "source": "imtv",
+      "sourceId": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
+      "seriesKey": "imtv:helgon-picnic:mynta",
+      "title": "Helgon-picnic",
+      "organizer": "Mynta",
+      "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng, efter att Katten Skogmans Orkester spelat klart. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
+      "date": "2026-08-06",
+      "startTime": "21:00",
+      "links": [
+        "https://Helgon.se"
+      ],
+      "lastModified": "2026-08-05 20:09:29",
+      "raw": {
+        "date": "2026-08-06",
+        "time": "21:00",
+        "title": "Helgon-picnic",
+        "guid": "{C6F0C7DC-44A9-419A-B0B7-083864424761}",
+        "creator": "Mynta",
+        "lastModified": "2026-08-05 20:09:29",
+        "description": "Vi samlas  vid strandpromenaden nedanför Nordergravarna för årets mest retro-alternativa häng, efter att Katten Skogmans Orkester spelat klart. Leta efter vårt typiska gothbaner med helgonloggan  vajandes i kvällsbrisen.  Ta med något att äta, något att sitta på och din bästa “jag lovar att jag är från 1300‑talet”-look, så skapar vi nostalgi och milda existentiella kriser i skymningen. Länk",
+        "links": [
+          "https://Helgon.se"
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "d01140d27dd8371816aa",
       "source": "official",
       "sourceId": "64907",
@@ -41080,25 +41111,24 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2ab752c9431ce3faf6bc",
+      "id": "9de1a239b9b763a8739c",
       "source": "imtv",
-      "sourceId": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
-      "seriesKey": "imtv:gravrejvet-gravskogsfest:alpackan",
-      "title": "Gravrejvet Gravskogsfest",
-      "organizer": "Alpackan",
-      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
+      "sourceId": "{9B067780-B157-4D27-AEC4-CC55E2C278F7}",
+      "seriesKey": "imtv:snusksagor:skrik-och-skral",
+      "title": "Snusksagor",
+      "organizer": "Skrik och Skrål",
+      "description": "Kom och lyssna på sensuella erotiska sagor med Aurora Drömmare och lyssna på eldig musik från Skrik & Skrål.  Platsen är en illa dold hemlighet... prata med Skrik & Skrål så skvallrar de friskt...",
       "date": "2026-08-06",
       "startTime": "22:00",
-      "venue": "Nordergravar, under träbron för femte året i rad",
-      "lastModified": "2026-07-31 13:56:24",
+      "lastModified": "2026-08-02 17:01:48",
       "raw": {
         "date": "2026-08-06",
         "time": "22:00",
-        "title": "Gravrejvet Gravskogsfest",
-        "guid": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
-        "creator": "Alpackan",
-        "lastModified": "2026-07-31 13:56:24",
-        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
+        "title": "Snusksagor",
+        "guid": "{9B067780-B157-4D27-AEC4-CC55E2C278F7}",
+        "creator": "Skrik och Skrål",
+        "lastModified": "2026-08-02 17:01:48",
+        "description": "Kom och lyssna på sensuella erotiska sagor med Aurora Drömmare och lyssna på eldig musik från Skrik & Skrål.  Platsen är en illa dold hemlighet... prata med Skrik & Skrål så skvallrar de friskt...",
         "links": []
       }
     },
@@ -41132,24 +41162,25 @@
     },
     {
       "schemaVersion": 1,
-      "id": "9de1a239b9b763a8739c",
+      "id": "2ab752c9431ce3faf6bc",
       "source": "imtv",
-      "sourceId": "{9B067780-B157-4D27-AEC4-CC55E2C278F7}",
-      "seriesKey": "imtv:snusksagor:skrik-och-skral",
-      "title": "Snusksagor",
-      "organizer": "Skrik och Skrål",
-      "description": "Kom och lyssna på sensuella erotiska sagor med Aurora Drömmare och lyssna på eldig musik från Skrik & Skrål.  Platsen är en illa dold hemlighet... prata med Skrik & Skrål så skvallrar de friskt...",
+      "sourceId": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
+      "seriesKey": "imtv:gravrejvet-gravskogsfest:alpackan",
+      "title": "Gravrejvet Gravskogsfest",
+      "organizer": "Alpackan",
+      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
       "date": "2026-08-06",
       "startTime": "22:00",
-      "lastModified": "2026-08-02 17:01:48",
+      "venue": "Nordergravar, under träbron för femte året i rad",
+      "lastModified": "2026-07-31 13:56:24",
       "raw": {
         "date": "2026-08-06",
         "time": "22:00",
-        "title": "Snusksagor",
-        "guid": "{9B067780-B157-4D27-AEC4-CC55E2C278F7}",
-        "creator": "Skrik och Skrål",
-        "lastModified": "2026-08-02 17:01:48",
-        "description": "Kom och lyssna på sensuella erotiska sagor med Aurora Drömmare och lyssna på eldig musik från Skrik & Skrål.  Platsen är en illa dold hemlighet... prata med Skrik & Skrål så skvallrar de friskt...",
+        "title": "Gravrejvet Gravskogsfest",
+        "guid": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
+        "creator": "Alpackan",
+        "lastModified": "2026-07-31 13:56:24",
+        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
         "links": []
       }
     },
@@ -48643,18 +48674,18 @@
       "seriesKey": "imtv:boffer-af-wisby:smeden",
       "title": "Boffer af Wisby",
       "organizer": "Smeden",
-      "description": "I ny regi återskapar vi gamla regin av Boffer af wisby. Slaget är att vuxna och barn ska leka ”capture the flag”.  Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen. Samling Dalmansporten (om inte vi hittar en bättre plats) Arrangörer: Hammarklanen",
+      "description": "Har du alltid velat slå dina vänner eller syskon? Nu har du chansen!  Vi reenactar förra årets Boffer of Wisby med gamla regin - ta med ett boffervapen eller två och var med på capture the flag. Med eller utan åkband, ingen åldersgräns men regeln ”den som ger sig in i leken..” gäller.  Samling fredag kl 17 vid Dalmansporten om ni inte har förslag på ett bättre område.  Nu i ny regi av Hammarklanen",
       "date": "2026-08-07",
       "startTime": "17:00",
-      "lastModified": "2026-08-04 19:22:45",
+      "lastModified": "2026-08-05 20:09:46",
       "raw": {
         "date": "2026-08-07",
         "time": "17:00",
         "title": "Boffer af Wisby",
         "guid": "{512C6C1D-83A4-4927-8F1A-3DC26900E85F}",
         "creator": "Smeden",
-        "lastModified": "2026-08-04 19:22:45",
-        "description": "I ny regi återskapar vi gamla regin av Boffer af wisby. Slaget är att vuxna och barn ska leka ”capture the flag”.  Ingen åldersgräns, regeln är att ”den som ger sig in i leken får leken tåla”. Ett lyckat koncept barn vs vuxna. Ta med egna godkända boffervapen. Samling Dalmansporten (om inte vi hittar en bättre plats) Arrangörer: Hammarklanen",
+        "lastModified": "2026-08-05 20:09:46",
+        "description": "Har du alltid velat slå dina vänner eller syskon? Nu har du chansen!  Vi reenactar förra årets Boffer of Wisby med gamla regin - ta med ett boffervapen eller två och var med på capture the flag. Med eller utan åkband, ingen åldersgräns men regeln ”den som ger sig in i leken..” gäller.  Samling fredag kl 17 vid Dalmansporten om ni inte har förslag på ett bättre område.  Nu i ny regi av Hammarklanen",
         "links": []
       }
     },
@@ -53832,6 +53863,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "dc94d28bda66fccbb641",
+      "source": "imtv",
+      "sourceId": "{73D348AA-E2E5-4365-85F6-CBF91EE73103}",
+      "seriesKey": "imtv:nalbindning-kurs-prova-pa:saylo",
+      "title": "Nålbindning kurs prova på",
+      "organizer": "saylo",
+      "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, någonstans mellan kärleksporten och kruttornet. Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
+      "date": "2026-08-08",
+      "startTime": "15:00",
+      "lastModified": "2026-08-05 20:51:28",
+      "raw": {
+        "date": "2026-08-08",
+        "time": "15:00",
+        "title": "Nålbindning kurs prova på",
+        "guid": "{73D348AA-E2E5-4365-85F6-CBF91EE73103}",
+        "creator": "saylo",
+        "lastModified": "2026-08-05 20:51:28",
+        "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, någonstans mellan kärleksporten och kruttornet. Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
+        "links": []
       }
     },
     {
