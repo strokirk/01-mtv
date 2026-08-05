@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T14:17:11.008Z",
+  "generatedAt": "2026-08-05T16:53:08.892Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -22369,6 +22369,12 @@
                 "time": "19:00",
                 "timestamp": 1786129200,
                 "title": "Vasadottern / Daughter of Sweden"
+              },
+              "1786204800": {
+                "day": "Lördag",
+                "time": "16:00",
+                "timestamp": 1786204800,
+                "title": "Vasadottern / Daughter of Sweden"
               }
             }
           },
@@ -28884,7 +28890,14 @@
           },
           "content": {
             "description": "<p>Havets folklore är fylld av kärlek och fara, ofta sammanflätade med varandra. I den här föreläsningen får du möta kärlekskranka havsväsen, höra om sjömännens kärlek till havet och till skeppet, om den älskade skeppskattens plats i besättningen (och om de lika avskydda råttorna), om lojalitet och myteri, om kärleken till äventyr men också om långa, slitsamma dagar till sjöss. Och inte minst handlar föreläsningen om föreläsarens egen kärlek till berättelser om havet.</p>\n",
-            "siblings": null
+            "siblings": {
+              "1786102200": {
+                "day": "Fredag",
+                "time": "11:30",
+                "timestamp": 1786102200,
+                "title": "Havet och kärleken: i myt, magi och berättelser"
+              }
+            }
           },
           "sidebar": {
             "dayName": "Onsdag",
@@ -44005,6 +44018,63 @@
     },
     {
       "schemaVersion": 1,
+      "id": "e075c02d0657cebd12a2",
+      "source": "official",
+      "sourceId": "65735",
+      "seriesKey": "official:havet-och-karleken-i-myt-magi-och-berattelser:teatern-strand-hotel",
+      "title": "Havet och kärleken: i myt, magi och berättelser",
+      "organizer": "Tora Wall",
+      "description": "<p>Havets folklore är fylld av kärlek och fara, ofta sammanflätade med varandra. I den här föreläsningen får du möta kärlekskranka havsväsen, höra om sjömännens kärlek till havet och till skeppet, om den älskade skeppskattens plats i besättningen (och om de lika avskydda råttorna), om lojalitet och myteri, om kärleken till äventyr men också om långa, slitsamma dagar till sjöss. Och inte minst handlar föreläsningen om föreläsarens egen kärlek till berättelser om havet.</p>\n",
+      "date": "2026-08-07",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "venue": "Teatern, Strand Hotel",
+      "category": "cat-foredrag",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_zkw89W6ivb_background.jpg",
+      "ticketUrl": "https://www.nortic.se/ticket/show/355765",
+      "raw": {
+        "card": {
+          "pid": "65735",
+          "date": "2026-08-07",
+          "time": "11:30",
+          "titleText": "Havet och kärleken: i myt, magi och berättelser",
+          "categoryLabel": "Föredrag",
+          "ticketUrl": "https://www.nortic.se/ticket/show/355765",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_zkw89W6ivb_background.jpg",
+          "header": {
+            "item_owner": "Tora Wall",
+            "title": "Havet och kärleken: i myt, magi och berättelser"
+          },
+          "content": {
+            "description": "<p>Havets folklore är fylld av kärlek och fara, ofta sammanflätade med varandra. I den här föreläsningen får du möta kärlekskranka havsväsen, höra om sjömännens kärlek till havet och till skeppet, om den älskade skeppskattens plats i besättningen (och om de lika avskydda råttorna), om lojalitet och myteri, om kärleken till äventyr men också om långa, slitsamma dagar till sjöss. Och inte minst handlar föreläsningen om föreläsarens egen kärlek till berättelser om havet.</p>\n",
+            "siblings": {
+              "1785936600": {
+                "day": "Onsdag",
+                "time": "13:30",
+                "timestamp": 1785936600,
+                "title": "Havet och kärleken: i myt, magi och berättelser"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Fredag",
+            "date": "2026-08-07",
+            "time": "11:30 - 12:30",
+            "venue": "Teatern, Strand Hotel",
+            "ticket_link": "https://www.nortic.se/ticket/show/355765",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "53d02be0d52138a0fb0a",
       "source": "official",
       "sourceId": "65339",
@@ -48695,6 +48765,12 @@
                 "time": "19:00",
                 "timestamp": 1785870000,
                 "title": "Vasadottern / Daughter of Sweden"
+              },
+              "1786204800": {
+                "day": "Lördag",
+                "time": "16:00",
+                "timestamp": 1786204800,
+                "title": "Vasadottern / Daughter of Sweden"
               }
             }
           },
@@ -49166,6 +49242,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343751",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64947",
@@ -49174,11 +49251,14 @@
           "titleText": "TRiX ger – Eldiaden",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343751",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gycklargruppen TRiX",
             "title": "TRiX ger &#8211; Eldiaden"
           },
@@ -53810,6 +53890,71 @@
             "time": "15:15 - 16:15",
             "venue": "Sagoängen",
             "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "930557b272f51dfce86e",
+      "source": "official",
+      "sourceId": "65736",
+      "seriesKey": "official:vasadottern-daughter-of-sweden:teatern-strand-hotel",
+      "title": "Vasadottern / Daughter of Sweden",
+      "organizer": "Teater Kaleido",
+      "description": "<p>This show will be performed in English:<br />\nNär Gustav Vasas 19-åriga dotter avslöjas med en älskare hoppas hela Europa att skandalen ska kuva prinsessan. Brännmärkt, stenrik och frihetstörstande har Cecilia Vasa bara börjat. Kanske kan en vänskap med Englands drottning ge henne självständighet &#8211; eller varför inte ett liv som pirat? </p>\n<p>En komisk tragedi om ett 500 år långt rykte och 100 000 silverdaler, baserad på Sveriges skandal- och piratprinsessa Cecilia Vasa. Kvar efter diplomaten, bråkstaken och prinsessan finns bara ryktet om skökan. Välkomna på en dramatisk, rolig och gripande resa in i 1500-talets svenska och europeiska maktspel. </p>\n<p>&#8220;En fantastisk kunglig historia suveränt framförd.&#8221; &#8211; Kulturbloggen<br />\n“Säverman trollbinder publiken” &#8211; Auditorius<br />\n”Spektakulär prinsessaga” &#8211; Aftonbladet</p>\n<p>Stockholms Stads Kulturstipendium 2021.<br />\nTidigare bl.a spelad på: Kulturhuset Stadsteatern, Göteborgs Stadsteater och Vadstena slott. Teater Kaleido har producerat scenkonst sen 2012, och är systergrupp till mtv-veteranerna Gycklargruppen Hyckel. </p>\n<p>ENGLISH:</p>\n<p>Daughter of Sweden<br />\n&#8211; the true story of a forgotten Swedish princess who scandalised Europe and turned pirate.</p>\n<p>Award-winning one-woman show, bringing royal scandal and the high seas to life.<br />\nWhen Sweden&#8217;s 19-year-old Princess Cecilia Vasa is caught with a lover in 1559, Europe thinks the scandal will tame the harlot. But Cecilia is just getting started. Condemned, filthy rich and yearning for freedom, she enters Renaissance Europe where war, chastity and men rule. Could friendship with Queen Elizabeth I of England grant her the independence she craves – or why not a life of piracy? Translated into English.</p>\n<p>Daughter of Sweden is based on the astonishing true story of 16th-century Swedish princess, pirate and Margravine Cecilia Vasa of Baden-Rodemachern. Strikingly relevant to today&#8217;s turbulent political landscape, Cecilia Vasas story feels surprisingly modern. This darkly comic solo show explores freedom, resilience, and resistance against erasure, judgement and patriarchal power.</p>\n<p>“Säverman mesmerises the audience” &#8211; Auditorius<br />\n“Spectacular princess saga” &#8211; Aftonbladet.<br />\n &#8220;A fantastic royal story brilliantly performed&#8221; &#8211; Kulturbloggen</p>\n<p>Teater Kaleido has toured Daughter of Sweden to sold-out houses in Sweden since 2020. The play won Stockholm’s 2021 Outstanding Performing Arts Scholarship and now makes its English-language debut the Medieval Week in Gotland, before debuting internationally at Edinburgh Festival Fringe. </p>\n<p>By &#038; with: Cecilia Säverman<br />\nDirector: Judith Hollander<br />\nEnglish translation: Saskia Vogel<br />\nProducer: Teater Kaleido<br />\nRec from 11 years.<br />\nDates &#038; time: 4 &#038; 7 aug, 19:00, 1hr 10 min.<br />\nteaterkaleido.se/vasadottern#English<br />\nSupported by: Svante Bergströms Teaterstiftelse &#038; Helge Ax:son Johnson</p>\n",
+      "date": "2026-08-08",
+      "startTime": "16:00",
+      "endTime": "17:10",
+      "venue": "Teatern, Strand Hotel",
+      "category": "cat-teater",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
+      "ticketUrl": "https://www.nortic.se/ticket/show/355777",
+      "raw": {
+        "card": {
+          "pid": "65736",
+          "date": "2026-08-08",
+          "time": "16:00",
+          "titleText": "Vasadottern / Daughter of Sweden",
+          "categoryLabel": "Teater",
+          "ticketUrl": "https://www.nortic.se/ticket/show/355777",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
+          "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">!!!EXTRAINSATT!!!</span>",
+            "border_color": "border-warning",
+            "item_owner": "Teater Kaleido",
+            "title": "Vasadottern / Daughter of Sweden"
+          },
+          "content": {
+            "description": "<p>This show will be performed in English:<br />\nNär Gustav Vasas 19-åriga dotter avslöjas med en älskare hoppas hela Europa att skandalen ska kuva prinsessan. Brännmärkt, stenrik och frihetstörstande har Cecilia Vasa bara börjat. Kanske kan en vänskap med Englands drottning ge henne självständighet &#8211; eller varför inte ett liv som pirat? </p>\n<p>En komisk tragedi om ett 500 år långt rykte och 100 000 silverdaler, baserad på Sveriges skandal- och piratprinsessa Cecilia Vasa. Kvar efter diplomaten, bråkstaken och prinsessan finns bara ryktet om skökan. Välkomna på en dramatisk, rolig och gripande resa in i 1500-talets svenska och europeiska maktspel. </p>\n<p>&#8220;En fantastisk kunglig historia suveränt framförd.&#8221; &#8211; Kulturbloggen<br />\n“Säverman trollbinder publiken” &#8211; Auditorius<br />\n”Spektakulär prinsessaga” &#8211; Aftonbladet</p>\n<p>Stockholms Stads Kulturstipendium 2021.<br />\nTidigare bl.a spelad på: Kulturhuset Stadsteatern, Göteborgs Stadsteater och Vadstena slott. Teater Kaleido har producerat scenkonst sen 2012, och är systergrupp till mtv-veteranerna Gycklargruppen Hyckel. </p>\n<p>ENGLISH:</p>\n<p>Daughter of Sweden<br />\n&#8211; the true story of a forgotten Swedish princess who scandalised Europe and turned pirate.</p>\n<p>Award-winning one-woman show, bringing royal scandal and the high seas to life.<br />\nWhen Sweden&#8217;s 19-year-old Princess Cecilia Vasa is caught with a lover in 1559, Europe thinks the scandal will tame the harlot. But Cecilia is just getting started. Condemned, filthy rich and yearning for freedom, she enters Renaissance Europe where war, chastity and men rule. Could friendship with Queen Elizabeth I of England grant her the independence she craves – or why not a life of piracy? Translated into English.</p>\n<p>Daughter of Sweden is based on the astonishing true story of 16th-century Swedish princess, pirate and Margravine Cecilia Vasa of Baden-Rodemachern. Strikingly relevant to today&#8217;s turbulent political landscape, Cecilia Vasas story feels surprisingly modern. This darkly comic solo show explores freedom, resilience, and resistance against erasure, judgement and patriarchal power.</p>\n<p>“Säverman mesmerises the audience” &#8211; Auditorius<br />\n“Spectacular princess saga” &#8211; Aftonbladet.<br />\n &#8220;A fantastic royal story brilliantly performed&#8221; &#8211; Kulturbloggen</p>\n<p>Teater Kaleido has toured Daughter of Sweden to sold-out houses in Sweden since 2020. The play won Stockholm’s 2021 Outstanding Performing Arts Scholarship and now makes its English-language debut the Medieval Week in Gotland, before debuting internationally at Edinburgh Festival Fringe. </p>\n<p>By &#038; with: Cecilia Säverman<br />\nDirector: Judith Hollander<br />\nEnglish translation: Saskia Vogel<br />\nProducer: Teater Kaleido<br />\nRec from 11 years.<br />\nDates &#038; time: 4 &#038; 7 aug, 19:00, 1hr 10 min.<br />\nteaterkaleido.se/vasadottern#English<br />\nSupported by: Svante Bergströms Teaterstiftelse &#038; Helge Ax:son Johnson</p>\n",
+            "siblings": {
+              "1785870000": {
+                "day": "Tisdag",
+                "time": "19:00",
+                "timestamp": 1785870000,
+                "title": "Vasadottern / Daughter of Sweden"
+              },
+              "1786129200": {
+                "day": "Fredag",
+                "time": "19:00",
+                "timestamp": 1786129200,
+                "title": "Vasadottern / Daughter of Sweden"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Lördag",
+            "date": "2026-08-08",
+            "time": "16:00 - 17:10",
+            "venue": "Teatern, Strand Hotel",
+            "ticket_link": "https://www.nortic.se/ticket/show/355777",
             "bookmark_button_html": null
           },
           "meta": {
