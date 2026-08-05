@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T05:54:14.995Z",
+  "generatedAt": "2026-08-05T08:47:20.379Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -31408,18 +31408,18 @@
       "seriesKey": "imtv:hamnraden-pirater-som-plundrar:offer",
       "title": "Hamnräden - Pirater som plundrar",
       "organizer": "offer",
-      "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. (VÄDRET VERKAR VARA PÅ VÅR SIDA MEN KAN ÄNDRAS.)",
+      "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. Sång och piratande utlovas!",
       "date": "2026-08-05",
       "startTime": "18:00",
-      "lastModified": "2026-08-03 14:37:26",
+      "lastModified": "2026-08-05 10:33:52",
       "raw": {
         "date": "2026-08-05",
         "time": "18:00",
         "title": "Hamnräden - Pirater som plundrar",
         "guid": "{07452ADF-5B91-499D-8215-D193367B752D}",
         "creator": "offer",
-        "lastModified": "2026-08-03 14:37:26",
-        "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. (VÄDRET VERKAR VARA PÅ VÅR SIDA MEN KAN ÄNDRAS.)",
+        "lastModified": "2026-08-05 10:33:52",
+        "description": "Kom och bevittna en tonsatt plundring när piraterna (Flocken med vänner) tar från dom rika och ger till ... sig själva!! Sjörövarna intar hamnen norrifrån, spana åt kruttornet. Sång och piratande utlovas!",
         "links": []
       }
     },
@@ -36154,338 +36154,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2857470e6c4b3a6df877",
-      "source": "official",
-      "sourceId": "64604",
-      "seriesKey": "official:middagsbon-i-visby-domkyrka:visby-domkyrka-sankta-maria",
-      "title": "Middagsbön i Visby domkyrka",
-      "organizer": "Visby domkyrka Sankta Maria",
-      "description": "<p>Middagsbön i Visby domkyrka. Medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd.<br />\nFri entré.</p>\n",
-      "date": "2026-08-06",
-      "startTime": "12:00",
-      "endTime": "12:30",
-      "venue": "Visby domkyrka Sankta Maria",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_8InvzXyCSw_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64604",
-          "date": "2026-08-06",
-          "time": "12:00",
-          "titleText": "Middagsbön i Visby domkyrka",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_8InvzXyCSw_background.jpg",
-          "header": {
-            "item_owner": "Visby domkyrka Sankta Maria",
-            "title": "Middagsbön i Visby domkyrka"
-          },
-          "content": {
-            "description": "<p>Middagsbön i Visby domkyrka. Medeltida ton med Storkyrkans Gosskör under ledning av Gregory Lloyd.<br />\nFri entré.</p>\n",
-            "siblings": {
-              "1785758400": {
-                "day": "Måndag",
-                "time": "12:00",
-                "timestamp": 1785758400,
-                "title": "Middagsbön i Visby domkyrka"
-              },
-              "1785844800": {
-                "day": "Tisdag",
-                "time": "12:00",
-                "timestamp": 1785844800,
-                "title": "Middagsbön i Visby domkyrka"
-              },
-              "1785931200": {
-                "day": "Onsdag",
-                "time": "12:00",
-                "timestamp": 1785931200,
-                "title": "Middagsbön i Visby domkyrka"
-              },
-              "1786104000": {
-                "day": "Fredag",
-                "time": "12:00",
-                "timestamp": 1786104000,
-                "title": "Middagsbön i Visby domkyrka"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "12:00 - 12:30",
-            "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "00c8998b57486f2c65f7",
-      "source": "official",
-      "sourceId": "64593",
-      "seriesKey": "official:guidad-visning-av-domkyrkans-medeltida-vind:visby-domkyrka-sankta-maria",
-      "title": "Guidad visning av domkyrkans medeltida vind",
-      "organizer": "Visby domkyrka Sankta Maria",
-      "description": "<p>Guidad visning av domkyrkans vind.<br />\nVisningen går uppför de branta och smala medeltida trapporna till vinden där det finns mycket historia att ta del av.</p>\n<p>Barn under 12 år ska gå med vuxet sällskap. Ingen tillgång till hiss.<br />\nBra att veta: Stundvis är det trånga utrymmen och lågt i tak.</p>\n<p>Köp din biljett på https://www.nortic.se/ticket/organizer/3298 eller med hjälp av Turistbyrån på Donners Plats 1, Visby. </p>\n<p>Pris<br />\nVuxen: 200 kronor <br />\nMedeltidspris 160 kronor (visa upp Medeltidsbandet och får 40 kronor rabatt).<br />\nUngdom 13–17 år: 100 kronor <br />\nBarn 0–12 år: Fri entré </p>\n",
-      "date": "2026-08-06",
-      "startTime": "12:30",
-      "endTime": "13:30",
-      "venue": "Visby domkyrka Sankta Maria",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_k6kFhq1yOq_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "64593",
-          "date": "2026-08-06",
-          "time": "12:30",
-          "titleText": "Guidad visning av domkyrkans medeltida vind",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_k6kFhq1yOq_background.jpg",
-          "header": {
-            "item_owner": "Visby domkyrka Sankta Maria",
-            "title": "Guidad visning av domkyrkans medeltida vind"
-          },
-          "content": {
-            "description": "<p>Guidad visning av domkyrkans vind.<br />\nVisningen går uppför de branta och smala medeltida trapporna till vinden där det finns mycket historia att ta del av.</p>\n<p>Barn under 12 år ska gå med vuxet sällskap. Ingen tillgång till hiss.<br />\nBra att veta: Stundvis är det trånga utrymmen och lågt i tak.</p>\n<p>Köp din biljett på https://www.nortic.se/ticket/organizer/3298 eller med hjälp av Turistbyrån på Donners Plats 1, Visby. </p>\n<p>Pris<br />\nVuxen: 200 kronor <br />\nMedeltidspris 160 kronor (visa upp Medeltidsbandet och får 40 kronor rabatt).<br />\nUngdom 13–17 år: 100 kronor <br />\nBarn 0–12 år: Fri entré </p>\n",
-            "siblings": {
-              "1785673800": {
-                "day": "Söndag",
-                "time": "12:30",
-                "timestamp": 1785673800,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785688200": {
-                "day": "Söndag",
-                "time": "16:30",
-                "timestamp": 1785688200,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785760200": {
-                "day": "Måndag",
-                "time": "12:30",
-                "timestamp": 1785760200,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785774600": {
-                "day": "Måndag",
-                "time": "16:30",
-                "timestamp": 1785774600,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785846600": {
-                "day": "Tisdag",
-                "time": "12:30",
-                "timestamp": 1785846600,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785861000": {
-                "day": "Tisdag",
-                "time": "16:30",
-                "timestamp": 1785861000,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1785933000": {
-                "day": "Onsdag",
-                "time": "12:30",
-                "timestamp": 1785933000,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1786105800": {
-                "day": "Fredag",
-                "time": "12:30",
-                "timestamp": 1786105800,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1786122000": {
-                "day": "Fredag",
-                "time": "17:00",
-                "timestamp": 1786122000,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1786278600": {
-                "day": "Söndag",
-                "time": "12:30",
-                "timestamp": 1786278600,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              },
-              "1786293000": {
-                "day": "Söndag",
-                "time": "16:30",
-                "timestamp": 1786293000,
-                "title": "Guidad visning av domkyrkans medeltida vind"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "12:30 - 13:30",
-            "venue": "Visby domkyrka Sankta Maria",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "025aaeca7f04a633cb0c",
-      "source": "official",
-      "sourceId": "65731",
-      "seriesKey": "official:crusader-kings-board-game-at-pdx-community-mixer-by-paradox-interactive:frimis-krog",
-      "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
-      "organizer": "Paradox Interactive",
-      "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
-      "date": "2026-08-06",
-      "startTime": "13:00",
-      "endTime": "18:00",
-      "venue": "Frimis krog",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "65731",
-          "date": "2026-08-06",
-          "time": "13:00",
-          "titleText": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
-          "header": {
-            "item_owner": "Paradox Interactive",
-            "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive"
-          },
-          "content": {
-            "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "13:00 - 18:00",
-            "venue": "Frimis krog",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "bd8884dc5e92f8fba551",
-      "source": "official",
-      "sourceId": "65111",
-      "seriesKey": "official:gb-crossbow-open-armborsttavling-gutars-bagskyttar:gutars-bagskyttars-lager",
-      "title": "GB Crossbow Open, armborsttävling Gutars Bågskyttar",
-      "organizer": "Gutars Bågskyttar",
-      "description": "<p>Välkomna till Gutars Bågskyttars öppna armborsttävling .<br />\nPga förväntat högt deltagarantal hålls armborsttävlingen i vårt skytteänge &#8220;Säcken&#8221;.<br />\nStartavgift: 100 kr.<br />\nKl. 13.00 incheckning/vapenkontroll<br />\nKl. 14.00 tävlingsstart<br />\nVägbeskrivning fås då man kontaktar någon ur styrelsen, hänvisning till kontaktuppgifter på www.gutarsbagskyttar.se</p>\n",
-      "date": "2026-08-06",
-      "startTime": "13:00",
-      "endTime": "16:30",
-      "venue": "Gutars Bågskyttars läger",
-      "category": "cat-ovrigt",
-      "raw": {
-        "card": {
-          "pid": "65111",
-          "date": "2026-08-06",
-          "time": "13:00",
-          "titleText": "GB Crossbow Open, armborsttävling Gutars Bågskyttar",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "header": {
-            "item_owner": "Gutars Bågskyttar",
-            "title": "GB Crossbow Open, armborsttävling Gutars Bågskyttar"
-          },
-          "content": {
-            "description": "<p>Välkomna till Gutars Bågskyttars öppna armborsttävling .<br />\nPga förväntat högt deltagarantal hålls armborsttävlingen i vårt skytteänge &#8220;Säcken&#8221;.<br />\nStartavgift: 100 kr.<br />\nKl. 13.00 incheckning/vapenkontroll<br />\nKl. 14.00 tävlingsstart<br />\nVägbeskrivning fås då man kontaktar någon ur styrelsen, hänvisning till kontaktuppgifter på www.gutarsbagskyttar.se</p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "13:00 - 16:30",
-            "venue": "Gutars Bågskyttars läger",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "f20486a4a81ea4d24d44",
-      "source": "official",
-      "sourceId": "64841",
-      "seriesKey": "official:pirate-tai-chi-pa-medeltidsveckan-vuxna:drotten",
-      "title": "Pirate Tai Chi på Medeltidsveckan (Vuxna)",
-      "organizer": "Jens Choong",
-      "description": "<p>En stund av lugn och närvaro under Medeltidsveckan med Pirate Tai Chi.</p>\n<p>I detta stillsamma men kraftfulla pass får du utforska mjuka rörelser hämtade från traditionella kinesiska kampkonster och traditioner, där balans, andning och kroppskontroll står i centrum. Genom långsamma och fokuserade rörelser tränar vi stabilitet, smidighet och inre energi – samtidigt som kroppen får slappna av och landa mitt i festivalens liv och rörelse.</p>\n<p>Passet leds av Jens Tzan Choong, känd från bland annat Ye Banished Privateers, Stormfrun och som Kung Fu-dansare vid Kungliga Operan. Han är kursledare vid Järna Kung Fu &#038; Kultur och driver Instagramkontot piratekungfu, där han inspirerar andra med sin unika träningsstil.</p>\n<p>Med inspiration från historiska kampkonster och sin passion för pirattematik guidar han deltagarna genom lugna rörelser där balans, närvaro och kroppskontroll står i fokus. Under passet berättar Jens också kort om Tai Chi och Qi Gong ur ett historiskt perspektiv och om sitt företag som erbjuder inspirerande hemmaträning med fokus på nördkultur.</p>\n<p>En stund för balans, fokus och närvaro – att andas, röra sig och återhämta sig mitt i festivalvimlet.</p>\n<p>Inga förkunskaper krävs.<br />\nÅlder: Vuxna<br />\nTa med: bekväma kläder</p>\n<p>Kolla in mig här:<br />\n<iframe loading=\"lazy\" title=\"Pirate Tai Chi\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/CQNM0Z0ekG0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p>\n",
-      "date": "2026-08-06",
-      "startTime": "13:00",
-      "endTime": "14:00",
-      "venue": "Drotten",
-      "category": "cat-workshop",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_oX8akb4d1K_background.jpg",
-      "ticketUrl": "https://www.nortic.se/ticket/show/343629",
-      "raw": {
-        "card": {
-          "pid": "64841",
-          "date": "2026-08-06",
-          "time": "13:00",
-          "titleText": "Pirate Tai Chi på Medeltidsveckan (Vuxna)",
-          "categoryLabel": "Workshop",
-          "ticketUrl": "https://www.nortic.se/ticket/show/343629",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_oX8akb4d1K_background.jpg",
-          "header": {
-            "item_owner": "Jens Choong",
-            "title": "Pirate Tai Chi på Medeltidsveckan (Vuxna)"
-          },
-          "content": {
-            "description": "<p>En stund av lugn och närvaro under Medeltidsveckan med Pirate Tai Chi.</p>\n<p>I detta stillsamma men kraftfulla pass får du utforska mjuka rörelser hämtade från traditionella kinesiska kampkonster och traditioner, där balans, andning och kroppskontroll står i centrum. Genom långsamma och fokuserade rörelser tränar vi stabilitet, smidighet och inre energi – samtidigt som kroppen får slappna av och landa mitt i festivalens liv och rörelse.</p>\n<p>Passet leds av Jens Tzan Choong, känd från bland annat Ye Banished Privateers, Stormfrun och som Kung Fu-dansare vid Kungliga Operan. Han är kursledare vid Järna Kung Fu &#038; Kultur och driver Instagramkontot piratekungfu, där han inspirerar andra med sin unika träningsstil.</p>\n<p>Med inspiration från historiska kampkonster och sin passion för pirattematik guidar han deltagarna genom lugna rörelser där balans, närvaro och kroppskontroll står i fokus. Under passet berättar Jens också kort om Tai Chi och Qi Gong ur ett historiskt perspektiv och om sitt företag som erbjuder inspirerande hemmaträning med fokus på nördkultur.</p>\n<p>En stund för balans, fokus och närvaro – att andas, röra sig och återhämta sig mitt i festivalvimlet.</p>\n<p>Inga förkunskaper krävs.<br />\nÅlder: Vuxna<br />\nTa med: bekväma kläder</p>\n<p>Kolla in mig här:<br />\n<iframe loading=\"lazy\" title=\"Pirate Tai Chi\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/CQNM0Z0ekG0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "13:00 - 14:00",
-            "venue": "Drotten",
-            "ticket_link": "https://www.nortic.se/ticket/show/343629",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "32a99a9b61e3a2b38e5c",
       "source": "official",
       "sourceId": "64812",
@@ -37734,13 +37402,13 @@
     },
     {
       "schemaVersion": 1,
-      "id": "b7cdb086462c34bf1c6f",
+      "id": "9117b63dc982f3587d2d",
       "source": "official",
       "sourceId": "65493",
-      "seriesKey": "official:oljaud-u-alvstrik:s-t-nicolai",
-      "title": "Oljaud u älvstrik",
+      "seriesKey": "official:oljaud-u-alvstrik-medeltida-musik-pa-gutamal:s-t-nicolai",
+      "title": "Oljaud u älvstrik – Medeltida musik på Gutamål",
       "organizer": "Oljaud u älvstrik",
-      "description": "<p>Gotländsk duo spelar musik på medeltida instrument och sjunger delvis på Gutamål. Medeltida ballader utlovas. Säckpipa, tagelharpa, harpa, flöjter med mera kommer att höras</p>\n<p>Folkmusikerna Julia Westberg och Lars Kruthof söker medeltida rötter och spelar musik på medeltida instrument  och sjunger på Gutamål. En berättande konsert med spännande historier och stämningsfull musik. Julia är utbildad musiker och folksångerska och Lars jobbar som musikindendent på Satens Musikverk</p>\n",
+      "description": "<p>Gotländsk duo spelar musik på medeltida instrument och sjunger delvis på Gutamål. Medeltida ballader utlovas. Säckpipa, tagelharpa, harpa, flöjter med mera kommer att höras</p>\n<p>Folkmusikerna Julia Westberg och Lars Kruthof söker medeltida rötter och spelar musik på medeltida instrument och sjunger på Gutamål. En berättande konsert med spännande historier och stämningsfull musik. Julia är utbildad musiker och folksångerska och Lars jobbar som musikindendent på Satens Musikverk</p>\n",
       "date": "2026-08-06",
       "startTime": "14:00",
       "endTime": "15:00",
@@ -37753,7 +37421,7 @@
           "pid": "65493",
           "date": "2026-08-06",
           "time": "14:00",
-          "titleText": "Oljaud u älvstrik",
+          "titleText": "Oljaud u älvstrik – Medeltida musik på Gutamål",
           "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/354337",
           "editorTip": false
@@ -37762,10 +37430,10 @@
           "image": "https://join.medeltidsveckan.se/uploads/2026_bbeAI7qaPV_background.jpg",
           "header": {
             "item_owner": "Oljaud u älvstrik",
-            "title": "Oljaud u älvstrik"
+            "title": "Oljaud u älvstrik &#8211; Medeltida musik på Gutamål"
           },
           "content": {
-            "description": "<p>Gotländsk duo spelar musik på medeltida instrument och sjunger delvis på Gutamål. Medeltida ballader utlovas. Säckpipa, tagelharpa, harpa, flöjter med mera kommer att höras</p>\n<p>Folkmusikerna Julia Westberg och Lars Kruthof söker medeltida rötter och spelar musik på medeltida instrument  och sjunger på Gutamål. En berättande konsert med spännande historier och stämningsfull musik. Julia är utbildad musiker och folksångerska och Lars jobbar som musikindendent på Satens Musikverk</p>\n",
+            "description": "<p>Gotländsk duo spelar musik på medeltida instrument och sjunger delvis på Gutamål. Medeltida ballader utlovas. Säckpipa, tagelharpa, harpa, flöjter med mera kommer att höras</p>\n<p>Folkmusikerna Julia Westberg och Lars Kruthof söker medeltida rötter och spelar musik på medeltida instrument och sjunger på Gutamål. En berättande konsert med spännande historier och stämningsfull musik. Julia är utbildad musiker och folksångerska och Lars jobbar som musikindendent på Satens Musikverk</p>\n",
             "siblings": null
           },
           "sidebar": {
