@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T08:47:20.811Z",
+  "generatedAt": "2026-08-06T11:30:48.467Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -27861,6 +27861,54 @@
     },
     {
       "schemaVersion": 1,
+      "id": "81ee7b16e4b9544e3204",
+      "source": "official",
+      "sourceId": "65731",
+      "seriesKey": "official:crusader-kings-board-game-at-pdx-community-mixer-by-paradox-interactive:frimis-krog",
+      "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
+      "organizer": "Paradox Interactive",
+      "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
+      "date": "2026-08-05",
+      "startTime": "13:00",
+      "endTime": "18:00",
+      "venue": "Frimis krog",
+      "category": "cat-ovrigt",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
+      "raw": {
+        "card": {
+          "pid": "65731",
+          "date": "2026-08-05",
+          "time": "13:00",
+          "titleText": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
+          "categoryLabel": "Övrigt",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
+          "header": {
+            "item_owner": "Paradox Interactive",
+            "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive"
+          },
+          "content": {
+            "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
+            "siblings": null
+          },
+          "sidebar": {
+            "dayName": "Onsdag",
+            "date": "2026-08-05",
+            "time": "13:00 - 18:00",
+            "venue": "Frimis krog",
+            "ticket_link": "",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "b34e1e9f3ec8fbd32614",
       "source": "official",
       "sourceId": "65403",
@@ -36390,54 +36438,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "025aaeca7f04a633cb0c",
-      "source": "official",
-      "sourceId": "65731",
-      "seriesKey": "official:crusader-kings-board-game-at-pdx-community-mixer-by-paradox-interactive:frimis-krog",
-      "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
-      "organizer": "Paradox Interactive",
-      "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
-      "date": "2026-08-06",
-      "startTime": "13:00",
-      "endTime": "18:00",
-      "venue": "Frimis krog",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
-      "raw": {
-        "card": {
-          "pid": "65731",
-          "date": "2026-08-06",
-          "time": "13:00",
-          "titleText": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive",
-          "categoryLabel": "Övrigt",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_dLhEw06hjP_background.jpg",
-          "header": {
-            "item_owner": "Paradox Interactive",
-            "title": "Crusader Kings Board Game at PDX Community Mixer, by Paradox Interactive"
-          },
-          "content": {
-            "description": "<p>Step into the world of medieval dynasties with Crusader Kings the Board Game, where strategy, diplomacy, and intrigue decide who will rise to power. Take control of your family’s legacy, forge alliances, wage wars, and outsmart your rivals to secure your dynasty’s future.</p>\n<p>Gametime: Approx. 2-3 hours for a full game, but you are welcome to drop by, try a few turns, and experience the thrill of strategy and medieval plotting with us!<br />\nPlayers: 3-5 people<br />\nAge: 14 and up</p>\n<p>Crusader Kings is a complex and strategic board game, created from the legendary video game Crusader Kings, that recreates the challenges and opportunities faced by medieval European dynasties. To succeed, players need to be skillful in both military and diplomatic matters, while also thinking long-term to secure their dynasty’s future.</p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Torsdag",
-            "date": "2026-08-06",
-            "time": "13:00 - 18:00",
-            "venue": "Frimis krog",
-            "ticket_link": "",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "bd8884dc5e92f8fba551",
       "source": "official",
       "sourceId": "65111",
@@ -38089,6 +38089,7 @@
       "venue": "Packhusplan",
       "category": "cat-guidad-visning",
       "ticketUrl": "https://www.nortic.se/ticket/show/343677",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64695",
@@ -38097,10 +38098,13 @@
           "titleText": "Mat och dryck i medeltidens Visby",
           "categoryLabel": "Guidad visning",
           "ticketUrl": "https://www.nortic.se/ticket/show/343677",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Hanna Tunberg och Susanne de Paulis",
             "title": "Mat och dryck i medeltidens Visby"
           },
@@ -38366,7 +38370,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_ltN2vDp6KX_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343608",
-      "editorTip": true,
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64688",
@@ -38375,13 +38379,14 @@
           "titleText": "Ringmursvandring med Gautmund Kremer",
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/343608",
-          "editorTip": true
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_ltN2vDp6KX_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gautmund Kremer",
             "title": "Ringmursvandring med Gautmund Kremer"
           },
@@ -40483,6 +40488,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "e7dd2ef3bf7060161cc1",
+      "source": "imtv",
+      "sourceId": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
+      "seriesKey": "imtv:scurvy-dogs-piratband:alpackan",
+      "title": "Scurvy dogs piratband",
+      "organizer": "Alpackan",
+      "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
+      "date": "2026-08-06",
+      "startTime": "19:45",
+      "lastModified": "2026-08-06 12:28:51",
+      "raw": {
+        "date": "2026-08-06",
+        "time": "19:45",
+        "title": "Scurvy dogs piratband",
+        "guid": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
+        "creator": "Alpackan",
+        "lastModified": "2026-08-06 12:28:51",
+        "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "87a7c0b9d890e3b37d90",
       "source": "official",
       "sourceId": "64608",
@@ -40549,29 +40577,6 @@
         "creator": "Björn Ende",
         "lastModified": "2026-08-05 14:20:45",
         "description": "Den traditionsenliga rökarspelningen! Ta med er hängslen, flytväst, p-piller och jodtabletter! Lås in era söner och mormödrar! Ingen går säker!",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "c54d72c9666bf6444c85",
-      "source": "imtv",
-      "sourceId": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
-      "seriesKey": "imtv:scurvy-dogs-piratband:alpackan",
-      "title": "Scurvy dogs piratband",
-      "organizer": "Alpackan",
-      "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
-      "date": "2026-08-06",
-      "startTime": "20:01",
-      "lastModified": "2026-07-11 16:42:25",
-      "raw": {
-        "date": "2026-08-06",
-        "time": "20:01",
-        "title": "Scurvy dogs piratband",
-        "guid": "{22FD9D90-9223-4DF2-A751-C1A2C9E499F8}",
-        "creator": "Alpackan",
-        "lastModified": "2026-07-11 16:42:25",
-        "description": "Bandets enda inofficiella spelning i år sker på Piratscenen i graven bakom nordergravar där gravskogsfesten kör efteråt.",
         "links": []
       }
     },
@@ -41007,6 +41012,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343705",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64907",
@@ -41015,11 +41021,14 @@
           "titleText": "Primus – Eldsagor med FAE",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343705",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Fae",
             "title": "Primus &#8211; Eldsagor med FAE"
           },
@@ -41168,20 +41177,25 @@
       "seriesKey": "imtv:gravrejvet-gravskogsfest:alpackan",
       "title": "Gravrejvet Gravskogsfest",
       "organizer": "Alpackan",
-      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
+      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Länk",
       "date": "2026-08-06",
       "startTime": "22:00",
       "venue": "Nordergravar, under träbron för femte året i rad",
-      "lastModified": "2026-07-31 13:56:24",
+      "links": [
+        "https://maps.apple.com/place?coordinate=57.645706,18.300540&name=Piratscenen&map"
+      ],
+      "lastModified": "2026-08-06 12:29:42",
       "raw": {
         "date": "2026-08-06",
         "time": "22:00",
         "title": "Gravrejvet Gravskogsfest",
         "guid": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
         "creator": "Alpackan",
-        "lastModified": "2026-07-31 13:56:24",
-        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur.",
-        "links": []
+        "lastModified": "2026-08-06 12:29:42",
+        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Länk",
+        "links": [
+          "https://maps.apple.com/place?coordinate=57.645706,18.300540&name=Piratscenen&map"
+        ]
       }
     },
     {
@@ -42759,6 +42773,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_HWvLJCudlI_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343787",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64983",
@@ -42767,11 +42782,14 @@
           "titleText": "Rustningsfäktning med Condottieri: Spjut, svärd och dolk.",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343787",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_HWvLJCudlI_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Condottieri",
             "title": "Rustningsfäktning med Condottieri: Spjut, svärd och dolk."
           },
