@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T14:16:53.599Z",
+  "generatedAt": "2026-08-07T00:09:09.237Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -6804,6 +6804,12 @@
                 "day": "Fredag",
                 "time": "10:00",
                 "timestamp": 1786096800,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1786183200": {
+                "day": "Lördag",
+                "time": "10:00",
+                "timestamp": 1786183200,
                 "title": "Traditonal Bow-Building &#8211; Introductory course"
               }
             }
@@ -15720,6 +15726,12 @@
                 "day": "Fredag",
                 "time": "10:00",
                 "timestamp": 1786096800,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1786183200": {
+                "day": "Lördag",
+                "time": "10:00",
+                "timestamp": 1786183200,
                 "title": "Traditonal Bow-Building &#8211; Introductory course"
               }
             }
@@ -24894,6 +24906,12 @@
                 "day": "Fredag",
                 "time": "10:00",
                 "timestamp": 1786096800,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1786183200": {
+                "day": "Lördag",
+                "time": "10:00",
+                "timestamp": 1786183200,
                 "title": "Traditonal Bow-Building &#8211; Introductory course"
               }
             }
@@ -40144,6 +40162,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_Lny2FXR9TT_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343773",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64969",
@@ -40152,11 +40171,14 @@
           "titleText": "Ruinkonsert",
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/343773",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_Lny2FXR9TT_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Medicus Melodicus",
             "title": "Ruinkonsert"
           },
@@ -40370,21 +40392,21 @@
       "seriesKey": "imtv:skrik-och-skral-alskade-stad:skrik-och-skral",
       "title": "Skrik och Skrål - Älskade Stad",
       "organizer": "Skrik och Skrål",
-      "description": "Skrik och Skrål spelar vid Kärleksporten. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
+      "description": "OBS! flyttade till gravarna  Skrik och Skrål spelar vid gycklarbron. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
       "date": "2026-08-06",
       "startTime": "19:00",
       "links": [
         "https://www.facebook.com/groups/208072148012531"
       ],
-      "lastModified": "2026-06-02 21:37:31",
+      "lastModified": "2026-08-06 18:57:30",
       "raw": {
         "date": "2026-08-06",
         "time": "19:00",
         "title": "Skrik och Skrål - Älskade Stad",
         "guid": "{FCE4F551-0C24-405C-912D-C60908D24298}",
         "creator": "Skrik och Skrål",
-        "lastModified": "2026-06-02 21:37:31",
-        "description": "Skrik och Skrål spelar vid Kärleksporten. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
+        "lastModified": "2026-08-06 18:57:30",
+        "description": "OBS! flyttade till gravarna  Skrik och Skrål spelar vid gycklarbron. En del klassiska visor, en del Disney, en del skrönor och en del Skrik och Skrål original. Vid regn flyttas det till fredag 19.00. Länk",
         "links": [
           "https://www.facebook.com/groups/208072148012531"
         ]
@@ -40774,6 +40796,7 @@
       "category": "cat-performance",
       "image": "https://join.medeltidsveckan.se/uploads/2026_v4cbkmJPkp_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343655",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64861",
@@ -40782,11 +40805,14 @@
           "titleText": "Amor Vincit Hyckel",
           "categoryLabel": "Performance",
           "ticketUrl": "https://www.nortic.se/ticket/show/343655",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_v4cbkmJPkp_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gycklargruppen Hyckel",
             "title": "Amor Vincit Hyckel"
           },
@@ -41012,7 +41038,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343705",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64907",
@@ -41022,13 +41048,13 @@
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343705",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_iR1dRBende_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Fae",
             "title": "Primus &#8211; Eldsagor med FAE"
           },
@@ -42740,6 +42766,12 @@
                 "time": "10:00",
                 "timestamp": 1785924000,
                 "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1786183200": {
+                "day": "Lördag",
+                "time": "10:00",
+                "timestamp": 1786183200,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
               }
             }
           },
@@ -42773,7 +42805,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_HWvLJCudlI_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343787",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64983",
@@ -42783,13 +42815,13 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343787",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_HWvLJCudlI_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Condottieri",
             "title": "Rustningsfäktning med Condottieri: Spjut, svärd och dolk."
           },
@@ -46694,6 +46726,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_QxvXS4azNV_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345946",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65041",
@@ -46702,11 +46735,14 @@
           "titleText": "Learn to fight and die properly (on stage)",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/345946",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QxvXS4azNV_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Berliner Rittergilde",
             "title": "Learn to fight and die properly (on stage)"
           },
@@ -47857,18 +47893,18 @@
       "seriesKey": "imtv:flockens-vanners-dvs-allas-tacos:offer",
       "title": "Flockens vänners - dvs allas - tacos",
       "organizer": "offer",
-      "description": "Känner ni Flocken? Eller vill ni göra? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget), några hundra meter ifrån piratkullen. Vi kör så länge det finns vegfärs & tortillas kvar! Allt är vegetariskt, finns helveganska alternativ, glutenfritt, lökfritt osv.",
+      "description": "Känner ni Flocken? Eller vill ni göra? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget), några hundra meter ifrån piratkullen. Vi kör så länge det finns vegfärs & tortillas kvar! Allt är vegetariskt, finns helveganska alternativ, glutenfritt, lökfritt osv. VI KÖR PÅ 15-17, TROLIGEN TILL 18.",
       "date": "2026-08-07",
       "startTime": "15:00",
-      "lastModified": "2026-08-05 11:14:14",
+      "lastModified": "2026-08-07 00:47:24",
       "raw": {
         "date": "2026-08-07",
         "time": "15:00",
         "title": "Flockens vänners - dvs allas - tacos",
         "guid": "{27382408-7F82-413F-B770-3AC76B9EFDAF}",
         "creator": "offer",
-        "lastModified": "2026-08-05 11:14:14",
-        "description": "Känner ni Flocken? Eller vill ni göra? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget), några hundra meter ifrån piratkullen. Vi kör så länge det finns vegfärs & tortillas kvar! Allt är vegetariskt, finns helveganska alternativ, glutenfritt, lökfritt osv.",
+        "lastModified": "2026-08-07 00:47:24",
+        "description": "Känner ni Flocken? Eller vill ni göra? Har ni tävlat med eller mot dom? Eller bara tycker om oss och vill hänga och äta gott? Då få ni vårt efterskrap! 15:00 får alla besättningar och andra äta vad som blivit kvar av vår tacos, på egen risk! (dvs saker kan ta slut, trots piraternas reserver.) Stora trädet vid St Görans ruin (ovanför sjukhuset, just nedanför Galgberget), några hundra meter ifrån piratkullen. Vi kör så länge det finns vegfärs & tortillas kvar! Allt är vegetariskt, finns helveganska alternativ, glutenfritt, lökfritt osv. VI KÖR PÅ 15-17, TROLIGEN TILL 18.",
         "links": []
       }
     },
@@ -49123,7 +49159,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_jTCRDEULfh_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345923",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65018",
@@ -49133,13 +49169,13 @@
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/345923",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_jTCRDEULfh_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Stormfrun",
             "title": "Stormfrun &#8211; den största piratshowen vi gjort"
           },
@@ -50054,6 +50090,81 @@
             "time": "09:00 - 12:00",
             "venue": "Kapitelhusgården",
             "ticket_link": "https://www.nortic.se/ticket/show/345999",
+            "bookmark_button_html": null
+          },
+          "meta": {
+            "logged_ind": false
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "1638d499727641471f2b",
+      "source": "official",
+      "sourceId": "65737",
+      "seriesKey": "official:traditonal-bow-building-introductory-course:strandgardet",
+      "title": "Traditonal Bow-Building – Introductory course",
+      "organizer": "Sascha Wagner",
+      "description": "<p>For thousands of years, bows have been a trusted tool for humans and the craft of building them part of our cultural heritage. This course aims to make you part of that tradition and to provide you with the knowledge and skills to build your first self-made bow. </p>\n<p>The course will allow you to learn all the required steps to create a bow from a piece of wood, teach you a wee bit of the language associated with bow-building and teach you the essentials of creating a functional bow for re-enactment, sports or instinctive shooting.<br />\nSpecial focus will be laid on shaping the bow properly and providing you with the skills to tiller a bow to a functional state and the “why” and “how” of this process. </p>\n<p>We will spend 5 to 6 hours creating a bow that you can take home with you after you at the end of the day. An entry point in the art of traditional archery or a prop for your re-enactment endeavours. </p>\n<p>Creating bow strings will NOT be part of this course. The bow strings for your bow will be prepared and provided by us, as we want to keep the course within a reasonable timeframe. </p>\n<p>What you will learn in this course:<br />\n&#8211; A little bit of theory. We can’t avoid it … A bit of theory to understand the underlying mechanics of a bow, what qualifies as a bow wood and why.<br />\n&#8211; How to find the correct position of the bow on a stave and to make what marks to make to make your work easier.<br />\n&#8211; Rough shaping from stave to bow.<br />\n&#8211; How to tiller (“refine”) and how to create a proper bend for the bow, from floor tiller to  the finished bow.</p>\n<p>What we will provide:<br />\n&#8211; Bow stave (prepared) (Manau/Rattan)<br />\n&#8211; Shaving horse<br />\n&#8211; Draw Knife<br />\n&#8211; Spokeshave<br />\n&#8211; Files and Rasps<br />\n&#8211; Grinding paper<br />\n&#8211; Tillering aids<br />\n&#8211; Bow-string finished</p>\n<p>What we will NOT do in the course:<br />\n&#8211; Put a finish on the bow (i.e. applying oil, dye or leather appliances to the bow)<br />\n&#8211; Create bow strings<br />\n&#8211; Create arrows<br />\n&#8211; Tool care</p>\n<p>What you should bring:<br />\n&#8211; Food and drinks (non-alcoholic) as we will not take longer breaks<br />\n&#8211; Clothing that can take some wood dust and is reasonably durable (sharp tools)<br />\n&#8211; A good mood 😉 </p>\n<p>Note: Tools and workbenches that are used in the courses will be made available for purchase after the last course, in case someone is particularly interested in bow-making and wants to proceed with the craft at home. </p>\n<p>Arrows and other archery aids will be available for those who are interested. </p>\n<p>Age and safety requirement:<br />\nThis course involves sharp hand tools, wood dust and sustained physical work for 5–6 hours. For safety reasons, the course is intended for adults. Participants must be at least 18 years old.<br />\nIf the organiser has expressly allowed a younger participant, the participant must be accompanied by a parent/legal guardian or responsible adult who remains present throughout the course. The instructor may refuse participation where the participant cannot safely handle the tools or where required adult supervision is not present.<br />\nTools may only be used in the designated workshop area and under instruction.</p>\n<p>The course takes place in Berliner Rittergildes camp on Strandgärdet.</p>\n",
+      "date": "2026-08-08",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "venue": "Strandgärdet",
+      "category": "cat-workshop",
+      "image": "https://join.medeltidsveckan.se/uploads/2026_gDCgb1A1eg_background.jpg",
+      "ticketUrl": "https://www.nortic.se/ticket/show/356027",
+      "raw": {
+        "card": {
+          "pid": "65737",
+          "date": "2026-08-08",
+          "time": "10:00",
+          "titleText": "Traditonal Bow-Building – Introductory course",
+          "categoryLabel": "Workshop",
+          "ticketUrl": "https://www.nortic.se/ticket/show/356027",
+          "editorTip": false
+        },
+        "detail": {
+          "image": "https://join.medeltidsveckan.se/uploads/2026_gDCgb1A1eg_background.jpg",
+          "header": {
+            "item_owner": "Sascha Wagner",
+            "title": "Traditonal Bow-Building &#8211; Introductory course"
+          },
+          "content": {
+            "description": "<p>For thousands of years, bows have been a trusted tool for humans and the craft of building them part of our cultural heritage. This course aims to make you part of that tradition and to provide you with the knowledge and skills to build your first self-made bow. </p>\n<p>The course will allow you to learn all the required steps to create a bow from a piece of wood, teach you a wee bit of the language associated with bow-building and teach you the essentials of creating a functional bow for re-enactment, sports or instinctive shooting.<br />\nSpecial focus will be laid on shaping the bow properly and providing you with the skills to tiller a bow to a functional state and the “why” and “how” of this process. </p>\n<p>We will spend 5 to 6 hours creating a bow that you can take home with you after you at the end of the day. An entry point in the art of traditional archery or a prop for your re-enactment endeavours. </p>\n<p>Creating bow strings will NOT be part of this course. The bow strings for your bow will be prepared and provided by us, as we want to keep the course within a reasonable timeframe. </p>\n<p>What you will learn in this course:<br />\n&#8211; A little bit of theory. We can’t avoid it … A bit of theory to understand the underlying mechanics of a bow, what qualifies as a bow wood and why.<br />\n&#8211; How to find the correct position of the bow on a stave and to make what marks to make to make your work easier.<br />\n&#8211; Rough shaping from stave to bow.<br />\n&#8211; How to tiller (“refine”) and how to create a proper bend for the bow, from floor tiller to  the finished bow.</p>\n<p>What we will provide:<br />\n&#8211; Bow stave (prepared) (Manau/Rattan)<br />\n&#8211; Shaving horse<br />\n&#8211; Draw Knife<br />\n&#8211; Spokeshave<br />\n&#8211; Files and Rasps<br />\n&#8211; Grinding paper<br />\n&#8211; Tillering aids<br />\n&#8211; Bow-string finished</p>\n<p>What we will NOT do in the course:<br />\n&#8211; Put a finish on the bow (i.e. applying oil, dye or leather appliances to the bow)<br />\n&#8211; Create bow strings<br />\n&#8211; Create arrows<br />\n&#8211; Tool care</p>\n<p>What you should bring:<br />\n&#8211; Food and drinks (non-alcoholic) as we will not take longer breaks<br />\n&#8211; Clothing that can take some wood dust and is reasonably durable (sharp tools)<br />\n&#8211; A good mood 😉 </p>\n<p>Note: Tools and workbenches that are used in the courses will be made available for purchase after the last course, in case someone is particularly interested in bow-making and wants to proceed with the craft at home. </p>\n<p>Arrows and other archery aids will be available for those who are interested. </p>\n<p>Age and safety requirement:<br />\nThis course involves sharp hand tools, wood dust and sustained physical work for 5–6 hours. For safety reasons, the course is intended for adults. Participants must be at least 18 years old.<br />\nIf the organiser has expressly allowed a younger participant, the participant must be accompanied by a parent/legal guardian or responsible adult who remains present throughout the course. The instructor may refuse participation where the participant cannot safely handle the tools or where required adult supervision is not present.<br />\nTools may only be used in the designated workshop area and under instruction.</p>\n<p>The course takes place in Berliner Rittergildes camp on Strandgärdet.</p>\n",
+            "siblings": {
+              "1785751200": {
+                "day": "Måndag",
+                "time": "10:00",
+                "timestamp": 1785751200,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1785837600": {
+                "day": "Tisdag",
+                "time": "10:00",
+                "timestamp": 1785837600,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1785924000": {
+                "day": "Onsdag",
+                "time": "10:00",
+                "timestamp": 1785924000,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              },
+              "1786096800": {
+                "day": "Fredag",
+                "time": "10:00",
+                "timestamp": 1786096800,
+                "title": "Traditonal Bow-Building &#8211; Introductory course"
+              }
+            }
+          },
+          "sidebar": {
+            "dayName": "Lördag",
+            "date": "2026-08-08",
+            "time": "10:00 - 16:00",
+            "venue": "Strandgärdet",
+            "ticket_link": "https://www.nortic.se/ticket/show/356027",
             "bookmark_button_html": null
           },
           "meta": {
