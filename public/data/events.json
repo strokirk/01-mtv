@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T03:17:05.104Z",
+  "generatedAt": "2026-08-07T07:25:32.999Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -41203,22 +41203,22 @@
       "seriesKey": "imtv:gravrejvet-gravskogsfest:alpackan",
       "title": "Gravrejvet Gravskogsfest",
       "organizer": "Alpackan",
-      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Länk",
+      "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Arr: Alpackan 0736272239 med Piratfalangen flocken. På scen: Scurvy dogs piratband och dj Alpackan, Knytte och Svalan. Länk",
       "date": "2026-08-06",
       "startTime": "22:00",
       "venue": "Nordergravar, under träbron för femte året i rad",
       "links": [
         "https://maps.apple.com/place?coordinate=57.645706,18.300540&name=Piratscenen&map"
       ],
-      "lastModified": "2026-08-06 12:29:42",
+      "lastModified": "2026-08-07 06:08:12",
       "raw": {
         "date": "2026-08-06",
         "time": "22:00",
         "title": "Gravrejvet Gravskogsfest",
         "guid": "{451EFE1E-6564-48B5-A031-5F1468E221D2}",
         "creator": "Alpackan",
-        "lastModified": "2026-08-06 12:29:42",
-        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Länk",
+        "lastModified": "2026-08-07 06:08:12",
+        "description": "Årets Grave. Vi slaktar historisk musik till dansanta takter. Genren brukar spåra ur efter en stund. (Rave ≠ droger). Plats: Nordergravar, under träbron för femte året i rad. Leta efter ljuset, platsen är vald för att inte störa omkringliggande gravars finkultur. Arr: Alpackan 0736272239 med Piratfalangen flocken. På scen: Scurvy dogs piratband och dj Alpackan, Knytte och Svalan. Länk",
         "links": [
           "https://maps.apple.com/place?coordinate=57.645706,18.300540&name=Piratscenen&map"
         ]
