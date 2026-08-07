@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T13:12:31.044Z",
+  "generatedAt": "2026-08-07T16:06:42.283Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -49208,63 +49208,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "fa3598a279362c3158a8",
-      "source": "official",
-      "sourceId": "64979",
-      "seriesKey": "official:i-pestens-skugga:s-t-clemens",
-      "title": "I Pestens Skugga",
-      "organizer": "Circus Ignis",
-      "description": "<p>Circus ignis är tillbaka med sin dramatiska eldteater baserat på de gamla sagorna om ryttarna av apokalypsen. En berättelse om intriger, maktspel och skyldighet. Låt spelet börja!</p>\n",
-      "date": "2026-08-07",
-      "startTime": "20:30",
-      "endTime": "21:20",
-      "venue": "S:t Clemens",
-      "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_xu6GQbrG1M_background.jpg",
-      "ticketUrl": "https://www.nortic.se/ticket/show/343783",
-      "raw": {
-        "card": {
-          "pid": "64979",
-          "date": "2026-08-07",
-          "time": "20:30",
-          "titleText": "I Pestens Skugga",
-          "categoryLabel": "Övrigt",
-          "ticketUrl": "https://www.nortic.se/ticket/show/343783",
-          "editorTip": false
-        },
-        "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_xu6GQbrG1M_background.jpg",
-          "header": {
-            "item_owner": "Circus Ignis",
-            "title": "I Pestens Skugga"
-          },
-          "content": {
-            "description": "<p>Circus ignis är tillbaka med sin dramatiska eldteater baserat på de gamla sagorna om ryttarna av apokalypsen. En berättelse om intriger, maktspel och skyldighet. Låt spelet börja!</p>\n",
-            "siblings": {
-              "1785875400": {
-                "day": "Tisdag",
-                "time": "20:30",
-                "timestamp": 1785875400,
-                "title": "I Pestens Skugga"
-              }
-            }
-          },
-          "sidebar": {
-            "dayName": "Fredag",
-            "date": "2026-08-07",
-            "time": "20:30 - 21:20",
-            "venue": "S:t Clemens",
-            "ticket_link": "https://www.nortic.se/ticket/show/343783",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
-        }
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "6b64e63b572f82481a4e",
       "source": "official",
       "sourceId": "64859",
@@ -53805,19 +53748,14 @@
     },
     {
       "schemaVersion": 1,
-      "id": "a5460fdcbb2a26627c80",
+      "id": "3a771a51bdff2720c6ed",
       "source": "official",
       "sourceId": "65060",
-      "seriesKey": "official:traditionell-sartval-med-asklut:koksscenen",
+      "seriesKey": "official:traditionell-sartval-med-asklut",
       "title": "TRADITIONELL SÅRTVÅL MED ASKLUT",
-      "organizer": "Elle",
-      "description": "<p>I den här kursen får du lära dig att göra traditionell hantverkstvål från grunden, med asklut.</p>\n<p>DET HÄR GÖR VI:</p>\n<p>Bereder fett för tvåltillverkning<br />\nAsklut<br />\nTraditionell sårtvål</p>\n<p>&#8211; Kursmaterialet ingår i kursavgiften</p>\n<p>&#8211; Ingen förkunskap krävs</p>\n<p>&#8211; Kursens längd 5 tim.</p>\n<p>&#8211; Kursavgift: 1495 kr.</p>\n<p>Varmt välkommen &#8211; med kärlek från naturen! </p>\n",
       "date": "2026-08-08",
       "startTime": "14:30",
-      "endTime": "19:30",
-      "venue": "Köksscenen",
       "category": "cat-ovrigt",
-      "image": "https://join.medeltidsveckan.se/uploads/2026_UOJ7LjrL06_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345969",
       "raw": {
         "card": {
@@ -53830,26 +53768,7 @@
           "editorTip": false
         },
         "detail": {
-          "image": "https://join.medeltidsveckan.se/uploads/2026_UOJ7LjrL06_background.jpg",
-          "header": {
-            "item_owner": "Elle",
-            "title": "TRADITIONELL SÅRTVÅL MED ASKLUT"
-          },
-          "content": {
-            "description": "<p>I den här kursen får du lära dig att göra traditionell hantverkstvål från grunden, med asklut.</p>\n<p>DET HÄR GÖR VI:</p>\n<p>Bereder fett för tvåltillverkning<br />\nAsklut<br />\nTraditionell sårtvål</p>\n<p>&#8211; Kursmaterialet ingår i kursavgiften</p>\n<p>&#8211; Ingen förkunskap krävs</p>\n<p>&#8211; Kursens längd 5 tim.</p>\n<p>&#8211; Kursavgift: 1495 kr.</p>\n<p>Varmt välkommen &#8211; med kärlek från naturen! </p>\n",
-            "siblings": null
-          },
-          "sidebar": {
-            "dayName": "Lördag",
-            "date": "2026-08-08",
-            "time": "14:30 - 19:30",
-            "venue": "Köksscenen",
-            "ticket_link": "https://www.nortic.se/ticket/show/345969",
-            "bookmark_button_html": null
-          },
-          "meta": {
-            "logged_ind": false
-          }
+          "error": "Invalid item."
         }
       }
     },
