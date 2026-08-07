@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T19:05:44.190Z",
+  "generatedAt": "2026-08-07T21:47:02.430Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -49345,6 +49345,7 @@
       "category": "cat-konsert",
       "image": "https://join.medeltidsveckan.se/uploads/2026_LtS9vpKKUF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343718",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64918",
@@ -49353,7 +49354,8 @@
           "titleText": "Konsert med Apocalypse Orchestra",
           "categoryLabel": "Konsert",
           "ticketUrl": "https://www.nortic.se/ticket/show/343718",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_LtS9vpKKUF_background.jpg",
@@ -49403,6 +49405,7 @@
       "venue": "Helge And",
       "category": "cat-teater",
       "ticketUrl": "https://www.nortic.se/ticket/show/343611",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64823",
@@ -49411,7 +49414,8 @@
           "titleText": "Decamerone – Kärlek och trohet",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/343611",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "soldout"
         },
         "detail": {
           "header": {
@@ -53460,6 +53464,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_aAnpYcjB5x_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343776",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64972",
@@ -53468,7 +53473,8 @@
           "titleText": "Berättandets hantverk – att bära och förmedla sagor",
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/343776",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_aAnpYcjB5x_background.jpg",
