@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T10:12:43.659Z",
+  "generatedAt": "2026-08-07T13:12:31.044Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -45062,7 +45062,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_DtMNPKcY1J_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345981",
-      "editorTip": true,
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65072",
@@ -45071,7 +45071,8 @@
           "titleText": "Visbys uppgång och fall mellan åren 1100-1527 – vandring med Gautmund Kremer",
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/345981",
-          "editorTip": true
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_DtMNPKcY1J_background.jpg",
@@ -46205,6 +46206,7 @@
       "category": "cat-foredrag",
       "image": "https://join.medeltidsveckan.se/uploads/2026_U3M7awxl7T_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345993",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65084",
@@ -46213,7 +46215,8 @@
           "titleText": "Mjödbryggning för nybörjare",
           "categoryLabel": "Föredrag",
           "ticketUrl": "https://www.nortic.se/ticket/show/345993",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_U3M7awxl7T_background.jpg",
@@ -46653,6 +46656,7 @@
       "category": "cat-ovrigt",
       "image": "https://join.medeltidsveckan.se/uploads/2026_h5Eubeotri_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345978",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65069",
@@ -46661,11 +46665,14 @@
           "titleText": "Treasure & Bones – En förlorad kärlek",
           "categoryLabel": "Övrigt",
           "ticketUrl": "https://www.nortic.se/ticket/show/345978",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_h5Eubeotri_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "DreamSmith Production",
             "title": "Treasure &#038; Bones &#8211; En förlorad kärlek"
           },
@@ -46728,7 +46735,7 @@
       "category": "cat-workshop",
       "image": "https://join.medeltidsveckan.se/uploads/2026_QxvXS4azNV_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/345946",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "65041",
@@ -46738,7 +46745,7 @@
           "categoryLabel": "Workshop",
           "ticketUrl": "https://www.nortic.se/ticket/show/345946",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QxvXS4azNV_background.jpg",
@@ -49329,7 +49336,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343751",
-      "bookingStatus": "few-left",
+      "bookingStatus": "soldout",
       "raw": {
         "card": {
           "pid": "64947",
@@ -49339,13 +49346,13 @@
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343751",
           "editorTip": false,
-          "bookingStatus": "few-left"
+          "bookingStatus": "soldout"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Gycklargruppen TRiX",
             "title": "TRiX ger &#8211; Eldiaden"
           },
