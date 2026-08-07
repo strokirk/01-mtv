@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T16:06:42.283Z",
+  "generatedAt": "2026-08-07T19:05:44.190Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -22752,14 +22752,7 @@
           },
           "content": {
             "description": "<p>Circus ignis är tillbaka med sin dramatiska eldteater baserat på de gamla sagorna om ryttarna av apokalypsen. En berättelse om intriger, maktspel och skyldighet. Låt spelet börja!</p>\n",
-            "siblings": {
-              "1786134600": {
-                "day": "Fredag",
-                "time": "20:30",
-                "timestamp": 1786134600,
-                "title": "I Pestens Skugga"
-              }
-            }
+            "siblings": null
           },
           "sidebar": {
             "dayName": "Tisdag",
@@ -49365,6 +49358,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_LtS9vpKKUF_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Apocalypse Orchestra",
             "title": "Konsert med Apocalypse Orchestra"
           },
@@ -49420,6 +49415,8 @@
         },
         "detail": {
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Berättaren / Jean-Pierre Salkvist",
             "title": "Decamerone &#8211; Kärlek och trohet"
           },
@@ -53476,6 +53473,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_aAnpYcjB5x_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Berättaren / Jean-Pierre Salkvist",
             "title": "Berättandets hantverk – att bära och förmedla sagor"
           },
@@ -53744,32 +53743,6 @@
         "lastModified": "2026-07-24 16:47:33",
         "description": "Rävarna kör Visbys mest prestigefyllda femkamp för sista gången! Med glädje, dricka och skratt och grenar som kullerbyttsrace, kåmpiskånk och stockstötning. I Nordergravar.  Missa inte spelens farväl!",
         "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "3a771a51bdff2720c6ed",
-      "source": "official",
-      "sourceId": "65060",
-      "seriesKey": "official:traditionell-sartval-med-asklut",
-      "title": "TRADITIONELL SÅRTVÅL MED ASKLUT",
-      "date": "2026-08-08",
-      "startTime": "14:30",
-      "category": "cat-ovrigt",
-      "ticketUrl": "https://www.nortic.se/ticket/show/345969",
-      "raw": {
-        "card": {
-          "pid": "65060",
-          "date": "2026-08-08",
-          "time": "14:30",
-          "titleText": "TRADITIONELL SÅRTVÅL MED ASKLUT",
-          "categoryLabel": "Övrigt",
-          "ticketUrl": "https://www.nortic.se/ticket/show/345969",
-          "editorTip": false
-        },
-        "detail": {
-          "error": "Invalid item."
-        }
       }
     },
     {
