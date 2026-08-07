@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T07:25:32.999Z",
+  "generatedAt": "2026-08-07T10:12:43.659Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -45076,8 +45076,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_DtMNPKcY1J_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">Veckan tipsar!</span>",
-            "border_color": "border-warning",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gautmund Kremer",
             "title": "Visbys uppgång och fall mellan åren 1100-1527 &#8211; vandring med Gautmund Kremer"
           },
@@ -46218,6 +46218,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_U3M7awxl7T_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Den Galne Mjödmannen",
             "title": "Mjödbryggning för nybörjare"
           },
@@ -46741,8 +46743,8 @@
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_QxvXS4azNV_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
-            "border_color": "border-info",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-danger text-uppercase\">Fullbokad</span>",
+            "border_color": "border-danger",
             "item_owner": "Berliner Rittergilde",
             "title": "Learn to fight and die properly (on stage)"
           },
