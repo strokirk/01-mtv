@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T15:38:58.953Z",
+  "generatedAt": "2026-08-08T18:47:20.054Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -11841,6 +11841,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "1a58b9078dd90964a90f",
+      "source": "imtv",
+      "sourceId": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
+      "seriesKey": "imtv:arliga-konsrockspicknicken:medeltidakonsrock",
+      "title": "Årliga könsrockspicknicken",
+      "organizer": "Medeltidakönsrock",
+      "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
+      "date": "2026-08-03",
+      "startTime": "15:30",
+      "lastModified": "2026-06-18 12:46:57",
+      "raw": {
+        "date": "2026-08-03",
+        "time": "15:30",
+        "title": "Årliga könsrockspicknicken",
+        "guid": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
+        "creator": "Medeltidakönsrock",
+        "lastModified": "2026-06-18 12:46:57",
+        "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "7cae2685852c9e9c3b1b",
       "source": "imtv",
       "sourceId": "{A0F6D124-6D39-4388-A50B-810F7CC32B26}",
@@ -11866,29 +11889,6 @@
         "links": [
           "https://facebook.com/events/s/karrotorderns-5-kamp-/3983690405269856/"
         ]
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "1a58b9078dd90964a90f",
-      "source": "imtv",
-      "sourceId": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
-      "seriesKey": "imtv:arliga-konsrockspicknicken:medeltidakonsrock",
-      "title": "Årliga könsrockspicknicken",
-      "organizer": "Medeltidakönsrock",
-      "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
-      "date": "2026-08-03",
-      "startTime": "15:30",
-      "lastModified": "2026-06-18 12:46:57",
-      "raw": {
-        "date": "2026-08-03",
-        "time": "15:30",
-        "title": "Årliga könsrockspicknicken",
-        "guid": "{4540FE59-4FF8-4527-9B0C-6BE66BF4A039}",
-        "creator": "Medeltidakönsrock",
-        "lastModified": "2026-06-18 12:46:57",
-        "description": "Nordergravar, under en bro - gå ut genom Sankt Göransporten, över Lokebron, och ner under nästa bro!",
-        "links": []
       }
     },
     {
@@ -17959,6 +17959,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "01003be1fd33381a9834",
+      "source": "imtv",
+      "sourceId": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
+      "title": "Dead Mans Draw",
+      "organizer": "Fladdermusen",
+      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+      "date": "2026-08-04",
+      "startTime": "12:00",
+      "lastModified": "2026-08-03 15:09:37",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "12:00",
+        "title": "Dead Mans Draw",
+        "guid": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
+        "creator": "Fladdermusen",
+        "lastModified": "2026-08-03 15:09:37",
+        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "062c59f1aebc32f030e8",
       "source": "imtv",
       "sourceId": "{1642A09C-DBFC-46F2-A215-32A9C159D882}",
@@ -17983,29 +18006,6 @@
         "links": [
           "www.polyforeningen.org"
         ]
-      }
-    },
-    {
-      "schemaVersion": 1,
-      "id": "01003be1fd33381a9834",
-      "source": "imtv",
-      "sourceId": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
-      "seriesKey": "imtv:dead-mans-draw:fladdermusen",
-      "title": "Dead Mans Draw",
-      "organizer": "Fladdermusen",
-      "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
-      "date": "2026-08-04",
-      "startTime": "12:00",
-      "lastModified": "2026-08-03 15:09:37",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "12:00",
-        "title": "Dead Mans Draw",
-        "guid": "{3E1FD8AE-0665-4177-A7DE-8DA5C3FB7805}",
-        "creator": "Fladdermusen",
-        "lastModified": "2026-08-03 15:09:37",
-        "description": "Tycker du om att leka rövare? Då har jag en perfekt rövarlek för dig! Jag har med mig en utmaning till alla er som vågar. Ni som är modiga nog kan utmana mig på ett kortspel och få med er delar av mina rikedomar hem om ni vinner!  Spelet som kommer spelas kallas \"Dead Man's Draw\". Det är ett kortspel med starkt pirattema och fokus på gambling och strategi. Har du inte spelat det förut så lärs det ut på plats.  Vinner du mot mig får du välja nåt att ta från min skatt. Förlorar du så får du antingen återkomma nästa dag, eller bidra med något till skatten i utbyte mot ett till försök. (Vill man köra ett spel utan skatter så går det med)  Känner du att du har turen på din sida? Tveka i sådana fall inte att haffa fladdermusen för din möjlighet att ta del av rikedomen! Leta efter en rödhårig person men ett fladdermushalsband.",
-        "links": []
       }
     },
     {
@@ -19916,29 +19916,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2befc7d23a9e17ab31a9",
-      "source": "imtv",
-      "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
-      "seriesKey": "imtv:magic-commander:twinkleberry",
-      "title": "Magic Commander",
-      "organizer": "Twinkleberry",
-      "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
-      "date": "2026-08-04",
-      "startTime": "14:00",
-      "lastModified": "2026-07-08 16:09:00",
-      "raw": {
-        "date": "2026-08-04",
-        "time": "14:00",
-        "title": "Magic Commander",
-        "guid": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
-        "creator": "Twinkleberry",
-        "lastModified": "2026-07-08 16:09:00",
-        "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
-        "links": []
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "d9c427926da005e6f298",
       "source": "imtv",
       "sourceId": "{BF262041-ABE3-419E-8BD5-0D6B5CDFA375}",
@@ -19957,6 +19934,29 @@
         "creator": "Domarn",
         "lastModified": "2024-07-03 22:07:48",
         "description": "Randiga Hosmaffian bjuder in till sin årliga Vinbrännboll! Vi ses kl 14 i östergravar och spelar gudarnas spel tillsammans. Efteråt vallfärdar vi ner till veckans största badöl!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2befc7d23a9e17ab31a9",
+      "source": "imtv",
+      "sourceId": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+      "seriesKey": "imtv:magic-commander:twinkleberry",
+      "title": "Magic Commander",
+      "organizer": "Twinkleberry",
+      "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
+      "date": "2026-08-04",
+      "startTime": "14:00",
+      "lastModified": "2026-07-08 16:09:00",
+      "raw": {
+        "date": "2026-08-04",
+        "time": "14:00",
+        "title": "Magic Commander",
+        "guid": "{36BCDDE2-36AB-4BD7-A49A-519D77C9489C}",
+        "creator": "Twinkleberry",
+        "lastModified": "2026-07-08 16:09:00",
+        "description": "För oss som lirar Magics Commanderformat. Vi träffas på Bistra Haren även i år. Notera dock att vi kör en timma tidigare för att underlätta senare middagsrus. Vi arrangörer är mer åt casual gameplay. Hoppas vi ses!",
         "links": []
       }
     },
@@ -25363,34 +25363,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "592294f976c8ceafca9d",
-      "source": "imtv",
-      "sourceId": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
-      "seriesKey": "imtv:ringmuren-runt:admin",
-      "title": "Ringmuren runt",
-      "organizer": "Admin",
-      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
-      "date": "2026-08-05",
-      "startTime": "10:00",
-      "links": [
-        "https://www.facebook.com/groups/45607418150"
-      ],
-      "lastModified": "2021-07-13 15:50:24",
-      "raw": {
-        "date": "2026-08-05",
-        "time": "10:00",
-        "title": "Ringmuren runt",
-        "guid": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
-        "creator": "Admin",
-        "lastModified": "2021-07-13 15:50:24",
-        "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
-        "links": [
-          "https://www.facebook.com/groups/45607418150"
-        ]
-      }
-    },
-    {
-      "schemaVersion": 1,
       "id": "9627bfcbc46d676ba22a",
       "source": "imtv",
       "sourceId": "{7DDCC9D8-EF02-4AFD-9630-F7FA50A18DE3}",
@@ -25433,6 +25405,34 @@
         "lastModified": "2026-07-13 20:52:33",
         "description": "En bågskyttetävling för Långbåge och andra tidsenliga pilbågar.  Kostnad 8 och 1/3 Örtug eller 100:- och tävlingen går på Malmgard i Stånga. Mer info finns på facebook under sudergutars egna sida eller på medeltidsveckan",
         "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "592294f976c8ceafca9d",
+      "source": "imtv",
+      "sourceId": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
+      "seriesKey": "imtv:ringmuren-runt:admin",
+      "title": "Ringmuren runt",
+      "organizer": "Admin",
+      "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+      "date": "2026-08-05",
+      "startTime": "10:00",
+      "links": [
+        "https://www.facebook.com/groups/45607418150"
+      ],
+      "lastModified": "2021-07-13 15:50:24",
+      "raw": {
+        "date": "2026-08-05",
+        "time": "10:00",
+        "title": "Ringmuren runt",
+        "guid": "{FB3CCB2A-C383-4C14-8229-5EFAEFF020E6}",
+        "creator": "Admin",
+        "lastModified": "2021-07-13 15:50:24",
+        "description": "Fiffel med följe joggar runt ringmuren. Samling vid Österport. Länk",
+        "links": [
+          "https://www.facebook.com/groups/45607418150"
+        ]
       }
     },
     {
@@ -55343,6 +55343,29 @@
     },
     {
       "schemaVersion": 1,
+      "id": "266aec18dce37e93e76a",
+      "source": "imtv",
+      "sourceId": "{D8AA5C23-A24C-4167-B4F5-7B6369B56074}",
+      "seriesKey": "imtv:spontantacos-i-gravarna:offer",
+      "title": "Spontantacos i Gravarna",
+      "organizer": "offer",
+      "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23. Hygieniskt, allergivänligt osv såklart!",
+      "date": "2026-08-08",
+      "startTime": "21:30",
+      "lastModified": "2026-08-08 20:41:20",
+      "raw": {
+        "date": "2026-08-08",
+        "time": "21:30",
+        "title": "Spontantacos i Gravarna",
+        "guid": "{D8AA5C23-A24C-4167-B4F5-7B6369B56074}",
+        "creator": "offer",
+        "lastModified": "2026-08-08 20:41:20",
+        "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23. Hygieniskt, allergivänligt osv såklart!",
+        "links": []
+      }
+    },
+    {
+      "schemaVersion": 1,
       "id": "c531e85a63babc3084df",
       "source": "official",
       "sourceId": "65340",
@@ -58241,6 +58264,29 @@
             "logged_ind": false
           }
         }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "05e0284bd8d7f863bc30",
+      "source": "imtv",
+      "sourceId": "{9D6F100C-19B3-485A-9872-9810F8FDAC35}",
+      "seriesKey": "imtv:flockens-arliga-matrad-gratis-mat-till-alla:offer",
+      "title": "Flockens årliga maträd - Gratis mat till alla!",
+      "organizer": "offer",
+      "description": "När matstånden plockar ned så tar piraterna från Flocken det som blir över, och ger till alla! Kom och ät dig mätt på, ja - det vet vi aldrig i förväg. Brukar vara en salig blandning på kött, grönsaker och såser. Vi ställer upp i mitten av matstånden. Det kommer synas och höras! Dom stänger 16:00 så vi räknar med att bjuda från 17:30/18:00. Ta gärna med egna bestick och egen tallrik/matlåda! Brukar finnas gott om bröd som går utmärkt att använda som tallrik.",
+      "date": "2026-08-09",
+      "startTime": "17:30",
+      "lastModified": "2026-08-08 18:16:47",
+      "raw": {
+        "date": "2026-08-09",
+        "time": "17:30",
+        "title": "Flockens årliga maträd - Gratis mat till alla!",
+        "guid": "{9D6F100C-19B3-485A-9872-9810F8FDAC35}",
+        "creator": "offer",
+        "lastModified": "2026-08-08 18:16:47",
+        "description": "När matstånden plockar ned så tar piraterna från Flocken det som blir över, och ger till alla! Kom och ät dig mätt på, ja - det vet vi aldrig i förväg. Brukar vara en salig blandning på kött, grönsaker och såser. Vi ställer upp i mitten av matstånden. Det kommer synas och höras! Dom stänger 16:00 så vi räknar med att bjuda från 17:30/18:00. Ta gärna med egna bestick och egen tallrik/matlåda! Brukar finnas gott om bröd som går utmärkt att använda som tallrik.",
+        "links": []
       }
     },
     {
