@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T12:56:32.900Z",
+  "generatedAt": "2026-08-08T15:38:58.953Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -53909,18 +53909,18 @@
       "seriesKey": "imtv:nalbindning-kurs-prova-pa:saylo",
       "title": "Nålbindning kurs prova på",
       "organizer": "saylo",
-      "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, någonstans mellan kärleksporten och kruttornet. Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
+      "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, söder om kärleksporten. Vi är vid muren, snett in från skulpturen som ser ut som en stor flaska.  Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
       "date": "2026-08-08",
       "startTime": "15:00",
-      "lastModified": "2026-08-05 20:51:28",
+      "lastModified": "2026-08-08 14:58:18",
       "raw": {
         "date": "2026-08-08",
         "time": "15:00",
         "title": "Nålbindning kurs prova på",
         "guid": "{73D348AA-E2E5-4365-85F6-CBF91EE73103}",
         "creator": "saylo",
-        "lastModified": "2026-08-05 20:51:28",
-        "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, någonstans mellan kärleksporten och kruttornet. Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
+        "lastModified": "2026-08-08 14:58:18",
+        "description": "Prova den här uråldriga tekniken för att skapa slitstarka plagg med hjälp av nål och garn. Nålar att låna, och lite garn att prova stygn med finns. Vi håller till vid stranden, söder om kärleksporten. Vi är vid muren, snett in från skulpturen som ser ut som en stor flaska.  Kostnad: Swisha det du har råd/tycker det är värt att lägga på en kurs.",
         "links": []
       }
     },
@@ -54004,6 +54004,7 @@
       "category": "cat-teater",
       "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/355777",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "65736",
@@ -54012,13 +54013,14 @@
           "titleText": "Vasadottern / Daughter of Sweden",
           "categoryLabel": "Teater",
           "ticketUrl": "https://www.nortic.se/ticket/show/355777",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_gPvJVXsWg3_background.jpg",
           "header": {
-            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-warning text-uppercase\">!!!EXTRAINSATT!!!</span>",
-            "border_color": "border-warning",
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Teater Kaleido",
             "title": "Vasadottern / Daughter of Sweden"
           },
@@ -54868,6 +54870,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_GnExSVQnGV_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343708",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64910",
@@ -54876,11 +54879,14 @@
           "titleText": "FAE X – Jubileumsshow + Primus",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343708",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_GnExSVQnGV_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Fae",
             "title": "FAE X &#8211; Jubileumsshow + Primus"
           },
@@ -55221,6 +55227,7 @@
       "category": "cat-eldshow",
       "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
       "ticketUrl": "https://www.nortic.se/ticket/show/343752",
+      "bookingStatus": "few-left",
       "raw": {
         "card": {
           "pid": "64948",
@@ -55229,11 +55236,14 @@
           "titleText": "TRiX ger – Eldiaden",
           "categoryLabel": "Eldshow",
           "ticketUrl": "https://www.nortic.se/ticket/show/343752",
-          "editorTip": false
+          "editorTip": false,
+          "bookingStatus": "few-left"
         },
         "detail": {
           "image": "https://join.medeltidsveckan.se/uploads/2026_E34SHK3ZWF_background.jpg",
           "header": {
+            "badge_html": "<span id=\"badge\" class=\"position-absolute top-0 start-50 translate-middle fs-6 badge rounded-pill bg-info text-uppercase\">Få biljetter kvar</span>",
+            "border_color": "border-info",
             "item_owner": "Gycklargruppen TRiX",
             "title": "TRiX ger &#8211; Eldiaden"
           },
