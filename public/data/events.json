@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T18:47:20.054Z",
+  "generatedAt": "2026-08-08T21:40:07.298Z",
   "events": [
     {
       "schemaVersion": 1,
@@ -55349,18 +55349,18 @@
       "seriesKey": "imtv:spontantacos-i-gravarna:offer",
       "title": "Spontantacos i Gravarna",
       "organizer": "offer",
-      "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23. Hygieniskt, allergivänligt osv såklart!",
+      "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23:30. Hygieniskt, allergivänligt osv såklart!",
       "date": "2026-08-08",
       "startTime": "21:30",
-      "lastModified": "2026-08-08 20:41:20",
+      "lastModified": "2026-08-08 22:10:00",
       "raw": {
         "date": "2026-08-08",
         "time": "21:30",
         "title": "Spontantacos i Gravarna",
         "guid": "{D8AA5C23-A24C-4167-B4F5-7B6369B56074}",
         "creator": "offer",
-        "lastModified": "2026-08-08 20:41:20",
-        "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23. Hygieniskt, allergivänligt osv såklart!",
+        "lastModified": "2026-08-08 22:10:00",
+        "description": "Vi blev inte av med allt, vi kör gasol och kärlek och fixar resten av tacosen! Finns massor av färs och bröd samt kladd (rött & vitt), och diverse grönsaker. Kom och ät, billigt (gratis om man vill) :) Kör minst till 23:30. Hygieniskt, allergivänligt osv såklart!",
         "links": []
       }
     },
